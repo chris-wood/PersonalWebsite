@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 #about, #edu, #interests, #positions, #experience, #training, #projects, #skills, #publications, #articles,
-#presentations, #press, #honors, #mentoring, #service, #teaching {
+#presentations, #press, #honors, #mentoring, #service, #teaching, #activities {
 	margin-top: 30pt;
 }
 
@@ -182,11 +182,11 @@ section li:last-child {
 	margin-bottom: 0;
 }
 
-#skills li, #honors li, #mentoring li {
+#skills li, #honors li, #mentoring li, #activities li {
 	margin-bottom: 5pt;
 }
 
-#skills li:last-child, #honors li:last-child, #mentoring li:last-child {
+#skills li:last-child, #honors li:last-child, #mentoring li:last-child, #activities li:last-child{
 	margin-bottom: 0;
 }
 
@@ -214,6 +214,6 @@ section li:last-child {
 
 /* -------------------- page-break -------------------- */
 
-#about, #positions, #training, #skills, #articles, #presentations, #honors, #service {
+#about, #positions, #training, #skills, #articles, #presentations, #honors, #service, #activities {
 	page-break-after: always;
 }
