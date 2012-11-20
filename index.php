@@ -85,15 +85,77 @@
       </section>
 
       <section id="interests">
-        TODO
+        <h2>Interests</h2>
+        
+        <p>
+          Applied Cryptography, Computer Security, Hardware-Software Co-Design, Algorithmic Graph Theory,
+          Combinatorial Optimization, Algorithms
+        </p>
       </section>
 
       <section id="positions">
-        TODO
+        <h2>Current Positions</h2>
+        
+        <ul>
+          <li>
+            <h3>Postdoctoral Researcher <span class="floatRight"><b>Microsoft Research</b></span></h3>
+            <p>Cambridge, MA <span class="floatRight">2011-Present</span></p>
+            <p>Conducting research on social media at FUSE Labs and the Social Media Collective at 
+            the New England Research and Development Center.</p>
+            <p>Mentors: Shelly Farnham, danah boyd</p>
+          </li>
+          
+          <li>
+            <h3>Berkman Fellow <span class="floatRight"><b>Harvard University</b></span></h3>
+            <p>Cambridge, MA <span class="floatRight">2011-Present</span></p>
+            <p>Participating in multidisciplinary research on online cooperation research at the 
+            Berkman Center for Internet &amp; Society.</p>
+          </li>
+        </ul>
+
       </section>
 
       <section id="experience">
-        TODO
+        <h2>Work Experience</h2>
+        
+        <ul>
+          <li>
+            <h3>Research Assistant <span class="floatRight"><b>MIT Media Lab</b></span></h3>
+            <p>Cambridge, MA <span class="floatRight">2005-2011</span></p>
+            <p>Led a software development team, mentored students, and worked with corporate 
+            sponsors.</p>
+            <p>Supervisor: Mitchel Resnick, Professor</p>
+          </li>
+          
+          <li>
+            <h3>Intern <span class="floatRight"><b>Microsoft Research</b></span></h3>
+            <p>Cambridge, MA <span class="floatRight">Summer 2010</span></p>
+            <p>Examined young people's attitudes toward the reuse of digital media.</p>
+            <p>Supervisor: danah boyd, Sr. Researcher</p>
+          </li>
+          
+          <li>
+            <h3>Software Developer <span class="floatRight"><b>Ex Libris Group</b></span></h3>
+            <p>Newton, MA <span class="floatRight">2001-2005</span></p>
+            <p>Developed several versions of SFX – a web service that links scholarly databases.</p>
+            <p>Supervisor: Oren Beit-Arie, Chief Strategy Officer</p>
+          </li>
+          
+          <li>
+            <h3>Intern <span class="floatRight"><b>Los Alamos National Laboratory</b></span></h3>
+            <p>Los Alamos, NM <span class="floatRight">Fall 2000</span></p>
+            <p>Developed MyLibrary – a personalized web portal for library resources.</p>
+            <p>Supervisor: Richard Luce, Research Library Director</p>
+          </li>
+          
+          <li>
+            <h3>Research Assistant <span class="floatRight"><b>Tecnológico de Monterrey</b></span></h3>
+            <p>Monterrey, México <span class="floatRight">1999-2000</span></p>
+            <p>Implemented Z39.50 interoperability for a web-based digital repository.</p>
+            <p>Supervisor: David Garza-Salazar, Professor</p>
+          </li>
+        </ul>
+
       </section>
   
       <section id="training">
