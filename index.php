@@ -122,7 +122,7 @@
       
       <!-- start the content here!-->
       <section id="about">
-        TODO
+        TODO: about, thoughts, objectives, erdos, girlfriend and guitar
       </section>
 
       <section id="edu">
@@ -213,37 +213,25 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li>
             <h3>Intel Corporation, Virtual and Parallel Computing Group<span class="floatRight"><b>Folsom, CA</b></span></h3>
             <p><i>Graphics Software Engineer</i><span class="floatRight">June 2012 - August 2012</span></p>
-            <ul>
-              <li>one</li>
-              <li>two</li>
-            </ul>
+            <p>TODO</p>
           </li>
           
           <li>
             <h3>L-3 Communications, Linkabit Division<span class="floatRight"><b>Victor, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">March 2011 - August 2011</span></p>
-            <ul>
-              <li>one</li>
-              <li>two</li>
-            </ul>
+            <p>TODO</p>
           </li>
 
           <li>
             <h3>Rochester Software Associates<span class="floatRight"><b>Rochester, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">November 2010 - March 2011</span></p>
-            <ul>
-              <li>one</li>
-              <li>two</li>
-            </ul>
+            <p>TODO</p>
           </li>
 
           <li>
             <h3>C Speed, LLC<span class="floatRight"><b>Liverpool, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">May 2010 - August 2010</span></p>
-            <ul>
-              <li>one</li>
-              <li>two</li>
-            </ul>
+            <p>TODO</p>
           </li>
         </ul>
 
@@ -265,27 +253,28 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li>
-            <h3><b>Scratch Online Community</b> <span class="floatRight">2007 - 2011</span></h3>
-            <p>Created and maintained the Scratch Online Community: a large web site where children 
-            create and share their own animations and video games. The web site receives 10 million 
-            page views per month, has close to 1 million registered members and 2 million 
-            user-submitted projects. <a href="http://scratch.mit.edu" title="Scratch" 
-            target="_blank">http://scratch.mit.edu</a></p>
-            
-            <ul>
-              <li><p>MacArthur Digital Media &amp; Learning Competition, Best in Class Award – 
-              2010</p></li>
-              <li><p>Ars Electronica Prix, Honorable Mention, Digital Communities category – 
-              2008</p></li>
-            </ul>
+            <h3><b>AES Cache Timing Attack</b> <span class="floatRight">TIME</span></h3>
+            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
           </li>
           
           <li>
-            <h3><b>Sana Mobile</b> <span class="floatRight">2008</span></h3>
-            <p>Co-founded Sana, a mobile application that connects healthcare professionals with 
-            people in remote locations in the developing world. Created as part of the NextLab 
-            initiative at MIT and piloted in Zambia. <a href="http://sanamobile.org" title="Sana" 
-            target="_blank">http://sanamobile.org</a></p>
+            <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">TIME</span></h3>
+            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+          </li>
+
+          <li>
+            <h3><b>ThoughtPoll</b> <span class="floatRight">TIME</span></h3>
+            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+          </li>
+
+          <li>
+            <h3><b>Kanban Taskboard</b> <span class="floatRight">TIME</span></h3>
+            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+          </li>
+
+          <li>
+            <h3><b>FTP Client</b> <span class="floatRight">TIME</span></h3>
+            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
           </li>
         </ul>
 
@@ -295,12 +284,13 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Skills</h2>
         
         <ul>
-          <li><p><i>Research</i> – Experience with qualitative and quantitative research.</p></li>
-          <li><p><i>Technical</i> – Large-scale data-driven web architecture, LAMP stack (Linux, 
-          Apache, MySQL, PHP, Perl, Python), HTML/JavaScript, data manipulation &amp; analysis 
-          (scripting, SQL, R).</p></li>
-          <li><p><i>Project Management</i> – Hiring and managing technical teams.</p></li>
-          <li><p><i>Languages</i> – Bilingual (English and Spanish).</p></li>
+          <!--<li><p><i>Research</i> – Experience with qualitative and quantitative research.</p></li>-->
+          <li><p><i>Programming Languages: </i>C/C++, C#, Java, Python, Ruby, Assembly (MIPS), JavaScript, Scheme, Standard ML, Objective-C</p></li>
+          <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
+          <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
+          <li><p><i>Specialized Software: </i>MATLAB, Mathematica, WEKA, Sage</p></li>
+          <li><p><i>Markup Languages</i>LaTeX, HTML5, CSS3</p></li>
+          <!--<li><p><i>Project Management</i> – Hiring and managing technical teams.</p></li>-->
         </ul>
       </section>
 
