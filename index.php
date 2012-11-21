@@ -255,26 +255,33 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li>
             <h3><b>AES Cache Timing Attack</b> <span class="floatRight">TIME</span></h3>
             <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <p>Source code: <a href="https://github.com/chris-wood/CacheTimingAttack" target="_blank">here</a></p>
           </li>
           
           <li>
             <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">TIME</span></h3>
             <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <p>Source code: <a href="https://github.com/chris-wood/SecureLoggingSystem" target="_blank">here</a></p>
           </li>
 
           <li>
             <h3><b>ThoughtPoll</b> <span class="floatRight">TIME</span></h3>
             <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
           </li>
 
           <li>
             <h3><b>Kanban Taskboard</b> <span class="floatRight">TIME</span></h3>
             <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <p>Source code: <a href="https://github.com/chris-wood/KanbanTaskboard-1" target="_blank">here</a></p>
           </li>
 
           <li>
             <h3><b>FTP Client</b> <span class="floatRight">TIME</span></h3>
-            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <p>This is a simple command-line driven FTP client written entirely in Java. It supports both
+            active and passive modes of transmission to avoid problems introduced by firewalls. Only "get"
+            support was implemented.</p>
+            <p>Source code: <a href="https://github.com/chris-wood/FTPClient" target="_blank">here</a></p>
           </li>
         </ul>
 
