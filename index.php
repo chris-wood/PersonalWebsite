@@ -122,7 +122,32 @@
       
       <!-- start the content here!-->
       <section id="about">
-        TODO: about, thoughts, objectives, erdos, girlfriend and guitar
+        I'm a fifth year student at the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a> 
+        pursuing a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and 
+        <a href="http://www.se.rit.edu">Software Engineering</a> with an accelerated BS/MS option in
+        Computer Science. I also have minors in Mathematics and Writing Studies.
+
+        My <a href="#interests">research interests</a> are far and wide, and include everything from computer security, 
+        cryptography, computational graph theory, combinatorics, and hardware-software co-design.
+        Fortunately, I have had many opportunities as an undergraduate student at RIT to pursue research
+        projects in these areas, which have resulted in several <a href="#publications">publications</a> and 
+        <a href="#presentations">presentations</a>. I try to be involved in projects that span several
+        disciplines, to exercise my skills in multiple fields. I'm most interested in pushing the limits of
+        computing in any direction that I can find, and the ability to work in multiple disciplines is
+        vital to achieving this goal.
+
+        In my spare time I also enjoy actively working on my own <a href="#projects">side projects</a> that are typically unrelated to
+        my main areas of research. These are usually an excuse to learn a new programming language, library,
+        or other technology. Some of my notable projects include ThoughtPoll, a knowledge acquisition, organization,
+        and visualization application that tries to capture human opinion on topics in technology, politics, finance, etc.
+        The project is still in its infancy, but I hope to have a beta version released for testing soon. 
+
+        The remainder of whatever free time I have left is devoted to music. My main musical interests
+        are in hard rock and heavy metal (i.e. bands such as Avenged Sevenfold, In Flames, and Lamb of God),
+        but I also branch out into classical, jazz, and acoustic rock. I am the proud owner of a 
+        <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a>
+        (a black model), and am (slowly) teaching myself the ropes. I prefer to think of myself as an intermediate
+        guitar player who is many years away from being fluent with the instrument. 
       </section>
 
       <section id="edu">
@@ -131,7 +156,7 @@
         <ul>
           <li>
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">2013</span></h3>
-            <p><b>MS</b> in Computer Science</p>
+            <p>Master of Science in Computer Science</p>
             <p>Thesis: Optimal Representations of Cryptographic Substitution Boxes for Efficient
 Combinational Implementations (in progress)</p>
             <p>Committee: Stanislaw Radziszowski and Marcin Lukowiak</p>
@@ -141,7 +166,8 @@ Networks, Algorithms, Optimization Methods, Secure Database Systems</p>
           
           <li>
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">2012</span></h3>
-            <p><b>BS</b> in Computer Science and Software Engineering</p>
+            <p>Bachelor of Science in Computer Science and Software Engineering</p>
+            <p>Minors in Mathematics and Writing Studies</p>
             <p>Main electives: Graph Theory, Number Theory, Operating Systems, Programming Language
 Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems</p>
           </li>
@@ -152,8 +178,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Research Interests</h2>
         
         <p>
-          Applied Cryptography, Computer Security, Hardware-Software Co-Design, Algorithmic Graph Theory,
-          Combinatorial Optimization, Algorithms
+          Applied Cryptography, Computer Security, Hardware-Software Co-Design, Computational Graph Theory,
+          Combinatorial Optimization, Algorithms, Chaos Theory and Dynamical Systems, Operating Systems
         </p>
       </section>
 
