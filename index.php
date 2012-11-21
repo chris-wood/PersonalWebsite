@@ -297,21 +297,49 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
       <section id="publications">
         <h2>Publications</h2>
         
+        <h5>Journal Articles</h5>
         <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">Monroy-Hernández, 
-          A.</span>,</b> <span itemprop="author">Hill, B.M</span>, <span itemprop="author">González-Rivero, 
-          J.</span>, <span itemprop="author">boyd, d.</span> (<span itemprop="copyrightYear">2011</span>). 
-          <span itemprop="name">Computers can't give credit: How automatic attribution falls short in an 
-          online remixing community</span>. In <i>Proceedings of the ACM Conference on Human Factors in 
-          Computing Systems (CHI '11).</i> <b><span itemprop="awards">Honorable mention</span>.</b></p></li>
+          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
+          </span> and </b> <span itemprop="author">J. Jacob</span>,
+          <span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees,"
+            <i>in preparation</i></span>.
           
-          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">Bernstein, 
-          M.S.</span>, <b><span itemprop="author">Monroy-Hernández, A.</span>,</b> <span itemprop="author"
-          >Harry, D.</span>, <span itemprop="author">André, P.</span>, <span itemprop="author">Panovich, 
-          K.</span>, <span itemprop="author">Vargas, G.</span> (<span itemprop="copyrightYear">2011</span>). 
-          <span itemprop="name">4chan and /b/: An Analysis of Anonymity and Ephemerality in a Large 
-          Online Community.</span> In <i>Proceedings of the AAAI International Conference on Weblogs and 
-          Social Media (ICWSM '11).</i> <b><span itemprop="awards">Best paper award</span>.</b></p></li>
+          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
+          </span> and </b> <span itemprop="author">J. Jacob</span>, 
+          <span itemprop="name">"Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem,"
+             <i>submitted to the Wiley Networks journal</i></span>.
+
+          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">P. Bajorski, 
+          </span>, <span itemprop="author">A. Kaminsky</span>, <span itemprop="author">M. Kurdziel</span>,
+          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
+          and <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="name">"Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks,"
+            <i>submitted to the IEEE Transactions on Wireless Communications</i></span>. 
+
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
+          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="name">"Cybersecurity Education: Bridging the Gap between Hardware and Software Domains,"
+            <i>submitted to the IEEE Transactions on Education</i></span>.
+        </ul>
+
+        <h5>Conference Proceedings</h5>
+        <ul>
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
+          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="name">"Developing an Applied, Security-Oriented Computing Curriculum,"</span>
+          In <i>Proceedings of the ASEE 2012, San Antonio, Texas. June 2012.</i></p></li>
+
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
+          In <i>Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada. July 2011.</i></p></li>
+
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <b><span itemprop="author">C. Wood</span></b> and <span itemprop="author">R. K. Raj</span>
+          <span itemprop="name">"Keyloggers in Cybersecurity Education,"</span>
+          In <i>Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</i></p></li>
         </ul>
 
       </section>
