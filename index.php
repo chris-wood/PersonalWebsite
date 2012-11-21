@@ -254,7 +254,12 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <ul>
           <li>
             <h3><b>AES Cache Timing Attack</b> <span class="floatRight">TIME</span></h3>
-            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <p>I am replicating the original cache timing attack on the AES (first
+              introduced by <a href="http://cr.yp.to/antiforgery/cachetiming-20050414.pdf">Daniel Bernstein</a> and
+              later studied by <a href="http://research.microsoft.com/pubs/64024/aes-timing.pdf">Joseph Bonneau and
+              Ilya Mironov</a>) on the Xilinx MicroBlaze soft-core processor. Our development platform is a Xilinx ML507
+              board with a Virtex5 FPGA that implements the MicroBlaze processor. The hard-core PowerPC
+              processor is also available for use.</p>
             <p>Source code: <a href="https://github.com/chris-wood/CacheTimingAttack" target="_blank">here</a></p>
           </li>
           
@@ -272,7 +277,10 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
           <li>
             <h3><b>Kanban Taskboard</b> <span class="floatRight">TIME</span></h3>
-            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <p>This Kanban Taskboard provides software development teams with a tool that allows for 
+              more transparency towards project requirements, tasks, and milestones. This application can be 
+              synchronized between multiple platforms. It was built using 
+              Java, BlazeDS, Flex (MXML+Actionscript), and Tomcat.</p>
             <p>Source code: <a href="https://github.com/chris-wood/KanbanTaskboard-1" target="_blank">here</a></p>
           </li>
 
