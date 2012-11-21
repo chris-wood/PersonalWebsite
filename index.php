@@ -377,40 +377,17 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Teaching</h2>
         
         <ul>
-          <li><p><b>Teaching Assistant.</b> NextLab I: Designing Mobile Technologies for the Next 
-          Billion Users (MAS.965/6.976/SP.716), MIT, 2008. With Jhonatan Rotberg, Lecturer.</p></li>
-          
-          <li>
-            <h3><b>Workshop Facilitator.</b></h3>
-            
-            <ul>
-              <li><p>Designing for designers: Exploring ways in which online community settings support 
-              young people's participation as digital media creators. Digital Media and Learning 
-              Conference. Long Beach, CA, 2011.</p></li>
-              
-              <li><p>Programming for middle-schoolers. DigiGirlz Event, Microsoft New England. Cambridge, 
-              MA, 2009</p></li>
-              
-              <li><p>Scratch and robotics for educators. Bradesco Institute of Technology, Brazil, 
-              2008</p></li>
-              
-              <li><p>Scratch programming for facilitators of Telmex after-school centers. México, 
-              2008.</p></li>
-              
-              <li><p>Programming for the web with Scratch. Citizen School 11-week program for 
-              middle-schoolers. Cambridge, MA, 2007.</p></li>
-              
-              <li><p>Interactive media programming and electronic creations, for coordinators of 
-              the Intel Computer Clubhouses. Costa Rica, 2007.</p></li>
-              
-              <li><p>Systems Thinking with Flowblocks workshop for middle-schoolers. México, 2006</p></li>
-              
-              <li><p>Integrating Art and Technology workshop for conference attendees. Highlands 
-              and Islands Enterprise. UK, 2006</p></li>
-              
-              <li><p>PicoCrickets for educators. Centro de Cultura Digital. México, 2006</p></li>
-            </ul>
-          </li>
+          <li><p><b>Hardware and Software Design with Cryptographic Applications.</b> 
+            <i>Teaching Assistant and Lecturer</i>, RIT, February 2011 - present. With Dr. Marcin Lukowiak (CE).</p></li>
+
+          <li><p><b>Computer Science I, II, and IV</b> 
+            <i>Student Lab Assistant and Grader</i>, RIT, January 2009 - present.</p></li>
+
+          <li><p><b>Personal Software Engineering.</b> 
+            <i>Teaching Assistant</i>, RIT, December 2011 - March 2012. With Professor Tom Reichlmayr (SE).</p></li>
+
+          <li><p><b>Engineering of Software Subsystems</b> 
+            <i>Teaching Assistant</i>, RIT, September 2011 - December 2011. With Dr. James Vallino (SE).</p></li>
         </ul>
       </section>
     </div> <!-- end #contentWrapper -->
