@@ -85,7 +85,7 @@
           <li><a href="#interests">Research Interests</a></li>
           <li><a href="#research">Research Projects</a></li>
           <li><a href="#experience">Work Experience</a></li>
-          <li><a href="#training">Additional Training</a></li>
+          <!--<li><a href="#training">Additional Training</a></li>-->
           <li><a href="#projects">Highlighted Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#publications">Publications</a></li>
@@ -122,11 +122,14 @@
       
       <!-- start the content here!-->
       <section id="about">
+        <p>
         I'm a fifth year student at the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a> 
         pursuing a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and 
         <a href="http://www.se.rit.edu">Software Engineering</a> with an accelerated BS/MS option in
         Computer Science. I also have minors in Mathematics and Writing Studies.
+        </p>
 
+        <p>
         My <a href="#interests">research interests</a> are far and wide, and include everything from computer security, 
         cryptography, computational graph theory, combinatorics, and hardware-software co-design.
         Fortunately, I have had many opportunities as an undergraduate student at RIT to pursue research
@@ -135,19 +138,24 @@
         disciplines, to exercise my skills in multiple fields. I'm most interested in pushing the limits of
         computing in any direction that I can find, and the ability to work in multiple disciplines is
         vital to achieving this goal.
+        </p>
 
+        <p>
         In my spare time I also enjoy actively working on my own <a href="#projects">side projects</a> that are typically unrelated to
         my main areas of research. These are usually an excuse to learn a new programming language, library,
         or other technology. Some of my notable projects include ThoughtPoll, a knowledge acquisition, organization,
         and visualization application that tries to capture human opinion on topics in technology, politics, finance, etc.
         The project is still in its infancy, but I hope to have a beta version released for testing soon. 
+        </p>
 
+        <p>
         The remainder of whatever free time I have left is devoted to music. My main musical interests
         are in hard rock and heavy metal (i.e. bands such as Avenged Sevenfold, In Flames, and Lamb of God),
         but I also branch out into classical, jazz, and acoustic rock. I am the proud owner of a 
         <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a>
         (a black model), and am (slowly) teaching myself the ropes. I prefer to think of myself as an intermediate
         guitar player who is many years away from being fluent with the instrument. 
+        </p>
       </section>
 
       <section id="edu">
@@ -190,44 +198,75 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li>
             <h3>Secure Logging Schemes for Cloud-Based SaaS Architectures <span class="floatRight"><b>RIT</b></span></h3>
             <p><i>Cryptography, Computer Security, Secure Software Design</i><span class="floatRight">July 2012 - present</span></p>
-            <p>TODO</p>
             <p>Advisors: Dr. Rajendra K. Raj (CS) and Dr. Andy Meneely (SE)</p>
+            <p>I am developing a secure logging architecture for cloud-based SaaS applications that utilizes 
+              ciphertext-policy attribute based encryption (CP-ABE) for log file confidentiality and 
+              authenticated hash chains for log file integrity. It features offline public and online 
+              private verifiability of the log files to detect modification, addition, deletion, and 
+              truncation attacks.
+            </p>
           </li>
           
           <li>
             <h3>Wireless Ad-hoc Network Group Key Management <span class="floatRight"><b>RIT</b></span></h3>
             <p><i>Applied Cryptography, Wireless Networking</i><span class="floatRight">May 2011 - present</span></p>
-            <p>TODO</p>
             <p>Colleagues: Dr. Marcin Lukowiak (CE), Dr. Stanislaw Radziszowski (CS), Dr. Peter Bajorski (Statistics), 
               Professor Alan Kaminsky (CS), and Dr. Michael Kurdziel (Harris RF)</p>
+            <p>We are investigating group key management protocols for wireless ad-hoc radio networks with constrained 
+              channel bandwidths and computational power. Our current solution is a protocol based on the standardized 
+              Internet Key Exchange protocol. My role in this team is to implement network simulators in SMURPH/SIDE 
+              and NS-3 to obtain empirical performance measurements, and also conduct experiments with Monte Carlo 
+              simulations to verify the correctness of our protocol statistical model. We have a patent pending on 
+              our protocol.
+            </p>
           </li>
 
           <li>
             <h3>Keyboard Biometric-Based Continuous Authentication Service <span class="floatRight"><b>RIT</b></span></h3>
             <p><i>Intelligent Security Systems, Artificial Intelligence, Machine Learning</i><span class="floatRight">May 2011 - present</span></p>
-            <p>TODO</p>
             <p>Advisor: Dr. Leonid Reznik (CS)</p>
+            <p>I am implementing a continuous authentication service based on dynamic, free-form user input for 
+              UNIX systems. It features a real-time keylogger for data acquisition and a cross-platform feature 
+              extraction and classification engine for authentication. WEKA is used to experiment with feature 
+              extraction and filtering techniques that account for a variety of use cases.
+            </p>
           </li>
 
           <li>
             <h3>L(2,1)-Labeling Problem<span class="floatRight"><b>RIT</b></span></h3>
             <p><i>Computational Graph Theory</i><span class="floatRight">September 2011 - November 2012</span></p>
-            <p>TODO</p>
             <p>Advisor: Dr. Jobby Jacob (Mathematics)</p>
+            <p>
+              I worked on defining a characterization of the $L(2,1)$-span of trees based on their 
+              structural properties. I implemented a labeling algorithm based on dynamic programming to 
+              assist in the study of tree characterization, which helped to develop tree construction 
+              algorithms that can be used to produce infinitely many trees with a $L(2,1)$-span of 
+              $(\Delta(T) + 2)$. With this, we found a complete $L(2,1)$ label span characterization of 
+              all trees with up to twenty vertices.
+            </p>
           </li>
 
           <li>
             <h3>Secure Operating System Design Principles<span class="floatRight"><b>RIT</b></span></h3>
             <p><i>Computer Security, Operating Systems</i><span class="floatRight">March 2011 - June 2011</span></p>
-            <p>TODO</p>
             <p>Advisor: Dr. Rajendra K. Raj (CS)</p>
+            <p>
+              I researched secure operating system design principles at all levels of the software stack. 
+              The main deliverable was a case study for popular operating systems built for various purposes, 
+              including Microsoft Singularity, Chrome OS, Android, QNX, and Microsoft Azure.
+            </p>
           </li>
 
           <li>
             <h3>Rootkit Design, Implementation, and Detection<span class="floatRight"><b>RIT</b></span></h3>
             <p><i>Computer Security, Operating Systems, Malware Design</i><span class="floatRight">May 2009 - August 2009</span></p>
-            <p>TODO</p>
             <p>Advisor: Dr. Rajendra K. Raj (CS)</p>
+            <p>
+              I examined rootkit malware that targeted the Windows NT family of operating systems. This study 
+              included user-mode and kernel-mode rootkit implementations and state-of-the-art static and 
+              dynamic techniques. I developed a kernel filter driver for the keyboard device driver stack in C to 
+              help determine the presence of specific kind of keystroke-monitoring malware.
+            </p>
           </li>
         </ul>
       </section>
@@ -239,30 +278,36 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li>
             <h3>Intel Corporation, Virtual and Parallel Computing Group<span class="floatRight"><b>Folsom, CA</b></span></h3>
             <p><i>Graphics Software Engineer</i><span class="floatRight">June 2012 - August 2012</span></p>
-            <p>TODO</p>
+            <p>Developed production features for tool that processes hardware specifications to generate web content and source code for VHDL and C/C++ testbeds.
+            Interacted with internal customers within the VPG to utilize debug tools and environments for architecture specification and post-silicon testing.</p>
           </li>
           
           <li>
             <h3>L-3 Communications, Linkabit Division<span class="floatRight"><b>Victor, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">March 2011 - August 2011</span></p>
-            <p>TODO</p>
+            <p>Designed and implemented a library and supporting drivers for the u-blox NEO5/6 GPS receiver driven by an Analog Devices Blackfin processor.
+            Extended an existing FAT file system driver to add support for SD devices.
+            Improved functionality of a CPLD controller for an embedded power supply.</p>
           </li>
 
           <li>
             <h3>Rochester Software Associates<span class="floatRight"><b>Rochester, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">November 2010 - March 2011</span></p>
-            <p>TODO</p>
+            <p>Led the design, development, and documentation efforts for a new printer job management application that would service any number of jobs from clients across the network.
+            Tested and debugged an existing .NET implementation of an LPD client.</p>
           </li>
 
           <li>
             <h3>C Speed, LLC<span class="floatRight"><b>Liverpool, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">May 2010 - August 2010</span></p>
-            <p>TODO</p>
+            <p>Designed and implemented an internal manufacturing part supply management system.
+            Implemented embedded firmware features and test routines in C, C++, and assembly for Coldfire V2 processors.</p>
           </li>
         </ul>
 
       </section>
   
+    <!--
       <section id="training">
         <h2>Additional Training</h2>
         
@@ -272,7 +317,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <p>TODO</p>
           </li>
         </ul>
-      </section>
+      </section>-->
 
       <section id="projects">
         <h2>Highlighted Projects</h2>
@@ -338,7 +383,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
       <section id="publications">
         <h2>Publications</h2>
         
-        <h5>Journal Articles</h5>
+        <h3>Journal Articles</h3>
+        <br/>
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
           </span> and </b> <span itemprop="author">J. Jacob</span>,
@@ -353,18 +399,20 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">P. Bajorski, 
           </span>, <span itemprop="author">A. Kaminsky</span>, <span itemprop="author">M. Kurdziel</span>,
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          and <b><span itemprop="author">C. Wood</span></b>
+          and <b><span itemprop="author">C. Wood</span></b>,
           <span itemprop="name">"Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks,"
             <i>submitted to the IEEE Transactions on Wireless Communications</i></span>. 
 
           <li itemscope itemtype="http://schema.org/Article"><p>
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>,
           <span itemprop="name">"Cybersecurity Education: Bridging the Gap between Hardware and Software Domains,"
             <i>submitted to the IEEE Transactions on Education</i></span>.
         </ul>
+        <br/>
 
-        <h5>Conference Proceedings</h5>
+        <h3>Conference Proceedings</h3>
+        <br/>
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p>
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
