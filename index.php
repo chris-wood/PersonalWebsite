@@ -163,7 +163,7 @@
         
         <ul>
           <li>
-            <h3><b>Rochester Institute of Technology</b> <span class="floatRight">2013</span></h3>
+            <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
             <p>Master of Science in Computer Science</p>
             <p>Thesis: Optimal Representations of Cryptographic Substitution Boxes for Efficient
 Combinational Implementations (in progress)</p>
@@ -173,7 +173,7 @@ Networks, Algorithms, Optimization Methods, Secure Database Systems</p>
           </li>
           
           <li>
-            <h3><b>Rochester Institute of Technology</b> <span class="floatRight">2012</span></h3>
+            <h3><b>Rochester Institute of Technology</b> <span class="floatRight">May, 2012</span></h3>
             <p>Bachelor of Science in Computer Science and Software Engineering</p>
             <p>Minors in Mathematics and Writing Studies</p>
             <p>Main electives: Graph Theory, Number Theory, Operating Systems, Programming Language
@@ -324,7 +324,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li>
-            <h3><b>AES Cache Timing Attack</b> <span class="floatRight">TIME</span></h3>
+            <h3><b>AES Cache Timing Attack</b> <span class="floatRight">May 2012 - present</span></h3>
             <p>I am replicating the original cache timing attack on the AES (first
               introduced by <a href="http://cr.yp.to/antiforgery/cachetiming-20050414.pdf">Daniel Bernstein</a> and
               later studied by <a href="http://research.microsoft.com/pubs/64024/aes-timing.pdf">Joseph Bonneau and
@@ -335,19 +335,27 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
           
           <li>
-            <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">TIME</span></h3>
-            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present</span></h3>
+            <p>
+              ABLS is a logging service for cloud applications that provides atrribute-based log confidentiality
+              and high data-integrity guarantees. It is intended to aid application developers in storing system
+              events that can be used to build audit trails. Such audit trails can be used to enforce organizational
+              security policies and support user-based non-repudiation through manual and automated audits.
+            </p>
             <p>Source code: <a href="https://github.com/chris-wood/SecureLoggingSystem" target="_blank">here</a></p>
           </li>
 
           <li>
-            <h3><b>ThoughtPoll</b> <span class="floatRight">TIME</span></h3>
-            <p>TODO<a href="http://scratch.mit.edu" title="Scratch" target="_blank">http://scratch.mit.edu</a></p>
+            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present</span></h3>
+            <p>
+              ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
+              on various topics in technology, politics, economics, etc. 
+            </p>
             <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
           </li>
 
           <li>
-            <h3><b>Kanban Taskboard</b> <span class="floatRight">TIME</span></h3>
+            <h3><b>Kanban Taskboard</b> <span class="floatRight">September 2010 - November 2010</span></h3>
             <p>This Kanban Taskboard provides software development teams with a tool that allows for 
               more transparency towards project requirements, tasks, and milestones. This application can be 
               synchronized between multiple platforms. It was built using 
@@ -356,7 +364,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3><b>FTP Client</b> <span class="floatRight">TIME</span></h3>
+            <h3><b>FTP Client</b> <span class="floatRight">February 2012 - May 2012</span></h3>
             <p>This is a simple command-line driven FTP client written entirely in Java. It supports both
             active and passive modes of transmission to avoid problems introduced by firewalls. Only "get"
             support was implemented.</p>
@@ -375,7 +383,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
           <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
           <li><p><i>Specialized Software: </i>MATLAB, Mathematica, WEKA, Sage</p></li>
-          <li><p><i>Markup Languages</i>LaTeX, HTML5, CSS3</p></li>
+          <li><p><i>Markup Languages: </i>LaTeX, HTML5, CSS3</p></li>
           <!--<li><p><i>Project Management</i> – Hiring and managing technical teams.</p></li>-->
         </ul>
       </section>
