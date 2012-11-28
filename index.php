@@ -515,7 +515,15 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <i>Teaching Assistant</i>, RIT, September 2011 - December 2011. With Dr. James Vallino (SE).</p></li>
         </ul>
       </section>
+
+	<!--<section>
+		<p>Design by <a href="http://www.mit.edu/~amonroy/">André Monroy-Hernánd</a></p>
+	</section>-->
     </div> <!-- end #contentWrapper -->
   </div> <!-- end #outerWrapper -->
+<p>Design by 
+<a href="http://www.mit.edu/~amonroy/">André Monroy-Hernánd</a>.
+</p>
+<p>Used with permission.</p>
 </body>
 </html>
