@@ -94,8 +94,8 @@
           <!--<li><a href="#press">Press</a></li>-->
           <li><a href="#honors">Honors</a></li>
           <!--<li><a href="#mentoring">Mentoring</a></li>-->
-          <li><a href="#activities">Extracurricular Activities</a></li>
           <li><a href="#service">Service</a></li>
+          <li><a href="#activities">Extracurricular Activities</a></li>
           <li><a href="#teaching">Teaching</a></li>
           <li><a href="./docs/caw_cv.pdf" title="Curriculum Vitae">Curriculum Vitae</a></li>
           <!--<li><a href="research-statement.pdf" title="Research Statement">Research Statement</a></li>
@@ -130,7 +130,7 @@
         </p>
 
         <p>
-        My <a href="#interests">research interests</a> are far and wide, and include everything from computer security, 
+        My <a href="#interests">research interests</a> are very diverse, and include everything from computer security, 
         cryptography, computational graph theory, combinatorics, and hardware-software co-design.
         Fortunately, I have had many opportunities as an undergraduate student at RIT to pursue research
         projects in these areas, which have resulted in several <a href="#publications">publications</a> and 
@@ -187,7 +187,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <p>
           Applied Cryptography, Computer Security, Hardware-Software Co-Design, Computational Graph Theory,
-          Combinatorial Optimization, Algorithms, Chaos Theory and Dynamical Systems, Operating Systems
+          Combinatorial Optimization, Chaos Theory and Dynamical Systems, Operating Systems
         </p>
       </section>
 
@@ -196,7 +196,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li>
-            <h3>Secure Logging Schemes for Cloud-Based SaaS Architectures <span class="floatRight"><b>RIT</b></span></h3>
+            <h3><b>Secure Logging Schemes for Cloud-Based SaaS Architectures <span class="floatRight">RIT</b></span></h3>
             <p><i>Cryptography, Computer Security, Secure Software Design</i><span class="floatRight">July 2012 - present</span></p>
             <p>Advisors: Dr. Rajendra K. Raj (CS) and Dr. Andy Meneely (SE)</p>
             <p>I am developing a secure logging architecture for cloud-based SaaS applications that utilizes 
@@ -208,7 +208,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
           
           <li>
-            <h3>Wireless Ad-hoc Network Group Key Management <span class="floatRight"><b>RIT</b></span></h3>
+            <h3><b>Wireless Ad-hoc Network Group Key Management <span class="floatRight">RIT</b></span></h3>
             <p><i>Applied Cryptography, Wireless Networking</i><span class="floatRight">May 2011 - present</span></p>
             <p>Colleagues: Dr. Marcin Lukowiak (CE), Dr. Stanislaw Radziszowski (CS), Dr. Peter Bajorski (Statistics), 
               Professor Alan Kaminsky (CS), and Dr. Michael Kurdziel (Harris RF)</p>
@@ -222,7 +222,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3>Keyboard Biometric-Based Continuous Authentication Service <span class="floatRight"><b>RIT</b></span></h3>
+            <h3><b>Keyboard Biometric-Based Continuous Authentication Service <span class="floatRight">RIT</b></span></h3>
             <p><i>Intelligent Security Systems, Artificial Intelligence, Machine Learning</i><span class="floatRight">May 2011 - present</span></p>
             <p>Advisor: Dr. Leonid Reznik (CS)</p>
             <p>I am implementing a continuous authentication service based on dynamic, free-form user input for 
@@ -233,7 +233,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3>L(2,1)-Labeling Problem<span class="floatRight"><b>RIT</b></span></h3>
+            <h3><b>L(2,1)-Labeling Problem<span class="floatRight">RIT</b></span></h3>
             <p><i>Computational Graph Theory</i><span class="floatRight">September 2011 - November 2012</span></p>
             <p>Advisor: Dr. Jobby Jacob (Mathematics)</p>
             <p>
@@ -247,7 +247,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3>Secure Operating System Design Principles<span class="floatRight"><b>RIT</b></span></h3>
+            <h3><b>Secure Operating System Design Principles<span class="floatRight">RIT</b></span></h3>
             <p><i>Computer Security, Operating Systems</i><span class="floatRight">March 2011 - June 2011</span></p>
             <p>Advisor: Dr. Rajendra K. Raj (CS)</p>
             <p>
@@ -258,7 +258,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3>Rootkit Design, Implementation, and Detection<span class="floatRight"><b>RIT</b></span></h3>
+            <h3><b>Rootkit Design, Implementation, and Detection<span class="floatRight">RIT</b></span></h3>
             <p><i>Computer Security, Operating Systems, Malware Design</i><span class="floatRight">May 2009 - August 2009</span></p>
             <p>Advisor: Dr. Rajendra K. Raj (CS)</p>
             <p>
@@ -276,14 +276,14 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li>
-            <h3>Intel Corporation, Virtual and Parallel Computing Group<span class="floatRight"><b>Folsom, CA</b></span></h3>
+            <h3><b>Intel Corporation, Virtual and Parallel Computing Group<span class="floatRight">Folsom, CA</b></span></h3>
             <p><i>Graphics Software Engineer</i><span class="floatRight">June 2012 - August 2012</span></p>
             <p>Developed production features for tool that processes hardware specifications to generate web content and source code for VHDL and C/C++ testbeds.
             Interacted with internal customers within the VPG to utilize debug tools and environments for architecture specification and post-silicon testing.</p>
           </li>
           
           <li>
-            <h3>L-3 Communications, Linkabit Division<span class="floatRight"><b>Victor, NY</b></span></h3>
+            <h3><b>L-3 Communications, Linkabit Division<span class="floatRight">Victor, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">March 2011 - August 2011</span></p>
             <p>Designed and implemented a library and supporting drivers for the u-blox NEO5/6 GPS receiver driven by an Analog Devices Blackfin processor.
             Extended an existing FAT file system driver to add support for SD devices.
@@ -291,14 +291,14 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3>Rochester Software Associates<span class="floatRight"><b>Rochester, NY</b></span></h3>
+            <h3><b>Rochester Software Associates<span class="floatRight">Rochester, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">November 2010 - March 2011</span></p>
             <p>Led the design, development, and documentation efforts for a new printer job management application that would service any number of jobs from clients across the network.
             Tested and debugged an existing .NET implementation of an LPD client.</p>
           </li>
 
           <li>
-            <h3>C Speed, LLC<span class="floatRight"><b>Liverpool, NY</b></span></h3>
+            <h3><b>C Speed, LLC<span class="floatRight">Liverpool, NY</b></span></h3>
             <p><i>Software Engineer Intern</i><span class="floatRight">May 2010 - August 2010</span></p>
             <p>Designed and implemented an internal manufacturing part supply management system.
             Implemented embedded firmware features and test routines in C, C++, and assembly for Coldfire V2 processors.</p>
@@ -391,7 +391,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
       <section id="publications">
         <h2>Publications</h2>
         
-        <h3>Journal Articles</h3>
+        <h3><b>Journal Articles</b></h3>
         <br/>
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
@@ -419,7 +419,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         </ul>
         <br/>
 
-        <h3>Conference Proceedings</h3>
+        <h3><b>Conference Proceedings</b></h3>
         <br/>
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p>
