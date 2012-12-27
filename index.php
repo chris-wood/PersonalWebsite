@@ -395,12 +395,12 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <br/>
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
-          </span> and </b> <span itemprop="author">J. Jacob</span>,
+          </span></b> and <span itemprop="author">J. Jacob</span>,
           <span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees,"
             <i>in preparation</i></span>.
           
           <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
-          </span> and </b> <span itemprop="author">J. Jacob</span>, 
+          </span></b> and <span itemprop="author">J. Jacob</span>, 
           <span itemprop="name">"Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem,"
              <i>submitted to the Wiley Networks journal</i></span>.
 
@@ -467,11 +467,11 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
       <section id="honors">
         <h2>Honors</h2>
-        
         <ul>
           <li><p>RIT Honors Program <span class="floatRight">2009 - present</span></p></li>
-          <li><p>RIT Outstanding Undergraduate Student award, nominated<span class="floatRight">Fall 2012</span></p></li>
-          <li><p>RIT Computer Science Undergraduate and Graduate student delegate, nominated<span class="floatRight">Fall 2012</span></p></li>
+          <li><p>Recipient of RIT Outstanding Undergraduate Student award<span class="floatRight">Winter 2012</span></p></li>
+          <li><p>RIT Computer Science Graduate student delegate, selected<span class="floatRight">Winter 2012</span></p></li>
+          <li><p>RIT Computer Science Undergraduate student delegate, nominated<span class="floatRight">Fall 2012</span></p></li>
           <li><p>Recipient of Golisano College Honors research assistantship stipend<span class="floatRight">Spring 2011 and Winter 2009/2010</span></p></li>
           <li><p>Recipient of RIT undergraduate research award stipend<span class="floatRight">Summer 2009</span></p></li>
           <li><p>RIT Golisano College Dean's List<span class="floatRight">2008 - present</span></p></li>
@@ -480,7 +480,6 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
       <section id="service">
         <h2>Service</h2>
-        
         <ul>
           <li>
             <h3>Student mentor for the FIRST LEGO League team hosted by RIT<span class="floatRight">Fall 2009 - Winter 2011</span></h3>
@@ -490,7 +489,6 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
       <section id="activities">
         <h2>Extracurricular Activities</h2>
-        
         <ul>
           <li>Society of Software Engineers,member<span class="floatRight">Fall 2008 - Winter 2009/2010</span></li>
           <li>RIT Electronic Gaming Society, member<span class="floatRight">Fall 2008 - Spring 2010</span></li>
