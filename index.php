@@ -246,11 +246,11 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <p><i>Computational Graph Theory</i><span class="floatRight">September 2011 - November 2012</span></p>
             <p>Advisor: Dr. Jobby Jacob (Mathematics)</p>
             <p>
-              I worked on defining a characterization of the $L(2,1)$-span of trees based on their 
+              I worked on defining a characterization of the L(2,1)-span of trees based on their 
               structural properties. I implemented a labeling algorithm based on dynamic programming to 
               assist in the study of tree characterization, which helped to develop tree construction 
-              algorithms that can be used to produce infinitely many trees with a $L(2,1)$-span of 
-              $(\Delta(T) + 2)$. With this, we found a complete $L(2,1)$ label span characterization of 
+              algorithms that can be used to produce infinitely many trees with a specific L(2,1)-span. 
+              Building upon this result, we then found a complete L(2,1) label span characterization of 
               all trees with up to twenty vertices.
             </p>
           </li>
@@ -378,11 +378,15 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3><b>CONTINUOUS AUTH SYSTEM</b> <span class="floatRight">September 2012 - November 2012</span></h3>
+            <h3><b>Continuous Authentication System</b> <span class="floatRight">September 2012 - November 2012</span></h3>
             <p>
-              TODO: description, c-based keylogger and python-based classification engine
+              This project is a partially-complete prototype service for *nix-based operating systems that captures
+              user typing patterns in real-time and uses this information to identify the user. It is the result of 
+              my research on continuous authentication systems. The system features a C-based keylogger that 
+              streams data to a classification and authentication engine written in Python. Users must enroll 
+              in the system via typing sessions in order to be identified. 
             </p>
-            <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
+            <p>Source code: <a href="https://github.com/chris-wood/ContinuousAuthenticationSystem" target="_blank">here</a></p>
           </li>
 
           <li>
