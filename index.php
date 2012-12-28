@@ -120,41 +120,50 @@
       
       <h1 style="text-align:center;"><span itemprop="name">Christopher A. Wood</span></h1>
       
-      <!-- start the content here!-->
+      <!-- start the content here -->
       <section id="about">
         <p>
-        I'm a fifth year student at the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a> 
+        I am a fifth year student at the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a> 
         pursuing a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and 
         <a href="http://www.se.rit.edu">Software Engineering</a> with an accelerated BS/MS option in
-        Computer Science. I also have minors in Mathematics and Writing Studies.
+        Computer Science. I also have minors in Mathematics and Writing Studies. I expect to graduate
+        in August of 2013.
         </p>
 
         <p>
         My <a href="#interests">research interests</a> are very diverse, and include everything from computer security, 
-        cryptography, computational graph theory, combinatorics, and hardware-software co-design.
-        Fortunately, I have had many opportunities as an undergraduate student at RIT to pursue research
+        applied cryptography, computational graph theory, combinatorics, and operating systems.
+        Fortunately, I have had many opportunities at RIT to pursue research
         projects in these areas, which have resulted in several <a href="#publications">publications</a> and 
-        <a href="#presentations">presentations</a>. I try to be involved in projects that span several
-        disciplines, to exercise my skills in multiple fields. I'm most interested in pushing the limits of
+        <a href="#presentations">presentations</a>. As a student I try to be involved in projects that span several
+        disciplines to exercise my skills in multiple fields. I also actively pursue <a href="#teaching">teaching assistant</a>
+        positions to share my passion for science and technology with younger students. 
+
+        <!--
+        I am most interested in pushing the limits of
         computing in any direction that I can find, and the ability to work in multiple disciplines is
         vital to achieving this goal.
+        -->
         </p>
 
         <p>
         In my spare time I also enjoy actively working on my own <a href="#projects">side projects</a> that are typically unrelated to
-        my main areas of research. These are usually an excuse to learn a new programming language, library,
-        or other technology. Some of my notable projects include ThoughtPoll, a knowledge acquisition, organization,
-        and visualization application that tries to capture human opinion on topics in technology, politics, finance, etc.
-        The project is still in its infancy, but I hope to have a beta version released for testing soon. 
+        my main areas of research. These are usually an excuse to learn a new programming language, library, framework,
+        or other technology. Some of my notable projects include a replication of the AES cache timing 
+        attack on software-based implementations of the AES in embedded platforms, as well as a 
+        multi-threaded password cracking tool called Wedge that mimics the behavior of John the Ripper
+        for breaking standard operating system passwords.
         </p>
 
         <p>
-        The remainder of whatever free time I have left is devoted to music. My main musical interests
-        are in hard rock and heavy metal (i.e. bands such as Avenged Sevenfold, In Flames, and Lamb of God),
-        but I also branch out into classical, jazz, and acoustic rock. I am the proud owner of a 
+        The remainder of whatever free time I have left is devoted to music and exercise. My main musical interests
+        are hard rock and heavy metal (i.e. bands such as <a href="http://www.youtube.com/watch?v=A7ry4cx6HfY" target="_blank">Avenged Sevenfold</a>, 
+        <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">In Flames</a>, 
+        <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">Lamb of God</a>, and
+        <a href="http://www.youtube.com/watch?v=sxQmOAkny0k&list=SP15AD531E3A907CB7" target="_blank">Trivium</a>),
+        but I also branch out into acoustic rock, jazz, and classical music. I am the proud owner of a 
         <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a>
-        (a black model), and am (slowly) teaching myself the ropes. I prefer to think of myself as an intermediate
-        guitar player who is many years away from being fluent with the instrument. 
+        (a black model), and am slowly teaching myself the ropes.
         </p>
       </section>
 
@@ -165,18 +174,18 @@
           <li>
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
             <p>Master of Science in Computer Science</p>
-            <p>Thesis: Optimal Representations of Cryptographic Substitution Boxes for Efficient
+            <p>Thesis: Optimal Representations of Cryptographic Substitution Boxes with Efficient
 Combinational Implementations (in progress)</p>
             <p>Committee: Stanislaw Radziszowski and Marcin Lukowiak</p>
             <p>Elective Courses: Cryptography, Intelligent Security Systems, Data Communications and
-Networks, Algorithms, Optimization Methods, Secure Database Systems</p>
+Networks, Algorithms, Optimization Methods, Secure Database Systems, Security Measurement and Testing</p>
           </li>
           
           <li>
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">May, 2012</span></h3>
             <p>Bachelor of Science in Computer Science and Software Engineering</p>
             <p>Minors in Mathematics and Writing Studies</p>
-            <p>Main electives: Graph Theory, Number Theory, Operating Systems, Programming Language
+            <p>Main electives: Number Theory, Graph Theory, Operating Systems, Programming Language
 Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems</p>
           </li>
         </ul>
@@ -186,8 +195,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Research Interests</h2>
         
         <p>
-          Applied Cryptography, Computer Security, Hardware-Software Co-Design, Computational Graph Theory,
-          Combinatorial Optimization, Chaos Theory and Dynamical Systems, Operating Systems
+          Applied Cryptography, Computer Security, Computational Graph Theory, Operating Systems
+          Combinatorial Optimization, Chaos Theory and Dynamical Systems
         </p>
       </section>
 
@@ -196,7 +205,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li>
-            <h3><b>Secure Logging Schemes for Cloud-Based SaaS Architectures <span class="floatRight">RIT</b></span></h3>
+            <h3><b>Secure Logging Schemes for Cloud-Based Applications<span class="floatRight">RIT</b></span></h3>
             <p><i>Cryptography, Computer Security, Secure Software Design</i><span class="floatRight">July 2012 - present</span></p>
             <p>Advisors: Dr. Rajendra K. Raj (CS) and Dr. Andy Meneely (SE)</p>
             <p>I am developing a secure logging architecture for cloud-based SaaS applications that utilizes 
@@ -223,7 +232,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
           <li>
             <h3><b>Keyboard Biometric-Based Continuous Authentication Service <span class="floatRight">RIT</b></span></h3>
-            <p><i>Intelligent Security Systems, Artificial Intelligence, Machine Learning</i><span class="floatRight">May 2011 - present</span></p>
+            <p><i>Intelligent Security Systems, Artificial Intelligence, Machine Learning</i><span class="floatRight">September 2012 - November 2012</span></p>
             <p>Advisor: Dr. Leonid Reznik (CS)</p>
             <p>I am implementing a continuous authentication service based on dynamic, free-form user input for 
               UNIX systems. It features a real-time keylogger for data acquisition and a cross-platform feature 
@@ -321,19 +330,9 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
       <section id="projects">
         <h2>Highlighted Projects</h2>
-        
+
         <ul>
-          <li>
-            <h3><b>AES Cache Timing Attack</b> <span class="floatRight">May 2012 - present</span></h3>
-            <p>I am replicating the original cache timing attack on the AES (first
-              introduced by <a href="http://cr.yp.to/antiforgery/cachetiming-20050414.pdf">Daniel Bernstein</a> and
-              later studied by <a href="http://research.microsoft.com/pubs/64024/aes-timing.pdf">Joseph Bonneau and
-              Ilya Mironov</a>) on the Xilinx MicroBlaze soft-core processor. Our development platform is a Xilinx ML507
-              board with a Virtex5 FPGA that implements the MicroBlaze processor. The hard-core PowerPC
-              processor is also available for use.</p>
-            <p>Source code: <a href="https://github.com/chris-wood/CacheTimingAttack" target="_blank">here</a></p>
-          </li>
-          
+
           <li>
             <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present</span></h3>
             <p>
@@ -346,10 +345,42 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
+            <h3><b>Wedge - A Cross-Platform Password Cracking Utility</b> <span class="floatRight">November 2012 - present</span></h3>
+            <p>
+              Wedge is a cross-platform password cracking utility that mimics the behavior of John the 
+              Ripper. It currently supports standard dictionary and brute-force attacks for a variety of
+              unsalted password digests, but I expect to integrate more advanced password cracking techniques, 
+              such as the use of rainbow tables and those based on Markov-chains, in the future. 
+            </p>
+            <p>Source code: <a href="https://github.com/chris-wood/Wedge" target="_blank">here</a></p>
+          </li>
+
+          <li>
+            <h3><b>AES Cache Timing Attack</b> <span class="floatRight">May 2012 - present</span></h3>
+            <p>I am replicating the original cache timing attack on the AES (first
+              introduced by <a href="http://cr.yp.to/antiforgery/cachetiming-20050414.pdf">Daniel Bernstein</a> and
+              later studied by <a href="http://research.microsoft.com/pubs/64024/aes-timing.pdf">Joseph Bonneau and
+              Ilya Mironov</a>) on the Xilinx MicroBlaze soft-core processor. Our development platform is a Xilinx ML507
+              board with a Virtex5 FPGA that implements the MicroBlaze processor. The hard-core PowerPC
+              processor is also available for use.</p>
+            <p>Source code: <a href="https://github.com/chris-wood/CacheTimingAttack" target="_blank">here</a></p>
+          </li>
+
+          <li>
             <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present</span></h3>
             <p>
               ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
-              on various topics in technology, politics, economics, etc. 
+              on various topics in technology, politics, economics, etc. It was started
+              as an endeavor to learn the Play Framework with Java, and has since become a project
+              that I work on only sporadically in my free time.
+            </p>
+            <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
+          </li>
+
+          <li>
+            <h3><b>CONTINUOUS AUTH SYSTEM</b> <span class="floatRight">September 2012 - November 2012</span></h3>
+            <p>
+              TODO: description, c-based keylogger and python-based classification engine
             </p>
             <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
           </li>
@@ -511,6 +542,9 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
           <li><p><b>Engineering of Software Subsystems</b> 
             <i>Teaching Assistant</i>, RIT, September 2011 - December 2011. With Dr. James Vallino (SE).</p></li>
+
+          <li><p><b>Computer Organization</b> 
+            <i>Grader</i>, RIT, September 2010 - December 2010. With Professor Phil White (CS).</p></li>
         </ul>
       </section>
 
