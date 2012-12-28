@@ -195,7 +195,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Research Interests</h2>
         
         <p>
-          Applied Cryptography, Computer Security, Computational Graph Theory, Operating Systems
+          Applied Cryptography, Computer Security, Computational Graph Theory, Operating Systems, 
           Combinatorial Optimization, Chaos Theory and Dynamical Systems
         </p>
       </section>
@@ -544,10 +544,10 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li><p><b>Personal Software Engineering.</b> 
             <i>Teaching Assistant</i>, RIT, December 2011 - March 2012. With Professor Tom Reichlmayr (SE).</p></li>
 
-          <li><p><b>Engineering of Software Subsystems</b> 
+          <li><p><b>Engineering of Software Subsystems.</b> 
             <i>Teaching Assistant</i>, RIT, September 2011 - December 2011. With Dr. James Vallino (SE).</p></li>
 
-          <li><p><b>Computer Organization</b> 
+          <li><p><b>Computer Organization.</b> 
             <i>Grader</i>, RIT, September 2010 - December 2010. With Professor Phil White (CS).</p></li>
         </ul>
       </section>
