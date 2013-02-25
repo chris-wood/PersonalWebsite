@@ -84,13 +84,13 @@
           <li><a href="#edu">Education</a></li>
           <li><a href="#interests">Research Interests</a></li>
           <li><a href="#research">Research Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#presentations">Presentations</a></li>
           <li><a href="#experience">Work Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <!--<li><a href="#training">Additional Training</a></li>-->
           <li><a href="#projects">Highlighted Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#publications">Publications</a></li>
           <!--<li><a href="#articles">Opinion Articles</a></li>-->
-          <li><a href="#presentations">Presentations</a></li>
           <!--<li><a href="#press">Press</a></li>-->
           <li><a href="#honors">Honors</a></li>
           <!--<li><a href="#mentoring">Mentoring</a></li>-->
@@ -131,19 +131,13 @@
         </p>
 
         <p>
-        My <a href="#interests">research interests</a> are very diverse, and include everything from computer security, 
-        applied cryptography, computational graph theory, combinatorics, and operating systems.
+        My <a href="#interests">research interests</a> are very diverse, and include everything from applied cryptography,
+        computer and network security, computational graph theory, combinatorics, and operating systems.
         Fortunately, I have had many opportunities at RIT to pursue research
         projects in these areas, which have resulted in several <a href="#publications">publications</a> and 
         <a href="#presentations">presentations</a>. As a student I try to be involved in projects that span several
         disciplines to exercise my skills in multiple fields. I also actively pursue <a href="#teaching">teaching assistant</a>
         positions to share my passion for science and technology with younger students. 
-
-        <!--
-        I am most interested in pushing the limits of
-        computing in any direction that I can find, and the ability to work in multiple disciplines is
-        vital to achieving this goal.
-        -->
         </p>
 
         <p>
@@ -174,11 +168,10 @@
           <li>
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
             <p>Master of Science in Computer Science</p>
-            <p>Thesis: Optimal Representations of Cryptographic Substitution Boxes with Efficient
-Combinational Implementations (in progress)</p>
+            <p>Thesis: Large Substitutionn Boxes with Efficient Combinational Implementations (in progress)</p>
             <p>Committee: Stanislaw Radziszowski and Marcin Lukowiak</p>
-            <p>Elective Courses: Cryptography, Intelligent Security Systems, Data Communications and
-Networks, Algorithms, Optimization Methods, Secure Database Systems, Security Measurement and Testing</p>
+            <p>Main Elective Courses: Cryptography, Intelligent Security Systems, Data Communications and
+Networks, Algorithms, Optimization Methods, Secure Database Systems, Security Measurement and Testing, and Parallel Computing</p>
           </li>
           
           <li>
@@ -195,8 +188,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Research Interests</h2>
         
         <p>
-          Applied Cryptography, Computer Security, Computational Graph Theory, Operating Systems, 
-          Combinatorial Optimization, Chaos Theory and Dynamical Systems
+          Applied Cryptography, Computer and Network Security, Computational Graph Theory, Combinatorial Optimization, 
+          Operating Systems, Chaos Theory and Dynamical Systems
         </p>
       </section>
 
@@ -205,7 +198,15 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li>
-            <h3><b>Secure Logging Schemes for Cloud-Based Applications<span class="floatRight">RIT</b></span></h3>
+            <h3><b>Narrowing the Edge Folkman Number Bounds<span class="floatRight">RIT</b></span></h3>
+            <p><i>Combinatorics, Computational Graph Theory</i><span class="floatRight">January 2013 - present</span></p>
+            <p>Advisor: Dr. Stanislaw Radziszowski (CS)</p>
+            <p>TODO
+            </p>
+          </li>
+
+          <li>
+            <h3><b>Secure Logging System for Cloud-Based Applications<span class="floatRight">RIT</b></span></h3>
             <p><i>Cryptography, Computer Security, Secure Software Design</i><span class="floatRight">July 2012 - present</span></p>
             <p>Advisors: Dr. Rajendra K. Raj (CS) and Dr. Andy Meneely (SE)</p>
             <p>I am developing a secure logging architecture for cloud-based SaaS applications that utilizes 
@@ -274,7 +275,87 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               I examined rootkit malware that targeted the Windows NT family of operating systems. This study 
               included user-mode and kernel-mode rootkit implementations and state-of-the-art static and 
               dynamic techniques. I developed a kernel filter driver for the keyboard device driver stack in C to 
-              help determine the presence of specific kind of keystroke-monitoring malware.
+              help determine the presence of a specific kind of keystroke-monitoring malware.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+
+        <h3><b>Forthcoming</b></h3>
+        <br/>
+        <ul>
+          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
+          </span></b> and <span itemprop="author">J. Jacob</span>,
+          <span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees,"
+            <i>in preparation</i></span>.
+        </ul>
+        
+        <h3><b>Journal Articles</b></h3>
+        <br/>
+        <ul>
+          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
+          </span></b> and <span itemprop="author">J. Jacob</span>, 
+          <span itemprop="name">"Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem,"
+             <i>submitted to the Wiley Networks journal</i></span>.
+
+          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">P. Bajorski, 
+          </span>, <span itemprop="author">A. Kaminsky</span>, <span itemprop="author">M. Kurdziel</span>,
+          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
+          and <b><span itemprop="author">C. Wood</span></b>,
+          <span itemprop="name">"Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks,"
+            <i>submitted to the IEEE Transactions on Wireless Communications</i></span>. 
+
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
+          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>,
+          <span itemprop="name">"Cybersecurity Education: Bridging the Gap between Hardware and Software Domains,"
+            <i>submitted to the ACM Transactions on Computing Education</i></span>.
+        </ul>
+        <br/>
+
+        <h3><b>Conference Proceedings</b></h3>
+        <br/>
+        <ul>
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
+          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="name">"Developing an Applied, Security-Oriented Computing Curriculum,"</span>
+          In <i>Proceedings of the ASEE 2012, San Antonio, Texas. June 2012.</i></p></li>
+
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
+          In <i>Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada. July 2011.</i></p></li>
+
+          <li itemscope itemtype="http://schema.org/Article"><p>
+          <b><span itemprop="author">C. Wood</span></b> and <span itemprop="author">R. K. Raj</span>
+          <span itemprop="name">"Keyloggers in Cybersecurity Education,"</span>
+          In <i>Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</i></p></li>
+        </ul>
+      </section>
+
+      <section id="presentations">
+        <h2>Presentations</h2>
+        
+        <ul>
+          <li itemscope itemtype="http://schema.org/Event">
+            <p><span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees," </span><span itemprop="performers"> Invited 
+          speaker</span>, <span itemprop="location">AMS Sectional Meeting, Rochester Institute of Technology, Rochester, NY. September 22, 2012.</span>
+            </p>
+          </li>
+
+          <li itemscope itemtype="http://schema.org/Event">
+            <p><span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
+              <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. July 22, 2011.</span>
+            </p>
+          </li>
+
+          <li itemscope itemtype="http://schema.org/Event">
+            <p><span itemprop="name">"Layered Driver Rootkit Detection on Microsoft Windows PCs", Poster Presentation,</span>
+          <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. August 24, 2009.</span>
             </p>
           </li>
         </ul>
@@ -313,26 +394,26 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             Implemented embedded firmware features and test routines in C, C++, and assembly for Coldfire V2 processors.</p>
           </li>
         </ul>
-
       </section>
-  
-    <!--
-      <section id="training">
-        <h2>Additional Training</h2>
+
+      <section id="skills">
+        <h2>Skills</h2>
         
         <ul>
-          <li>
-            <h3><b>PLACE</b> <span class="floatRight">YEAR</span></h3>
-            <p>TODO</p>
-          </li>
+          <!--<li><p><i>Research</i> – Experience with qualitative and quantitative research.</p></li>-->
+          <li><p><i>Programming Languages: </i>C/C++, C#, Java, Python, Ruby, Assembly (MIPS), JavaScript, Scheme, Standard ML, Objective-C</p></li>
+          <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
+          <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
+          <li><p><i>Specialized Software: </i>MATLAB, Mathematica, WEKA, Sage</p></li>
+          <li><p><i>Markup Languages: </i>LaTeX, HTML5, CSS3</p></li>
+          <!--<li><p><i>Project Management</i> – Hiring and managing technical teams.</p></li>-->
         </ul>
-      </section>-->
+      </section>
 
       <section id="projects">
         <h2>Highlighted Projects</h2>
 
         <ul>
-
           <li>
             <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present</span></h3>
             <p>
@@ -345,7 +426,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3><b>Wedge - A Cross-Platform Password Cracking Utility</b> <span class="floatRight">November 2012 - present</span></h3>
+            <h3><b>Wedge - A Cross-Platform Password Cracking Utility</b> <span class="floatRight">November 2012 - February 2013</span></h3>
             <p>
               Wedge is a cross-platform password cracking utility that mimics the behavior of John the 
               Ripper. It currently supports standard dictionary and brute-force attacks for a variety of
@@ -406,98 +487,6 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <p>Source code: <a href="https://github.com/chris-wood/FTPClient" target="_blank">here</a></p>
           </li>
         </ul>
-
-      </section>
-
-      <section id="skills">
-        <h2>Skills</h2>
-        
-        <ul>
-          <!--<li><p><i>Research</i> – Experience with qualitative and quantitative research.</p></li>-->
-          <li><p><i>Programming Languages: </i>C/C++, C#, Java, Python, Ruby, Assembly (MIPS), JavaScript, Scheme, Standard ML, Objective-C</p></li>
-          <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
-          <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
-          <li><p><i>Specialized Software: </i>MATLAB, Mathematica, WEKA, Sage</p></li>
-          <li><p><i>Markup Languages: </i>LaTeX, HTML5, CSS3</p></li>
-          <!--<li><p><i>Project Management</i> – Hiring and managing technical teams.</p></li>-->
-        </ul>
-      </section>
-
-      <section id="publications">
-        <h2>Publications</h2>
-        
-        <h3><b>Journal Articles</b></h3>
-        <br/>
-        <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
-          </span></b> and <span itemprop="author">J. Jacob</span>,
-          <span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees,"
-            <i>in preparation</i></span>.
-          
-          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
-          </span></b> and <span itemprop="author">J. Jacob</span>, 
-          <span itemprop="name">"Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem,"
-             <i>submitted to the Wiley Networks journal</i></span>.
-
-          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">P. Bajorski, 
-          </span>, <span itemprop="author">A. Kaminsky</span>, <span itemprop="author">M. Kurdziel</span>,
-          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          and <b><span itemprop="author">C. Wood</span></b>,
-          <span itemprop="name">"Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks,"
-            <i>submitted to the IEEE Transactions on Wireless Communications</i></span>. 
-
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>,
-          <span itemprop="name">"Cybersecurity Education: Bridging the Gap between Hardware and Software Domains,"
-            <i>submitted to the IEEE Transactions on Education</i></span>.
-        </ul>
-        <br/>
-
-        <h3><b>Conference Proceedings</b></h3>
-        <br/>
-        <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
-          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>
-          <span itemprop="name">"Developing an Applied, Security-Oriented Computing Curriculum,"</span>
-          In <i>Proceedings of the ASEE 2012, San Antonio, Texas. June 2012.</i></p></li>
-
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <b><span itemprop="author">C. Wood</span></b>
-          <span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
-          In <i>Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada. July 2011.</i></p></li>
-
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <b><span itemprop="author">C. Wood</span></b> and <span itemprop="author">R. K. Raj</span>
-          <span itemprop="name">"Keyloggers in Cybersecurity Education,"</span>
-          In <i>Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</i></p></li>
-        </ul>
-
-      </section>
-
-      <section id="presentations">
-        <h2>Presentations</h2>
-        
-        <ul>
-          <li itemscope itemtype="http://schema.org/Event">
-            <p><span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees," </span><span itemprop="performers"> Invited 
-          speaker</span>, <span itemprop="location">AMS Sectional Meeting, Rochester Institute of Technology, Rochester, NY. September 22, 2012.</span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Event">
-            <p><span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
-              <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. July 22, 2011.</span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Event">
-            <p><span itemprop="name">"Layered Driver Rootkit Detection on Microsoft Windows PCs", Poster Presentation,</span>
-          <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. August 24, 2009.</span>
-            </p>
-          </li>
-        </ul>
       </section>
 
       <section id="honors">
@@ -518,6 +507,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <ul>
           <li>
             <h3>Student mentor for the FIRST LEGO League team hosted by RIT<span class="floatRight">Fall 2009 - Winter 2011</span></h3>
+            <h3>Rochester Foodlink volunteer<span class="floatRight">Winter 2012/2013 - present</span></h3>
           </li>
         </ul>
       </section>
@@ -552,9 +542,6 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         </ul>
       </section>
 
-	<!--<section>
-		<p>Design by <a href="http://www.mit.edu/~amonroy/">André Monroy-Hernánd</a></p>
-	</section>-->
     </div> <!-- end #contentWrapper -->
   </div> <!-- end #outerWrapper -->
 <p>Design by 
