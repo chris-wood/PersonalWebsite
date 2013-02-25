@@ -112,7 +112,7 @@
         
         <address>
           <ul>
-            <li><span itemprop="email">caw4567@rit.edu</span></li>
+            <li><span itemprop="email">caw4567@cs.rit.edu</span></li>
             <li><span itemprop="phone">315-806-5939</span></li>
           </ul>
         </address>
@@ -202,7 +202,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <h3><b>Narrowing the Edge Folkman Number Bounds<span class="floatRight">RIT</b></span></h3>
             <p><i>Combinatorics, Computational Graph Theory</i><span class="floatRight">January 2013 - present</span></p>
             <p>Advisor: Dr. Stanislaw Radziszowski (CS)</p>
-            <p>TODO
+            <p>I am attempting various computational techniques to increase the upper bound of the edge Folkman number F(3,3;4) to
+              20, and am also experimenting with various k-SAT solvers to determine if F(3,3;4) <= 127.
             </p>
           </li>
 
@@ -288,34 +289,35 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h3><b>Forthcoming</b></h3>
         <br/>
         <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood</span>,
+          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span>,
           <span itemprop="name">"An Architecture for Supporting Automated Audits Over Encrypted Log Data in the Cloud,"
             <i>in preparation</i></span>.
 
-          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
-          </span></b> and <span itemprop="author">J. Jacob</span>,
+          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood, 
+          </span> and <span itemprop="author">J. Jacob</span>,
           <span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees,"
             <i>in preparation</i></span>.
         </ul>
+        <br/>
         
         <h3><b>Journal Articles</b></h3>
         <br/>
         <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
-          </span></b> and <span itemprop="author">J. Jacob</span>, 
+          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood, 
+          </span> and <span itemprop="author">J. Jacob</span>, 
           <span itemprop="name">"Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem,"
              <i>submitted to the Wiley Networks journal</i></span>.
 
           <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">P. Bajorski, 
           </span>, <span itemprop="author">A. Kaminsky</span>, <span itemprop="author">M. Kurdziel</span>,
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          and <b><span itemprop="author">C. Wood</span></b>,
+          and <span itemprop="author">C. Wood</span>,
           <span itemprop="name">"Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks,"
             <i>submitted to the IEEE Transactions on Wireless Communications</i></span>. 
 
           <li itemscope itemtype="http://schema.org/Article"><p>
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>,
+          <span itemprop="author">J. Vallino</span>, and <span itemprop="author">C. Wood</span>,
           <span itemprop="name">"Cybersecurity Education: Bridging the Gap between Hardware and Software Domains,"
             <i>submitted to the ACM Transactions on Computing Education</i></span>.
         </ul>
@@ -326,17 +328,17 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p>
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
-          <span itemprop="author">J. Vallino</span>, and <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="author">J. Vallino</span>, and <span itemprop="author">C. Wood</span>
           <span itemprop="name">"Developing an Applied, Security-Oriented Computing Curriculum,"</span>
           In <i>Proceedings of the ASEE 2012, San Antonio, Texas. June 2012.</i></p></li>
 
           <li itemscope itemtype="http://schema.org/Article"><p>
-          <b><span itemprop="author">C. Wood</span></b>
+          <span itemprop="author">C. Wood</span>
           <span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
           In <i>Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada. July 2011.</i></p></li>
 
           <li itemscope itemtype="http://schema.org/Article"><p>
-          <b><span itemprop="author">C. Wood</span></b> and <span itemprop="author">R. K. Raj</span>
+          <span itemprop="author">C. Wood</span> and <span itemprop="author">R. K. Raj</span>
           <span itemprop="name">"Keyloggers in Cybersecurity Education,"</span>
           In <i>Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</i></p></li>
         </ul>
@@ -407,11 +409,11 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <ul>
           <!--<li><p><i>Research</i> – Experience with qualitative and quantitative research.</p></li>-->
           <li><p><i>Programming Languages: </i>C/C++, C#, Java, Python, Ruby, Assembly (MIPS), JavaScript, Scheme, Standard ML, Objective-C</p></li>
-          <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
-          <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
           <li><p><i>Specialized Software: </i>MATLAB, Mathematica, WEKA, Sage</p></li>
+          <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
           <li><p><i>Markup Languages: </i>LaTeX, HTML5, CSS3</p></li>
-          <!--<li><p><i>Project Management</i> – Hiring and managing technical teams.</p></li>-->
+          <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
+          <li><p><i>Web Frameworks: </i>Express (NodeJS), Play (Java), Ruby on Rails, Spring MVC</p></li>
         </ul>
       </section>
 
@@ -429,7 +431,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3><b>AskSG - A Community Overlay for</b> <span class="floatRight">December 2012 - present</span></h3>
+            <h3><b>AskSG - A Community Overlay for the RIT Student Government</b> <span class="floatRight">December 2012 - present</span></h3>
             <p>
               ASKSG is a comprehensive platform that corrals student ideas, questions, and concerns from a variety of 
               online sources into a single portal for the RIT Student Government (SG). The goal is to enhance their 
@@ -522,6 +524,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Honors</h2>
         <ul>
           <li><p>RIT Honors Program <span class="floatRight">2009 - present</span></p></li>
+          <li><p>RIT Tau Beta Pi Engineering Honor Society <span class="floatRight">2010 - present</span></p></li>
           <li><p>Recipient of RIT Outstanding Undergraduate Student award<span class="floatRight">Winter 2012</span></p></li>
           <li><p>RIT Computer Science Graduate student delegate, selected<span class="floatRight">Winter 2012</span></p></li>
           <li><p>RIT Computer Science Undergraduate student delegate, nominated<span class="floatRight">Fall 2012</span></p></li>
