@@ -153,7 +153,8 @@
         The remainder of whatever free time I have left is devoted to music and exercise. My main musical interests
         are hard rock and heavy metal (i.e. bands such as <a href="http://www.youtube.com/watch?v=A7ry4cx6HfY" target="_blank">Avenged Sevenfold</a>, 
         <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">In Flames</a>, 
-        <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">Lamb of God</a>, and
+        <a href="http://www.youtube.com/watch?v=vVLDbWlsV3o" target="_blank">Lamb of God</a>, 
+        <a href="http://www.youtube.com/watch?v=ugPxKkDmh5M" target="_blank">August Burns Red</a>, and
         <a href="http://www.youtube.com/watch?v=sxQmOAkny0k&list=SP15AD531E3A907CB7" target="_blank">Trivium</a>),
         but I also branch out into acoustic rock, jazz, and classical music. I am the proud owner of a 
         <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a>
@@ -287,6 +288,10 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h3><b>Forthcoming</b></h3>
         <br/>
         <ul>
+          <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood</span>,
+          <span itemprop="name">"An Architecture for Supporting Automated Audits Over Encrypted Log Data in the Cloud,"
+            <i>in preparation</i></span>.
+
           <li itemscope itemtype="http://schema.org/Article"><p><b><span itemprop="author">C. Wood, 
           </span></b> and <span itemprop="author">J. Jacob</span>,
           <span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees,"
@@ -415,6 +420,30 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
         <ul>
           <li>
+            <h3><b>FTPredator - A FTP Scraping Tool for Penetration Testing</b> <span class="floatRight">February 2013 - present</span></h3>
+            <p>
+              FTPredator is a simple forensic tool that will scrape vulnerable FTP servers for sensitive information that
+              can be used in manual penetration tests (i.e. database credential information, user accounts, etc). 
+            </p>
+            <p>Source code: <a href="https://github.com/chris-wood/FTPredator" target="_blank">here</a></p>
+          </li>
+
+          <li>
+            <h3><b>AskSG - A Community Overlay for</b> <span class="floatRight">December 2012 - present</span></h3>
+            <p>
+              ASKSG is a comprehensive platform that corrals student ideas, questions, and concerns from a variety of 
+              online sources into a single portal for the RIT Student Government (SG). The goal is to enhance their 
+              relationship with students and to provide a channel for advice on what the governance body should focus 
+              on, such as programs or policies on campus to change, replace or recreate. ASKSG provides a common 
+              interface for all directed student questions and inquiries to provide an overarching picture of student 
+              sentiment. This interface, which meets federal accessibility requirements, will funnel student questions 
+              submitted through SMS, phone calls, and social media private messaging, and then enable responses to be 
+              reciprocated using the same incoming interface.
+            </p>
+            <p>Source code: <a href="https://github.com/ithunt/asksg" target="_blank">here</a></p>
+          </li>
+
+          <li>
             <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present</span></h3>
             <p>
               ABLS is a logging service for cloud applications that provides atrribute-based log confidentiality
@@ -448,12 +477,12 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present</span></h3>
+            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present (very inactive development)</span></h3>
             <p>
               ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
               on various topics in technology, politics, economics, etc. It was started
               as an endeavor to learn the Play Framework with Java, and has since become a project
-              that I work on only sporadically in my free time.
+              that I work on only sporadically in my free time. 
             </p>
             <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
           </li>
@@ -529,7 +558,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <i>Teaching Assistant and Lecturer</i>, RIT, February 2011 - present. With Dr. Marcin Lukowiak (CE).</p></li>
 
           <li><p><b>Computer Science I, II, and IV</b> 
-            <i>Student Lab Assistant and Grader</i>, RIT, January 2009 - present.</p></li>
+            <i>Student Lab Assistant and Grader</i>, RIT, January 2009 - December 2012.</p></li>
 
           <li><p><b>Personal Software Engineering.</b> 
             <i>Teaching Assistant</i>, RIT, December 2011 - March 2012. With Professor Tom Reichlmayr (SE).</p></li>
