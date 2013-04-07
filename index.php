@@ -169,7 +169,7 @@
           <li>
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
             <p>Master of Science in Computer Science</p>
-            <p>Thesis: Large Substitutionn Boxes with Efficient Combinational Implementations (in progress)</p>
+            <p>Thesis: Large Substitution Boxes with Efficient Combinational Implementations (in progress)</p>
             <p>Committee: Stanislaw Radziszowski and Marcin Lukowiak</p>
             <p>Main Elective Courses: Cryptography, Intelligent Security Systems, Data Communications and
 Networks, Algorithms, Optimization Methods, Secure Database Systems, Security Measurement and Testing, and Parallel Computing</p>
@@ -202,8 +202,11 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <h3><b>Narrowing the Edge Folkman Number Bounds<span class="floatRight">RIT</b></span></h3>
             <p><i>Combinatorics, Computational Graph Theory</i><span class="floatRight">January 2013 - present</span></p>
             <p>Advisor: Dr. Stanislaw Radziszowski (CS)</p>
-            <p>I am attempting various computational techniques to increase the upper bound of the edge Folkman number F(3,3;4) to
-              20, and am also experimenting with various k-SAT solvers to determine if F(3,3;4) <= 127.
+            <p>
+              I am attempting various computational techniques with SAT solvers to decide the conjecture that the edge Folkman number 
+              F(3,3;4) <= 127. This is done by reducing the Ramsey arrowing operator G -> (3,3;4) to an equivalent 3-SAT formula, 
+              and then modifying the structure of this formula to aid SAT solvers in the decision process.
+              My progress on this work is maintained <a target="_blank" href="http://www.cs.rit.edu/~folkman">here</a>.
             </p>
           </li>
 
@@ -327,6 +330,11 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <br/>
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p>
+          <span itemprop="author">C. A. Wood</span>, <span itemprop="author">M. Alromaih</span>, and <span itemprop="author">L. Reznik</span>,
+          <span itemprop="name">"Improving Continuous Authentication Systems with Feature Extraction and Data Filtering Techniques,"</span>
+          submitted to the <i>IEEE Conference on Communications and Network Security 2013</i></li>
+
+          <li itemscope itemtype="http://schema.org/Article"><p>
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
           <span itemprop="author">J. Vallino</span>, and <span itemprop="author">C. Wood</span>
           <span itemprop="name">"Developing an Applied, Security-Oriented Computing Curriculum,"</span>
@@ -433,16 +441,18 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li>
             <h3><b>AskSG - A Community Overlay for the RIT Student Government</b> <span class="floatRight">December 2012 - present</span></h3>
             <p>
-              ASKSG is a comprehensive platform that corrals student ideas, questions, and concerns from a variety of 
+              AskSG is a comprehensive platform that corrals student ideas, questions, and concerns from a variety of 
               online sources into a single portal for the RIT Student Government (SG). The goal is to enhance their 
               relationship with students and to provide a channel for advice on what the governance body should focus 
-              on, such as programs or policies on campus to change, replace or recreate. ASKSG provides a common 
+              on, such as programs or policies on campus to change, replace or recreate. AskSG provides a common 
               interface for all directed student questions and inquiries to provide an overarching picture of student 
               sentiment. This interface, which meets federal accessibility requirements, will funnel student questions 
               submitted through SMS, phone calls, and social media private messaging, and then enable responses to be 
               reciprocated using the same incoming interface.
             </p>
             <p>Source code: <a href="https://github.com/ithunt/asksg" target="_blank">here</a></p>
+            <p>Team website: <a href="www.se.rit.edu/~watchmen/" target="_blank">Team Watchmen</a></p>
+            <p>Live CI VM: <a href="http://watchmen.se.rit.edu:8080/asksg/" target="_blank">here</a></p>
           </li>
 
           <li>
