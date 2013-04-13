@@ -65,7 +65,6 @@
   });
 </script>
 
-
 </head>
   
 <body>
@@ -209,6 +208,44 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               My progress on this work is maintained <a target="_blank" href="http://www.cs.rit.edu/~folkman">here</a>.
             </p>
           </li>
+
+          <div id="gcb-template" class="outline header header-logged-in" style="display: none;">
+            <div class="username">
+              <span class="mini-icon mini-icon-public-repo"></span> 
+              <a href=""></a>
+              <span class="branch"></span>
+              <span style="float: right">
+                <span class="mini-icon mini-icon-watchers"></span>
+                <span class="followers"></span>
+                <span class="mini-icon mini-icon-fork"></span>
+                <span class="forks"></span>
+              </span>
+            </div>
+
+            <div class="diffline">
+              <img src="" class="gravatar" alt="">
+              <a href="" class="badge"></a>
+              <span class="text-date"></span>
+              <span class="committer"></span>
+              <span class="email"></span>
+            </div>
+
+            <div class="commitmessage"><span class="mini-icon mini-icon-quotemark"></span></div>
+            
+            <div class="commitmessagelong" style="display: none; "><span class="mini-icon mini-icon-quotemark"></span></div>
+            
+            <div class="diffstat">
+              (Files: <span class="diffadded"> added</span>, <span class="diffremoved"> removed</span>,
+              <span class="diffmodified"> modified</span>)
+            </div>
+
+            <div class="filelist" id="" style="display: none; ">
+              <ul class="difflist"></ul>
+            </div>
+            <div class="showMore">
+            <a href="" class="showMoreLink" id="">Click to show more</a>
+            </div>
+          </div>
 
           <li>
             <h3><b>Secure Logging System for Cloud-Based Applications<span class="floatRight">RIT</b></span></h3>
