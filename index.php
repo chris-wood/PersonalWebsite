@@ -100,16 +100,11 @@
           <li><a href="teaching-statement.pdf" title="Teaching Statement">Teaching Statement</a></li>-->
         </ol>
       </nav>
-
-      <iframe src="http://githubbadge.appspot.com/badge/chris-wood" style="padding-top:25px; border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
     </div><!-- end #nav -->
     
     <div id="contentWrapper">
       <section id="contactInfo">
         <h2 class="hide">contact info</h2>
-        
-        <!--<img src="./imgs/headshot.png" width="150" height="70" alt="portrait of Christopher">-->
-        
         <address>
           <ul>
             <li><span itemprop="email">caw4567@cs.rit.edu</span></li>
@@ -132,7 +127,7 @@
 
         <p>
         My <a href="#interests">research interests</a> are very diverse, and include everything from applied cryptography,
-        computer and network security, computational graph theory, combinatorics, and operating systems.
+        computational graph theory, computer and network security, combinatorics, and chaos theory.
         Fortunately, I have had many opportunities at RIT to pursue research
         projects in these areas, which have resulted in several <a href="#publications">publications</a> and 
         <a href="#presentations">presentations</a>. As a student I try to be involved in projects that span several
@@ -146,7 +141,7 @@
         or other technology. Some of my notable projects include a replication of the AES cache timing 
         attack on software-based implementations of the AES in embedded platforms, as well as a 
         multi-threaded password cracking tool called Wedge that mimics the behavior of John the Ripper
-        for breaking standard operating system passwords.
+        for breaking standard operating system passwords. 
         </p>
 
         <p>
@@ -170,9 +165,9 @@
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
             <p>Master of Science in Computer Science</p>
             <p>Thesis: Large Substitution Boxes with Efficient Combinational Implementations (in progress)</p>
-            <p>Committee: Stanislaw Radziszowski and Marcin Lukowiak</p>
+            <p>Committee: Stanislaw Radziszowski, Marcin Lukowiak, Alan Kaminsky, and Michael Kurdziel</p>
             <p>Main Elective Courses: Cryptography, Intelligent Security Systems, Data Communications and
-Networks, Algorithms, Optimization Methods, Secure Database Systems, Security Measurement and Testing, and Parallel Computing</p>
+Networks, Algorithms, Optimization Methods, Secure Database Systems, Security Measurement and Testing, Parallel Computing</p>
           </li>
           
           <li>
@@ -189,8 +184,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <h2>Research Interests</h2>
         
         <p>
-          Applied Cryptography, Computer and Network Security, Computational Graph Theory, Combinatorial Optimization, 
-          Operating Systems, Chaos Theory and Dynamical Systems
+          Applied Cryptography, Computational Graph Theory, Computer and Network Security, Combinatorial Optimization, 
+          Chaos Theory and Dynamical Systems
         </p>
       </section>
 
@@ -291,21 +286,25 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 
         <h3><b>Forthcoming</b></h3>
         <br/>
-        <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span>,
-          <span itemprop="name">"An Architecture for Supporting Automated Audits Over Encrypted Log Data in the Cloud,"
-            <i>in preparation</i></span>.
+          <ul>
+            <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span>,
+            <span itemprop="name">"An Architecture for Supporting Automated Audits Over Encrypted Log Data in the Cloud,"
+              <i>in preparation</i></span>.</li>
 
-          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood, 
-          </span> and <span itemprop="author">J. Jacob</span>,
-          <span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees,"
-            <i>in preparation</i></span>.
-        </ul>
+            <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span>,
+            <span itemprop="name">"Ramsey Arrowing with SAT and SDP Solvers,"
+              <i>in preparation</i></span>.</li>
+          </ul>
         <br/>
         
         <h3><b>Journal Articles</b></h3>
         <br/>
         <ul>
+          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood, 
+          </span> and <span itemprop="author">J. Jacob</span>,
+          <span itemprop="name">"Characterization of Small Trees Based on their L(2,1)-Span,"
+            <i>submitted to the Involve journal of mathematics</i></span>.</li>
+
           <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood, 
           </span> and <span itemprop="author">J. Jacob</span>, 
           <span itemprop="name">"Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem,"
@@ -359,18 +358,27 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li itemscope itemtype="http://schema.org/Event">
             <p><span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees," </span><span itemprop="performers"> Invited 
           speaker</span>, <span itemprop="location">AMS Sectional Meeting, Rochester Institute of Technology, Rochester, NY. September 22, 2012.</span>
+          (<a href="./presentations/L21Characterization_AMS.pdf">PDF</a>)
             </p>
           </li>
 
           <li itemscope itemtype="http://schema.org/Event">
             <p><span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
               <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. July 22, 2011.</span>
+              (<a href="./presentations/Wood_ChaosBasedSymmetricKeyCryptosystems_RIT_Symposium.pdf">PDF</a>)
             </p>
           </li>
+
+          <li itemscope itemtype="http://schema.org/Event"><p>
+          <p><span itemprop="name">"Keyloggers in Cybersecurity Education,"</span>
+          <span itemprop="location">2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</span>
+          (<a href="./presentations/KeyloggersPresentation_v9.pdf">PDF</a>)
+        </p></li>
 
           <li itemscope itemtype="http://schema.org/Event">
             <p><span itemprop="name">"Layered Driver Rootkit Detection on Microsoft Windows PCs", Poster Presentation,</span>
           <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. August 24, 2009.</span>
+          (<a href="./posters/rkposter.pdf">PDF</a>)
             </p>
           </li>
         </ul>
@@ -428,9 +436,16 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
       <section id="projects">
         <h2>Highlighted Projects</h2>
 
+        Much of the source code for my projects is mainted on <a target="_blank" href="https://github.com/chris-wood">my GitHub page</a>. A snippet of my GitHub 
+        activity is shown below.
+
+        <div style="text-align:center">
+          <iframe src="http://githubbadge.appspot.com/badge/chris-wood" style="padding-top:25px; border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
+        </div>
+
         <ul>
           <li>
-            <h3><b>FTPredator - A FTP Scraping Tool for Penetration Testing</b> <span class="floatRight">February 2013 - present</span></h3>
+            <h3><b>FTPredator - A FTP Scraping Tool for Penetration Testing</b> <span class="floatRight">February 2013 - present (inactive development)</span></h3>
             <p>
               FTPredator is a simple forensic tool that will scrape vulnerable FTP servers for sensitive information that
               can be used in manual penetration tests (i.e. database credential information, user accounts, etc). 
@@ -439,7 +454,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3><b>AskSG - A Community Overlay for the RIT Student Government</b> <span class="floatRight">December 2012 - present</span></h3>
+            <h3><b>AskSG - A Community Overlay for the RIT Student Government</b> <span class="floatRight">December 2012 - May 2013</span></h3>
             <p>
               AskSG is a comprehensive platform that corrals student ideas, questions, and concerns from a variety of 
               online sources into a single portal for the RIT Student Government (SG). The goal is to enhance their 
@@ -451,12 +466,12 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               reciprocated using the same incoming interface.
             </p>
             <p>Source code: <a href="https://github.com/ithunt/asksg" target="_blank">here</a></p>
-            <p>Team website: <a href="www.se.rit.edu/~watchmen/" target="_blank">Team Watchmen</a></p>
+            <p>Team Watchmen website: <a href="http://www.se.rit.edu/~watchmen/" target="_blank">here</a></p>
             <p>Live CI VM: <a href="http://watchmen.se.rit.edu:8080/asksg/" target="_blank">here</a></p>
           </li>
 
           <li>
-            <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present</span></h3>
+            <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present (inactive development)</span></h3>
             <p>
               ABLS is a logging service for cloud applications that provides atrribute-based log confidentiality
               and high data-integrity guarantees. It is intended to aid application developers in storing system
@@ -533,14 +548,14 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
       <section id="honors">
         <h2>Honors</h2>
         <ul>
-          <li><p>RIT Honors Program <span class="floatRight">2009 - present</span></p></li>
-          <li><p>RIT Tau Beta Pi Engineering Honor Society <span class="floatRight">2010 - present</span></p></li>
+          <li><p>RIT Honors Program</p></li>
+          <li><p>RIT Tau Beta Pi Engineering Honor Society</p></li>
           <li><p>Recipient of RIT Outstanding Undergraduate Student award<span class="floatRight">Winter 2012</span></p></li>
           <li><p>RIT Computer Science Graduate student delegate, selected<span class="floatRight">Winter 2012</span></p></li>
           <li><p>RIT Computer Science Undergraduate student delegate, nominated<span class="floatRight">Fall 2012</span></p></li>
           <li><p>Recipient of Golisano College Honors research assistantship stipend<span class="floatRight">Spring 2011 and Winter 2009/2010</span></p></li>
           <li><p>Recipient of RIT undergraduate research award stipend<span class="floatRight">Summer 2009</span></p></li>
-          <li><p>RIT Golisano College Dean's List<span class="floatRight">2008 - present</span></p></li>
+          <li><p>RIT Golisano College Dean's List<span class="floatRight">2008 - 2013</span></p></li>
         </ul>
       </section>
 
@@ -549,7 +564,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <ul>
           <li>
             <h3>Student mentor for the FIRST LEGO League team hosted by RIT<span class="floatRight">Fall 2009 - Winter 2011</span></h3>
-            <h3>Rochester Foodlink volunteer<span class="floatRight">Winter 2012/2013 - present</span></h3>
+            <h3>Rochester Foodlink volunteer<span class="floatRight">November 2012 - March 2013</span></h3>
           </li>
         </ul>
       </section>
@@ -568,7 +583,13 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li><p><b>Hardware and Software Design with Cryptographic Applications.</b> 
-            <i>Teaching Assistant and Lecturer</i>, RIT, February 2011 - present. With Dr. Marcin Lukowiak (CE).</p></li>
+            <i>Teaching Assistant and Lecturer</i>, RIT, February 2011 - May 2013. With Dr. Marcin Lukowiak (CE). 
+            Lectures given: <a target="_blank" href="./lectures/CryptoOverview.pdf">Introduction to Cryptography</a>, 
+              <a target="_blank" href="./lectures/SoftwareOptimization.pdf">Software Optimization Techniques</a>, 
+              <a target="_blank" href="./lectures/ImpulseCIntroduction.pdf">Introduction to Impulse C</a>, 
+              <a target="_blank" href="./lectures/OptimizingImpulseC.pdf">Impulse C Optimization Techniques</a>, and 
+              <a target="_blank" href="./lectures/AESTimingAttacks.pdf">An Overview of AES Timing Attacks</a>.
+          </li>
 
           <li><p><b>Computer Science I, II, and IV</b> 
             <i>Student Lab Assistant and Grader</i>, RIT, January 2009 - December 2012.</p></li>
