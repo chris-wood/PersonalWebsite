@@ -155,6 +155,12 @@
         <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a>
         (a black model), and am slowly teaching myself the ropes.
         </p>
+
+        <!-- Twitter badge for updates and whatnot -_- -->
+        <div style="text-align:center">
+          <a class="twitter-timeline" href="https://twitter.com/phonzbm" data-widget-id="341214871343476736">Tweets by @phonzbm</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
       </section>
 
       <section id="edu">
@@ -450,7 +456,20 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               FTPredator is a simple forensic tool that will scrape vulnerable FTP servers for sensitive information that
               can be used in manual penetration tests (i.e. database credential information, user accounts, etc). 
             </p>
+            <!-- <div class="github-widget" data-repo="chris-wood/FTPredator"></div> -->
             <p>Source code: <a href="https://github.com/chris-wood/FTPredator" target="_blank">here</a></p>
+          </li>
+
+          <li>
+            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present (very inactive development)</span></h3>
+            <p>
+              ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
+              on various topics in technology, politics, economics, etc. It was started
+              as an endeavor to learn the Play Framework with Java, and has since become a project
+              that I work on only sporadically in my free time. 
+            </p>
+            <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
+            <!-- <div class="github-widget" data-repo="chris-wood/ThoughtPoll"></div> -->
           </li>
 
           <li>
@@ -468,6 +487,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <p>Source code: <a href="https://github.com/ithunt/asksg" target="_blank">here</a></p>
             <p>Team Watchmen website: <a href="http://www.se.rit.edu/~watchmen/" target="_blank">here</a></p>
             <p>Live CI VM: <a href="http://watchmen.se.rit.edu:8080/asksg/" target="_blank">here</a></p>
+            <!-- <div class="github-widget" data-repo="ithunt/asksg"></div> -->
           </li>
 
           <li>
@@ -479,6 +499,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               security policies and support user-based non-repudiation through manual and automated audits.
             </p>
             <p>Source code: <a href="https://github.com/chris-wood/SecureLoggingSystem" target="_blank">here</a></p>
+            <!-- <div class="github-widget" data-repo="chris-wood/SecureLoggingSystem"></div> -->
           </li>
 
           <li>
@@ -490,6 +511,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               such as the use of rainbow tables and those based on Markov-chains, in the future. 
             </p>
             <p>Source code: <a href="https://github.com/chris-wood/Wedge" target="_blank">here</a></p>
+            <!-- <div class="github-widget" data-repo="chris-wood/Wedge"></div> -->
           </li>
 
           <li>
@@ -501,17 +523,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               board with a Virtex5 FPGA that implements the MicroBlaze processor. The hard-core PowerPC
               processor is also available for use.</p>
             <p>Source code: <a href="https://github.com/chris-wood/CacheTimingAttack" target="_blank">here</a></p>
-          </li>
-
-          <li>
-            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present (very inactive development)</span></h3>
-            <p>
-              ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
-              on various topics in technology, politics, economics, etc. It was started
-              as an endeavor to learn the Play Framework with Java, and has since become a project
-              that I work on only sporadically in my free time. 
-            </p>
-            <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
+            <!-- <div class="github-widget" data-repo="chris-wood/CacheTimingAttack"></div> -->
           </li>
 
           <li>
@@ -523,7 +535,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               streams data to a classification and authentication engine written in Python. Users must enroll 
               in the system via typing sessions in order to be identified. 
             </p>
-            <p>Source code: <a href="https://github.com/chris-wood/ContinuousAuthenticationSystem" target="_blank">here</a></p>
+            <!-- <p>Source code: <a href="https://github.com/chris-wood/ContinuousAuthenticationSystem" target="_blank">here</a></p> -->
+            <!-- <div class="github-widget" data-repo="chris-wood/ContinuousAuthenticationSystem"></div> -->
           </li>
 
           <li>
@@ -611,5 +624,8 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
 <a href="http://www.mit.edu/~amonroy/">André Monroy-Hernánd</a>.
 </p>
 <p>Used with permission.</p>
+
+<!-- <script type="text/javascript" src="js/jquery.githubRepoWidget.min.js"></script> -->
+
 </body>
 </html>
