@@ -84,6 +84,7 @@
           <li><a href="#research">Research Projects</a></li>
           <li><a href="#publications">Publications</a></li>
           <li><a href="#presentations">Presentations</a></li>
+          <li><a href="#unpublished">Unpublished Technical Reports</a></li>
           <li><a href="#experience">Work Experience</a></li>
           <li><a href="#skills">Skills</a></li>
           <!--<li><a href="#training">Additional Training</a></li>-->
@@ -107,7 +108,7 @@
         <h2 class="hide">contact info</h2>
         <address>
           <ul>
-            <li><span itemprop="email">caw4567@cs.rit.edu</span></li>
+            <li><span itemprop="email">caw4567@rit.edu</span></li>
             <li><span itemprop="phone">315-806-5939</span></li>
           </ul>
         </address>
@@ -118,34 +119,27 @@
       <!-- start the content here -->
       <section id="about">
         <p>
-        I am a fifth year student at the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a> 
-        pursuing a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and 
+        I am a recent graduate from the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a>,
+        where I completed a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and 
         <a href="http://www.se.rit.edu">Software Engineering</a> with an accelerated BS/MS option in
-        Computer Science. I also have minors in Mathematics and Writing Studies. I expect to graduate
-        in August of 2013.
+        Computer Science. I also have minors and concentrations in Mathematics and Writing Studies. In the fall I will
+        start my PhD at the University of California Irvine, working under Dr. Gene Tsudik. In the mean time I am an intern
+        at Xerox PARC working as a security and privacy researcher in the Computer Science Laboratory.
         </p>
 
         <p>
         My <a href="#interests">research interests</a> are very diverse, and include everything from applied cryptography,
-        computational graph theory, computer and network security, combinatorics, and chaos theory.
-        Fortunately, I have had many opportunities at RIT to pursue research
-        projects in these areas, which have resulted in several <a href="#publications">publications</a> and 
-        <a href="#presentations">presentations</a>. As a student I try to be involved in projects that span several
-        disciplines to exercise my skills in multiple fields. I also actively pursue <a href="#teaching">teaching assistant</a>
-        positions to share my passion for science and technology with younger students. 
+        computational graph theory, computer and network security, and combinatorics. Fortunately, I have had many opportunities 
+        at RIT and beyond to pursue research projects in these areas, which have resulted in several <a href="#publications">publications</a>, 
+        <a href="#presentations">presentations</a>, and <a href="#unpublished">unpublished technical reports</a>. As a student I 
+        try to be involved in projects that span several disciplines to exercise my skills in multiple fields. I also actively 
+        pursue <a href="#teaching">teaching assistant</a> positions to share my passion for science and technology with younger students. 
         </p>
 
         <p>
         In my spare time I also enjoy actively working on my own <a href="#projects">side projects</a> that are typically unrelated to
         my main areas of research. These are usually an excuse to learn a new programming language, library, framework,
-        or other technology. Some of my notable projects include a replication of the AES cache timing 
-        attack on software-based implementations of the AES in embedded platforms, as well as a 
-        multi-threaded password cracking tool called Wedge that mimics the behavior of John the Ripper
-        for breaking standard operating system passwords. 
-        </p>
-
-        <p>
-        The remainder of whatever free time I have left is devoted to music and exercise. My main musical interests
+        or other technology. The remainder of whatever free time I have left is devoted to music and exercise. My main musical interests
         are hard rock and heavy metal (i.e. bands such as <a href="http://www.youtube.com/watch?v=A7ry4cx6HfY" target="_blank">Avenged Sevenfold</a>, 
         <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">In Flames</a>, 
         <a href="http://www.youtube.com/watch?v=vVLDbWlsV3o" target="_blank">Lamb of God</a>, 
@@ -170,10 +164,12 @@
           <li>
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
             <p>Master of Science in Computer Science</p>
-            <p>Thesis: Large Substitution Boxes with Efficient Combinational Implementations (in progress)</p>
+            <p>Thesis: Large Substitution Boxes with Efficient Combinational Implementations</p>
+            <p>Document: <a target="_blank" href="www.christopher-wood.com/rit/caw_thesis.pdf">here</a></p>
+            <p>Defense slides: <a target="_blank" href="www.christopher-wood.com/rit/caw_defense_slides.pdf">here</a></p>
             <p>Committee: Stanislaw Radziszowski, Marcin Lukowiak, Alan Kaminsky, and Michael Kurdziel</p>
-            <p>Main Elective Courses: Cryptography, Intelligent Security Systems, Data Communications and
-Networks, Algorithms, Optimization Methods, Secure Database Systems, Security Measurement and Testing, Parallel Computing</p>
+            <p>Main Elective Courses: Cryptography, Optimization Methods, Parallel Computing, Intelligent Security Systems, 
+              Data Communications and Networks, Algorithms, Secure Database Systems, Security Measurement and Testing</p>
           </li>
           
           <li>
@@ -200,14 +196,15 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         
         <ul>
           <li>
-            <h3><b>Narrowing the Edge Folkman Number Bounds<span class="floatRight">RIT</b></span></h3>
+            <h3><b>Computational Techniques for Narrowing Edge Folkman Number Bounds<span class="floatRight">RIT</b></span></h3>
             <p><i>Combinatorics, Computational Graph Theory</i><span class="floatRight">January 2013 - present</span></p>
             <p>Advisor: Dr. Stanislaw Radziszowski (CS)</p>
             <p>
-              I am attempting various computational techniques with SAT solvers to decide the conjecture that the edge Folkman number 
-              F(3,3;4) <= 127. This is done by reducing the Ramsey arrowing operator G -> (3,3;4) to an equivalent 3-SAT formula, 
-              and then modifying the structure of this formula to aid SAT solvers in the decision process.
-              My progress on this work is maintained <a target="_blank" href="http://www.cs.rit.edu/~folkman">here</a>.
+              I am investigating various computational techniques to prove (or disprove) the conjecture that the edge Folkman number 
+              F(3,3;4) <= 127. Our main work was done by reducing the question of G -> (3,3;4) to an equivalent 3-SAT formula, 
+              and then modifying the structure of this formula to aid SAT solvers in the decision process. We also applied this SAT-based
+              decision technique to other interesting Folkman problems, and are investigating the relative effectiveness of using SAT
+              vs SDP solvers for Folkman numbers. My progress on this work is maintained <a target="_blank" href="http://www.christopher-wood.com/~folkman">here</a>.
             </p>
           </li>
 
@@ -263,25 +260,17 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           </li>
 
           <li>
-            <h3><b>Secure Operating System Design Principles<span class="floatRight">RIT</b></span></h3>
-            <p><i>Computer Security, Operating Systems</i><span class="floatRight">March 2011 - June 2011</span></p>
-            <p>Advisor: Dr. Rajendra K. Raj (CS)</p>
-            <p>
-              I researched secure operating system design principles at all levels of the software stack. 
-              The main deliverable was a case study for popular operating systems built for various purposes, 
-              including Microsoft Singularity, Chrome OS, Android, QNX, and Microsoft Azure.
-            </p>
-          </li>
-
-          <li>
-            <h3><b>Rootkit Design, Implementation, and Detection<span class="floatRight">RIT</b></span></h3>
-            <p><i>Computer Security, Operating Systems, Malware Design</i><span class="floatRight">May 2009 - August 2009</span></p>
+            <h3><b>Rootkit Design, Implementation, and Detection in Secure Operating Systems<span class="floatRight">RIT</b></span></h3>
+            <p><i>Computer Security, Operating Systems, Malware Design</i><span class="floatRight">May 2009 - August 2009, March 2011 - June 2011</span></p>
             <p>Advisor: Dr. Rajendra K. Raj (CS)</p>
             <p>
               I examined rootkit malware that targeted the Windows NT family of operating systems. This study 
               included user-mode and kernel-mode rootkit implementations and state-of-the-art static and 
               dynamic techniques. I developed a kernel filter driver for the keyboard device driver stack in C to 
-              help determine the presence of a specific kind of keystroke-monitoring malware.
+              help determine the presence of a specific kind of keystroke-monitoring malware. In the latter half of this
+              project, I researched secure operating system design principles at all levels of the software stack. 
+              The main deliverable was a case study for popular operating systems built for various purposes, 
+              including Microsoft Singularity, Chrome OS, Android, QNX, and Microsoft Azure.
             </p>
           </li>
         </ul>
@@ -298,8 +287,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               <i>in preparation</i></span>.</li>
 
             <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span>,
-            <span itemprop="name">"Ramsey Arrowing with SAT and SDP Solvers,"
-              <i>in preparation</i></span>.</li>
+            <span itemprop="name">"Ramsey Arrowing with SAT and SDP Solvers,"<i>in preparation</i></span>.</li>
           </ul>
         <br/>
         
@@ -335,9 +323,10 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         <br/>
         <ul>
           <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">C. A. Wood</span>, <span itemprop="author">M. Alromaih</span>, and <span itemprop="author">L. Reznik</span>,
-          <span itemprop="name">"Improving Continuous Authentication Systems with Feature Extraction and Data Filtering Techniques,"</span>
-          submitted to the <i>IEEE Conference on Communications and Network Security 2013</i></li>
+          <span itemprop="author">S. Skalicky</span>, <span itemprop="author">C. Wood</span>, 
+          <span itemprop="author">M. Lukowiak</span>, and <span itemprop="author">M. Ryan</span>
+          <span itemprop="name">"High Level Synthesis: Where Are We? A Case Study on Matrix Multiplication,"</span>
+          Submitted to <i>ReConFig 2013.</i></p></li>
 
           <li itemscope itemtype="http://schema.org/Article"><p>
           <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
@@ -390,10 +379,27 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         </ul>
       </section>
 
+      <section id="unpublished">
+        <h2>Unpublished Technical Reports
+
+        <ul>
+          <li>UI paper (with tony)</li>
+          <li>Continuous authentication system</li>
+          <li>Ramsey arrowing paper with results</li>
+          <li>secure OS paper</li>
+          <li>network robustness paper</li>
+        </ul>
+      </section>
+
       <section id="experience">
         <h2>Work Experience</h2>
         
         <ul>
+          <li>
+            <h3><b>Xerox PARC, Computer Science Laboratory<span class="floatRight">Palo Alto, CA</b></span></h3>
+            <p><i>Security and Privacy Researcher</i><span class="floatRight">June 2013 - present</span></p>
+          </li>
+
           <li>
             <h3><b>Intel Corporation, Virtual and Parallel Computing Group<span class="floatRight">Folsom, CA</b></span></h3>
             <p><i>Graphics Software Engineer</i><span class="floatRight">June 2012 - August 2012</span></p>
@@ -435,7 +441,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
           <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
           <li><p><i>Markup Languages: </i>LaTeX, HTML5, CSS3</p></li>
           <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
-          <li><p><i>Web Frameworks: </i>Express (NodeJS), Play (Java), Ruby on Rails, Spring MVC</p></li>
+          <li><p><i>Web Frameworks: </i>Play (Java and Scala), Spring MVC, Ruby on Rails, Express (NodeJS)</p></li>
         </ul>
       </section>
 
@@ -450,26 +456,24 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
         </div>
 
         <ul>
-          <li>
+          <!-- <li>
             <h3><b>FTPredator - A FTP Scraping Tool for Penetration Testing</b> <span class="floatRight">February 2013 - present (inactive development)</span></h3>
             <p>
               FTPredator is a simple forensic tool that will scrape vulnerable FTP servers for sensitive information that
               can be used in manual penetration tests (i.e. database credential information, user accounts, etc). 
             </p>
-            <!-- <div class="github-widget" data-repo="chris-wood/FTPredator"></div> -->
             <p>Source code: <a href="https://github.com/chris-wood/FTPredator" target="_blank">here</a></p>
-          </li>
+          </li> -->
 
           <li>
-            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present (very inactive development)</span></h3>
+            <h3><b>Galois Field Arithmetic Library</b> <span class="floatRight">March 2013 - present</span></h3>
             <p>
-              ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
-              on various topics in technology, politics, economics, etc. It was started
-              as an endeavor to learn the Play Framework with Java, and has since become a project
-              that I work on only sporadically in my free time. 
+              I am implementing a library for Galois field arithmetic in both polynomial and normal basis representations for 
+              proper composite fields of any number of extensions. The library is meant to be used for educational purposes with
+              small fields, so performance is not a primary goal. Future work will include implementing elliptic curve arithmetic
+              (e.g. point addition, multiplication, etc) over these fields.
             </p>
-            <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
-            <!-- <div class="github-widget" data-repo="chris-wood/ThoughtPoll"></div> -->
+            <p>Source code: <a href="https://github.com/chris-wood/GaloisLibrary" target="_blank">here</a></p>
           </li>
 
           <li>
@@ -487,7 +491,17 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
             <p>Source code: <a href="https://github.com/ithunt/asksg" target="_blank">here</a></p>
             <p>Team Watchmen website: <a href="http://www.se.rit.edu/~watchmen/" target="_blank">here</a></p>
             <p>Live CI VM: <a href="http://watchmen.se.rit.edu:8080/asksg/" target="_blank">here</a></p>
-            <!-- <div class="github-widget" data-repo="ithunt/asksg"></div> -->
+          </li>
+
+          <li>
+            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present (very inactive development)</span></h3>
+            <p>
+              ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
+              on various topics in technology, politics, economics, etc. It was started
+              as an endeavor to learn the Play Framework with Java, and has since become a project
+              that I work on only sporadically in my free time. 
+            </p>
+            <p>Source code: <a href="https://github.com/chris-wood/ThoughtPoll" target="_blank">here</a></p>
           </li>
 
           <li>
@@ -499,7 +513,6 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               security policies and support user-based non-repudiation through manual and automated audits.
             </p>
             <p>Source code: <a href="https://github.com/chris-wood/SecureLoggingSystem" target="_blank">here</a></p>
-            <!-- <div class="github-widget" data-repo="chris-wood/SecureLoggingSystem"></div> -->
           </li>
 
           <li>
@@ -511,7 +524,6 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               such as the use of rainbow tables and those based on Markov-chains, in the future. 
             </p>
             <p>Source code: <a href="https://github.com/chris-wood/Wedge" target="_blank">here</a></p>
-            <!-- <div class="github-widget" data-repo="chris-wood/Wedge"></div> -->
           </li>
 
           <li>
@@ -523,20 +535,17 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
               board with a Virtex5 FPGA that implements the MicroBlaze processor. The hard-core PowerPC
               processor is also available for use.</p>
             <p>Source code: <a href="https://github.com/chris-wood/CacheTimingAttack" target="_blank">here</a></p>
-            <!-- <div class="github-widget" data-repo="chris-wood/CacheTimingAttack"></div> -->
           </li>
 
           <li>
             <h3><b>Continuous Authentication System</b> <span class="floatRight">September 2012 - November 2012</span></h3>
             <p>
-              This project is a partially-complete prototype service for *nix-based operating systems that captures
-              user typing patterns in real-time and uses this information to identify the user. It is the result of 
-              my research on continuous authentication systems. The system features a C-based keylogger that 
+              This project is a prototype service for *nix-based operating systems that captures user typing patterns 
+              in real-time and uses this information to identify the user. It is the result of 
+              my research on continuous authentication systems and keyloggers. The system features a C-based keylogger that 
               streams data to a classification and authentication engine written in Python. Users must enroll 
-              in the system via typing sessions in order to be identified. 
+              in the system via scripted typing sessions in order to be identified. 
             </p>
-            <!-- <p>Source code: <a href="https://github.com/chris-wood/ContinuousAuthenticationSystem" target="_blank">here</a></p> -->
-            <!-- <div class="github-widget" data-repo="chris-wood/ContinuousAuthenticationSystem"></div> -->
           </li>
 
           <li>
@@ -585,7 +594,7 @@ Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems<
       <section id="activities">
         <h2>Extracurricular Activities</h2>
         <ul>
-          <li>Society of Software Engineers,member<span class="floatRight">Fall 2008 - Winter 2009/2010</span></li>
+          <li>Society of Software Engineers, member<span class="floatRight">Fall 2008 - Winter 2009/2010</span></li>
           <li>RIT Electronic Gaming Society, member<span class="floatRight">Fall 2008 - Spring 2010</span></li>
           <li>RIT Intramural Flag Football Team, member<span class="floatRight">Fall 2010</span></li>
         </ul>
