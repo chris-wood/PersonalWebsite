@@ -165,8 +165,8 @@
             <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
             <p>Master of Science in Computer Science</p>
             <p>Thesis: Large Substitution Boxes with Efficient Combinational Implementations</p>
-            <p>Document: <a target="_blank" href="www.christopher-wood.com/rit/caw_thesis.pdf">here</a></p>
-            <p>Defense slides: <a target="_blank" href="www.christopher-wood.com/rit/caw_defense_slides.pdf">here</a></p>
+            <p>Document: <a target="_blank" href="www.christopher-wood.com/research/caw_thesis.pdf">here</a></p>
+            <p>Defense slides: <a target="_blank" href="www.christopher-wood.com/research/caw_thesis_defense_slides.pdf">here</a></p>
             <p>Committee: Stanislaw Radziszowski, Marcin Lukowiak, Alan Kaminsky, and Michael Kurdziel</p>
             <p>Main Elective Courses: Cryptography, Optimization Methods, Parallel Computing, Intelligent Security Systems, 
               Data Communications and Networks, Algorithms, Secure Database Systems, Security Measurement and Testing</p>
