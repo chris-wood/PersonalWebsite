@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>slideToggle demo</title>
+  <style>
+  p { width:400px; }
+  	</style>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+  <!-- <button id="tog1">Toggle1</button> -->
+  <button id="tog2">Toggle2</button>
+ 
+ <div id="tog1" class="project">
+  <div class="project-header">
+    HEADER
+  </div>
+  <div class="project-details">
+    <p id="p1">
+      This is the paragraph to end all paragraphs.  You
+      should feel <em>lucky</em> to have seen such a paragraph in
+      your life.  Congratulations!
+    </p>
+  </div>
+</div>
+  <p id="p2">
+    RAH
+  </p>
+
+<script>
+    $(".project .project-header").click(function (e) {
+      alert(e.target);
+      // if (e.target === this){
+        // $(this).closest('div.project').children('project.project-details').slideToggle();
+        $(this).parent().children(".project-details").slideToggle();
+      // }
+    });
+</script>
+ 
+</body>
+</html>
