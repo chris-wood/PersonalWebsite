@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Christopher A. Wood - Thesis Information</title>
+<!-- Copyright (c) 2009-2012 Design Science, Inc. -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript" src="../MathJax.js"></script>
+
+<style>
+.warning {
+  color: #800020;
+  background-color: #FFF8F8;
+  border: 2px solid red;
+  margin: 1em 5em;
+  padding: 1em;
+}
+</style>
+</head>
+<body>
+
+<noscript>
+<div style="color:#CC0000; text-align:center">
+<b>Warning: <a href="http://www.mathjax.org/">MathJax</a>
+requires JavaScript to process the mathematics on this page.<br />
+If your browser supports JavaScript, be sure it is enabled.</b>
+</div>
+<hr>
+</noscript>
+<h2>CS Masters Thesis</h2>
+Christopher Wood<br>
+Security Cluster
+<hr width="75%">
+
+<!-- Documents -->
+<h3>Documents</h3>
+<h4>Large Substitution Boxes with Efficient Combinational Implementations</h4>
+<p>Final version (8/13/13): <a href="docs/caw_thesis.pdf">Here</a></p>
+<p>Library-friendly version (8/13/13): <a href="docs/caw_thesis_library.pdf">Here</a></p>
+<p>Defense slides (8/13/13): <a href="docs/caw_thesis_defense_slides.pdf">Here</a></p>
+<p>Proposal: <a href="docs/caw_proposal.pdf">Here</a></p>
+<p>Preproposal: <a href="docs/caw_preproposal.pdf">Here</a></p>
+
+<!-- Deliverables-->
+<h4>Progress Presentations and Documents</h4>
+<ul>
+  <li><a href="docs/caw_thesis_p7.pdf">Progress report 7</a></li>
+  <li><a href="docs/caw_thesis_p6.pdf">Progress report 6</a></li>
+  <li><a href="docs/caw_thesis_p5.pdf">Progress report 5</a></li>
+  <li><a href="docs/caw_thesis_p4.pdf">Progress report 4</a></li>
+  <li><a href="docs/caw_thesis_p3.pdf">Progress report 3</a></li>
+  <li><a href="docs/caw_thesis_p2.pdf">Progress report 2</a></li>
+  <li><a href="docs/caw-progress-v1.pdf">Progress report 1</a></li>
+</ul>
+
+<hr width="75%">
+
+<h3>Thesis Log</h3>
+<h5>June - July 2013</h5>
+<p>
+  I spent the final two months of my thesis finishing up outstanding work, running experiments, and writing the final document (see above).
+</p>
+<h5>May 13 - May 24</h5>
+<p>
+  During these two weeks I completed the following tasks:
+  <ul>
+    <li>Finished the Boolean function analysis software for arbitrary S-boxes</li>
+    <li>Finished the Magma code to determine the algebraic complexity of a power mapping combined with a linear (or affine) transformation</li>
+    <li>Wrote the Magma code to exhaustively generate all basis change matrices for degree 2 tower field representations of $GF(2^{16})$</li>
+    <li>Implemented all of the linear transformation optimization hueristic approaches I found in the literature, in addition to a sequential and parallel version of the exhaustive search for the optimal solution. Each heuristic will be tested on the basis change matrices to determine the optimal number of gates required to implement each one.</li>
+    <li>Wrote a great deal of the thesis!</li>
+  </ul>
+</p>
+<h5>April 29 - May 10</h5>
+<p>
+  During these two weeks I wrote a great deal of Boolean function analysis software for measuring the strength of S-box candidates. I continued developing the thesis chapters in parallel with my implementations, which includes the addition of a derivation for a 4th degree decomposition inverse calculation in a polynomial basis. I still need to add a derivation for the normal basis calculations. Similar to the polynomial basis, the 2nd degree decomposition is algebraically simple using a normal basis, but I am unsure of the complexity of this procedure for 4th degree decompositions. I also finished the tower field implementation of the inverse in VHDL and C using polynomial bases. The next step is to exhaustively determine the cost of such calculations, in terms of the basis transformation matrices and arithmetic, using all possible irreducible polynomials (with trace of unity) and polynomial basis. I will use Magma to find all normal bases for each 16-degree irreducible polynomial, and then repeat this experiment for those polynomials and bases. Looking into an optimal solution using mixed bases is the next step after that, time permitting. 
+</p>
+<h5>April 22 - April 26</h5>
+<p>
+  This week I finish the introductory chapter to my thesis and started running the heuristic search program. 
+  I also wrote the preliminary Boolean function code for t-resilient S-boxes defined the paper:
+  <ul>
+    <li>Gupta, Kishan Chand, and Palash Sarkar. "Efficient representation and software implementation of resilient Maiorana-McFarland S-boxes." Information Security Applications. Springer Berlin Heidelberg, 2005. 317-331.</li>
+  </ul>
+  I also worked through the different techniques used to determine the algebraic complexity of an S-box,
+  as outlined in the Progress Report #5.
+</p>
+
+<h5>April 14 - April 20</h5>
+<p>
+  This week I finished the VHDL implementation of the 16-bit inverse and began looking into ways to pipeline
+  the design for improved throughput. I also outlined the polynomial selection heuristic and set up the 
+  polyGen.py, genGen.py, and isoGen.py programs to compute all possible polynomials according to this heuristic.
+</p>
+
+<h5>April 8 - April 12</h5>
+<p>
+  This week I wrote the C and Python code for the inverse mapping in Galois fields with 16-bit elements. 
+  The Python version was a simple extension of the Galois field library. I also started writing the composite
+  field chapter of the thesis. The biggest task was finishing up the composite field transformation generation
+  program so it can use both irreducible and primitive polynomials, and also splitting up the load for
+  the polynomial generation program. The end goal is to run both of these on the OSG to speed up
+  the performance of my exhaustive searches.
+</p>
+<h5>April 1 - April 5</h5>
+<p>
+  This week I started preparing my software for the exhaustive generation of all irreducible and primitive polynomials for my target fields. 
+  I also expanded the Boolean function analysis software to include differential uniformity and nonlinear profiles (i.e. average nonlinearity
+  of an S-box as the number of fixed input variables changes). I began writing the inverse and power mapping code in Python, which will be ported
+  to C for performance tests in the coming week. The remainder of my time was spent performing a literature survey and writing the upcoming
+  chapters in my thesis, as described in the deliverables section above. 
+  <!--- look into polynomial/normal basis transformation code
+  - start write software in C/C++ for s-box transformation-->
+</p>
+<h5>March 25 - March 29</h5>
+<p>
+This week I continued my work on the composite field arithmetic library for Galois fields $GF((2^n)^m)$. I also continued studying the polynomial and normal basis implementation techniques discussed in the literature. The best resources on the topic are the papers by Satoh [1] and Canright [2], cited below. With the isomorphic function generation complete this week, I can then exhaustively search over all possible S-box affine mappings on 16 bit elements, identify the strongest candidates using my Boolean function analysis tools, and then implement these in hardware using various tower field decompositions with polynomial bases. Normal bases will not be investigated until the polynomial bases are complete. 
+</p>
+<p>
+  [1] Satoh, Akashi, et al. "A compact Rijndael hardware architecture with S-box optimization." Advances in Cryptology-ASIACRYPT 2001. Springer Berlin Heidelberg, 2001. 239-254.<br/>
+  [2] Canright, David. "A very compact S-box for AES." Cryptographic Hardware and Embedded Systems-CHES 2005. Springer Berlin Heidelberg, 2005. 441-455.
+</p>
+
+<p>
+My major tasks for this week orthogonal to the deliverables include:
+<ul>
+  <li>Finish the CFA slides for my progress update and crpyto 2 class lecture.</li>
+  <li>Thesis section on polynomial basis.</li>
+  <li>Isomorphic matrix mapping.</li>
+</ul>
+</p>
+
+<h5>March 18 - March 22</h5>
+<p>
+Continued working on isomorphic function generation - still a major block in my work. Need to review my number theory notes and get back on track. I also started writing the Thesis chapter that discusses the composite-field representation of the AES S-box using my working HDL design. I need to start finalizing the software implementations of all of the candidate S-box designs (based off of finite fields for computability) - affine transformations with a multiplicative inverse in $GF(2^n)$ are not the only suitable choices. Boolean function designs do not have "computable" representations - they require LUTs, which makes them suitable for hardware designs only. My major tasks for this week orthogonal to the deliverables include:
+<ul>
+  <li>Select candidate "computable" S-box designs (are there any besides Nyberg's original three?)</li>
+  <li>Start studying the Boolean function construction techniques and try to sketch out some pseudocode for implementing them - i.e. generating a truth table and ANF representation for Sage processing.</li>
+</ul>
+</p>
+
+<!-- Summer work -->
+<hr width="75%">
+<h3>Background Work (Summer 2012)</h3>
+<h5>November 19 - November 23</h5>
+<p>
+Picked up where I left off with my research on composite field decomposition of the Rijndael S-box. My deliverables for this week are:
+<ul>
+  <li>Draft of composite field decomposition notes</li>
+  <li>Sample Sage code for finite field arithmetic (and hopefully support for field extensions).</li>
+</ul>
+</p>
+<h5>October 15 - November 15</h5>
+<p>Hiatus from thesis work to focus on classes. My research will continue when 
+the Fall quarter break starts.</p>
+<h5>October 8 - October 12</h5>
+<p>Continued working on my thesis proposal.</p>
+<h5>October 1 - October 5</h5>
+<p>Started looking into composite field representations for S-boxes as a new 
+perspective of combinational optimization and efficiency.</p>
+<h5>September 24 - September 28</h5>
+<p>Continued work on my thesis proposal with week 8 as the target deadline.</p>
+<h5>September 17 - September 21</h5>
+<p>Continued work on my thesis proposal. The target deadline is now the end of week 8 (due to class commitments).</p>
+
+<h5>September 10 - September 14</h5>
+<p>Met with Staszek and Marcin for lunch to discuss my goals for the fall 
+quarter. At a high-level, they are as follows:</p>
+<ul>
+  <li>Finish the design and development of BAIT (or integrate it into an 
+  existing package like <em>boolfun </em>for <strong>R</strong>).</li>
+  <li>Implement a VHDL testbed that will aid testing and characterization of 
+  Boolean function implementations (i.e. to help gather hardware metrics).</li>
+  <li>Identify cryptographic measurements of interest that will be used in 
+  this study.</li>
+  <li>Gather data from the literature about classes of Boolean functions and 
+  their values for the aforementioned measurements.</li>
+  <li>Finish the thesis proposal.</li>
+</ul>
+<p>In addition to discussing these goals, we also established the milestone of 
+finishing my full thesis proposal before the end of the quarter. If all goes 
+well, I hope to have this done by the end of week 6. </p>
+<!-- BREAK -->
+
+<h5>September 3 - September 7</h5>
+<p>Identifying measurable goals and objectives for the fall quarter. They will 
+be posted once complete and reviewed with Staszek and Marcin.</p>
+<h5>August 6 - August 31</h5>
+<a href="./docs/boolean_results.pdf">Boolean Function Results</a>
+<p>
+On a temporary hiatus to handle moving errands and finish up loose ends with Intel.
+</p>
+
+<h5>July 30 - August 3</h5>
+<a href="./docs/boolean_results.pdf">Boolean Function Results</a>
+<p>
+This week was rather slow. It was mainly occupied by real-life errands. Work will continue next week.
+</p>
+
+<h5>July 23 - 27</h5>
+<a href="./docs/boolean_results.pdf">Boolean Function Results</a>
+<ul>
+  <li>Started reading papers on Boolean function construction and heuristic search techniques (i.e. simulated annealing, hill climbing, etc).</li>
+  <li>Migrated notes to a single document that captures all of the information from my readings and studies pertaining to Boolean functions.</li>
+  <li>Continued development of BAIT. I am going to try and post a development schedule/timeline soon.</li>
+</ul>
+
+<h5>July 16 - 20</h5>
+<a href="./docs/notes_ww2912.pdf">Notes</a>
+<ul>
+  <li>Found some interesting papers: <a href="http://www.staff.uni-mainz.de/pommeren/Kryptologie/Bitblock/A_Nonlin/Fourier.pdf">here</a> and <a href="http://www.iam.metu.edu.tr/sempozyum/2005/sunumlar/051119_SMaitra.pdf">here</a></li>
+  <li>Continued study of Boolean functions and Boolean algebra.</li>
+  <li>Laid out software plan for the Boolean Algebra Interpreter (BAIT), which will be used later when studying Boolean functions</li>
+  <li>Began reviewing combinatoric and heuristic optimization techniques, with a specific focus on simulated annealing.</li>
+</ul>
+
+<h5>July 9 - 13</h5>
+<a href="./docs/notes_ww2812.pdf">Notes</a>
+<ul>
+  <li>Started focusing my studies on Boolean functions and combinatorics. This was the main and only focus of this week.</li>
+  <li>Began writing code to calculate certain properties of Boolean functions (balanced ratio, nonlinearity, linearity, correlation immunity, etc).</li>
+</ul>
+
+<h5>July 2 - 6</h5>
+<a href="./docs/notes_ww2712.pdf">Notes</a>
+<p>
+This week's action items include:
+<ul>
+  <li>FOUND THE PERFECT COFFEE SHOP! AND IT SERVES MEALS!</li>
+  <li>Implemented S-box linear approximation and bias computation code, and started linear cryptanalysis attack code. I will post the source code soon. 
+  <li>Started sifting through Boolean function thesis (Cryptographic Properties of Boolean Functions and S-Boxes)</li>
+</ul>
+
+<h5>June 25 - 29</h5>
+<a href="./docs/notes_ww2612.pdf">Notes</a>
+<p>Very useful resource: <a href="http://ictp.tv/diploma/index2.php?activityid=MTH">here</a></p>
+This week's action items include:
+<ul>
+  <li>Find a copy of the paper: Generalized Bent Functions and Their Properties</li>
+  <li>Find a copy of the book: Boolean Functions in Coding Theory and Cryptography</li>
+  <li>Continue self study of bent functions in the context of combinatorics</li>
+  <li>Start (and finish) port of AES to C++ framework for easier testing.</li>
+  <li>Start implementation of linear approximation code (as a part of the linear cryptanalysis framework).</li>
+</ul>
+
+<h5>June 18-22</h5>
+<a href="./docs/notes_ww2512.pdf">Notes</a>
+<p>Started in on daily reading and note taking sessions as part of the literature survey.
+<br/>
+<br/>
+This week's action items include: 
+<ul>
+  <li>Continue literature survey</li>
+  <li>Identify papers to read (mostly revolving around Boolean functions and their applications in cryptography)</li>
+  <li>Ported implementation of Rijndael to C++ variant to enable more OO-oriented tests later on</li>
+  <li>Useful resource: <a href="http://www.cs.cmu.edu/~odonnell/boolean-analysis/">here</a></li>
+</ul>
+<h5>June 11-15</h5>
+<a href="./docs/notes_ww2412.pdf">Notes</a>
+<p>Preproposal document was approved by Staszek, and the finished product was sent to both him and Marcin for reference.
+<br/>
+<br/>
+This week's action items include: 
+<ul>
+  <li>Starting this research blog.</li>
+  <li>Getting the Mendeley research group and file structure up and running. This will be used to annotate and store all papers.</li>
+  <li>Settled on note-taking practice. Will write up all thoughts, ideas, and remarks from readings using LaTeX, with the corresponding references, and post online for storage.
+</ul>
+<br>
+<hr/>
+<h3>&nbsp;</h3>
+
+<!-- LaTeX example using MathJax
+<p>
+\[
+\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\]
+</p>
+-->
+
+<!-- END LOG HERE -->
+
+<div id="badBrowser" style="display:none">
+<div class="warning">
+<b>WARNING</b>: The browser you are using does not appear to support
+MathJax, so we can't test if MathJax is working.  Please try a different
+browser, or a newer version of your browser in order to test MathJax.
+</div>
+<hr>
+</div>
+
+<!------------------------------------------------------------------------>
+
+<div id="imageFonts" style="display:none">
+<div class="warning">
+<b>WARNING</b>: The browser you are using does not seem to support web-based
+fonts, so we can't test the MathJax web fonts with this browser (image fonts
+have been used instead). Please try a different browser, or a newer version
+of your browser in order to test MathJax's web-based fonts.
+</div>
+<hr>
+</div>
+
+<!------------------------------------------------------------------------>
+
+<div id="noWebFont" style="display:none">
+<div class="warning">
+<b>WARNING</b>: MathJax's web fonts don't seem to be available.  Be sure you have
+the <code>MathJax/fonts</code> directory in place before continuing.
+If you fail to install these fonts, MathJax will not 
+work properly with some browsers.  If you can't install the image fonts, 
+be sure to set the <code>noImageFonts</code> parameter in your MathJax configuration 
+(either <code>MathJax/config/MathJax.js</code>, or the 
+<code>MathJax.Hub.Config()</code> call in your web page).
+</div>
+<hr>
+</div>
+
+<!------------------------------------------------------------------------>
+
+<div id="ffWebFont" style="display:none">
+<div class="warning">
+<b>WARNING</b>: You are trying to load MathJax from a remote site where the
+web-based fonts are not set up to be shipped to Firefox properly.  See the
+<a href="../docs/html/installation.html#notes-about-shared-installations">discussion
+of Firefox's same-origin policy</a> in the MathJax documentation for more 
+details.
+</div>
+<hr>
+</div>
+
+<!------------------------------------------------------------------------>
+
+</body>
+</html>
