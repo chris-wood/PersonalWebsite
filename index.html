@@ -639,6 +639,22 @@
           <iframe src="http://githubbadge.appspot.com/badge/chris-wood" style="padding-top:25px; border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
         </div> -->
 
+        <div class="content-body">
+          <div class="content-header">
+            <h3><span style="vertical-align: middle;"><b>FTPredator</b> <span class="floatRight">September 2013 - present</span></h3>
+          </div>
+          <div class="content-details">
+            <hr/>
+            <p>
+              FTPredator is a simple library of Python functions that is aimed at helping penetration testers identify insecure FTP services and collect information about potential files of interest (e.g. files containing database credentials). The project is being done in collaboration with my brother, <a target="_blank" href="http://rm-wood.com">Robert Wood</a>, a senior security consultant at Cigital. The feature set of FTPredator is not very sophisticated (for now), but it will likely evolve in the future as it is used in practice. We may even slap on a GUI to facilitate those scared of the terminal! :-)
+            </p>
+            <br/>
+            <div class="content-details-badge">
+              <div id="project-badge-ftpredator"></div>
+            </div>
+          </div>
+        </div>
+
          <div class="content-body">
           <div class="content-header">
             <h3><span style="vertical-align: middle;"><b>Arithmetics</b> <span class="floatRight">August 2013 - present</span></h3>
@@ -913,6 +929,12 @@
     //     sorting: "descending",
     //     repo_count: "13"
     // });
+
+    $("#project-badge-ftpredator").GitHubBadge({
+        login: "chris-wood",
+        kind: "project",
+        repo_name: "FTPredator"
+    });
 
     $("#project-badge-ftpclient").GitHubBadge({
         login: "chris-wood",
