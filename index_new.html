@@ -1,1013 +1,275 @@
 <!DOCTYPE html>
-<html>
-<head>
-<script src="js/jquery-1.8.3.min.js"></script>
-<meta charset=utf-8 />
-<link href="css/main.css" rel="stylesheet" media="projection, screen">
-<link href="css/print.css" rel="stylesheet" media="print">
-<link href="css/jquery.github_badge.css" rel="stylesheet">
-<title>Christopher A. Wood</title>
-<script src="js/jquery-1.8.3.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $('div.content-details').hide();
-
-    $("#portrait a").hover(function () {
-      var thumbOver = $(this).find("img").attr("src");
-      $(this).css({
-        'background': 'url(' + thumbOver + ') no-repeat center bottom'
-      });
-      $(this).find("span").stop().fadeTo('normal', 0, function () {
-        $(this).hide()
-      });
-    }, function () {
-      $(this).find("span").stop().fadeTo('normal', 1).show();
-    });
-  
-    function filterPath(string) {
-      return string.replace(/^\//, '').replace(/(index|default).[a-zA-Z]{3,4}$/, '').replace(/\/$/, '');
-    }
-    var locationPath = filterPath(location.pathname);
-    var scrollElem = scrollableElement('html', 'body');
-    $('a[href*=#]').each(function () {
-      var thisPath = filterPath(this.pathname) || locationPath;
-      if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/, '')) {
-        var $target = $(this.hash),
-          target = this.hash;
-        if (target) {
-          var targetOffset = $target.offset().top;
-          $(this).click(function (event) {
-            event.preventDefault();
-            $(scrollElem).animate({
-              scrollTop: targetOffset
-            }, 400, function () {
-              location.hash = target;
-            });
-          });
-        }
-      }
-    });
-  
-    function scrollableElement(els) {
-      for (var i = 0, argLength = arguments.length; i < argLength; i++) {
-        var el = arguments[i],
-          $scrollElement = $(el);
-        if ($scrollElement.scrollTop() > 0) {
-          return el;
-        } else {
-          $scrollElement.scrollTop(1);
-          var isScrollable = $scrollElement.scrollTop() > 0;
-          $scrollElement.scrollTop(0);
-          if (isScrollable) {
-            return el;
-          }
-        }
-      }
-      return [];
-    }
-  });
-</script>
-</head>
-  
-<body>
-  <div id="outerWrapper">
-    <div id="nav">
-      <figure id="portrait">
-        <span><img src="imgs/headshot.png" width="150" height="140" 
-        alt="portrait of Christopher"></span>
-      </figure><!-- end #portrait -->
-      <nav>
-        <h2 class="hide">navigation</h2>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>Bootply.com - Basis Template for Bootstrap 3</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
         
-        <ol>
-          <li><a href="#about">About</a></li>
-          <li><a href="#edu">Education</a></li>
-          <li><a href="#interests">Research Interests</a></li>
-          <li><a href="#research">Research Projects</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#presentations">Presentations</a></li>
-          <li><a href="#unpublished">Technical Reports</a></li>
-          <li><a href="#experience">Work Experience</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Highlighted Projects</a></li>
-          <li><a href="#honors">Honors</a></li>
-          <!--<li><a href="#mentoring">Mentoring</a></li>-->
-          <li><a href="#service">Service</a></li>
-          <li><a href="#activities">Extracurricular Activities</a></li>
-          <li><a href="#teaching">Teaching</a></li>
-          <li><a href="./docs/caw_cv.pdf" title="Curriculum Vitae">Curriculum Vitae</a></li>
-          <!--<li><a href="research-statement.pdf" title="Research Statement">Research Statement</a></li>
-          <li><a href="teaching-statement.pdf" title="Teaching Statement">Teaching Statement</a></li>-->
-        </ol>
-      </nav>
-    </div><!-- end #nav -->
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
     
-    <div id="contentWrapper">
-      <section id="contactInfo">
-        <h2 class="hide">contact info</h2>
-        <address>
-          <ul>
-            <li><span itemprop="email">caw@christopher-wood.com | woodc1@rit.edu</span></li>
-            <li><span itemprop="phone">315-806-5939</span></li>
-          </ul>
-        </address>
-      </section><!-- end #contactInfo -->
-      
-      <h1 style="text-align:center;"><span itemprop="name">Christopher A. Wood</span></h1>
-      
-      <!-- start the content here -->
-      <section id="about">
-        <p>
-          I am a recent graduate from the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a>, where I completed a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and <a href="http://www.se.rit.edu">Software Engineering</a> with an accelerated BS/MS option in Computer Science. I also have minors and concentrations in Mathematics and Writing Studies. In the fall I will start my PhD at the <a href="http://uci.edu/">University of California Irvine</a>, working under Dr. Gene Tsudik. In the mean time I am an intern at Xerox PARC working as a security and privacy researcher in the Computer Science Laboratory.
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body  >
+        
+        <div class="wrapper">
+    <div class="box">
+        <div class="row">
+          
+            <!-- sidebar -->
+            <div class="column col-sm-3" id="sidebar">
+                <a class="logo" href="#">caw</a>
+                <ul class="nav">
+                    <li class="active"><a href="#about">About</a></li>
+                    <li><a href="#stalk">Updates</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#presentations">Presentations</a></li>
+                    <li><a href="#unpublished">Technical Reports</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Highlighted Projects</a></li>
+                    <li><a href="#honors">Honors</a></li>
+                    <!--<li><a href="#mentoring">Mentoring</a></li>-->
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#activities">Extracurricular Activities</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="./docs/caw_cv.pdf" title="Curriculum Vitae">Curriculum Vitae</a></li>
+                </ul>
+                <ul class="nav hidden-xs" id="sidebar-footer">
+                    <li>
+                      <!-- <a href="http://www.bootply.com"><h3>Basis</h3>Made with <i class="glyphicon glyphicon-heart-empty"></i> by Bootply</a> -->
+                    </li>
+                </ul>
+            </div>
+            <!-- /sidebar -->
+          
+            <!-- main -->
+            <div class="column col-sm-9" id="main">
+                <div class="padding">
+                    <div class="full col-sm-9">
+                      
+                        <!-- content -->
+                        
+                        <div class="col-sm-12" id="about">   
+                          <div class="page-header text-muted">
+                            <p>
+          I am a Ph.D. student at the <a href="http://uci.edu/">University of California Irvine</a>, studying applied cryptography, security, and privacy under Dr. Gene Tsudik and Dr. Stanislaw Jarecki. I graduated from the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a> with a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and <a href="http://www.se.rit.edu">Software Engineering</a> and an accelerated MS in Computer Science. I also earned minors and concentrations in Mathematics and Writing Studies.
         </p>
 
         <p>
-          My <a href="#interests">research interests</a> are very diverse, and include everything from applied cryptography, computational graph theory, computer and network security, and combinatorics. Fortunately, I have had many opportunities at RIT and beyond to pursue research projects in these areas, which have resulted in several <a href="#publications">publications</a>, <a href="#presentations">presentations</a>, and <a href="#unpublished">unpublished technical reports</a>. As a student I try to be involved in projects that span several disciplines to exercise my skills in multiple fields. I also actively pursue <a href="#teaching">teaching assistant</a> positions to share my passion for science and technology with younger students. 
+          My <a href="#research">research interests</a> are very diverse, but the majority of my work is rooted in applied cryptography, computer and network security, and heterogeneous computing. Fortunately, I have had many opportunities to pursue research projects in these areas, which have resulted in several <a href="#publications">publications</a>, <a href="#presentations">presentations</a>, and <a href="#unpublished">unpublished technical reports</a>. As a student and young researcher I try to be involved in projects that span several disciplines to exercise my skills in multiple fields. I also actively pursue <a href="#teaching">teaching</a> positions to share my passion for science and technology with younger students. I also try to actively keep myself in a security-oriented mindset like my brother, <a target="_blank" href="http://rm-wood.com">Robert Wood</a>, a senior security consultant at <a target="_blank" href="http://www.cigital.com">Cigital</a> specializing in application and network penetration testing, web and enterprise application source code review, and all around security issues. He's basically my connection back to the real world of security!
         </p>
 
         <p>
-          In my spare time I also enjoy actively working on my own <a href="#projects">side projects</a> that are typically unrelated to my main areas of research. These are usually an excuse to learn a new programming language, library, framework, or other technology. The remainder of whatever free time I have left is devoted to music and exercise. My main musical interests are hard rock and heavy metal (i.e. bands such as <a href="http://www.youtube.com/watch?v=A7ry4cx6HfY" target="_blank">Avenged Sevenfold</a>, <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">In Flames</a>, <a href="http://www.youtube.com/watch?v=vVLDbWlsV3o" target="_blank">Lamb of God</a>, <a href="http://www.youtube.com/watch?v=ugPxKkDmh5M" target="_blank">August Burns Red</a>, and <a href="http://www.youtube.com/watch?v=sxQmOAkny0k&list=SP15AD531E3A907CB7" target="_blank">Trivium</a>), but I also branch out into acoustic rock, jazz, and classical music. I am the proud owner of a <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a> (a black model), and am slowly teaching myself the ropes.
+          In my spare time I also enjoy actively working on my own <a href="#projects">side projects</a> that are typically unrelated to my main areas of research. These are usually an excuse to learn a new programming language, library, framework, or other technology. The remainder of whatever free time I have left is devoted to music and exercise. My main musical interests are hard rock and heavy metal (i.e., bands such as <a href="https://www.youtube.com/watch?v=bT8FEOJEFcI" target="_blank">Avenged Sevenfold</a>, <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">In Flames</a>, <a href="http://www.youtube.com/watch?v=vVLDbWlsV3o" target="_blank">Lamb of God</a>, <a href="https://www.youtube.com/watch?v=uFrfCSAIuwQ" target="_blank">August Burns Red</a>, and <a href="http://www.youtube.com/watch?v=sxQmOAkny0k&list=SP15AD531E3A907CB7" target="_blank">Trivium</a>), but I also branch out into acoustic rock, jazz, and classical music. I am the proud owner of a <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a> (a black model), and am slowly teaching myself the ropes.
         </p>
 
-        <!-- Twitter badge for updates and whatnot -_- -->
+        <div style="text-align:center">
+          <!-- rawr? -->
+          <script src="http://fitness.queso.com/widget/widget-load.js?id=22836879" type="text/javascript"></script>
+        </div>
+        <div style="text-align:center">
+          <!-- rawrx2? -->
+          <div class='wt-widget-container cleanslate'></div><script src='http://www.weighttraining.com/javascripts/widget/widget.js?user=100913&bg=1'></script>
+        </div>
         <div style="text-align:center">
           <a class="twitter-timeline" href="https://twitter.com/phonzbm" data-widget-id="341214871343476736">Tweets by @phonzbm</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
           </script>
         </div>
-      </section>
-
-      <section id="edu">
-        <h2>Education</h2>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Rochester Institute of Technology</b> <span class="floatRight">August, 2013</span></h3>
-            <p>Master of Science in Computer Science</p>
-            <p>Thesis: Large Substitution Boxes with Efficient Combinational Implementations</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <h3><b>Thesis Details</b></h3>
-            <p>Document: <a target="_blank" href="./papers/caw_thesis.pdf">here</a></p>
-            <p>Defense slides: <a target="_blank" href="./presentations/caw_thesis_defense_slides.pdf">here</a></p>
-            <p>Committee: Stanislaw Radziszowski, Marcin Lukowiak, Alan Kaminsky, and Michael Kurdziel (missing from the picture) (<a target="_blank" href="imgs/committee.jpeg">picture<a/>)</p>
-            <hr/>
-            <h3><b>Main Elective Courses</b></h3>
-            <p>Cryptography, Optimization Methods, Parallel Computing, Intelligent Security Systems, 
-              Data Communications and Networks, Algorithms, Secure Database Systems, Security Measurement and Testing</p>
-          </div>
-        </div>
-
-        <div class="content-body" style="border-bottom: 1px solid #000;">
-          <div class="content-header">
-            <h3><b>Rochester Institute of Technology</b> <span class="floatRight">May, 2012</span></h3>
-            <p>Bachelor of Science in Computer Science and Software Engineering</p>
-            <p>Minors in Mathematics and Writing Studies</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <h3><b>Main Elective Courses</b></h3>
-            <p>Number Theory, Graph Theory, Operating Systems, Programming Language Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems</p>
-          </div>
-        </div>
+                          </div> 
+                        </div>
+                        
+                        <!--/top story-->
+                        <div class="row">    
+                          <div class="col-sm-10">
+                            <h3>This is Some Awesome Featured Content</h3>
+                            <h4><span class="label label-default">techvisually.com</span></h4><h4>
+                            <small class="text-muted">1 hour ago • <a href="#" class="text-muted">Read More</a></small>
+                            </h4>
+                          </div>
+                          <div class="col-sm-2">
+                            <a href="#" class="pull-right"><img src="/assets/example/bg_sailboat.jpg" class="img-circle"></a>
+                          </div> 
+                        </div>
+                        
+                        <div class="col-sm-12" id="stories">  
+                          <div class="page-header text-muted divider">
+                            Top Stories
+                          </div>
+                        </div>
+                        
+                        
+                        <!--/stories-->
+                        <div class="row">    
+                          <div class="col-sm-10">
+                            <h3>Dramatically Raise the Value of Any Piece of Content</h3>
+                            <h4><span class="label label-default">searchenginewatch.com</span></h4><h4>
+                            <small class="text-muted">1 hour ago • <a href="#" class="text-muted">Read More</a></small>
+                            </h4>
+                          </div>
+                          <div class="col-sm-2">
+                            <a href="#" class="pull-right"><img src="/assets/example/bg_dogcat.jpg" class="img-circle"></a>
+                          </div> 
+                        </div>
+                        
+                        <div class="row divider">    
+                           <div class="col-sm-12"><hr></div>
+                        </div>
+                        
+                        <div class="row">    
+                          <div class="col-sm-10">
+                            <h3>14 Useful Sites for Designers</h3>
+                            <h4><span class="label label-default">devgarage.com</span></h4><h4>
+                            <small class="text-muted">2 days ago • <a href="#" class="text-muted">Read More</a></small>
+                            </h4>
+                          </div>
+                          <div class="col-sm-2">
+                            <a href="#" class="pull-right"><img src="/assets/example/bg_suburb.jpg" class="img-circle"></a>
+                          </div>
+                        </div>
+                        
+                        <div class="row divider">    
+                           <div class="col-sm-12"><hr></div>
+                        </div>
+                        
+                        <div class="row">    
+                          <div class="col-sm-10">
+                            <h3>Bootstrap Builders Get Their Own Playground</h3>
+                            <h4><span class="label label-default">bootply.com</span></h4><h4>
+                            <small class="text-muted">3 days ago • <a href="#" class="text-muted">Read More</a></small>
+                            </h4>
+                          </div>
+                          <div class="col-sm-2">
+                            <a href="#" class="pull-right"><img src="/assets/example/bg_sailboat.jpg" class="img-circle"></a>
+                          </div>
+                        </div>
+                        
+                        <div class="row divider">    
+                           <div class="col-sm-12"><hr></div>
+                        </div>
+                        
+                        <div class="row">    
+                          <div class="col-sm-10">
+                            <h3>How to: Another Fantastical Article</h3>
+                            <h4><span class="label label-default">bootply.com</span></h4><h4>
+                            <small class="text-muted">4 days ago • <a href="#" class="text-muted">Read More</a></small>
+                            </h4>
+                          </div>
+                          <div class="col-sm-2">
+                            <a href="#" class="pull-right"><img src="//placehold.it/100" class="img-circle"></a>
+                          </div>
+                        </div>
+                        
+                        <div class="row divider">    
+                           <div class="col-sm-12"><hr></div>
+                        </div>
+                        
+                        <div class="row">    
+                          <div class="col-sm-9">
+                            <h3>Another Fantastical Article of Interest</h3>
+                            <h4><span class="label label-default">bootply.com</span></h4><h4>
+                            <small class="text-muted">4 days ago • <a href="#" class="text-muted">Read More</a></small>
+                            </h4>
+                          </div>
+                          <div class="col-sm-3">
+                            <a href="#" class="pull-right"><img src="//placehold.it/100" class="img-circle"></a>
+                          </div>
+                        </div>
+                        
+                        <div class="col-sm-12">
+                          <div class="page-header text-muted divider">
+                            Up Next
+                          </div>
+                        </div>
+                      
+                        <div class="row">    
+                          <div class="col-sm-4 text-center">
+                            <h4>Related 1</h4>
+                            <a href="#"><img src="//placehold.it/100" class="img-circle"></a>
+                          </div>
+                          <div class="col-sm-4 text-center">
+                            <h4>Related 2</h4>
+                            <a href="#"><img src="//placehold.it/100" class="img-circle"></a>
+                          </div>
+                          <div class="col-sm-4 text-center">
+                            <h4>Related 3</h4>
+                            <a href="#"><img src="//placehold.it/100" class="img-circle"></a>
+                          </div>
+                        </div>
+                      
+                      
+                        <div class="col-sm-12">
+                          <div class="page-header text-muted divider">
+                            Connect with Us
+                          </div>
+                        </div>
+                      
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <a href="#">Twitter</a> <small class="text-muted">|</small> <a href="#">Facebook</a> <small class="text-muted">|</small> <a href="#">Google+</a>
+                          </div>
+                        </div>
+                        
+                        <hr>
+                      
+                        <div class="row" id="footer">    
+                          <div class="col-sm-6">
+                            
+                          </div>
+                          <div class="col-sm-6">
+                            <p>
+                            <a href="#" class="pull-right">©Copyright Inc.</a>
+                            </p>
+                          </div>
+                        </div>
+                      
+                      <hr>
+                      
+                      <h3 class="text-center">
+                      <a href="http://bootply.com/86704" target="ext">Download this Template</a>
+                      </h3>
+                        
+                      <hr>
+                        
+                      
+                    </div><!-- /col-9 -->
+                </div><!-- /padding -->
+            </div>
+            <!-- /main -->
           
-      </section>
-
-      <section id="interests">
-        <h2>Research Interests</h2>
+        </div>
+    </div>
+</div>
         
-        <p>
-          Applied Cryptography, Computational Graph Theory, Computer and Network Security, Combinatorial Optimization, 
-          Chaos Theory and Dynamical Systems
-        </p>
-      </section>
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-      <section id="research">
-        <h2>Research Projects</h2>
 
-        <!-- <div class="content-body">
-          <div class="content-header">
-            TODO
-          </div>
-          <div class="content-details">
-            TODO
-          </div>
-        </div> -->
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 
-        <div class="content-body">
-          <div class="content-header">
-            <!-- Computational Techniques for Narrowing Edge Folkman Number Bounds -->
-            <h3><b>Computational Techniques for Narrowing Edge Folkman Number Bounds<span class="floatRight">RIT</b></span></h3>
-            <p><i>Combinatorics, Computational Graph Theory</i><span class="floatRight">January 2013 - present</span></p>
-            <p>Advisor: Dr. Stanislaw Radziszowski (CS)</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              I am investigating various computational techniques to prove (or disprove) the conjecture that the edge Folkman number 
-              F(3,3;4) is at most 127. Our main work was done by reducing the question of G -> (3,3;4) to an equivalent 3-SAT formula, 
-              and then modifying the structure of this formula to aid SAT solvers in the decision process. We also applied this SAT-based
-              decision technique to other interesting Folkman problems, and are investigating the relative effectiveness of using SAT
-              vs SDP solvers for Folkman numbers. My progress on this work is maintained <a target="_blank" href="http://www.christopher-wood.com/~folkman">here</a>.
-            </p>
-          </div>
-        </div>
 
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Secure Logging System for Cloud-Based Applications<span class="floatRight">RIT</b></span></h3>
-            <p><i>Cryptography, Computer Security, Secure Software Design</i><span class="floatRight">July 2012 - May 2013</span></p>
-            <p>Advisors: Dr. Rajendra K. Raj (CS) and Dr. Andy Meneely (SE)</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>I am developing a secure logging architecture for cloud-based SaaS applications that utilizes 
-              ciphertext-policy attribute based encryption (CP-ABE) for log file confidentiality and 
-              authenticated hash chains for log file integrity. It features offline public and online 
-              private verifiability of the log files to detect modification, addition, deletion, and 
-              truncation attacks.
-            </p>
-          </div>
-        </div>
 
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Wireless Ad-hoc Network Group Key Management <span class="floatRight">RIT</b></span></h3>
-            <p><i>Applied Cryptography, Wireless Networking</i><span class="floatRight">May 2011 - present</span></p>
-            <p>Colleagues: Dr. Marcin Lukowiak (CE), Dr. Stanislaw Radziszowski (CS), Dr. Peter Bajorski (Statistics), 
-              Professor Alan Kaminsky (CS), and Dr. Michael Kurdziel (Harris RF)</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              We are investigating group key management protocols for wireless ad-hoc radio networks with constrained 
-              channel bandwidths and computational power. Our current solution is a protocol based on the standardized 
-              Internet Key Exchange protocol. My role in this team is to implement network simulators in SMURPH/SIDE 
-              and NS-3 to obtain empirical performance measurements, and also conduct experiments with Monte Carlo 
-              simulations to verify the correctness of our protocol statistical model. We have a patent pending on 
-              our protocol.
-            </p>
-          </div>
-        </div>
 
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Keyboard Biometric-Based Continuous Authentication Service <span class="floatRight">RIT</b></span></h3>
-            <p><i>Intelligent Security Systems, Artificial Intelligence, Machine Learning</i><span class="floatRight">September 2012 - November 2012</span></p>
-            <p>Advisor: Dr. Leonid Reznik (CS)</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>I am implementing a continuous authentication service based on dynamic, free-form user input for 
-              UNIX systems. It features a real-time keylogger for data acquisition and a cross-platform feature 
-              extraction and classification engine for authentication. WEKA is used to experiment with feature 
-              extraction and filtering techniques that account for a variety of use cases.
-            </p>
-          </div>
-        </div>
 
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>L(2,1)-Labeling Problem<span class="floatRight">RIT</b></span></h3>
-            <p><i>Computational Graph Theory</i><span class="floatRight">September 2011 - present</span></p>
-            <p>Advisor: Dr. Jobby Jacob (Mathematics)</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <h3><b>Phase 2</b> (December 2012 - present)</h3>
-            <p>
-              In the current refresh of this project we are studying the L(2,1) span of bicubic graphs, which are 3-regular bipartite graphs. 
-            </p>
-            <h3><b>Phase 1</b> (September 2011 - November 2012)</h3>
-            <p>
-              I worked on defining a characterization of the L(2,1)-span of trees based on their 
-              structural properties. I implemented a labeling algorithm based on dynamic programming to 
-              assist in the study of tree characterization, which helped to develop tree construction 
-              algorithms that can be used to produce infinitely many trees with a specific L(2,1)-span. 
-              Building upon this result, we then found a complete L(2,1) label span characterization of 
-              all trees with up to twenty vertices.
-            </p>
-          </div>
-        </div>
-
-        <div class="content-body" style="border-bottom: 1px solid #000;">
-          <div class="content-header">
-            <h3><b>Rootkit Design, Implementation, and Detection in Secure Operating Systems<span class="floatRight">RIT</b></span></h3>
-            <p><i>Computer Security, Operating Systems, Malware Design</i><span class="floatRight">May 2009 - August 2009, March 2011 - June 2011</span></p>
-            <p>Advisor: Dr. Rajendra K. Raj (CS)</p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              I examined rootkit malware that targeted the Windows NT family of operating systems. This study 
-              included user-mode and kernel-mode rootkit implementations and state-of-the-art static and 
-              dynamic techniques. I developed a kernel filter driver for the keyboard device driver stack in C to 
-              help determine the presence of a specific kind of keystroke-monitoring malware. In the latter half of this
-              project, I researched secure operating system design principles at all levels of the software stack. 
-              The main deliverable was a case study for popular operating systems built for various purposes, 
-              including Microsoft Singularity, Chrome OS, Android, QNX, and Microsoft Azure. This document with some other <a href="#unpublished">technical reports</a> below.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="publications">
-        <h2>Publications</h2>
-
-        <h3><b>Forthcoming</b></h3>
-        <br/>
-          <ul>
-            <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span> and <span itemprop="author">E. Uzun</span>, <span itemprop="name">"Secure Content Individualization and Dissemination in CCN," <i>in preparation</i></span>.
-            </li>
-
-            <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span>,
-            <span itemprop="name">"An Architecture for Supporting Automated Audits Over Encrypted Log Data in the Cloud," <i>in preparation</i></span>.
-            </li>
-
-            <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood</span>,
-            <span itemprop="name">"Ramsey Arrowing with SAT and SDP Solvers," <i>in preparation</i></span>.</li>
-          </ul>
-        <br/>
         
-        <h3><b>Journal Articles</b></h3>
-        <br/>
-        <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood, 
-          </span> and <span itemprop="author">J. Jacob</span>,
-          <span itemprop="name">"Characterization of Small Trees Based on their L(2,1)-Span,"
-            <i>submitted to the Involve journal of mathematics</i></span>.</li>
-
-          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">C. Wood, 
-          </span> and <span itemprop="author">J. Jacob</span>, 
-          <span itemprop="name">"Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem,"
-             <i>submitted to the Wiley Networks journal</i></span>.
-
-          <li itemscope itemtype="http://schema.org/Article"><p><span itemprop="author">P. Bajorski, 
-          </span>, <span itemprop="author">A. Kaminsky</span>, <span itemprop="author">M. Kurdziel</span>,
-          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          and <span itemprop="author">C. Wood</span>,
-          <span itemprop="name">"Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks," <i>submitted to the IEEE Transactions on Wireless Communications</i></span>. 
-
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">S. Radziszowski</span>,
-          <span itemprop="author">J. Vallino</span>, and <span itemprop="author">C. Wood</span>,
-          <span itemprop="name">"Cybersecurity Education: Bridging the Gap between Hardware and Software Domains,"
-            <i>submitted to the ACM Transactions on Computing Education</i></span>.
-        </ul>
-        <br/>
-
-        <h3><b>Conference Proceedings</b></h3>
-        <br/>
-        <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">S. Skalicky</span>, <span itemprop="author">C. Wood</span>, 
-          <span itemprop="author">M. Lukowiak</span>, and <span itemprop="author">M. Ryan</span>
-          <span itemprop="name">"High Level Synthesis: Where Are We? A Case Study on Matrix Multiplication,"</span>
-          Submitted to <i>ReConFig 2013.</i></li>
-
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">M. Lukowiak</span>, <span itemprop="author">A. Meneely</span>, <span itemprop="author">S. Radziszowski</span>,
-          <span itemprop="author">J. Vallino</span>, and <span itemprop="author">C. Wood</span>
-          <span itemprop="name">"Developing an Applied, Security-Oriented Computing Curriculum,"</span>
-          In <i>Proceedings of the ASEE 2012, San Antonio, Texas. June 2012.</i></li>
-
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">C. Wood</span>
-          <span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
-          In <i>Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada. July 2011.</i></li>
-
-          <li itemscope itemtype="http://schema.org/Article"><p>
-          <span itemprop="author">C. Wood</span> and <span itemprop="author">R. K. Raj</span>
-          <span itemprop="name">"Keyloggers in Cybersecurity Education,"</span>
-          In <i>Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</i></li>
-        </ul>
-
-        <h3><b>Surveys</b></h3>
-        <br/>
-        <ul>
-          <li itemscope itemtype="http://schema.org/Article"><p>
-            <span itemprop="author">C. Wood</span>, <span itemprop="name">"Folkman Numbers,"</span>
-          </li>
-        </ul>
-      </section>
-
-      <section id="presentations">
-        <h2>Presentations</h2>
+        <!-- JavaScript jQuery code from Bootply.com editor -->
         
-        <ul>
-          <li itemscope itemtype="http://schema.org/Event">
-            <p><span itemprop="name">"Characterization Results for the L(2,1)-Labeling Problem on Trees," </span><span itemprop="performers"> Invited 
-          speaker</span>, <span itemprop="location">AMS Sectional Meeting, Rochester Institute of Technology, Rochester, NY. September 22, 2012.</span>
-          (<a href="./presentations/L21Characterization_AMS.pdf">PDF</a>)
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Event">
-            <p><span itemprop="name">"Chaos-Based Symmetric Key Cryptosystems,"</span>
-              <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. July 22, 2011.</span>
-              (<a href="./presentations/Wood_ChaosBasedSymmetricKeyCryptosystems_RIT_Symposium.pdf">PDF</a>)
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Event"><p>
-          <p><span itemprop="name">"Keyloggers in Cybersecurity Education,"</span>
-          <span itemprop="location">2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</span>
-          (<a href="./presentations/KeyloggersPresentation_v9.pdf">PDF</a>)
-        </p></li>
-
-          <li itemscope itemtype="http://schema.org/Event">
-            <p><span itemprop="name">"Layered Driver Rootkit Detection on Microsoft Windows PCs", Poster Presentation,</span>
-          <span itemprop="location">RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. August 24, 2009.</span>
-          (<a href="./posters/rkposter.pdf">PDF</a>)
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <section id="unpublished">
-        <h2>Technical Reports</h2>
-        <p>
-          This is a collection of papers on topics that I find interesting, written as either academic assignments or for my own personal interest. They are not, and will not, be published.
-        </p>
-
-        <br/>
-
-        <ul>
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "An Exploration of Multi-Touch Display Systems," written for <i>Software Usability</i> (co-wrote with <a target="_blank" href="http://anthonyb.me">Anthony Barone</a>, a brilliant UI/UX designer at Dealer.com). (<a target="_blank" href="./papers/WoodBarone-MTS.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "An Exploration of Feature Extraction and Classification Techniques for Keyboard-Based Continuous Authentication Systems," written for <i>Intelligent Security Systems</i>. (<a target="_blank" href="./papers/ContinuousAuthenticationSystems12.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-
-<!--           <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                <a target="_blank" href="./papers/RamseyArrowingReport.pdf">Ramsey arrowing paper with results</a>
-              </span>
-            </p>
-          </li> -->
-
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "Secure Operating Systems," Independent Study Report</i>. (<a target="_blank" href="./papers/SecureOS.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "Engineering Networks for Optimal Robustness," written for <i>Data Communications and Networks I</i>. (<a target="_blank" href="./papers/NetworkRobustness.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "Exploring Compiler Optimizations for Parallel Architectures," written for <i>Intro to Computer Science Research</i>. (<a target="_blank" href="./papers/ParallelComputingCompilers.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "Rails and Sinatra - An Architectural Comparison," written for <i>Software Architecture</i>. (<a target="_blank" href="./papers/RailsSinatraComparison.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "Guidelines for Agile Security Requirements Engineering," written for <i>Software Requirements Engineering</i>. (<a target="_blank" href="./papers/AgileSecurityReqs.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-
-          <li itemscope itemtype="http://schema.org/Article">
-            <p>
-              <span itemprop="name">
-                "Optimizing Cryptographic Strength of Substitution Layers in Symmetric-Key Cryptosystems," written for <i>Optimization Methods</i>. (<a target="_blank" href="./papers/SboxOptimizationEA.pdf">PDF</a>)
-              </span>
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <section id="experience">
-        <h2>Work Experience</h2>
+        <script type='text/javascript'>
         
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Xerox PARC, Computer Science Laboratory<span class="floatRight">Palo Alto, CA</b></span></h3>
-            <p><i>Security and Privacy Researcher</i><span class="floatRight">June 2013 - present</span></p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              I am researching security and privacy aspects related to content-centric network (CCN), one of the mainstream proposals for the future Internet architecture. See the <a target="_blank" href="http://www.ccnx.org/">CCNx project</a> for more details about this upcoming technology.
-            </p>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Intel Corporation, Virtual and Parallel Computing Group<span class="floatRight">Folsom, CA</b></span></h3>
-            <p><i>Graphics Software Engineer</i><span class="floatRight">June 2012 - August 2012</span></p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>Developed production features for tool that processes hardware specifications to generate web content and source code for VHDL and C/C++ testbeds.
-            Interacted with internal customers within the VPG to utilize debug tools and environments for architecture specification and post-silicon testing.</p>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>L-3 Communications, Linkabit Division<span class="floatRight">Victor, NY</b></span></h3>
-            <p><i>Software Engineer Intern</i><span class="floatRight">March 2011 - August 2011</span></p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>Designed and implemented a library and supporting drivers for the u-blox NEO5/6 GPS receiver driven by an Analog Devices Blackfin processor.
-            Extended an existing FAT file system driver to add support for SD devices.
-            Improved functionality of a CPLD controller for an embedded power supply.</p>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Rochester Software Associates<span class="floatRight">Rochester, NY</b></span></h3>
-            <p><i>Software Engineer Intern</i><span class="floatRight">November 2010 - March 2011</span></p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>Led the design, development, and documentation efforts for a new printer job management application that would service any number of jobs from clients across the network. Tested and debugged an existing .NET implementation of an LPD client.</p>
-          </div>
-        </div>
-
-        <div class="content-body" style="border-bottom: 1px solid #000;">
-          <div class="content-header">
-            <h3><b>C Speed, LLC<span class="floatRight">Liverpool, NY</b></span></h3>
-            <p><i>Software Engineer Intern</i><span class="floatRight">May 2010 - August 2010</span></p>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>Designed and implemented an internal manufacturing part supply management system. Implemented embedded firmware features and test routines in C, C++, and assembly for Coldfire V2 processors.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills">
-        <h2>Skills</h2>
+        $(document).ready(function() {
         
-        <ul>
-          <!--<li><p><i>Research</i> – Experience with qualitative and quantitative research.</p></li>-->
-          <li><p><i>Programming Languages: </i>C/C++, C#, Java, Python, Ruby, Assembly (MIPS), JavaScript, Scheme, Standard ML, Objective-C</p></li>
-          <li><p><i>Specialized Software: </i>MATLAB, Mathematica, WEKA, Sage</p></li>
-          <li><p><i>Modeling Languages and Tools: </i>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
-          <li><p><i>Markup Languages: </i>LaTeX, HTML5, CSS3</p></li>
-          <li><p><i>Databases: </i>MySQL, SQLite, MongooseDB</p></li>
-          <li><p><i>Web Frameworks: </i>Play (Java and Scala), Spring MVC, Ruby on Rails, Express (NodeJS)</p></li>
-        </ul>
-      </section>
-
-      <section id="projects">
-        <h2>Highlighted Projects</h2>
-
-        <p>
-          I am a full advocate of open source software, and so I try to keep whatever source code I can open to the public on <a target="_blank" href="https://github.com/chris-wood">GitHub</a>. Obviously, I maintain several private repositories for things that aren't quite ready for scrutiny, but my code only stays private for a very short period of time.
-        </p>
-
-        <br/>
-
-<!--         <div style="text-align:center">
-          <iframe src="http://githubbadge.appspot.com/badge/chris-wood" style="padding-top:25px; border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
-        </div> -->
-
-         <div class="content-body">
-          <div class="content-header">
-            <h3><b>Arithmetics</b> <span class="floatRight">August 2013 - present</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              Arithmetics is a simple iOS app that emulates the tile word matching puzzles that used to plague video games back in the day (think Mario Party on N64), except that algebraic expressions, rather than words, are behind each tile. In order to find a pair of matching tiles the player must remember and pick the two tiles that evaluate to the same result. Too much to remember? Probably. I really wanted to start dabbling with iOS though, and this was the first thing that came to mind.
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-arithmetics"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Galois Field Arithmetic Library</b> <span class="floatRight">March 2013 - present</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              I am implementing a library for Galois field arithmetic in both polynomial and normal basis representations for 
-              proper composite fields of any number of extensions. The library is meant to be used for educational purposes with
-              small fields, so performance is not a primary goal. Future work will include implementing elliptic curve arithmetic
-              (e.g. point addition, multiplication, etc) over these fields.
-            </p>
-            <!-- <p>Source code: <a href="https://github.com/chris-wood/GaloisLibrary" target="_blank">here</a></p> -->
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-galois"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Circuit Minimization Library</b> <span class="floatRight">March 2013 - present</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              I am implementing a variety of small programs to optimize nonlinear and linear (XOR gates only) circuits with varying goals. Most of the techniques are based on algorithms and heuristics found in the literature, while some are my own creation. The goal is to optimize circuits of interest in cryptography, such as the linear circuits used to perform basis changes between finite field representations, or nonlinear circuits to compute the multiplicative inverse over an arbitrary finite field. Circuit minimization is a difficult problem, so some of my solutions rely on parallel programming to tackle ``large'' instances, and since this whole library is written in Java, I am leverage the <a href="http://www.cs.rit.edu/~ark/pj.shtml">Parallel Java</a> library developed by <a href="http://www.cs.rit.edu/~ark/">Professor Alan Kaminsky</a>.
-            </p>
-            <!-- <p>Source code: <a href="https://github.com/chris-wood/GaloisLibrary" target="_blank">here</a></p> -->
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-cmt"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>AskSG - A Community Overlay for the RIT Student Government</b> <span class="floatRight">December 2012 - May 2013</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              AskSG is a comprehensive platform that corrals student ideas, questions, and concerns from a variety of 
-              online sources into a single portal for the RIT Student Government (SG). The goal is to enhance their 
-              relationship with students and to provide a channel for advice on what the governance body should focus 
-              on, such as programs or policies on campus to change, replace or recreate. AskSG provides a common 
-              interface for all directed student questions and inquiries to provide an overarching picture of student 
-              sentiment. This interface, which meets federal accessibility requirements, will funnel student questions 
-              submitted through SMS, phone calls, and social media private messaging, and then enable responses to be 
-              reciprocated using the same incoming interface.
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-asksg"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Parallel 3-SAT</b> <span class="floatRight">February 2013 - May 2013</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              The goal of this project is to implement a 3-SAT solver using a parallel computing framework, namely, the <a href="http://www.cs.rit.edu/~ark/pj.shtml">Parallel Java</a> library developed by <a href="http://www.cs.rit.edu/~ark/">Professor Alan Kaminsky</a>. 
-            </p>
-            <br/>
-            <p>
-              As part of a three person team with Eitan Romanoff and Ankur Bajoria, we developed a parallel and sequential version of a brute force 3-SAT satisfiability checking algorithm, <a target="_blank" href="./papers/Parallel3SAT.pdf">documented the performance gains</a>, and <a target="_blank" href="./presentations/Parallel3SAT_slides.pdf">presented our work</a>. While nothing novel, it was a fun and interesting application of parallel computing to one of Karp's famous NP-complete problems.
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-parallel3sat"></div>
-            </div>
-          </div>
-        </div>
-<!-- 
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present (inactive development)</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              ABLS is a logging service for cloud applications that provides atrribute-based log confidentiality
-              and high data-integrity guarantees. It is intended to aid application developers in storing system
-              events that can be used to build audit trails. Such audit trails can be used to enforce organizational
-              security policies and support user-based non-repudiation through manual and automated audits.
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-secureloggingsystem"></div>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="content-body">
-          <div class="content-header">
-            <h3><b>ThoughtPoll</b> <span class="floatRight">November 2012 - present (very inactive development)</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              ThoughtPoll is an online service for collecting, organizing, and visualizing human opinions
-              on various topics in technology, politics, economics, etc. It was started
-              as an endeavor to learn the Play Framework with Java, and has since become a project
-              that I work on only sporadically in my free time. 
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-thoughtpoll"></div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>ABLS - Attribute Based Logging System</b> <span class="floatRight">July 2012 - present (inactive development)</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              ABLS is a logging service for cloud applications that provides atrribute-based log confidentiality
-              and high data-integrity guarantees. It is intended to aid application developers in storing system
-              events that can be used to build audit trails. Such audit trails can be used to enforce organizational
-              security policies and support user-based non-repudiation through manual and automated audits.
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-secureloggingsystem"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Wedge - A Cross-Platform Password Cracking Utility</b> <span class="floatRight">November 2012 - February 2013</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              Wedge is a cross-platform password cracking utility that mimics the behavior of John the 
-              Ripper. It currently supports standard dictionary and brute-force attacks for a variety of
-              unsalted password digests, but I expect to integrate more advanced password cracking techniques, 
-              such as the use of rainbow tables and those based on Markov-chains, in the future. 
-            </p>
-            <!-- <p>Source code: <a href="https://github.com/chris-wood/Wedge" target="_blank">here</a></p> -->
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-wedge"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="content-body">
-          <div class="content-header">
-            <h3><b>AES Cache Timing Attack</b> <span class="floatRight">May 2012 - present</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>I am replicating the original cache timing attack on the AES (first
-              introduced by <a href="http://cr.yp.to/antiforgery/cachetiming-20050414.pdf">Daniel Bernstein</a> and
-              later studied by <a href="http://research.microsoft.com/pubs/64024/aes-timing.pdf">Joseph Bonneau and
-              Ilya Mironov</a>) on the Xilinx MicroBlaze soft-core processor. Our development platform is a Xilinx ML507
-              board with a Virtex5 FPGA that implements the MicroBlaze processor. The hard-core PowerPC
-              processor is also available for use.
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-cachetimingattack"></div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Continuous Authentication System</b> <span class="floatRight">September 2012 - November 2012</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>
-              This project is a prototype service for *nix-based operating systems that captures user typing patterns 
-              in real-time and uses this information to identify the user. It is the result of 
-              my research on continuous authentication systems and keyloggers. The system features a C-based keylogger that 
-              streams data to a classification and authentication engine written in Python. Users must enroll 
-              in the system via scripted typing sessions in order to be identified. 
-            </p>
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-continuousauthenticationsystem"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-body">
-          <div class="content-header">
-            <h3><b>Kanban Taskboard</b> <span class="floatRight">September 2010 - November 2010</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>This Kanban Taskboard provides software development teams with a tool that allows for 
-              more transparency towards project requirements, tasks, and milestones. This application can be 
-              synchronized between multiple platforms. It was built using 
-              Java, BlazeDS, Flex (MXML+Actionscript), and Tomcat.</p>
-            <!-- <p>Source code: <a href="https://github.com/chris-wood/KanbanTaskboard-1" target="_blank">here</a></p> -->
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-kanban"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-body" style="border-bottom: 1px solid #000;">
-          <div class="content-header">
-            <h3><b>FTP Client</b> <span class="floatRight">February 2012 - May 2012</span></h3>
-          </div>
-          <div class="content-details">
-            <hr/>
-            <p>This is a simple command-line driven FTP client written entirely in Java. It supports both
-            active and passive modes of transmission to avoid problems introduced by firewalls. Only "get"
-            support was implemented.</p>
-            <!-- <p>Source code: <a href="https://github.com/chris-wood/FTPClient" target="_blank">here</a></p> -->
-            <br/>
-            <div class="content-details-badge">
-              <div id="project-badge-ftpclient"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="honors">
-        <h2>Honors</h2>
-        <ul>
-          <li><p>RIT Honors Program</p></li>
-          <li><p>RIT Tau Beta Pi Engineering Honor Society</p></li>
-          <li><p>Recipient of RIT Outstanding Undergraduate Student award<span class="floatRight">Winter 2012</span></p></li>
-          <li><p>RIT Computer Science Graduate student delegate, selected<span class="floatRight">Winter 2012</span></p></li>
-          <li><p>RIT Computer Science Undergraduate student delegate, nominated<span class="floatRight">Fall 2012</span></p></li>
-          <li><p>Recipient of Golisano College Honors research assistantship stipend<span class="floatRight">Spring 2011 and Winter 2009/2010</span></p></li>
-          <li><p>Recipient of RIT undergraduate research award stipend<span class="floatRight">Summer 2009</span></p></li>
-          <li><p>RIT Golisano College Dean's List<span class="floatRight">2008 - 2013</span></p></li>
-        </ul>
-      </section>
-
-      <section id="service">
-        <h2>Service</h2>
-        <ul>
-          <li>
-            <h3>Student mentor for the FIRST LEGO League team hosted by RIT<span class="floatRight">Fall 2009 - Winter 2011</span></h3>
-            <h3>Rochester Foodlink volunteer<span class="floatRight">November 2012 - March 2013</span></h3>
-          </li>
-        </ul>
-      </section>
-
-      <section id="activities">
-        <h2>Extracurricular Activities</h2>
-        <ul>
-          <li>Society of Software Engineers, member<span class="floatRight">Fall 2008 - Winter 2009/2010</span></li>
-          <li>RIT Electronic Gaming Society, member<span class="floatRight">Fall 2008 - Spring 2010</span></li>
-          <li>RIT Intramural Flag Football Team, member<span class="floatRight">Fall 2010</span></li>
-        </ul>
-      </section>
-
-      <section id="teaching">
-        <h2>Teaching</h2>
-        <p>
-          Teaching has endless rewards. It allows you to revisit interesting topics that you might have otherwise lost sight of, interact with students, and give back to the community as a whole. I try to squeeze as many teaching positions and opportunities into my schedule as possible.
-        </p>
-        <br/>
-        <ul>
-          <li>
-            <p><b>Cryptography II</b> - "Cryptographic Strength and Implementation Efficiency of S-Boxes," <i>Guest Lecture</i>, RIT, 4/8/13. With Dr. Stanislaw Radziszowski (CS).</p>
-          </li>
-
-          <li>
-            <p><b>Hardware and Software Design with Cryptographic Applications.</b> 
-            <i>Teaching Assistant and Lecturer</i>, RIT, February 2011 - May 2013. With Dr. Marcin Lukowiak (CE). 
-            Lectures given: <a target="_blank" href="./lectures/CryptoOverview.pdf">Introduction to Cryptography</a>, 
-              <a target="_blank" href="./lectures/SoftwareOptimization.pdf">Software Optimization Techniques</a>, 
-              <a target="_blank" href="./lectures/ImpulseCIntroduction.pdf">Introduction to Impulse C</a>, 
-              <a target="_blank" href="./lectures/OptimizingImpulseC.pdf">Impulse C Optimization Techniques</a>, and 
-              <a target="_blank" href="./lectures/AESTimingAttacks.pdf">An Overview of AES Timing Attacks</a>.
-            </p>
-          </li>
-
-          <li><p><b>Computer Science I, II, and IV</b> 
-            <i>Student Lab Assistant and Grader</i>, RIT, January 2009 - December 2012.</p></li>
-
-          <li><p><b>Personal Software Engineering.</b> 
-            <i>Teaching Assistant</i>, RIT, December 2011 - March 2012. With Professor Tom Reichlmayr (SE).</p></li>
-
-          <li><p><b>Engineering of Software Subsystems.</b> 
-            <i>Teaching Assistant</i>, RIT, September 2011 - December 2011. With Dr. James Vallino (SE).</p></li>
-
-          <li><p><b>Computer Organization.</b> 
-            <i>Grader</i>, RIT, September 2010 - December 2010. With Professor Phil White (CS).</p></li>
-        </ul>
-      </section>
-
-    </div> <!-- end #contentWrapper -->
-  </div> <!-- end #outerWrapper -->
-<p>Design by 
-<a href="http://www.mit.edu/~amonroy/">André Monroy-Hernánd</a>.
-</p>
-<p>Used with permission.</p>
-</body>
-
-<script src="js/jquery.github_badge.min.js"></script>
-<script>
-
-    // "Fancy" boxes for displaying condensed content that unrolls
-    $(".content-body .content-header").click(function (e) {
-      $(this).parent().children(".content-details").slideToggle();
-    });
-    // $(".content-body .content-details").click(function (e) {
-    //   $(this).slideToggle();
-    // });
-
-    $("#sample_user_badge").GitHubBadge({
-        // login: "chris-wood",
-        sort_on: "date", // "date" or "name"
-        sorting: "descending",
-        repo_count: "13"
-    });
-
-    $("#project-badge-ftpclient").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "FTPClient"
-    });
-
-    $("#project-badge-continuousauthenticationsystem").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "ContinuousAuthenticationSystem"
-    });
-
-    $("#project-badge-asksg").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "asksg-1"
-    });
-
-    $("#project-badge-galois").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "GaloisLibrary"
-    });
-
-    $("#project-badge-cmt").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "CircuitMinimization"
-    });
-
-    $("#project-badge-parallel3sat").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "RIT-Parallel3Sat"
-    });
-
-    $("#project-badge-kanban").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "KanbanTaskboard-1"
-    });
-
-    $("#project-badge-cachetimingattack").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "CacheTimingAttack"
-    });
-
-    $("#project-badge-arithmetics").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "Arithmetics"
-    });
-
-    $("#project-badge-secureloggingsystem").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "SecureLoggingSystem"
-    });
-
-    $("#project-badge-wedge").GitHubBadge({
-        login: "chris-wood",
-        kind: "project",
-        repo_name: "Wedge"
-    });
-
-</script>
+            
+        
+        });
+        
+        </script>
+        
+    </body>
 </html>
