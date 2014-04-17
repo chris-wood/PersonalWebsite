@@ -23,6 +23,16 @@ html, body {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+/* generic text alignment classes */
+.paginated-left {
+  text-align:left;
+}
+
+.paginated-center {
+  text-align:center;
+}
+
   /* Full Width, for carousel*/
   .fixed-container.full { 
     margin: 0;
