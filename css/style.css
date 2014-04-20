@@ -693,42 +693,42 @@ label {
 
 
 /*  PRICING
- *    stylings for pricing tables
+ *    stylings for places tables
  *    
  *
  */
-.pricing { }
-  .pricing span {
+.places { }
+  .places span {
     margin-right: 20px;
   }
-  .pricing .wrapper {
+  .places .wrapper {
     padding: 20px;
     background-color: #ccc;
-    -webkit-transition: .5s;
-    transition: .5s; 
+    /*-webkit-transition: .5s;*/
+    /*transition: .5s; */
   }
-    .pricing .wrapper:hover {
-      margin-top: -10px;
+    .places .wrapper:hover {
+      /*margin-top: -10px;*/
       background-color: #f4d432; 
       box-shadow: 0 10px 0 0 #e8c61a;
     }
-    .pricing .wrapper:hover h3 { color: #fff; }
-    .pricing .wrapper:hover span.price {
+    .places .wrapper:hover h3 { color: #fff; }
+    .places .wrapper:hover span.price {
        background-color: rgba(255,255,255,.8);
        border-color: transparent;
     }
-    .pricing .wrapper:hover td { color: #fff; }
-    .pricing .wrapper:hover a.btn { background-color: #666; color: #fff; }
-    .pricing .wrapper a.btn:hover { border-color: transparent; background-color: #888; }
-  .pricing h3, .pricing h2, .pricing .table td {
+    .places .wrapper:hover td { color: #fff; }
+    .places .wrapper:hover a.btn { background-color: #666; color: #fff; }
+    .places .wrapper a.btn:hover { border-color: transparent; background-color: #888; }
+  .places h3, .places h2, .places .table td {
     -webkit-transition: .25s;
     transition: .25s; 
   }
-  .pricing h3 {
+  .places h3 {
     color: #555;
     font-size: 28px;
   }
-  .pricing span.price {
+  .places span.price {
     display: block;
     color: #555;
     width: 100px;
@@ -742,7 +742,7 @@ label {
     border: 2px solid rgba(255,255,255,.8);
     margin: 0 auto;
   }
-    .pricing span.price i {
+    .places span.price i {
       position: relative;
       top: 4px;
       margin-right: 10px;
@@ -767,14 +767,14 @@ label {
       margin-bottom: 10px;
       border: 0;
     }
-    .pricing .table td {
+    .places .table td {
       border: 0;
       padding: 15px 0;
       text-align: center;
     }
     
 @media (max-width: 768px) {
-  .pricing .wrapper:hover {
+  .places .wrapper:hover {
     margin-top: 0;
     box-shadow: none;
   }
