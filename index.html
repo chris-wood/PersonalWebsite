@@ -21,6 +21,21 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+
+path.slice{
+  stroke-width:2px;
+}
+
+polyline{
+  opacity: .3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+
+</style>
+
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="70">
@@ -662,7 +677,14 @@
 
         <div class="content services">
           <h1 style="text-align: center">Technical Skills</h1>
-          <div class="row">
+          <!-- <div class="row"> -->
+
+          <div id="skill-bubble" class="text-center">
+            <!-- D3 image here-->
+          </div>
+
+          <!-- </div> -->
+          <div class="row"
             <div class="col-md-8 col-sm-3 col-xs-6 col-md-offset-2">
               <div class="panel panel-default">
                 <div class="panel-heading">
@@ -745,10 +767,6 @@
         
       </div>
     </div>
-
-    
-    
-
     
     <div class="footer">
       <!-- TODO: put something here... -->
@@ -761,5 +779,7 @@
     <script src="js/jquery.mixitup.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/addons.js"></script>
   </body>
 </html>
