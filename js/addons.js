@@ -1,141 +1,119 @@
-var svg = d3.select("#skill-bubble")
-  .append("svg")
-  .append("g")
+Array.prototype.each = function(fn) {
+  for (var i = 0, len = this.length; i < len; i++)
+    fn(this[i], i);
+};
 
-svg.append("g")
-  .attr("class", "slices");
-svg.append("g")
-  .attr("class", "labels");
-svg.append("g")
-  .attr("class", "lines");
+var dimension = 300,
+    radius = dimension / 2,
+    twopi  = Math.PI * 2,
+    halfpi = Math.PI / 2,
+    n = 5; // default
 
-var width = 300,
-    height = 200,
-  radius = Math.min(width, height) / 2;
-
-var pie = d3.layout.pie()
-  .sort(null)
-  .value(function(d) {
-    return d.value;
+// canvas
+var svg = d3.select('svg')
+  .attr({
+    width: dimension,
+    height: dimension
   });
 
-var arc = d3.svg.arc()
-  .outerRadius(radius * 0.8)
-  .innerRadius(radius * 0.4);
+// container element
+var container = svg
+  .append('svg:g')
+  .attr('id', 'container')
+  .attr('transform', 'rotate(-90 ' + radius + ' ' + radius + ')'); // origin is set at 3'oclock
 
-var outerArc = d3.svg.arc()
-  .innerRadius(radius * 0.9)
-  .outerRadius(radius * 0.9);
+// create an array of data points
+function createPoints(n) {
+  // generate an array of 13 point coordinates along a circle
+  for (var i = 0; i < n; i++) {
+    // convert negative coordintes to positive by adding the radius
+    var x = radius + (radius * Math.cos((i * twopi) / n)),
+        y = radius + (radius * Math.sin((i * twopi) / n));
 
-svg.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+    data.push([x, y]);
+  }
+}
 
-var key = function(d){ return d.data.label; };
+// connect a point to all other points
+function drawLine(index) {
+  data.each(function(datum, i) {
+    if (index === i) return;
+    var line = container
+      .append('svg:line')
+      .attr('class', 'line');
 
-var color = d3.scale.ordinal()
-  .domain(["Lorem ipsum", "dolor sit", "amet", "consectetur", "adipisicing", "elit", "sed", "do", "eiusmod", "tempor", "incididunt"])
-  .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    line.attr({
+      x1: data[index][0],
+      y1: data[index][1],
+      x2: datum[0],
+      y2: datum[1]
+    });
+  });
+};
 
-function randomData (){
-  var labels = color.domain();
-  return labels.map(function(label){
-    return { label: label, value: Math.random() }
+// draws all lines in the dataset. O(n^2)
+function drawLines() {
+  // connect all points to other points
+  data.each(function(datum, index) {
+    drawLine(index);
   });
 }
 
-change(randomData());
+// draws the star
+function drawStar(starN) {
+  // clear any existing star
+  container.selectAll('*').remove();
 
-d3.select(".randomize")
-  .on("click", function(){
-    change(randomData());
-  });
+  // reset the data
+  data = [];
+  createPoints(starN);
+
+  // draw that shit
+  drawLines();
+}
 
 
-function change(data) {
-
-  /* ------- PIE SLICES -------*/
-  var slice = svg.select(".slices").selectAll("path.slice")
-    .data(pie(data), key);
-
-  slice.enter()
-    .insert("path")
-    .style("fill", function(d) { return color(d.data.label); })
-    .attr("class", "slice");
-
-  slice   
-    .transition().duration(1000)
-    .attrTween("d", function(d) {
-      this._current = this._current || d;
-      var interpolate = d3.interpolate(this._current, d);
-      this._current = interpolate(0);
-      return function(t) {
-        return arc(interpolate(t));
-      };
-    })
-
-  slice.exit()
-    .remove();
-
-  /* ------- TEXT LABELS -------*/
-
-  var text = svg.select(".labels").selectAll("text")
-    .data(pie(data), key);
-
-  text.enter()
-    .append("text")
-    .attr("dy", ".35em")
-    .text(function(d) {
-      return d.data.label;
-    });
-  
-  function midAngle(d){
-    return d.startAngle + (d.endAngle - d.startAngle)/2;
-  }
-
-  text.transition().duration(1000)
-    .attrTween("transform", function(d) {
-      this._current = this._current || d;
-      var interpolate = d3.interpolate(this._current, d);
-      this._current = interpolate(0);
-      return function(t) {
-        var d2 = interpolate(t);
-        var pos = outerArc.centroid(d2);
-        pos[0] = radius * (midAngle(d2) < Math.PI ? 1 : -1);
-        return "translate("+ pos +")";
-      };
-    })
-    .styleTween("text-anchor", function(d){
-      this._current = this._current || d;
-      var interpolate = d3.interpolate(this._current, d);
-      this._current = interpolate(0);
-      return function(t) {
-        var d2 = interpolate(t);
-        return midAngle(d2) < Math.PI ? "start":"end";
-      };
-    });
-
-  text.exit().remove();
-
-  /* ------- SLICE TO TEXT POLYLINES -------*/
-
-  var polyline = svg.select(".lines").selectAll("polyline")
-    .data(pie(data), key);
-  
-  polyline.enter()
-    .append("polyline");
-
-  polyline.transition().duration(1000)
-    .attrTween("points", function(d){
-      this._current = this._current || d;
-      var interpolate = d3.interpolate(this._current, d);
-      this._current = interpolate(0);
-      return function(t) {
-        var d2 = interpolate(t);
-        var pos = outerArc.centroid(d2);
-        pos[0] = radius * 0.95 * (midAngle(d2) < Math.PI ? 1 : -1);
-        return [arc.centroid(d2), outerArc.centroid(d2), pos];
-      };      
-    });
-  
-  polyline.exit()
-    .remove();
+function rotateString(angle) {
+  return 'rotate(' + angle + ' ' + radius + ' ' + radius + ')';
 };
+
+// continuously animate the container *unused because its weird looking*
+function rotateStar() {
+  container
+    .transition()
+    .duration(1000)
+    .attrTween('transform', function() {
+      return d3.interpolateString(rotateString(0), rotateString(360));
+    });
+}
+
+// animate between 5-34 points *unused*
+var interval = undefined;
+function animatePoints() {
+  interval = setInterval(function() {
+    if (n == 34) n = 5;
+    drawStar(n++);
+  }, 300);
+}
+
+// mousemove in the adjust area redraws the star
+var adjuster = document.getElementById('main-adjuster');
+var y = d3.scale.linear()
+  .domain([0, 300]) // the x coordinate of the adjuster
+  .rangeRound([4, 34]) // the desired output
+  .clamp(true);
+
+// redraw the star with the x offset
+adjuster.addEventListener('mousemove', function(e) {
+  var yCoord = e.pageY - adjuster.offsetLeft;
+  drawStar(y(yCoord));
+});
+
+// mobile-ness
+adjuster.addEventListener('touchmove', function(e) {
+  var yCoord = e.targetTouches[0].pageY - adjuster.offsetLeft;
+  drawStar(y(yCoord));
+});
+
+// kick it
+drawStar(25);

@@ -10,6 +10,16 @@ html, body {
   text-align:left;
 }
 
+/* D3 fractal stuff */
+svg {
+  margin: 0 auto;
+  display: block;
+}
+
+.line {
+  stroke: #444; /*#ffd03c*/
+}
+
 .clearfix {
   clear: both;
 }
@@ -324,7 +334,7 @@ label {
   position: relative;
   min-height: 100%;
   z-index: 1;
-  padding-top: 105px;
+  padding-top: 50px;
   background-color: #ffd03c;
   transition: background-color 1s;
   -webkit-transition: background-color 1s; 
@@ -353,6 +363,10 @@ label {
       box-shadow: none; 
       background-color: transparent;
     }
+
+  .section.black {
+    background-color: #fff;
+  }
     
     
   /* Image BG Section */
@@ -362,6 +376,8 @@ label {
   /* WELCOME SECTION */
   .section.welcome {
     padding-top: 0;
+    padding-bottom: 50px;
+    color:#fff
   }
     .section.welcome .content {
       text-align: center;
@@ -400,7 +416,7 @@ label {
       border-radius: 50px;
       width: 100px;
       height: 100px;
-      padding-top: 15px;
+      padding-top: 10px;
       margin: 14% 0 30px 0;
       font-size: 60px;
     }
