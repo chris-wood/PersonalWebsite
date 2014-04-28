@@ -365,6 +365,7 @@ label {
     }
 
   .section.black {
+    background: none;
     background-color: #fff;
   }
     
