@@ -52,19 +52,16 @@
     <div id="home" class="section welcome black" style="background-color: black">
       <!-- <img class="background" src="img/bg.jpg" alt="stream blurred"> -->
 
-      <div id="pieChart"></div>
-
       <div class="container">
         <div class="content" id="main-adjuster">
-          <span class="logo glyphicon glyphicon-globe"></span>
+          <!-- <span class="logo glyphicon glyphicon-globe"></span> -->
+          <div class="portrait">
+            <img src="img/track.jpg">              
+          </div>
           <h1 style="color:white">Christopher A. Wood</h1>
           <h2 style="color:white">PhD student in computer science, aspiring cryptographer, early-morning runner, and late-night software engineer.</h2>
           <div id="fractal"></div>
           <a class="scroll-down" href="#about"><i class="icon-angle-down"></i></a>
-          
-          <svg id="adjuster"></svg>
-          <!-- <div id="adjuster">ADJUST</div> -->
-
         </div><!-- /.content -->
       </div>
     </div><!-- /.container -->
@@ -76,8 +73,7 @@
         <div class="content team">
           <h1 style="text-align: center">About Me</h1>
           <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12 paginated-left">
-              <h2 class="paginated-center">Christopher A. Wood</h2>
+            <div class="col-md-12 col-sm-12 paginated-left">
               <div class="portrait">
                 <img src="img/headshot2.jpeg" alt="headshot">              
               </div>
@@ -92,7 +88,7 @@
                 <!-- <a target="_blank" href="#" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a> -->
               </div>
             </div>
-            <div class="col-md-8 col-sm-4 col-xs-12 paginated-left">
+            <div class="col-md-12 col-sm-12 col-xs-12 paginated-left">
               <p>
                 My <a href="#research">research interests</a> are very diverse, including: oblivious and secure multiparty computation, privacy and anonymity intersections with cryptography, symmetric-key cryptographic algorithms, applications, and implementations, information-centric networking security and applications, heterogeneous computing, and computational and extremal graph theory. As of 2014, my research is funded by a multi-year NSG GRFP fellowship.
               </p>
@@ -165,7 +161,7 @@
           </li>
           <li class="col-md-4 col-sm-4 col-xs-12 mix category_1 category_2 category_5" data-cat="3">
             <a href="#" class="mix-cover">
-              <img src="img/boolean_eqn.png" alt="ishtar alley">
+              <img src="img/circuitfunc.png" alt="ishtar alley">
               <span class="cover"><span>Circuit Minimization</span></span>
             </a>  
           </li>
@@ -190,7 +186,7 @@
 
           <li class="col-md-4 col-sm-4 col-xs-12 mix category_4 category_5" data-cat="3">
             <a href="#" class="mix-cover">
-              <img src="img/epoch2_pipeOps.png" alt="sintel town concept">
+              <img src="img/sched.png" alt="sintel town concept">
               <span class="cover"><span>Scheduling for Heterogeneous Pipelined Architectures</span></span>
             </a>
           </li>
@@ -223,7 +219,7 @@
         <div class="content services">
           <h1 style="text-align: center">Publications</h1>
           <div class="row">
-            <div class="col-md-8 col-sm-3 col-xs-6 col-md-offset-2">
+            <div class="col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title" style="color:black">Forthcoming</h3>
@@ -360,7 +356,7 @@
           <h1 style="text-align: center">Presentations</h1>
 
           <div class="row">
-            <div class="col-md-8 col-sm-3 col-xs-6 col-md-offset-2">
+            <div class="col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
               <div class="panel panel-default">
                 <div class="panel-body">
                   <ul class="list-group">
@@ -409,7 +405,7 @@
           <h1 style="text-align: center">Technical Reports</h1>
 
           <div class="row">
-            <div class="col-md-8 col-sm-3 col-xs-6 col-md-offset-2">
+            <div class="col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
               <div class="panel panel-default">
                 <div class="panel-body">
                   <ul class="list-group">
@@ -493,25 +489,25 @@
             <div class="empty col-md-2 col-sm-3 col-xs-12"></div>
           </div>
           <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-8">
               <div class="service-icon">
                 <i class="icon-sitemap" data-toggle="tooltip" title="Professional application planning, including mockups, wireframes, and designs."></i>
                 <span>PLANNING                
               </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-8">
               <div class="service-icon">
                 <i class="icon-search" data-toggle="tooltip" title="Clean, Modern and Responsive Web Design."></i>
                 <span>DESIGN                
               </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-8">
               <div class="service-icon">
                 <i class="icon-sun" data-toggle="tooltip" title="We can help create a consistent media brand including logos, product design, website branding and more."></i>
                 <span>BRANDING                
               </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-8">
               <div class="service-icon">
                 <i class="icon-umbrella" data-toggle="tooltip" title="Web application security. We can help protect your application from attacks."></i>
                 <span>SECURITY                
@@ -672,7 +668,7 @@
           <h1 style="text-align: center">Technical Skills</h1>
 
           <div class="row">
-            <div class="col-md-8 col-sm-3 col-xs-6 col-md-offset-2">
+            <div class="col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title" style="color:black">Programming Languages</h3>
@@ -727,7 +723,7 @@
         <div class="content services">
           <h1 style="text-align: center">Honors and Activities</h1>
           <div class="row">
-            <div class="col-md-8 col-sm-3 col-xs-6 col-md-offset-2">
+            <div class="col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
               <div class="panel panel-default">
                 <div class="panel-body">
                   <ul class="list-group">

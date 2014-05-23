@@ -376,8 +376,8 @@ label {
     
   /* WELCOME SECTION */
   .section.welcome {
-    padding-top: 0;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    /*padding-bottom: 50px;*/
     color:#fff
   }
     .section.welcome .content {
@@ -823,7 +823,7 @@ label {
     position: relative;
     margin: 0 auto 15px auto;
     width: 250px;
-    height: 250px;
+    height: 175px;
     
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
