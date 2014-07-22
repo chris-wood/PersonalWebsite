@@ -10,6 +10,11 @@ html, body {
   text-align:left;
 }
 
+.bordered {
+  border-style: solid;
+  border-width: 1px;
+}
+
 /* D3 fractal stuff */
 svg {
   margin: 0 auto;
