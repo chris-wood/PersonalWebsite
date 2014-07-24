@@ -24,6 +24,26 @@
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="70">
+
+    <nav class="menu" id="theMenu">
+      <div class="menu-wrap">
+        <h1 class="logo"><a href="index.html#home">NAVIGATE</a></h1>
+        <i class="fa fa-times menu-close"></i>
+        <a href="#grind" class="smoothScroll">The Daily Grind</a>
+        <a href="#pubs" class="smoothScroll">Publications</a>
+        <a href="#edu" class="smoothScroll">Education</a>
+        <a href="#exp" class="smoothScroll">Experience</a>
+        <a href="#skills" class="smoothScroll">Skills</a>
+        <a href="#activities" class="smoothScroll">Activities</a>
+        <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+        <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+        <!-- <a href="#"><i class="fa fa-dribbble"></i></a> -->
+        <!-- <a href="#"><i class="fa fa-envelope"></i></a> -->
+      </div>
+    
+      <!-- Menu button -->
+      <div id="menuToggle"><i class="fa fa-bars"><span class="glyphicon glyphicon-align-justify"></span></i></div>
+    </nav>
     
     <!-- banner -->
     <div id="home" style="background-color: black">
@@ -47,7 +67,7 @@
         </div>
 
         <!-- current status and work -->
-        <div class="row">
+        <div id="grind" class="row">
           <div class="col-md-6 col-md-offset-3" style="background-color:silver; padding: 15px;">
             <div class="panel-heading" style="background-color:white; text-align:center; border-style: solid; border-width: 2px;">
               <h2 class="panel-title" id="quote" style="color:black">
@@ -71,7 +91,7 @@
         </div>
 
         <!-- pubs -->
-        <div class="row">
+        <div id="pubs" class="row">
           <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
             <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
               <h1 class="panel-title" style="color:white"><b>Publications</b></h1>
@@ -210,7 +230,7 @@
           </div>
 
           <!-- skills and whatnot go here -->
-          <div class="row">
+          <div id="edu" class="row">
             <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
               <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
                 <h1 class="panel-title" style="color:white"><b>Education</b></h1>
@@ -271,7 +291,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div id="exp" class="row">
             <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
               <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
                 <h1 class="panel-title" style="color:white"><b>Professional Experience</b></h1>
@@ -340,7 +360,7 @@
           </div>
 
           <!-- skills and whatnot go here -->
-          <div class="row">
+          <div id="skills" class="row">
             <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
               <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
                 <h1 class="panel-title" style="color:white"><b>Technical Skills</b></h1>
@@ -396,7 +416,7 @@
           </div>
 
           <!-- honors and activities go here -->
-          <div class="row">
+          <div id="activities" class="row">
             <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
               <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
                 <h1 class="panel-title" style="color:white"><b>Honors and Activities</b></h1>
@@ -433,6 +453,12 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.js"></script>    
+  <script src="js/main.js"></script>
 
   <script>
     var quotes = [
@@ -452,5 +478,21 @@
 
     $('#quote').text(rand); 
   </script>
+
+  <script>
+    $(function(){
+      $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 40
+      });
+    });
+    </script>
+    
+    <script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+     </script>
 
 </html>
