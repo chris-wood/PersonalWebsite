@@ -48,6 +48,15 @@
 
         <!-- current status and work -->
         <div class="row">
+          <div class="col-md-6 col-md-offset-3" style="background-color:silver; padding: 15px;">
+            <div class="panel-heading" style="background-color:white; text-align:center; border-style: solid; border-width: 2px;">
+              <h2 class="panel-title" id="quote" style="color:black">
+                <b>
+                  Error rates in big C functions are about two to six times higher than for smaller functions.
+                </b>
+              </h2>
+            </div>
+          </div>
           <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
             <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
               <h1 class="panel-title" style="color:white"><b>The Daily Grind</b></h1>
@@ -424,5 +433,24 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+  <script>
+    var quotes = [
+      '\"Error rates in big C functions are about two to six times higher than for smaller functions.\" --Anonymous',
+      '\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand. --Martin Fowler',
+      '\"Design and programming are human activities; forget that and all is lost. --Bjarne Stroustrup',
+      '\"Real programmers can write assembly code in any language. --Lary Wall',
+      '\"Pure mathematics is, in its own way, the poetry of logical ideas. --Albert Einstein',
+      '\"Simplicity is prerequisite for reliability.\" --Edsger W. Dijkstra',
+      '\"Make everything as simple as possible, but not simpler.\" --Albert Einstein',
+      '\"Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.\" --Anonymous',
+      '\"Computer science is no more about computers than astronomy is about telescopes.\" --Edsger W. Dijkstra',
+      '\"Think twice, code once.\" --Anonymous'
+      ];
+
+    var rand = quotes[Math.floor(Math.random() * quotes.length)];
+
+    $('#quote').text(rand); 
+  </script>
 
 </html>
