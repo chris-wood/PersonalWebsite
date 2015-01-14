@@ -24,847 +24,490 @@
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="70">
-    <div id="navbar" class="navbar navbar-inverse">
-      <div class="fixed-container">      
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#home"><span class="glyphicon glyphicon-send"></span>caw</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#about"><span class="glyphicon glyphicon-user"></span>About</a></li>
-            <li><a href="#research"><i class="icon-gear"></i>Research</a></li>
-            <li><a href="#publications"><span class="glyphicon glyphicon-book"></span>Publications</a></li>
-            <li><a href="#industry"><span class="glyphicon glyphicon-briefcase"></span>Professional Experience</a></li>
-            <li><a href="#other"><span class="glyphicon glyphicon-certificate"></span>Misc</a></li>
-            <li><a target="_blank" href="/docs/caw_cv.pdf"><span class="glyphicon glyphicon-list-alt"></span>CV</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+
+    <nav class="menu" id="theMenu">
+      <div class="menu-wrap">
+        <h2 class="logo"><a href="index.html#home">NAVIGATE</a></h2>
+        <i class="fa fa-times menu-close"></i>
+        <a href="#grind" class="smoothScroll">The Daily Grind</a>
+        <a href="#pubs" class="smoothScroll">Publications</a>
+        <a href="#edu" class="smoothScroll">Education</a>
+        <a href="#exp" class="smoothScroll">Experience</a>
+        <a href="#skills" class="smoothScroll">Skills</a>
+        <a href="#activities" class="smoothScroll">Activities</a>
+        <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+        <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+        <!-- <a href="#"><i class="fa fa-dribbble"></i></a> -->
+        <!-- <a href="#"><i class="fa fa-envelope"></i></a> -->
       </div>
-    </div>
-
     
-    <!-- Features Section -->
-    <div id="home" class="section welcome black" style="background-color: black">
-      <!-- <img class="background" src="img/bg.jpg" alt="stream blurred"> -->
-
+      <!-- Menu button -->
+      <div id="menuToggle"><i class="fa fa-bars"><span class="glyphicon glyphicon-align-justify"></span></i></div>
+    </nav>
+    
+    <!-- banner -->
+    <div id="home" style="background-color: black">
       <div class="container">
-        <div class="content" id="main-adjuster">
-          <!-- <span class="logo glyphicon glyphicon-globe"></span> -->
-          <div class="portrait">
-            <img src="img/track.jpg">              
-          </div>
-          <h1 style="color:white">Christopher A. Wood</h1>
-          <h2 style="color:white">PhD student in computer science, aspiring cryptographer, early-morning runner, and late-night software engineer.</h2>
-          <div class="social-media">
-                <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
-                <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
-                <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
-                <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
-                <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
-              </div>
-          <!-- <a class="scroll-down" href="#about"><i class="icon-angle-down"></i></a> -->
-        </div><!-- /.content -->
-      </div>
-    </div><!-- /.container -->
-
-    <!-- About Section -->
-    <div id="about" class="section">
-      <div class="fixed-container">
-        
-        <div class="content team">
-          <h1 style="text-align: center">About Me</h1>
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-8 col-xs-12 paginated-left">
-              <div class="portrait">
-                <img src="img/headshot2.jpeg" alt="headshot">              
-              </div>
-              <p>
-              I am a Ph.D. student at the <a href="http://uci.edu/">University of California Irvine</a>, studying applied cryptography, security, and privacy under Gene Tsudik and Stanislaw Jarecki. Previously, I graduated from the <a href="http://www.rit.edu">Rochester Institute of Technology (RIT)</a> with a dual BS degree in <a href="http://www.cs.rit.edu">Computer Science</a> and <a href="http://www.se.rit.edu">Software Engineering</a> and an accelerated MS in Computer Science. 
-              </p>
+        <div class="row section welcome black" style="background-color: black">
+          <div class="content" id="main-adjuster" style="background-color: black">
+            <div class="portrait">
+              <img src="img/headshot2.jpeg" alt="my ugly mug"/>
             </div>
-            <div class="col-md-offset-2 col-md-8 col-sm-8 col-xs-12 paginated-left">
-              <p>
-                My <a href="#research">research interests</a> are very diverse, including: oblivious and secure multiparty computation, privacy and anonymity intersections with cryptography, symmetric-key cryptographic algorithms, applications, and implementations, information-centric networking security and applications, heterogeneous computing, and computational and extremal graph theory. As of 2014, my research is funded by a multi-year NSG GRFP fellowship.
-              </p>
-
-              <p>
-                In my spare time I also enjoy actively working on my own <a href="#projects">side projects</a> that are typically unrelated to my main areas of research. These are usually an excuse to learn a new programming language, library, framework, or other technology. The remainder of whatever free time I have left is devoted to music and exercise. My main musical interests are hard rock and heavy metal (i.e., bands such as <a href="https://www.youtube.com/watch?v=bT8FEOJEFcI" target="_blank">Avenged Sevenfold</a>, <a href="http://www.youtube.com/watch?v=KTiQ75HY0DA" target="_blank">In Flames</a>, <a href="http://www.youtube.com/watch?v=vVLDbWlsV3o" target="_blank">Lamb of God</a>, <a href="https://www.youtube.com/watch?v=uFrfCSAIuwQ" target="_blank">August Burns Red</a>, and <a href="http://www.youtube.com/watch?v=sxQmOAkny0k&list=SP15AD531E3A907CB7" target="_blank">Trivium</a>), but I also branch out into acoustic rock, jazz, and classical music. I am the proud owner of a <a href="http://www.schecterguitars.com/Products/Guitar/Hellraiser-C-1.aspx">Schecter Hellraiser C-1</a> (a black model), and am slowly teaching myself the ropes.
-              </p>
-
-              <div class="paginated-center">
-                <a class="twitter-timeline" href="https://twitter.com/phonzbm" data-widget-id="341214871343476736">Tweets by @phonzbm</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                </script>
-              </div>
+            <h1 style="color:white">Christopher A. Wood</h1>
+            <h2 style="color:white">PhD student in computer science, aspiring scientist and applied cryptographer, early-morning runner, quasi-crossfitter, and late-night software engineer.</h2>
+            <h2 style="color:white;"><a target="_blank" href="/docs/caw_cv.pdf" style="border-style:solid; border-width:2px; padding:5px">&#8212; curriculum vitae &#8212;</a></h2>
+            <div class="social-media">
+              <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
+              <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
+              <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
+              <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
+              <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
             </div>
-            <!-- <div class="col-md-4 col-sm-4 col-xs-12">
-              <h2>Jessica Smith</h2>
-              <h3 class="italic">Graphic Designer</h3>
-              <div class="portrait">
-                <img src="img/portrait3.jpg" alt="Team Portrait">              
-              </div>
-              <p>My name is Jessica Smith. I work mainly as a graphic designer, designing beautiful web elements, buttons, backgrounds, and really anything that is needed.</p>
-              <div class="social-media">
-                <a href="#" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
-                <a href="#" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
-                <a href="#" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
-                <a href="#" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
-                <a href="#" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
-              </div>
-            </div> -->
-          </div>          
+          </div><!-- /.content -->
         </div>
-      </div>
-    </div><!-- /.container -->
 
-    <!-- Portfolio Section -->
-    <!--  On smaller devices, portfolio becomes auto height and no fixed -->
-    
-    <div id="research" class="section white">
-      <div class="fixed-container">
-        <div class="content">
-        
-          <h1 style="text-align: center">Academic and Industry Research</h1>
-          <!-- FILTER CONTROLS -->
-
-          <div class="controls">  
-            <a class="btn filter" data-filter="all">SHOW ALL</a>
-            <a class="btn filter" data-filter="category_1">CRYPTOGRAPHY</a>
-            <a class="btn filter" data-filter="category_2">SECURITY AND PRIVACY</a>
-            <a class="btn filter" data-filter="category_3">CONTENT-CENTRIC NETWORKING</a>
-            <a class="btn filter" data-filter="category_4">HETEROGENEOUS COMPUTING</a>
-            <a class="btn filter" data-filter="category_5">THEORY</a>
-            <!-- <a class="btn filter" data-filter="category_6">TEACHING</a> -->
-          </div>
-
-        </div>
-      </div>
-      <div class="gallery row">
-        <ul>
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_1 category_2 category_5" data-cat="1">
-            <a href="#" class="mix-cover">
-              <img src="img/oram_tree.png" alt="sintel bedroom">
-              <span class="cover"><span>Oblivious RAM</span></span>
-            </a>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_1 category_2 category_5" data-cat="1">
-            <a href="#" class="mix-cover">
-              <img src="img/merged_sbox.png" alt="sintel bedroom">
-              <span class="cover"><span>Cryptographic Algorithm Implementations</span></span>
-            </a>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_1 category_2 category_5" data-cat="3">
-            <a href="#" class="mix-cover">
-              <img src="img/circuitfunc.png" alt="ishtar alley">
-              <span class="cover"><span>Circuit Minimization</span></span>
-            </a>  
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_2 category_3" data-cat="2">
-            <a href="#" class="mix-cover">
-              <img src="img/andana_v1_design.png" alt="sintel tree">
-              <span class="cover"><span>ANDANAv2</span></span>
-            </a>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_2 category_3" data-cat="3">
-            <a href="#" class="mix-cover">
-              <img src="img/pre.png" alt="ishtar wallpaper">
-              <span class="cover"><span>CCNx Content Distribution</span></span>
-            </a>
-          </li>
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_1 category_2" data-cat="3">
-            <a href="#" class="mix-cover">
-              <img src="img/ike.png" alt="sintel town concept">
-              <span class="cover"><span>MANET Key Management</span></span>
-            </a>
-          </li>
-
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_4 category_5" data-cat="3">
-            <a href="#" class="mix-cover">
-              <img src="img/sched.png" alt="sintel town concept">
-              <span class="cover"><span>Scheduling for Heterogeneous Pipelined Architectures</span></span>
-            </a>
-          </li>
-
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_5" data-cat="3">
-            <a href="#" class="mix-cover">
-              <img src="img/l21.png" alt="sintel town concept">
-              <span class="cover"><span>L(2,1) Labeling of Trees</span></span>
-            </a>
-          </li>
-
-          <li class="col-md-4 col-sm-4 col-xs-12 mix category_5" data-cat="3">
-            <a href="#" class="mix-cover">
-              <img src="img/folkman.png" alt="sintel town concept">
-              <span class="cover"><span>Folkman and Ramsey Numbers</span></span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- GALLERY -->
-
-    </div><!-- /.container -->
-
-    <!-- Services Section -->
-    <!--  Image background parallax -->
-    <div id="publications" class="section image">
-      <div class="background parallax"></div>
-      <div class="fixed-container">
-        
-        <div class="content services">
-          <h1 style="text-align: center">Publications</h1>
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Forthcoming</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <p>
-                        P. Bajorski, A. Kaminsky, M. Kurdziel, M. Lukowiak, S. Radziszowski, and C. A. Wood, 
-                        "Modeling Multi-Epoch Message Distribution Times in Unbounded Spanning Trees," <i>in preparation</i>. 
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        C. A. Wood, S. P. Radziszowski, and M. Lukowiak, "Affine-Power S-Boxes over Galois Fields with Area-Optimized Logic Implementations," <i>submitted.</i>
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        S. Skalicky, S. Lopez, M. Lukowiak, C. A. Wood, and M. Fluet, "Towards Performance Estimation on Multiprocessor Architectures using a Scheduling Approach," <i>submitted.</i>
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        S. Skalicky, S. Lopez, M. Lukowiak, and C. A. Wood, "High-Level Graph-Based Methodology for Improving Performance of Pipelined Architectures," <i>submitted.</i>
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        C. A. Wood  and J. Jacob, "Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem," <i>submitted</i>.
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        P. Bajorski, A. Kaminsky, M. Kurdziel, M. Lukowiak, S. Radziszowski, and C. A. Wood, "Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks," <i>submitted</i>. 
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Journal Articles</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <p>
-                        C. A. Wood and J. Jacob, "Characterization of Small Trees Based on their L(2,1)-Span," <i>to appear in the AKCE International Journal of Graphs and Combinatorics</i>.
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        M. Lukowiak, S. Radziszowski, J. Vallino, and C. A. Wood, "Cybersecurity Education: Bridging the Gap between Hardware and Software Domains," <i>to appear in the ACM Transactions on Computing Education</i>.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Conference Proceedings</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <p>
-                        C. A. Wood and E. Uzun, "Flexible End-to-End Content Security in CCN," in <i>Proceedings of the IEEE Consumer Communications and Networking Conference (CCNC 2014) Special Seesion: Information Centric Networking.</i>
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        S. Skalicky, C. A. Wood, M. Lukowiak, and M. Ryan, "High Level Synthesis: Where Are We? A Case Study on Matrix Multiplication," in <i>Proceedings of the 2013 International Conference on Reconfigurable Computing and FPGAs - ReConFig 2013, Cancun, Mexico. December 2013.</i>
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        M. Lukowiak, A. Meneely, S. Radziszowski, J. Vallino, and C. Wood "Developing an Applied, Security-Oriented Computing Curriculum," In <i>Proceedings of the ASEE 2012, San Antonio, Texas. June 2012.</i>
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        C. Wood "Chaos-Based Symmetric Key Cryptosystems," in <i>Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada. July 2011.</i>
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        C. Wood and R. K. Raj "Keyloggers in Cybersecurity Education," in <i>Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</i>
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Theses</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <p>
-                        C. A. Wood, "Large Substitution Boxes with Efficient Combinational Implementations," 
-                        M.S. Thesis, Computer Science, Rochester Institute of Technology. August 2013.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Surveys</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <p>
-                        C. A. Wood, "Small Folkman Numbers," <i><a target="_blank" href="http://christopher-wood.com/papers/FolkmanSurvey.pdf.">Draft available online</a></i>.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+        <div id="instagram" class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <!-- <script src="//instansive.com/widget/js/instansive.js"></script>-->
+            <!-- <iframe src="//instansive.com/widgets/d60a6549a2b7f62285a847bc80c206fe96ee9d06.html" id="instansive_d60a6549a2" name="instansive_d60a6549a2"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>-->
           </div>
         </div>
 
-        <div class="content services">
-          <h1 style="text-align: center">Presentations</h1>
-
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
-              <div class="panel panel-default">
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <p>
-                        "On the L(2,1) Labeling of Trees," with Dr. Jobby Jacob (RIT, presenter),  Joint Mathematics Meetings, Baltimore, MD, January 15-18, 2014. 
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        "Secure Content Dissemination in CCN," with Dr. Ersin Uzun (PARC),  CCNxCon 2013, PARC, Palo Alto, CA. September 5-6, 2013. (<a href="./posters/CCNxCon2013_Poster.pdf">PDF</a>)
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>"Characterization Results for the L(2,1)-Labeling Problem on Trees,"  Invited speaker, AMS Sectional Meeting, Rochester Institute of Technology, Rochester, NY. September 22, 2012. (<a href="./presentations/L21Characterization_AMS.pdf">PDF</a>)
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        "Chaos-Based Symmetric Key Cryptosystems," RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. July 22, 2011. (<a href="./presentations/Wood_ChaosBasedSymmetricKeyCryptosystems_RIT_Symposium.pdf">PDF</a>)
-                      </p>
-                    </li>
-
-                    <li class="list-group-item"><p>
-                      <p>
-                        "Keyloggers in Cybersecurity Education," 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010. (<a href="./presentations/KeyloggersPresentation_v9.pdf">PDF</a>)
-                      </p>
-                    </li>
-
-                    <li class="list-group-item">
-                      <p>
-                        "Layered Driver Rootkit Detection on Microsoft Windows PCs", Poster Presentation, RIT Undergraduate Research Symposium, Rochester Institute of Technology, Rochester, NY. August 24, 2009. (<a href="./posters/rkposter.pdf">PDF</a>)
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+        <!-- current status and work -->
+        <div id="grind" class="row">
+          <div class="col-md-6 col-md-offset-3" style="background-color:silver; padding: 15px;">
+            <div class="panel-heading" style="background-color:white; text-align:center; border-style: solid; border-width: 2px;">
+              <h2 class="panel-title" id="quote" style="color:black">
+                <b>
+                  Error rates in big C functions are about two to six times higher than for smaller functions.
+                </b>
+              </h2>
             </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+            <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
+              <h1 class="panel-title" style="color:white"><b>The Daily Grind</b></h1>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+            <p>
+              <!-- I am currently a research intern at PARC (Palo Alto Research Center), where I am actively working on integrating content trust enforcement mechanisms into the CCNx 1.0 software stack, as well as developing native support for enterprise-level access control in the CCNx 1.0 library.  -->
+              I am currently a research intern in the Computer Science Laboratory at <a target="_blank" href="http://www.parc.com">PARC</a> (Palo Alto Research Center) focusing on <a target="_blank" href="http://www.ccnx.org/">CCNx</a>-related security problems. Most of my work involves developing application software and CCNx APIs to help enforce content trust management semantics and also provide native support for enterprise-level access control.
+            </p>
           </div>
         </div>
 
-        <div class="content services">
-          <h1 style="text-align: center">Technical Reports</h1>
+        <!-- pubs -->
+        <div id="pubs" class="row">
+          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+            <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
+              <h1 class="panel-title" style="color:white"><b>Publications</b></h1>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+            <div class="panel-heading" style="text-align:center background-color:white">
+              <h3 class="panel-title" style="color:black">Forthcoming</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p>
+                  P. Bajorski and C. A. Wood, "A Markov-Based Model for Multi-Epoch Message Distribution Time in MANETs," <i>in preparation</i>. 
+                </p>
+              </li>
 
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
-              <div class="panel panel-default">
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <p>
-                          "An Exploration of Bitcoin Anonymity," written for <i>Network and Distributed Systems Security</i> course. (<a target="_blank" href="./docs/WoodVu_BitcoinPrivacy_Survey.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood, G. Tsudik, and E. Uzun, "AC3N: Efficient Anonymous Communication for Content-Centric Networking," <i>submitted</i>. 
+                </p>
+              </li>
 
-                   <li class="list-group-item">
-                      <p>
-                        "Using the Open Science Grid (OSG) - A Beginner's Tutorial," Tutorial. (<a target="_blank" href="./tutorials/OSG_tutorial.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood, "CCNSink: Application-Layer Middleware for TCP/IP and Content Centric Networking Interoperability," <i>submitted</i>. 
+                </p>
+              </li>
 
-                    <li class="list-group-item">
-                      <p>
-                        "An Architecture for Supporting Automated Audits Over Encrypted Log Data in the Cloud," Independent Study Report. (<a target="_blank" href="./papers/AutomatedAuditsOfEncryptedData_2013.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood, S. P. Radziszowski, and M. Lukowiak, "Affine-Power S-Boxes over Galois Fields with Area-Optimized Logic Implementations," <i>submitted.</i>
+                </p>
+              </li>
 
-                    <li class="list-group-item">
-                      <p>
-                        "An Exploration of Feature Extraction and Classification Techniques for Keyboard-Based Continuous Authentication Systems," written for <i>Intelligent Security Systems</i> course. (<a target="_blank" href="./papers/ContinuousAuthenticationSystems12.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  S. Skalicky, S. Lopez, M. Lukowiak, C. A. Wood, and M. Fluet, "Towards Performance Estimation on Multiprocessor Architectures using a Scheduling Approach," <i>submitted.</i>
+                </p>
+              </li>
 
-                    <li class="list-group-item">
-                      <p>
-                        "Rails and Sinatra - An Architectural Comparison," written for <i>Software Architecture</i> course. (<a target="_blank" href="./papers/RailsSinatraComparison.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  S. Skalicky, S. Lopez, M. Lukowiak, and C. A. Wood, "High-Level Graph-Based Methodology for Improving Performance of Pipelined Architectures," <i>submitted.</i>
+                </p>
+              </li>
 
-                    <li class="list-group-item">
-                      <p>
-                        "Guidelines for Agile Security Requirements Engineering," written for <i>Software Requirements Engineering</i> course. (<a target="_blank" href="./papers/AgileSecurityReqs.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood  and J. Jacob, "Forbidden Subtree Construction Techniques for Trees Under the L(2,1)-Labeling Problem," <i>submitted</i>.
+                </p>
+              </li>
 
-                    <li class="list-group-item">
-                      <p>
-                        "Engineering Networks for Optimal Robustness," written for <i>Data Communications and Networks I</i> course. (<a target="_blank" href="./papers/NetworkRobustness.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  P. Bajorski, A. Kaminsky, M. Kurdziel, M. Lukowiak, S. Radziszowski, and C. A. Wood, "Statistical Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks," <i>submitted</i>. 
+                </p>
+              </li>
+            </ul>
 
-                    <li class="list-group-item">
-                      <p>
-                        "Optimizing Cryptographic Strength of Substitution Layers in Symmetric-Key Cryptosystems," written for <i>Optimization Methods</i> course. (<a target="_blank" href="./papers/SboxOptimizationEA.pdf">PDF</a>)
-                      </p>
-                    </li>
+            <div class="panel-heading" style="text-align:center">
+              <h3 class="panel-title" style="color:black">Journal Articles</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood and J. Jacob, "Characterization of Small Trees Based on their L(2,1)-Span," <i>to appear in the AKCE International Journal of Graphs and Combinatorics</i>.
+                </p>
+              </li>
 
-                    <li class="list-group-item">
-                      <p>
-                        "Secure Operating Systems," <i>Independent Study Report</i>. (<a target="_blank" href="./papers/SecureOS.pdf">PDF</a>)
-                      </p>
-                    </li>
+              <li class="list-group-item">
+                <p>
+                  M. Lukowiak, S. Radziszowski, J. Vallino, and C. A. Wood, "Cybersecurity Education: Bridging the Gap between Hardware and Software Domains," <i>ACM Transactions on Computer Education</i> 14(1) (2014).
+                </p>
+              </li>
+            </ul>
 
-                    <li class="list-group-item">
-                      <p>
-                        "An Exploration of Multi-Touch Display Systems," written for <i>Software Usability</i> course (co-written with <a target="_blank" href="http://anthonyb.me">Anthony Barone</a>, a brilliant UI/UX designer at Dealer.com). (<a target="_blank" href="./papers/WoodBarone-MTS.pdf">PDF</a>)
-                      </p>
-                    </li>
+            <div class="panel-heading" style="text-align:center">
+              <h3 class="panel-title" style="color:black">Conference Proceedings</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood and E. Uzun, "Flexible End-to-End Content Security in CCN," <i>IEEE Consumer Communications and Networking Conference (CCNC 2014) Special Session: Information Centric Networking.</i>
+                </p>
+              </li>
 
-                    <li class="list-group-item">
-                      <p>
-                        "Exploring Compiler Optimizations for Parallel Architectures," written for <i>Intro to Computer Science Research</i> course. (<a target="_blank" href="./papers/ParallelComputingCompilers.pdf">PDF</a>)
-                      </p>
-                    </li>
-                  </ul>
-                </div>
+              <li class="list-group-item">
+                <p>
+                  S. Skalicky, C. A. Wood, M. Lukowiak, and M. Ryan, "High Level Synthesis: Where Are We? A Case Study on Matrix Multiplication," in <i>Proceedings of the 2013 International Conference on Reconfigurable Computing and FPGAs - ReConFig 2013, Cancun, Mexico. December 2013.</i>
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <p>
+                  M. Lukowiak, A. Meneely, S. Radziszowski, J. Vallino, and C. Wood "Developing an Applied, Security-Oriented Computing Curriculum," In <i>Proceedings of the ASEE 2012, San Antonio, Texas. June 2012.</i>
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <p>
+                  C. Wood "Chaos-Based Symmetric Key Cryptosystems," in <i>Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada. July 2011.</i>
+                </p>
+              </li>
+
+              <li class="list-group-item">
+                <p>
+                  C. Wood and R. K. Raj "Keyloggers in Cybersecurity Education," in <i>Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada. July 2010.</i>
+                </p>
+              </li>
+            </ul>
+
+            <div class="panel-heading" style="text-align:center">
+              <h3 class="panel-title" style="color:black">Theses</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood, "Large Substitution Boxes with Efficient Combinational Implementations," 
+                  M.S. Thesis, Computer Science, Rochester Institute of Technology. August 2013.
+                </p>
+              </li>
+            </ul>
+
+            <div class="panel-heading" style="text-align:center">
+              <h3 class="panel-title" style="color:black">Surveys</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <p>
+                  C. A. Wood, "Small Folkman Numbers," <i><a target="_blank" href="http://christopher-wood.com/papers/FolkmanSurvey.pdf.">Draft available online</a></i>.
+                </p>
+              </li>
+            </ul>
+
+            </div>
+          </div>
+
+          <!-- skills and whatnot go here -->
+          <div id="edu" class="row">
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
+                <h1 class="panel-title" style="color:white"><b>Education</b></h1>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>University of California Irvine</b>, September 2013 - August 2018 (expected)</h3>
+                    <p>Ph.D. in Computer Science</p>
+                    <p><i>Research areas</i>: applied cryptography, security, and privacy</p>
+                    <p><i>Advisor</i>: Dr. Gene Tsudik</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>Rochester Institute of Technology</b>, August, 2013</h3>
+                    <p>M.S. in Computer Science</p>
+                    <p><i>Thesis</i>: Large Substitution Boxes with Efficient Combinational Implementations</p>
+                    <p><i>Document</i>: <a target="_blank" href="./papers/caw_thesis.pdf">here</a></p>
+                    <p><i>Defense slides</i>: <a target="_blank" href="./presentations/caw_thesis_defense_slides.pdf">here</a></p>
+                    <p>Committee: Stanislaw Radziszowski, Marcin Lukowiak, Alan Kaminsky, and Michael Kurdziel (missing from the picture) (<a target="_blank" href="imgs/committee.jpeg">picture</a>)</p>
+                    <hr/>
+                    <h3 style="color:black"><b>Main Elective Courses</b></h3>
+                    <p>Cryptography, Optimization Methods, Parallel Computing, Intelligent Security Systems, 
+                      Data Communications and Networks, Algorithms, Secure Database Systems, Security Measurement and Testing</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>Rochester Institute of Technology</b>, May, 2012</h3>
+                    <p>B.S. in Computer Science and Software Engineering</p>
+                    <p>Minor in Mathematics</p>
+                    <hr/>
+                    <h3 style="color:black"><b>Main Elective Courses</b></h3>
+                    <p>Number Theory, Graph Theory, Operating Systems, Programming Language Concepts, Computer Organization, Modern Physics, Real-Time and Embedded Systems</p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>Miscellaneous Classes and Certifications</b></h3>
+                    <p><a target="_blank" href="./docs/FunctionalProgrammingScala-Cert.pdf">Functional Programming Principles in Scala</a>, December 1, 2013</p>
+
+                    <p>Taught by Martin Odersky, Professor of Computer Science, &Eacute;cole Polytechnique F&eacute;d&eacute;rale de Lausanne, provided through <a target="_blank" href="www.coursera.org">Coursera</a>.</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
 
-          <!-- <div class="row">
-            <div class="empty col-md-2 col-sm-3 col-xs-12"></div>
-            <div class="col-md-offset-2 col-md-8 col-sm-6 col-xs-12">
-              <h3>We offer services that range from Website Design to Branding. Just check out all of our services below to get a general idea of what we are capable of. We have three people on our team and we will try to accommodate your request. </h3>
-            </div>
-            <div class="empty col-md-2 col-sm-3 col-xs-12"></div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-8">
-              <div class="service-icon">
-                <i class="icon-sitemap" data-toggle="tooltip" title="Professional application planning, including mockups, wireframes, and designs."></i>
-                <span>PLANNING                
+          <div id="exp" class="row">
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
+                <h1 class="panel-title" style="color:white"><b>Professional Experience</b></h1>
               </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-8">
-              <div class="service-icon">
-                <i class="icon-search" data-toggle="tooltip" title="Clean, Modern and Responsive Web Design."></i>
-                <span>DESIGN                
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-8">
-              <div class="service-icon">
-                <i class="icon-sun" data-toggle="tooltip" title="We can help create a consistent media brand including logos, product design, website branding and more."></i>
-                <span>BRANDING                
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-8">
-              <div class="service-icon">
-                <i class="icon-umbrella" data-toggle="tooltip" title="Web application security. We can help protect your application from attacks."></i>
-                <span>SECURITY                
-              </div>
-            </div>            
-          </div>
-        </div> -->
-      </div>
-    </div>
-    
-    
-    <!-- Pricing Section -->
-    <div id="industry" class="section white">
-      <div class="fixed-container">
-        
-        <div class="content">
-          <h1 style="text-align:center;">Work Experience</h1>
-          
-          <div class="places">
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>Palo Alto Research Center, Computer Science Laboratory, Palo Alto, CA</b></h3>
 
-            <!-- first row of jobs -->
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="wrapper">
-                  <h3 class="text-center">Palo Alto Research Center</h3>
-                  <h4 class="text-center">Security and Privacy Researcher</h4>
-                  <h4 class="text-center">July 2013 - September 2013</h4>
-                  <table class="table">
-                    <thead>
-                      <!-- <tr><th><span class="price"><i class="icon-dollar"></i>9</span></th></tr> -->
-                      <!-- <div class="portrait">
-                        <img src="img/logo_rgb_parc.jpg" alt="Team Portrait">              
-                      </div> -->
-                    </thead>
-                    <tbody style="text-align:left">
-                      <tr><td style="text-align:left">Researched security and privacy aspects related to content-centric network (CCN).</td></tr>
-                      <tr><td style="text-align:left">Studied and tested various techniques for securing content that is distributed throughout a CCN mesh for confidentiality purposes.</td></tr>
-                      <tr><td style="text-align:left">Implemented the Green-Ateniese (pairing-based) and Chow-Weng-Yang-Deng (Schnorr- and ElGamal-based) Proxy Re-Encryption schemes in Java for use in a CCNx application.</td></tr>
-                    </tbody>
-                  </table>
-                </div>
+                    <p><i>Security and Privacy Researcher</i>, June 2013 - September 2013</p>
+
+                    <hr/>
+                      <p>
+                        I spent a summer researching security and privacy aspects related to content-centric network (CCN), one of the mainstream proposals for the future Internet architecture. Part of my research involved securing content that is distributed throughout a CCN mesh (data confidentiality), and another involved hiding the link between content names and the actual content with which it is associated (name privacy). See the <a target="_blank" href="http://www.ccnx.org/">CCNx project</a> for more details about this upcoming technology. 
+                      </p>
+                  </li>
+                </ul>
               </div>
 
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="wrapper">
-                  <h3 class="text-center">Cigital</h3>
-                  <h4 class="text-center">Security Consultant Contractor</h4>
-                  <h4 class="text-center">March 2014 - present</h4>
-                  <table class="table">
-                    <thead>
-<!--                       <div class="portrait">
-                        <img src="img/cigital_logo.jpg" alt="Team Portrait">              
-                      </div> -->
-                    </thead>
-                    <tbody style="text-align:left">
-                      <tr><td style="text-align:left">Manual source code reviews focused on application security</td></tr>
-                      <tr><td style="text-align:left">Assist security-oriented architectural analysis and design reviews</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="wrapper">                
-                  <h3 class="text-center">Intel Corporation</h3>
-                  <h4 class="text-center">Graphics Software Engineer</h4>
-                  <h4 class="text-center">June 2012 - August 2012</h4>
-                  <table class="table">
-                    <thead>
-                      <!-- <div class="portrait">
-                        <img src="img/intel_logo.jpg" alt="Team Portrait">              
-                      </div> -->
-                    </thead>
-                    <tbody style="text-align:left">
-                      <tr><td style="text-align:left">Developed production features for tool that processes hardware specifications to generate web content and source code for VHDL and C/C++ testbeds.</td></tr>
-                      <tr><td style="text-align:left">Interacted with internal customers within the VPG to utilize debug tools and environments for architecture specification and post-silicon testing.</td></tr>
-                    </tbody>
-                  </table>
-                </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>Intel Corporation, Virtual and Parallel Computing Group, Folsom, CA</b></h3>
+                    <p><i>Graphics Software Engineer</i>, June 2012 - August 2012</p>
+                    <hr/>
+                    <p>Developed production features for tool that processes hardware specifications to generate web content and source code for VHDL and C/C++ testbeds. Interacted with internal customers within the VPG to utilize debug tools and environments for architecture specification and post-silicon testing.</p>
+                  </li>
+                </ul>
               </div>
 
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="wrapper">
-                  <h3 class="text-center">L-3 Communications, Linkabit</h3>
-                  <h4 class="text-center">Software Engineer</h4>
-                  <h4 class="text-center">March 2011 - August 2011</h4>
-                  <table class="table">
-                    <thead>
-                      <!-- <div class="portrait">
-                        <img src="img/l3_logo.png" alt="Team Portrait">              
-                      </div> -->
-                    </thead>
-                    <tbody>
-                      <tr><td style="text-align:left">Designed and implemented a library and supporting drivers for the $\mu$-blox NEO5/6 GPS receiver driven by an Analog Devices Blackfin processor.</td></tr>
-                      <tr><td style="text-align:left">Extended an existing FAT file system driver to add support for SD devices.</td></tr>
-                      <tr><td style="text-align:left">Improved functionality of a CPLD controller for an embedded power supply.</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="wrapper">
-                  <h3 class="text-center">Rochester Software Associates</h3>
-                  <h4 class="text-center">Software Engineer</h4>
-                  <h4 class="text-center">November 2010 - March 2011</h4>
-                  <table class="table">
-                    <thead>
-                      <!-- <div class="portrait">
-                        <img src="img/rsa_logo.png" alt="Team Portrait">              
-                      </div> -->
-                    </thead>
-                    <tbody>
-                      <tr><td style="text-align:left">Led the design, development, and documentation efforts for a new printer job management application that would service any number of jobs from clients across the network.</td></tr>
-                      <tr><td style="text-align:left">Tested and debugged an existing .NET implementation of an LPD client.</td></tr>
-                    </tbody>
-                  </table>
-                </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>L-3 Communications, Linkabit Division, Victor, NY</b></h3>
+                    <p><i>Software Engineer Intern</i>, March 2011 - August 2011</p>
+                    <hr/>
+                    <p>Designed and implemented a library and supporting drivers for the u-blox NEO5/6 GPS receiver driven by an Analog Devices Blackfin processor. Extended an existing FAT file system driver to add support for SD devices. Improved functionality of a CPLD controller for an embedded power supply.</p>
+                  </li>
+                </ul>
               </div>
 
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="wrapper">                
-                  <h3 class="text-center">C Speed, LLC</h3>
-                  <h4 class="text-center">Software Engineer</h4>
-                  <h4 class="text-center">May 2010 - August 2010</h4>
-                  <table class="table">
-                    <thead>
-                      <!-- <div style="top: 50%;" class="portrait">
-                        <img src="img/cspeed_logo.png" alt="Team Portrait">              
-                      </div> -->
-                    </thead>
-                    <tbody>
-                      <tr><td style="text-align:left">Designed and implemented an internal manufacturing part supply management system.</td></tr>
-                      <tr><td style="text-align:left">Implemented embedded firmware features and test routines in C, C++, and assembly for Coldfire V2 processors.</td></tr>
-                    </tbody>
-                  </table>
-                </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>Rochester Software Associates, Rochester, NY</b></h3>
+                    <p><i>Software Engineer Intern</i>November 2010 - March 2011</p>
+                    <hr/>
+                    <p>Led the design, development, and documentation efforts for a new printer job management application that would service any number of jobs from clients across the network. Tested and debugged an existing .NET implementation of an LPD client.</p>
+                  </li>
+                </ul>
               </div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- /.container -->
-    
-    
-    <!-- Clients and Testimonials Section -->
-    <!--  Image background parallax -->
-    <div id="other" class="section image">
-      <div class="background parallax"></div>
-      <div class="fixed-container">
 
-        <div class="content services">
-          <h1 style="text-align: center">Technical Skills</h1>
-
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Programming Languages</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item"><p> C/C++, C#, Java, Python, Scala, Ruby, Assembly (MIPS), JavaScript, Objective-C, Standard ML, Scheme</p></li>
-                  </ul>
-                </div>
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Modeling Languages and Tools</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item"><p>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
-                  </ul>
-                </div>
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Specialized Software</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item"><p>MATLAB, Mathematica, WEKA, Magma, Sage, LLVM</p></li>
-                  </ul>
-                </div>
-
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Markup Languages</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item"><p>LaTeX, HTML(5), CSS3</p></li>
-                  </ul>
-                </div>
-
-                <div class="panel-heading">
-                  <h3 class="panel-title" style="color:black">Web Frameworks</h3>
-                </div>
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item"><p>Play (Java and Scala), Spring MVC, Ruby on Rails</p></li>
-                  </ul>
-                </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h3 style="color:black"><b>C Speed, LLC, Liverpool, NY</b></h3>
+                    <p><i>Software Engineer Intern</i>May 2010 - August 2010</p>
+                    <hr/>
+                    <p>Designed and implemented an internal manufacturing part supply management system. Implemented embedded firmware features and test routines in C, C++, and assembly for Coldfire V2 processors.</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="content services">
-          <h1 style="text-align: center">Honors and Activities</h1>
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-3 col-xs-8 col-md-offset-2">
-              <div class="panel panel-default">
-                <div class="panel-body">
-                  <ul class="list-group">
-                    <li class="list-group-item"><p> NSF GRFP fellowship recipient, 2014</p></li>
-                    <li class="list-group-item"><p> RIT Honors Program, 2009 -- 2013</p></li>
-                    <li class="list-group-item"><p> RIT Tau Beta Pi Engineering Honors Society, 2011 -- 2013</p></li>
-                    <li class="list-group-item"><p> RIT Outstanding Undergraduate Student award, selected, Winter 2012</p></li>
-                    <li class="list-group-item"><p> RIT Computer Science MS Student Delegate, selected, Winter 2012</p></li>
-                    <li class="list-group-item"><p> Recipient of Golisano College Honors research assistantship stipend, Winter 2009/2010 </p></li>
-                    <li class="list-group-item"><p> Recipient of Golisano College Honors research assistantship stipend, Spring 2011</p></li>
-                    <li class="list-group-item"><p> Recipient of RIT undergraduate research award stipend, Summer 2009</p></li>
-                    <li class="list-group-item"><p> RIT Golisano College Dean's List, 2008 -- 2013</p></li>
-                    <li class="list-group-item"><p> Student mentor for the FIRST LEGO League team hosted by RIT, Fall 2009 -- Winter 2010</p></li>
-                    <li class="list-group-item"><p> Rochester Foodlink volunteer, Winter 2012/2013 -- March 2013</p></li>
-                    <li class="list-group-item"><p> Society of Software Engineers, member, Fall 2008 -- Winter 2009/2010</p></li>
-                    <li class="list-group-item"><p> RIT Electronic Gaming Society, member, Fall 2008 -- Spring 2010</p></li>
-                    <li class="list-group-item"><p> RIT Intramural Flag Football Team, member, Fall 2010</p></li>
-                  </ul>
-                </div>
+          <!-- skills and whatnot go here -->
+          <div id="skills" class="row">
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
+                <h1 class="panel-title" style="color:white"><b>Technical Skills</b></h1>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <div class="panel-heading" style="text-align:center">
+                <h3 class="panel-title" style="color:black">Programming Languages</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item"><p> C/C++, C#, Java, Python, Scala, Ruby, Assembly (MIPS), JavaScript, Objective-C, Standard ML, Scheme</p></li>
+                </ul>
+              </div>
+
+              <div class="panel-heading" style="text-align:center">
+                <h3 class="panel-title" style="color:black">Modeling Languages and Tools</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item"><p>VHDL, Verilog, UML, SPIN (with PROMELA), Alloy</p></li>
+                </ul>
+              </div>
+
+              <div class="panel-heading" style="text-align:center">
+                <h3 class="panel-title" style="color:black">Specialized Software</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item"><p>MATLAB, Mathematica, WEKA, Magma, Sage, LLVM</p></li>
+                </ul>
+              </div>
+
+
+              <div class="panel-heading" style="text-align:center">
+                <h3 class="panel-title" style="color:black">Markup Languages</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item"><p>LaTeX, HTML(5), CSS3</p></li>
+                </ul>
+              </div>
+
+              <div class="panel-heading" style="text-align:center">
+                <h3 class="panel-title" style="color:black">Web Frameworks</h3>
+              </div>
+              <div class="panel-body">
+                <ul class="list-group">
+                  <li class="list-group-item"><p>Play (Java and Scala), Spring MVC, Ruby on Rails</p></li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
-        
-      </div>
-    </div>
-    
-    <div class="footer">
-      <!-- TODO: put something here?... -->
+
+          <!-- honors and activities go here -->
+          <div id="activities" class="row">
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
+                <h1 class="panel-title" style="color:white"><b>Honors and Activities</b></h1>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+              <ul class="list-group">
+                <li class="list-group-item"><p> NSF GRFP fellowship recipient, 2014</p></li>
+                <li class="list-group-item"><p> RIT Honors Program, 2009 -- 2013</p></li>
+                <li class="list-group-item"><p> RIT Tau Beta Pi Engineering Honors Society, 2011 -- 2013</p></li>
+                <li class="list-group-item"><p> RIT Outstanding Undergraduate Student award, selected, Winter 2012</p></li>
+                <li class="list-group-item"><p> RIT Computer Science MS Student Delegate, selected, Winter 2012</p></li>
+                <li class="list-group-item"><p> Recipient of Golisano College Honors research assistantship stipend, Winter 2009/2010 </p></li>
+                <li class="list-group-item"><p> Recipient of Golisano College Honors research assistantship stipend, Spring 2011</p></li>
+                <li class="list-group-item"><p> Recipient of RIT undergraduate research award stipend, Summer 2009</p></li>
+                <li class="list-group-item"><p> RIT Golisano College Dean's List, 2008 -- 2013</p></li>
+                <li class="list-group-item"><p> Student mentor for the FIRST LEGO League team hosted by RIT, Fall 2009 -- Winter 2010</p></li>
+                <li class="list-group-item"><p> Rochester Foodlink volunteer, Winter 2012/2013 -- March 2013</p></li>
+                <li class="list-group-item"><p> Society of Software Engineers, member, Fall 2008 -- Winter 2009/2010</p></li>
+                <li class="list-group-item"><p> RIT Electronic Gaming Society, member, Fall 2008 -- Spring 2010</p></li>
+                <li class="list-group-item"><p> RIT Intramural Flag Football Team, member, Fall 2010</p></li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- /.container -->
+      </div> <!-- /.home -->
+
+    <div class="container-fluid" style="background-color:black">
+      <!-- todo -->
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/jquery.mixitup.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-    <script src="js/init.js"></script>
-
-
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="js/addons.js"></script>
-
-    <!-- pie stuff -->
-    <script src="d3pie.min.js"></script>
-    <script>
-var pie = new d3pie("pieChart", {
-  "header": {
-    "title": {
-      "text": "Programming Languages",
-      "fontSize": 24,
-      "font": "open sans"
-    },
-    "subtitle": {
-      "color": "#999999",
-      "fontSize": 12,
-      "font": "open sans"
-    },
-    "titleSubtitlePadding": 9
-  },
-  "footer": {
-    "color": "#999999",
-    "fontSize": 10,
-    "font": "open sans",
-    "location": "bottom-left"
-  },
-  "size": {
-    "canvasWidth": 590,
-    "pieInnerRadius": "20%",
-    "pieOuterRadius": "90%"
-  },
-  "data": {
-    "sortOrder": "value-asc",
-    "content": [
-      {
-        "label": "C/C++",
-        "value": 30,
-        "color": "#2383c1"
-      },
-      {
-        "label": "Java",
-        "value": 40,
-        "color": "#64a61f"
-      },
-      {
-        "label": "Python",
-        "value": 20,
-        "color": "#7b6788"
-      },
-      {
-        "label": "Matlab",
-        "value": 5,
-        "color": "#a05c56"
-      },
-      {
-        "label": "JavaScript",
-        "value": 10,
-        "color": "#961919"
-      },
-      {
-        "label": "Scala",
-        "value": 2,
-        "color": "#d8d239"
-      },
-      {
-        "label": "Scheme",
-        "value": 2,
-        "color": "#e98125"
-      }
-    ]
-  },
-  "labels": {
-    "outer": {
-      "pieDistance": 32
-    },
-    "inner": {
-      "hideWhenLessThanPercentage": 3
-    },
-    "mainLabel": {
-      "fontSize": 11
-    },
-    "percentage": {
-      "color": "#ffffff",
-      "decimalPlaces": 0
-    },
-    "value": {
-      "color": "#adadad",
-      "fontSize": 11
-    },
-    "lines": {
-      "enabled": true
-    }
-  },
-  "effects": {
-    "pullOutSegmentOnClick": {
-      "effect": "linear",
-      "speed": 400,
-      "size": 8
-    }
-  },
-  "callbacks": {}
-});
-</script>
   </body>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/classie.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <script type="text/javascript">
+    var quotes = [
+      '\"Error rates in big C functions are about two to six times higher than for smaller functions.\" --Anonymous',
+      '\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand. --Martin Fowler',
+      '\"Design and programming are human activities; forget that and all is lost. --Bjarne Stroustrup',
+      '\"Real programmers can write assembly code in any language. --Lary Wall',
+      '\"Pure mathematics is, in its own way, the poetry of logical ideas. --Albert Einstein',
+      '\"Simplicity is prerequisite for reliability.\" --Edsger W. Dijkstra',
+      '\"Make everything as simple as possible, but not simpler.\" --Albert Einstein',
+      '\"Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.\" --Anonymous',
+      '\"Computer science is no more about computers than astronomy is about telescopes.\" --Edsger W. Dijkstra',
+      '\"Think twice, code once.\" --Anonymous'
+      ];
+
+    var rand = quotes[Math.floor(Math.random() * quotes.length)];
+
+    $('#quote').text(rand); 
+  </script>
+
+  <script type="text/javascript">
+    $(function(){
+      $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 40
+      });
+    });
+  </script>
+    
+  <script type="text/javascript">
+    $(function() {
+      jQuery(".fancybox").fancybox();
+    });
+  </script>
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54008207-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
 </html>
