@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Christopher A. Wood</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    
+    <!-- Raleway Font -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+        
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="70">
+
+    <!-- banner -->
+    <div id="home" style="background-color: black">
+      <div class="container">
+
+        <div class="row section welcome black" style="background-color: black">
+          <div class="content" id="main-adjuster" style="background-color: black">
+            <div class="portrait">
+              <img src="img/headshot2.jpeg" alt="my ugly mug"/>
+            </div>
+            <h1 style="color:white">Christopher A. Wood</h1>
+            <h2 style="color:white">Ph.D. student in computer science, aspiring scientist and applied cryptographer, triathlete and quasi-crossfitter, late-night software engineer, and nu-metal lover.</h2>
+            <h2 style="color:white;"><a target="_blank" href="/docs/caw_cv.pdf" style="border-style:solid; border-width:2px; padding:5px">&#8212; curriculum vitae &#8212;</a></h2>
+            <div class="social-media">
+              <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
+              <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
+              <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
+              <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
+              <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
+            </div>
+          </div><!-- /.content -->
+        </div>
+
+        <div id="instagram" class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <!-- <script src="//instansive.com/widget/js/instansive.js"></script>-->
+            <!-- <iframe src="//instansive.com/widgets/d60a6549a2b7f62285a847bc80c206fe96ee9d06.html" id="instansive_d60a6549a2" name="instansive_d60a6549a2"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>-->
+          </div>
+        </div>
+
+        <!-- current status and work -->
+        <div id="grind" class="row">
+          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+            <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
+              <h1 class="panel-title" style="color:white"><b>The Daily Grind</b></h1>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+            <p>
+              I am currently a core developer of <a target="_blank" href="http://www.ccnx.org/">CCNx</a> in the Computer Science Laboratory at <a target="_blank" href="http://www.parc.com">PARC</a> (Palo Alto Research Center). My research focuses on the intersection of security and privacy, applied cryptography, theory and formal methods, and content centric networking. Lately, I have been working on encryption-based access control and trust management in CCN.
+            </p>
+            <div style="text-align:center">
+            <img src="img/topics_all.png" alt="my research interests"/>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-md-offset-3" style="background-color:silver; padding: 15px;">
+            <div class="panel-heading" style="background-color:white; text-align:center; border-style: solid; border-width: 2px;">
+              <h2 class="panel-title" id="quote" style="color:black">
+                <b>
+                  Error rates in big C functions are about two to six times higher than for smaller functions.
+                </b>
+              </h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    var quotes = [
+      '\"Error rates in big C functions are about two to six times higher than for smaller functions.\" --Anonymous',
+      '\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand. --Martin Fowler',
+      '\"Design and programming are human activities; forget that and all is lost. --Bjarne Stroustrup',
+      '\"Real programmers can write assembly code in any language. --Lary Wall',
+      '\"Pure mathematics is, in its own way, the poetry of logical ideas. --Albert Einstein',
+      '\"Simplicity is prerequisite for reliability.\" --Edsger W. Dijkstra',
+      '\"Make everything as simple as possible, but not simpler.\" --Albert Einstein',
+      '\"Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.\" --Anonymous',
+      '\"Computer science is no more about computers than astronomy is about telescopes.\" --Edsger W. Dijkstra',
+      '\"Think twice, code once.\" --Anonymous'
+      ];
+
+    var rand = quotes[Math.floor(Math.random() * quotes.length)];
+
+    $('#quote').text(rand); 
+  </script>
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54008207-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</html>
