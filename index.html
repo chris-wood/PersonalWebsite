@@ -23,7 +23,7 @@
 
   </head>
 
-  <body data-spy="scroll" data-target="#navbar" data-offset="70">
+  <body ng-app="caw-site">
 
     <!-- banner -->
     <div id="home">
@@ -49,22 +49,71 @@
 
           <div class="col-md-6 col-md-offset-3 section">
             <div class="btn-group btn-group-justified">
-              <a target="_blank" class="btn btn-default btn-large" href="/docs/caw_cv.pdf">&#8212; daily grind &#8212;</a>
+              <a target="_blank" class="btn btn-default btn-large" href="#grind">&#8212; daily grind &#8212;</a>
               <a target="_blank" class="btn btn-default btn-large" href="http://chris-wood.github.io/">&#8212; blog &#8212;</a>
               <a target="_blank" class="btn btn-default btn-large" href="/docs/caw_cv.pdf">&#8212; curriculum vitae &#8212;</a>
             </div>
           </div>
 
-          <div class="col-md-6 col-md-offset-3 section">
+          <div class="col-md-6 col-md-offset-3 section" id="grind" ng-controller="DailyGrindController">
             <div class="panel-heading centered">
-              <h1 class="panel-title"><b>The Daily Grind</b></h1>
+              <h3><b>The Daily Grind</b></h3>
             </div>
             <p>
               I am currently a core developer of <a target="_blank" href="http://www.ccnx.org/">CCNx</a> in the Computer Science Laboratory at <a target="_blank" href="http://www.parc.com">PARC</a> (Palo Alto Research Center). My research focuses on the intersection of security and privacy, applied cryptography, theory and formal methods, and content centric networking. Lately, I have been working on encryption-based access control and trust management in CCN.
             </p>
+
+            <p>
+              I take random pictures of things.
+            </p>
             <div class="centered">
-              <img src="img/topics_all.png" alt="my research interests"/>
+              <iframe class="centered" src="http://snapwidget.com/in/?u=Y2hyaXN0b3BoZXJ3b29kMDd8aW58MTI1fDR8MXx8bm98NXxub25lfG9uU3RhcnR8eWVzfG5v&ve=180215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:520px; height:130px"></iframe>
             </div>
+
+            <p>
+              I listen to a lot of good music.
+            </p>
+            <div class="centered">
+              <ul class="list-group">
+                <li ng-repeat="track in lastTracks" class="list-group-item">
+                  {{track}}
+                </li>
+              </ul>
+            </div>
+
+            <p>
+              I try to write as much <i>quality</i> code as possible.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-md-offset-3 section" id="research">
+            <div class="panel-heading centered">
+              <h3><b>Research</b></h3>
+            </div>
+            <p>
+              TODO
+            </p>
+            <div class="centered" id="research-areas"></div>
+
+            <div class="panel-heading centered">
+              <h3><b>Selected Publications</b></h3>
+              <ul class="list-group">
+                <li class="list-group-item">item #1</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-3 section" id="research">
+            <div class="panel-heading centered">
+              <h3><b>Projects</b></h3>
+            </div>
+            <p>
+              blurb
+            </p>
+
+            <ul class="list-group">
+              <li class="list-group-item">item #1</li>
+            </ul>
           </div>
 
           <div class="col-md-6 col-md-offset-3 section">
@@ -83,8 +132,11 @@
   </body>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  <script type="text/javascript" src="js/d3.min.js"></script>
+  <script type="text/javascript" src="js/venn.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
   <script type="text/javascript">
     var quotes = [
@@ -103,6 +155,21 @@
     var rand = quotes[Math.floor(Math.random() * quotes.length)];
 
     $('#quote').text(rand); 
+
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
   </script>
 
   <script type="text/javascript">
