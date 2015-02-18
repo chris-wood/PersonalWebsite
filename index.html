@@ -26,17 +26,18 @@
   <body data-spy="scroll" data-target="#navbar" data-offset="70">
 
     <!-- banner -->
-    <div id="home" style="background-color: black">
+    <div id="home">
       <div class="container">
 
-        <div class="row section welcome black" style="background-color: black">
-          <div class="content" id="main-adjuster" style="background-color: black">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 section">
             <div class="portrait">
               <img src="img/headshot2.jpeg" alt="my ugly mug"/>
             </div>
-            <h1 style="color:white">Christopher A. Wood</h1>
-            <h2 style="color:white">Ph.D. student in computer science, aspiring scientist and applied cryptographer, triathlete and quasi-crossfitter, late-night software engineer, and nu-metal lover.</h2>
-            <h2 style="color:white;"><a target="_blank" href="/docs/caw_cv.pdf" style="border-style:solid; border-width:2px; padding:5px">&#8212; curriculum vitae &#8212;</a></h2>
+
+            <h1 class="centered">Christopher A. Wood</h1>
+            <h2 class="centered">Ph.D. student in computer science, aspiring scientist and applied cryptographer, triathlete and quasi-crossfitter, late-night software engineer, and nu-metal lover.</h2>
+
             <div class="social-media">
               <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
               <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
@@ -44,45 +45,39 @@
               <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
               <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
             </div>
-          </div><!-- /.content -->
-        </div>
-
-        <div id="instagram" class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <!-- <script src="//instansive.com/widget/js/instansive.js"></script>-->
-            <!-- <iframe src="//instansive.com/widgets/d60a6549a2b7f62285a847bc80c206fe96ee9d06.html" id="instansive_d60a6549a2" name="instansive_d60a6549a2"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>-->
           </div>
-        </div>
 
-        <!-- current status and work -->
-        <div id="grind" class="row">
-          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
-            <div class="panel-heading" style="background-color:black; text-align:center; border-style: solid; border-width: 2px;">
-              <h1 class="panel-title" style="color:white"><b>The Daily Grind</b></h1>
+          <div class="col-md-6 col-md-offset-3 section">
+            <div class="btn-group btn-group-justified">
+              <a target="_blank" class="btn btn-default btn-large" href="/docs/caw_cv.pdf">&#8212; daily grind &#8212;</a>
+              <a target="_blank" class="btn btn-default btn-large" href="http://chris-wood.github.io/">&#8212; blog &#8212;</a>
+              <a target="_blank" class="btn btn-default btn-large" href="/docs/caw_cv.pdf">&#8212; curriculum vitae &#8212;</a>
             </div>
           </div>
 
-          <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8FF; padding: 15px;">
+          <div class="col-md-6 col-md-offset-3 section">
+            <div class="panel-heading centered">
+              <h1 class="panel-title"><b>The Daily Grind</b></h1>
+            </div>
             <p>
               I am currently a core developer of <a target="_blank" href="http://www.ccnx.org/">CCNx</a> in the Computer Science Laboratory at <a target="_blank" href="http://www.parc.com">PARC</a> (Palo Alto Research Center). My research focuses on the intersection of security and privacy, applied cryptography, theory and formal methods, and content centric networking. Lately, I have been working on encryption-based access control and trust management in CCN.
             </p>
-            <div style="text-align:center">
-            <img src="img/topics_all.png" alt="my research interests"/>
+            <div class="centered">
+              <img src="img/topics_all.png" alt="my research interests"/>
             </div>
           </div>
 
-
-          <div class="col-md-6 col-md-offset-3" style="background-color:silver; padding: 15px;">
-            <div class="panel-heading" style="background-color:white; text-align:center; border-style: solid; border-width: 2px;">
-              <h2 class="panel-title" id="quote" style="color:black">
+          <div class="col-md-6 col-md-offset-3 section">
+            <div class="panel-heading">
+              <h2 class="panel-title centered" id="quote">
                 <b>
                   Error rates in big C functions are about two to six times higher than for smaller functions.
                 </b>
               </h2>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
   </body>
