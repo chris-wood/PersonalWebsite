@@ -81,7 +81,7 @@ a:hover {
     .portrait img {
       width: 100%;
       filter: grayscale(100%);
-      -webkit-filter: grayscale(100%); filter: grayscale(100%);
+      -webkit-filter: grayscale(100%); filter: grayscale(100%); 
     }
 
     .portrait img:hover {
