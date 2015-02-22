@@ -39,13 +39,17 @@ app.controller('DailyGrindController', ['$scope', '$http', function($scope, $htt
 
 	var apiKey = "5a328a61c5b345719cd2faf016043a81";
 	var username = "chriswood4567";
-	var lastFmUrl = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + apiKey + "&format=json";
-	$http.get(lastFmUrl).
+	var songListUrl = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + username + "&api_key=" + apiKey + "&format=json";
+
+	// TODO
+	var albumUrlPrefix = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=" + apiKey + "&format=json&"; //&artist=Cher&album=Believe";
+
+	$http.get(songListUrl).
 		success(function(data, status, headers, config) {
 			console.log(data);
 			for (var i = 0; i < data.recenttracks.track.length && i < 5; i++) {
 				var trackData = data.recenttracks.track[i];
-				$scope.lastTracks.push({
+				$sc ope.lastTracks.push({
 					"name" : trackData.name,
 					"artist" : trackData.artist,
 					"album" : trackData.album
