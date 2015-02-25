@@ -16,7 +16,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
         
     <!-- Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main-style.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="js/respond.min.js"></script>
     <![endif]-->
@@ -24,135 +24,138 @@
   </head>
 
   <body ng-app="caw-site">
+    <div class="container">
 
-    <!-- banner -->
-    <div id="home">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1 section">
-            <div class="portrait">
-              <img src="img/headshot2.jpeg" alt="my ugly mug"/>
-            </div>
-
-            <h1 class="centered">Christopher A. Wood</h1>
-            <h2 class="centered">Ph.D. student in computer science, aspiring scientist and applied cryptographer, triathlete and quasi-crossfitter, late-night software engineer, and nu-metal lover.</h2>
-
-            <div class="social-media">
-              <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
-              <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
-              <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
-              <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
-              <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
-            </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 section">
+          <div class="portrait">
+            <img src="img/headshot2.jpeg" alt="my ugly mug"/>
           </div>
 
-          <div class="col-md-6 col-md-offset-3 section">
-            <div class="btn-group btn-group-justified">
-              <a target="_blank" class="btn btn-default btn-large" href="#grind">&#8212; daily grind &#8212;</a>
-              <a target="_blank" class="btn btn-default btn-large" href="http://chris-wood.github.io/">&#8212; blog &#8212;</a>
-              <a target="_blank" class="btn btn-default btn-large" href="/docs/caw_cv.pdf">&#8212; curriculum vitae &#8212;</a>
-            </div>
+          <h1 class="centered">Christopher A. Wood</h1>
+          <h2 class="centered">Ph.D. student in computer science, aspiring scientist and applied cryptographer, triathlete and quasi-crossfitter, late-night software engineer, and nu-metal lover.</h2>
+
+          <div class="social-media">
+            <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
+            <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
+            <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
+            <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
+            <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-md-offset-3 section">
+          <div class="btn-group btn-group-justified">
+            <a target="_blank" class="btn btn-default btn-large" href="#grind">&#8212; daily grind &#8212;</a>
+            <a target="_blank" class="btn btn-default btn-large" href="http://chris-wood.github.io/">&#8212; blog &#8212;</a>
+            <a target="_blank" class="btn btn-default btn-large" href="/docs/caw_cv.pdf">&#8212; curriculum vitae &#8212;</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-md-offset-3 section" id="grind" ng-controller="DailyGrindController">
+          <div class="panel-heading centered">
+            <h3><b>The Daily Grind</b></h3>
+          </div>
+          <p>
+            I am a Ph.D. student at UCI studying applied cryptography and network security under Gene Tsudik. I am also a core developer of <a target="_blank" href="http://www.ccnx.org/">CCNx</a> in the Computer Science Laboratory at <a target="_blank" href="http://www.parc.com">PARC</a> (Palo Alto Research Center). 
+          </p>
+
+          <p>
+            I take random pictures of things.
+          </p>
+          <div class="centered">
+            <iframe class="centered" src="http://snapwidget.com/in/?u=Y2hyaXN0b3BoZXJ3b29kMDd8aW58MTI1fDR8MXx8bm98NXxub25lfG9uU3RhcnR8eWVzfG5v&ve=180215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:520px; height:130px"></iframe>
           </div>
 
-          <div class="col-md-6 col-md-offset-3 section" id="grind" ng-controller="DailyGrindController">
-            <div class="panel-heading centered">
-              <h3><b>The Daily Grind</b></h3>
-            </div>
-            <p>
-              I am a Ph.D. student at UCI studying applied cryptography and network security under Gene Tsudik. I am also a core developer of <a target="_blank" href="http://www.ccnx.org/">CCNx</a> in the Computer Science Laboratory at <a target="_blank" href="http://www.parc.com">PARC</a> (Palo Alto Research Center). 
-            </p>
-
-            <p>
-              I take random pictures of things.
-            </p>
-            <div class="centered">
-              <iframe class="centered" src="http://snapwidget.com/in/?u=Y2hyaXN0b3BoZXJ3b29kMDd8aW58MTI1fDR8MXx8bm98NXxub25lfG9uU3RhcnR8eWVzfG5v&ve=180215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:520px; height:130px"></iframe>
-            </div>
-
-            <p>
-              I listen to a lot of good music.
-            </p>
-            <div class="centered">
-              <ul class="list-group">
-                <li ng-repeat="track in lastTracks" class="list-group-item">
-                  {{track}}
-                </li>
-              </ul>
-            </div>
-
-            <p>
-              I try to write as much <i>quality</i> code as possible.
-            </p>
-            <div class="centered" id="code-chart"></div>
-          </div>
-
-          <div class="col-md-6 col-md-offset-3 section" id="research">
-            <div class="panel-heading centered">
-              <h3><b>Research</b></h3>
-            </div>
-            <p>
-              My ressearch interests are quite diverse, though are steadily converging during the course of my Ph.D. career. Currently, my research focuses on the intersection of security and privacy, applied cryptography, theory and formal methods, and content centric networking. 
-            </p>
-            <div class="centered" id="research-areas"></div>
-
-<!--             <div class="panel-heading centered">
-              <h3><b>Selected Publications</b></h3>
-              <ul class="list-group">
-                <li class="list-group-item">
-                  item #1
-                </li>
-                <li class="list-group-item">
-                  C. A. Wood and E. Uzun, “Flexible End-to-End Content Security in CCN,” IEEE Consumer Commu- nications and Networking Conference (CCNC 2014) Special Session: Information Centric Networking, Las Vegas, Nevada. January 2014.
-                </li>
-                <li class="list-group-item">
-                  P. Bajorski, A. Kaminsky, M. Kurdziel, M. Lukowiak, S. Radziszowski, and C. Wood, “Stochastic Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks,” to appear in Journal of Telecommunications System & Management, Engineering Journals, OMICS Publishing Group.
-                </li>
-                <li class="list-group-item">
-                  item #4
-                </li>
-                <li class="list-group-item">
-                  item #5
-                </li>
-              </ul>
-            </div> -->
-          </div>
-
-          <div class="col-md-6 col-md-offset-3 section" id="research">
-            <div class="panel-heading centered">
-              <h3><b>Projects</b></h3>
-            </div>
-            <p>
-              My academic career is about depth - personal projects are about breadth. I work on random side projects in an attempt to keep up with new languages, frameworks, and technologies. 
-            </p>
-
-            <ul class="list-group">
-              <li class="list-group-item">
-                ICNSimulator
-              </li>
-              <li class="list-group-item">
-                JDispatch
-              </li>
-              <li class="list-group-item">
-                ThoughtPoll
-              </li>
-              <li class="list-group-item">
-                Circuit Minimization
-              </li>
+          <p>
+            I listen to a lot of good music.
+          </p>
+          <div class="centered">
+            <ul class="media-list">
+            <li ng-repeat="track in lastTracks" class="media">
+              <div class="media-left">
+                <a target="_blank" href="{{track.url}}">
+                  <img class="media-object" src="{{track.largeImgUrl}}" alt="Cool music mang">
+                </a>
+              </div>
+              <div class="media-middle">
+                <h4 class="media-heading">{{track.name}}</h4>
+              </div>
+            </li>
             </ul>
           </div>
 
-          <div class="col-md-6 col-md-offset-3 section">
-            <div class="panel-heading">
-              <h2 class="panel-title centered" id="quote">
-                <b>
-                  Error rates in big C functions are about two to six times higher than for smaller functions.
-                </b>
-              </h2>
-            </div>
-          </div>
-
+<!--             <p>
+            I try to write as much <i>quality</i> code as possible.
+          </p>
+          <div class="centered" id="code-chart"></div> -->
         </div>
+
+        <div class="col-md-6 col-md-offset-3 section" id="research">
+          <div class="panel-heading centered">
+            <h3><b>Research</b></h3>
+          </div>
+          <p>
+            My ressearch interests are quite diverse, though are steadily converging during the course of my Ph.D. career. Currently, my research focuses on the intersection of security and privacy, applied cryptography, theory and formal methods, and content centric networking. 
+          </p>
+          <div class="centered" id="research-areas"></div>
+
+<!--             <div class="panel-heading centered">
+            <h3><b>Selected Publications</b></h3>
+            <ul class="list-group">
+              <li class="list-group-item">
+                item #1
+              </li>
+              <li class="list-group-item">
+                C. A. Wood and E. Uzun, “Flexible End-to-End Content Security in CCN,” IEEE Consumer Commu- nications and Networking Conference (CCNC 2014) Special Session: Information Centric Networking, Las Vegas, Nevada. January 2014.
+              </li>
+              <li class="list-group-item">
+                P. Bajorski, A. Kaminsky, M. Kurdziel, M. Lukowiak, S. Radziszowski, and C. Wood, “Stochastic Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks,” to appear in Journal of Telecommunications System & Management, Engineering Journals, OMICS Publishing Group.
+              </li>
+              <li class="list-group-item">
+                item #4
+              </li>
+              <li class="list-group-item">
+                item #5
+              </li>
+            </ul>
+          </div> -->
+        </div>
+
+<!--           <div class="col-md-6 col-md-offset-3 section" id="research">
+          <div class="panel-heading centered">
+            <h3><b>Projects</b></h3>
+          </div>
+          <p>
+            My academic career is about depth - personal projects are about breadth. I work on random side projects in an attempt to keep up with new languages, frameworks, and technologies. 
+          </p>
+
+          <ul class="list-group">
+            <li class="list-group-item">
+              ICNSimulator
+            </li>
+            <li class="list-group-item">
+              JDispatch
+            </li>
+            <li class="list-group-item">
+              ThoughtPoll
+            </li>
+            <li class="list-group-item">
+              Circuit Minimization
+            </li>
+          </ul>
+        </div> -->
+
+        <div class="col-md-6 col-md-offset-3 section">
+          <div class="panel-heading">
+            <h2 class="panel-title centered" id="quote">
+              <b>
+                Error rates in big C functions are about two to six times higher than for smaller functions.
+              </b>
+            </h2>
+          </div>
+        </div>
+
       </div>
     </div>
   </body>

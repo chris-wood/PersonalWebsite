@@ -47,18 +47,46 @@ app.controller('DailyGrindController', ['$scope', '$http', function($scope, $htt
 	$http.get(songListUrl).
 		success(function(data, status, headers, config) {
 			console.log(data);
-			for (var i = 0; i < data.recenttracks.track.length && i < 5; i++) {
+			var collected = 0;
+			for (var i = 0; i < data.recenttracks.track.length && collected < 5; i++) {
 				var trackData = data.recenttracks.track[i];
-				$sc ope.lastTracks.push({
-					"name" : trackData.name,
-					"artist" : trackData.artist,
-					"album" : trackData.album
-				})
+				console.log(trackData);
+				if (trackData.album.mbid.length > 0) {
+					$scope.lastTracks.push({
+						"name" : trackData.name,
+						"artist" : trackData.artist,
+						"album" : trackData.album,
+						"url" : trackData.url,
+						"smallImgUrl": "",
+						"mediumImgUrl": "",
+						"largeImgUrl": ""
+					});
+					console.log("Getting album info!");
+					var songListIndex = $scope.lastTracks.length - 1;
+					getAlbumInfo(songListIndex, trackData.album.mbid);
+					collected++;
+				}
 			}
 			console.log($scope.lastTracks);
 		}).
 		error(function(data, status, headers, config) {
 			$scope.lastTracks = [];
 		});
+
+	var getAlbumInfo = function(songIndex, mbid) {
+		var requestUrl = albumUrlPrefix + "&mbid=" + mbid;
+		$http.get(requestUrl).
+			success(function(data, status, headers, config) {
+				console.log("Got back some cool ass data");
+				console.log(data);
+				var albumInfo = data.album;
+				var smallImageUrl = albumInfo.image[0]["#text"]; // small
+				$scope.lastTracks[songIndex]["smallImgUrl"] = smallImageUrl;
+				var mediumImageUrl = albumInfo.image[1]["#text"]; // medium
+				$scope.lastTracks[songIndex]["mediumImgUrl"] = mediumImageUrl;
+				var largeImageUrl = albumInfo.image[2]["#text"]; // medium
+				$scope.lastTracks[songIndex]["largeImgUrl"] = largeImageUrl;
+			});
+	}
 
 }]);
