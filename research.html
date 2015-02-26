@@ -25,10 +25,29 @@
 
   <body ng-app="caw-site">
     <div class="container">
-
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 section">
-          <p>todo</p>
+        <div class="col-md-10 col-md-offset-1 section" ng-controller="ResearchController">
+          <h2 class="centered">Research Projects</h2>
+<!--           <p>
+            My ressearch interests are quite diverse, though are steadily converging during the course of my Ph.D. career. Currently, my research focuses on the intersection of security and privacy, applied cryptography, theory and formal methods, and content centric networking. 
+          </p> -->
+
+          <div id="search-bar">
+            <form class="navbar-form centered" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Filter by content...">
+              </div>
+            </form>
+          </div>
+          
+          <div class="centered" id="research-areas"></div>
+
+          <ul class="list-group">
+            <li ng-repeat="project in projects" class="list-group-item project-section">
+
+            </li>
+          </ul>
+
         </div>
       </div>
     </div>
@@ -37,6 +56,9 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/angular.min.js"></script>
+  <script type="text/javascript" src="js/d3.min.js"></script>
+  <script type="text/javascript" src="js/venn.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
   <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

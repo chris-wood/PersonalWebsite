@@ -90,3 +90,7 @@ app.controller('DailyGrindController', ['$scope', '$http', function($scope, $htt
 	}
 
 }]);
+
+app.controller('ResearchController', ['$scope', '$http', function($scope, $http) {
+	$scope.projects = [];
+}]);
