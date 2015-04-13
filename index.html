@@ -40,9 +40,27 @@
           <div class="btn-group btn-group-justified">
             <a target="_blank" class="btn btn-default btn-large btn-error" href="#grind">&#8212; daily grind &#8212;</a>
             <a target="_blank" class="btn btn-default btn-large btn-error" href="http://chris-wood.github.io/">&#8212; blog &#8212;</a>
-            <a target="_blank" class="btn btn-default btn-large btn-error" href="#grind">&#8212; research &#8212;</a>
+            <a target="_blank" class="btn btn-default btn-large btn-error" href="research.html">&#8212; research &#8212;</a>
             <a target="_blank" class="btn btn-default btn-large btn-error" href="/docs/caw_cv.pdf">&#8212; curriculum vitae &#8212;</a>
           </div>
+
+          <div class="col-md-8 col-md-offset-2 section border">
+          <div class="panel-heading">
+            <h2 class="panel-title centered" id="quote">
+              <b>
+                Error rates in big C functions are about two to six times higher than for smaller functions.
+              </b>
+            </h2>
+          </div>
+
+          <div class="social-media">
+            <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
+            <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
+            <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
+            <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
+            <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
+          </div>
+        </div>
         </div>
 
         <div class="col-md-8 col-md-offset-2 section" id="grind" ng-controller="DailyGrindController">
@@ -61,9 +79,9 @@
           </div>
 
           <p>
-            I listen to a lot of good music.
+            I listen to a great deal of music.
           </p>
-          <div class="centered">
+  <!--         <div class="centered">
             <ul class="media-list">
             <li ng-repeat="track in lastTracks" class="media">
               <div class="media-left">
@@ -76,6 +94,36 @@
               </div>
             </li>
             </ul>
+          </div> -->
+
+          <div class="centered">
+          <div id="music-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#music-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#music-generic" data-slide-to="1"></li>
+              <li data-target="#music-generic" data-slide-to="2"></li>
+              <li data-target="#music-generic" data-slide-to="3"></li>
+              <li data-target="#music-generic" data-slide-to="4"></li>
+              <li data-target="#music-generic" data-slide-to="5"></li>
+              <li data-target="#music-generic" data-slide-to="6"></li>
+              <li data-target="#music-generic" data-slide-to="7"></li>
+            </ol>
+
+            <div class="carousel-inner centered" role="listbox">
+              <div class="item active centered">
+                <img class="centered" src="{{lastTracks[0].largeImgUrl}}" alt="Cool music mang">
+                <div class="carousel-caption">
+                  <h4 class="media-heading">{{lastTracks[0].name}}</h4>
+                </div>
+              </div>
+              <div class="item centered" ng-repeat="track in lastTracks">
+                <img class="centered" src="{{track.largeImgUrl}}" alt="Cool music mang">
+                <div class="carousel-caption">
+                  <h4 class="media-heading">{{track.name}}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
 
           <!-- https://developer.github.com/v3/activity/events/ -->
@@ -84,24 +132,6 @@
             I try to write as much <i>quality</i> code as possible.
           </p>
           <div class="centered" id="code-chart"></div>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2 section border">
-          <div class="panel-heading">
-            <h2 class="panel-title centered" id="quote">
-              <b>
-                Error rates in big C functions are about two to six times higher than for smaller functions.
-              </b>
-            </h2>
-          </div>
-
-          <div class="social-media">
-            <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
-            <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
-            <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
-            <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
-            <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
-          </div>
         </div>
 
       </div>

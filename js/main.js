@@ -48,7 +48,7 @@ app.controller('DailyGrindController', ['$scope', '$http', function($scope, $htt
 		success(function(data, status, headers, config) {
 			console.log(data);
 			var collected = 0;
-			for (var i = 0; i < data.recenttracks.track.length && collected < 5; i++) {
+			for (var i = 0; i < data.recenttracks.track.length && collected < 8; i++) {
 				var trackData = data.recenttracks.track[i];
 				console.log(trackData);
 				if (trackData.album.mbid.length > 0) {
