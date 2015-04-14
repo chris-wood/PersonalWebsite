@@ -33,14 +33,14 @@
           </div>
 
           <h1 class="centered">Christopher A. Wood</h1>
-          <h2 class="centered">Ph.D. student in computer science, aspiring scientist and applied cryptographer, triathlete and quasi-crossfitter, late-night software engineer, and nu-metal lover.</h2>
+          <h2 class="centered">Ph.D. student in computer science, aspiring scientist and applied cryptographer, late-night software engineer, and nu-metal lover.</h2>
 
           <br/>
 
           <div class="btn-group btn-group-justified">
-            <a target="_blank" class="btn btn-default btn-large btn-error" href="#grind">&#8212; daily grind &#8212;</a>
-            <a target="_blank" class="btn btn-default btn-large btn-error" href="http://chris-wood.github.io/">&#8212; blog &#8212;</a>
-            <a target="_blank" class="btn btn-default btn-large btn-error" href="research.html">&#8212; research &#8212;</a>
+            <a class="btn btn-default btn-large btn-error" href="#grind">&#8212; daily grind &#8212;</a>
+            <a class="btn btn-default btn-large btn-error" href="http://chris-wood.github.io/">&#8212; blog &#8212;</a>
+            <a class="btn btn-default btn-large btn-error" href="research.html">&#8212; research &#8212;</a>
             <a target="_blank" class="btn btn-default btn-large btn-error" href="/docs/caw_cv.pdf">&#8212; curriculum vitae &#8212;</a>
           </div>
 
@@ -54,11 +54,10 @@
           </div>
 
           <div class="social-media">
-            <a target="_blank" href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
-            <a target="_blank" href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
-            <a target="_blank" href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
-            <a target="_blank" href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
-            <a target="_blank" href="http://www.pinterest.com/christopher0447/" data-toggle="tooltip" title="pinterest"><i class="icon-pinterest"></i></a>
+            <a href="http://www.github.com/chris-wood" data-toggle="tooltip" title="github"><i class="icon-github"></i></a>
+            <a href="https://twitter.com/phonzbm" data-toggle="tooltip" title="twitter"><i class="icon-twitter"></i></a>
+            <a href="https://www.facebook.com/christopher.wood.73997" data-toggle="tooltip" title="facebook"><i class="icon-facebook"></i></a>
+            <a href="http://www.linkedin.com/in/chrisawood/" data-toggle="tooltip" title="linkedin"><i class="icon-linkedin"></i></a>
           </div>
         </div>
         </div>
@@ -81,32 +80,13 @@
           <p>
             I listen to a great deal of music.
           </p>
-  <!--         <div class="centered">
-            <ul class="media-list">
-            <li ng-repeat="track in lastTracks" class="media">
-              <div class="media-left">
-                <a target="_blank" href="{{track.url}}">
-                  <img class="media-object" src="{{track.largeImgUrl}}" alt="Cool music mang">
-                </a>
-              </div>
-              <div class="media-middle">
-                <h4 class="media-heading">{{track.name}}</h4>
-              </div>
-            </li>
-            </ul>
-          </div> -->
 
-          <div class="centered">
-          <div id="music-generic" class="carousel slide" data-ride="carousel">
+<!--           <div class="centered">
+          <div id="musicCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#music-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#music-generic" data-slide-to="1"></li>
-              <li data-target="#music-generic" data-slide-to="2"></li>
-              <li data-target="#music-generic" data-slide-to="3"></li>
-              <li data-target="#music-generic" data-slide-to="4"></li>
-              <li data-target="#music-generic" data-slide-to="5"></li>
-              <li data-target="#music-generic" data-slide-to="6"></li>
-              <li data-target="#music-generic" data-slide-to="7"></li>
+              <li data-target="#musicCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#musicCarousel" data-slide-to="1"></li>
+              <li data-target="#musicCarousel" data-slide-to="2"></li>
             </ol>
 
             <div class="carousel-inner centered" role="listbox">
@@ -124,7 +104,28 @@
               </div>
             </div>
           </div>
+          </div> -->
+
+
+          <div class="col-md-8 col-md-offset-2">
+            <div class="carousel slide" id="musicCarousel">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-xs-3">
+                    <a href="#"><img class="img-responsive" src="{{lastTracks[0].largeImgUrl}}" alt="lastTracks[0].name"></a>
+                  </div>
+                </div>
+                <div class="item" ng-repeat="track in lastTracks">
+                  <div class="col-xs-3">
+                    <a href="#"><img class="img-responsive" src="{{track.largeImgUrl}}" alt="track.name"></a>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#musicCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#musicCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
           </div>
+
 
           <!-- https://developer.github.com/v3/activity/events/ -->
           <!-- curl -X GET https://api.github.com/users/chris-wood/events/public -->
@@ -177,6 +178,26 @@
         }
       });
     });
+
+    $('#musicCarousel').carousel({
+      interval: 4000
+    })
+
+    $('.carousel .item').each(function(){
+      var next = $(this).next();
+      if (!next.length) {
+        next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      
+      for (var i=0;i<2;i++) {
+        next=next.next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }});
   </script>
 
   <script type="text/javascript">
@@ -188,5 +209,4 @@
     ga('create', 'UA-54008207-1', 'auto');
     ga('send', 'pageview');
   </script>
-
 </html>
