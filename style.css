@@ -1,9 +1,22 @@
+body {
+	font-family: 'Ubuntu Mono';
+}
+
+.header a {
+	color:none;
+}
+
+.header a:hover {
+	/*color:none;*/
+}
+
 h1 {
-	font-family: Antic;
-	font-size: 24px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
+	color:red;
+	font-color:red;
 	line-height: 26.3999996185303px;
 }
 h1.title {
@@ -11,7 +24,6 @@ h1.title {
 	padding:5px;
 }
 h3 {
-	font-family: Antic;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -19,7 +31,6 @@ h3 {
 	line-height: 15.3999996185303px;
 }
 p {
-	font-family: Antic;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -27,7 +38,6 @@ p {
 	line-height: 20px;
 }
 blockquote {
-	font-family: Antic;
 	font-size: 21px;
 	font-style: normal;
 	font-variant: normal;
@@ -35,7 +45,6 @@ blockquote {
 	line-height: 30px;
 }
 pre {
-	font-family: Antic;
 	font-size: 13px;
 	font-style: normal;
 	font-variant: normal;
@@ -43,5 +52,13 @@ pre {
 	line-height: 18.5714302062988px;
 }
 a.menu {
+	padding:5px;
+}
+
+.blog-table-date {
+	font-color:gray;
+	padding:5px;
+}
+.blog-table-title {
 	padding:5px;
 }
