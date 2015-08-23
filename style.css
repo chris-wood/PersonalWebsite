@@ -10,6 +10,25 @@ body {
 	/*color:none;*/
 }
 
+.address-table {
+	border-collapse: collapse;
+}
+
+.border-right {
+	border-right: 1px solid #000;
+	padding-right: 10px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #000;
+	margin-bottom: 5px;
+}
+
+.border-left {
+	border-right: 1px solid #000;
+	padding-left:10px;
+}
+
 .portrait {
 	position: relative;
 	width: 150px;
@@ -60,6 +79,7 @@ h1 {
 h1.title {
 	display:inline;
 	padding:5px;
+	padding-right:25px;
 }
 h3 {
 	font-size: 14px;
