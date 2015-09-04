@@ -31,8 +31,8 @@ body {
 
 .portrait {
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 175px;
+	height: 175px;
 	float:left;
 
 	/*-webkit-border-radius: 50%;*/
