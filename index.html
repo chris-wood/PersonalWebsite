@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="website">
 <head>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="jquery-2.1.4.min.js"></script>
-	<script src="bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-	<!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Antic"/> -->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'> -->
-	<!-- <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'> -->
-	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> -->
-	<!-- <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'> -->
-	<!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono"> -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="angular.1.4.min.js"></script>
+    <script src="renderer.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Antic"/> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'> -->
+    <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono"> -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
-<body>
+<body ng-controller="defaultCtrl">
 	<div class="container">
 	<div class="row">
 	<div class="col-md-8 col-md-offset-2">
@@ -95,9 +99,9 @@
             <ul>
                 <li><a href="http://www.ccnx.org">CCNx</a>: heavy research and development for the CCNx 1.0 software stack</li>
                 <li><a href="http://www.ccn-lite.net/">ccn-lite</a>: code contributions</li>
-								<li><a href="http://www.cool-lang.org">COOL (COntent Oriented Lisp)</a>: an experimental programming language built on top of ccn-lite</li>
-								<li><a href="https://chris-wood.github.io/iris">iris</a>: a prototypical CCN forwarder written in Rust</li>
-								<li><a href="https://chris-wood.github.io/forte">libforte</a>: the early start of a strong and usable cryptography and security library written in C</li>
+                <li><a href="http://www.cool-lang.org">COOL (COntent Oriented Lisp)</a>: an experimental programming language built on top of ccn-lite</li>
+                <li><a href="https://chris-wood.github.io/iris">iris</a>: a prototypical CCN forwarder written in Rust</li>
+                <li><a href="https://chris-wood.github.io/forte">libforte</a>: the early start of a strong and usable cryptography and security library written in C</li>
             </ul>
         </div>
 
@@ -106,9 +110,31 @@
 
             <h3>Conference Proceedings</h3>
             <ul>
+                <li ng-repeat="paper in conferencePapers">
+                    <button type="button" class="btn btn-default"  data-toggle="collapse" data-target="#body-{{paper.id}}" aria-expanded="false" aria-controls="body-{{paper.id}}">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    {{paper.authors}}, "{{paper.title}}", in {{paper.venue}}. {{paper.date}}
+                    <div class="collapse" id="body-{{paper.id}}">
+                        <div class="well">
+                            <p>
+                                <b>Abstract</b>: {{paper.abstract}}
+                            </p>
+                            <p>
+                                <b>Paper</b>: <a href="{{paper.paperLink}}">here</a>
+                            </p>
+                            <p>
+                                <b>Slides</b>: <a href="{{paper.slidesLink}}">here</a>
+                            </p>
+                            <p>
+                                <b>Bibtex</b>: <a href="{{paper.bibtexLink}}">here</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
                 <li>
                     <button type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                        &#10162;
+                        &#10158;
                     </button>
                     G. Tusik, E. Uzun, and C. A. Wood, "AC3N: An API and Service for Anonymous Communication in Content-Centric Networking," in Proceedings of CCNC 2016, Las Vegas, NV, USA. January 2016. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
                     <div class="collapse" id="collapseExample">
