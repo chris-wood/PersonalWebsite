@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Antic"/> -->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 	<!-- <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'> -->
@@ -90,9 +91,9 @@
             <ul>
                 <li><a href="http://www.ccnx.org">CCNx</a>: heavy research and development for the CCNx 1.0 software stack</li>
                 <li><a href="http://www.ccn-lite.net/">ccn-lite</a>: code contributions</li>
-				<li><a href="http://www.cool-lang.org">COOL (COntent Oriented Lisp)</a>: an experimental programming language built on top of ccn-lite</li>
-				<li><a href="https://chris-wood.github.io/iris">iris</a>: a prototypical CCN forwarder written in Rust</li>
-				<li><a href="https://chris-wood.github.io/forte">libforte</a>: the early start of a strong and usable cryptography and security library written in C</li>
+								<li><a href="http://www.cool-lang.org">COOL (COntent Oriented Lisp)</a>: an experimental programming language built on top of ccn-lite</li>
+								<li><a href="https://chris-wood.github.io/iris">iris</a>: a prototypical CCN forwarder written in Rust</li>
+								<li><a href="https://chris-wood.github.io/forte">libforte</a>: the early start of a strong and usable cryptography and security library written in C</li>
             </ul>
         </div>
 
@@ -102,25 +103,33 @@
             <h3>Conference Proceedings</h3>
             <ul>
                 <li>
-                    G. Tusik, E. Uzun, and C. A. Wood, "AC3N: An API and Service for Anonymous Communication in Content-Centric Networking," in Proceedings of CCNC 2016, Las Vegas, NV, USA. January 2016. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
+									<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+										MORE
+									</button>
+									G. Tusik, E. Uzun, and C. A. Wood, "AC3N: An API and Service for Anonymous Communication in Content-Centric Networking," in Proceedings of CCNC 2016, Las Vegas, NV, USA. January 2016. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
+									<div class="collapse" id="collapseExample">
+										<div class="well">
+											ABSTRACT AND MORE!
+										</div>
+									</div>
                 </li>
-				<li>
-					C. A. Wood, S. P. Radziszowski, and M. Lukowiak, "Constructing Large S-boxes with Area Minimized Implementations,"
-					in Proceedings of MILCOM'2015, Tampa, FL, USA. October 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
-				</li>
-				<li>
-					M. Mosko and C. A. Wood, "Secure Fragmentation for Content-Centric Networking," IEEE MASS 2015 Workshop on Content-Centric
-					Networking (CCN 2015), Dallas, TX, USA. October 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
-				</li>
-				<li>
-					C. Ghali, M. A. Schlosberg, G. Tsudik, and C. A. Wood, "Interest-Based Access Control for Information Centric Networks,"
-					in Proceedings of ICN 2015, the 2nd ACM Conference on Information Centric Networking, San Francisco, CA, USA. September 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
-				</li>
-				<li>
-					C. Ghali, A. Narayanan, D. Oran, G. Tsudik, and C. A. Wood, "Secure Fragmentation for Content-Centric Networks,"
-					NCA 2015, the 14th IEEE International Symposium on Network Computing and Applications, Cambridge, MA, USA.
-					September 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
-				</li>
+								<li>
+									C. A. Wood, S. P. Radziszowski, and M. Lukowiak, "Constructing Large S-boxes with Area Minimized Implementations,"
+									in Proceedings of MILCOM'2015, Tampa, FL, USA. October 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
+								</li>
+								<li>
+									M. Mosko and C. A. Wood, "Secure Fragmentation for Content-Centric Networking," IEEE MASS 2015 Workshop on Content-Centric
+									Networking (CCN 2015), Dallas, TX, USA. October 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
+								</li>
+								<li>
+									C. Ghali, M. A. Schlosberg, G. Tsudik, and C. A. Wood, "Interest-Based Access Control for Information Centric Networks,"
+									in Proceedings of ICN 2015, the 2nd ACM Conference on Information Centric Networking, San Francisco, CA, USA. September 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
+								</li>
+								<li>
+									C. Ghali, A. Narayanan, D. Oran, G. Tsudik, and C. A. Wood, "Secure Fragmentation for Content-Centric Networks,"
+									NCA 2015, the 14th IEEE International Symposium on Network Computing and Applications, Cambridge, MA, USA.
+									September 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
+								</li>
                 <li>
                      J. Kurihara, C. A. Wood, and E. Uzun, "An Encryption-Based Access Control Framework for Content-Centric
                      Networking," IFIP Networking 2015, Toulouse, France. May 2015. [<a href="#">paper</a> | <a href="#">slides</a> | <a href="#">bibtex</a>]
