@@ -1,7 +1,8 @@
 body {
 	/*font-family: 'Ubuntu Condensed', sans-serif;*/
 	/*font-family: 'Roboto', sans-serif;*/
-	font-family: 'Ubuntu Mono';
+	/*font-family: 'Ubuntu Mono';*/
+	font-family: 'Open Sans', serif;
 	/*font-family: 'Oxygen', sans-serif;*/
 }
 
@@ -122,4 +123,11 @@ a.menu {
 }
 .blog-table-title {
 	padding:5px;
+}
+
+li {
+	list-style: none;
+    line-height:25px;
+    margin-bottom: 10px;
+    padding: 0;
 }
