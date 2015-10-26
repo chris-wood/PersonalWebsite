@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html ng-app="website">
 <head>
-    <script src="jquery-2.1.4.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-    <script src="angular.1.4.min.js"></script>
-    <script src="renderer.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.1.4.min.js"></script>
+    <script src="js/renderer.js"></script>
 
     <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Antic"/> -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'> -->
@@ -14,9 +14,8 @@
     <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono"> -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
 <body ng-controller="defaultCtrl">
@@ -111,10 +110,8 @@
             <h3>Conference Proceedings</h3>
             <ul>
                 <li ng-repeat="paper in conferencePapers">
-                    <button type="button" class="btn btn-default"  data-toggle="collapse" data-target="#body-{{paper.id}}" aria-expanded="false" aria-controls="body-{{paper.id}}">
-                        <span class="glyphicon glyphicon-menu-hamburger"></span>
-                    </button>
-                    {{paper.authors}}, "{{paper.title}}", in {{paper.venue}}. {{paper.date}}
+                    <span class="glyphicon glyphicon-triangle-down" type="button" class="btn btn-default"  data-toggle="collapse" data-target="#body-{{paper.id}}" aria-expanded="false" aria-controls="body-{{paper.id}}" style="cursor: pointer;"></span>
+                    {{paper.authors}}, "{{paper.title}}", in {{paper.venue}}. {{paper.date}}.
                     <div class="collapse" id="body-{{paper.id}}">
                         <div class="well">
                             <p>
