@@ -110,7 +110,7 @@
             <h3>Conference Proceedings</h3>
             <ul>
                 <li ng-repeat="paper in conferencePapers">
-                    <span class="glyphicon glyphicon-triangle-down" type="button" class="btn btn-default"  data-toggle="collapse" data-target="#body-{{paper.id}}" aria-expanded="false" aria-controls="body-{{paper.id}}" style="cursor: pointer;"></span>
+                    <span class="glyphicon glyphicon-triangle-right" type="button" class="btn btn-default"  data-toggle="collapse" data-target="#body-{{paper.id}}" aria-expanded="false" aria-controls="body-{{paper.id}}" style="cursor: pointer;"></span>
                     {{paper.authors}}, "{{paper.title}}", in {{paper.venue}}. {{paper.date}}.
                     <div class="collapse" id="body-{{paper.id}}">
                         <div class="well">
