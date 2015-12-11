@@ -1,5 +1,6 @@
 body {
-	font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Nobile', sans-serif;
+	/*font-family: 'Ubuntu Condensed', sans-serif;*/
 	/*font-family: 'Roboto', sans-serif;*/
 	/*font-family: 'Ubuntu Mono';*/
 	/*font-family: 'Open Sans', serif;*/
@@ -14,8 +15,14 @@ a {
     text-decoration: none;
 }
 
+.header {
+    padding:10px;
+    color:white;
+    background-color:black;
+}
+
 .header a {
-	color:none;
+	color:white;
 }
 
 .header a:hover {
@@ -70,7 +77,7 @@ a {
 	-webkit-filter: grayscale(0%); filter: grayscale(0%);
 }
 
-.section:before {
+.section:after {
     content: "";
     display: block;
     height: 1px;
@@ -80,7 +87,7 @@ a {
 }
 
 h1 {
-	font-size: 16px;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -93,6 +100,23 @@ h1.title {
 	padding:5px;
 	padding-right:25px;
 }
+
+h2 {
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color:red;
+	font-color:red;
+	line-height: 26.3999996185303px;
+}
+h.title {
+	display:inline;
+	padding:5px;
+	padding-right:25px;
+}
+
+
 h3 {
 	font-size: 14px;
 	font-style: normal;
