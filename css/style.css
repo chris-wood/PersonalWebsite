@@ -157,6 +157,10 @@ a.menu {
 	padding:5px;
 }
 
+li {
+   padding:0 0 10px 0;
+}
+
 /*li {
 	list-style: none;
     line-height:25px;
