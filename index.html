@@ -97,10 +97,15 @@
                 algorithms and engineering, software engineering, and heterogeneous computing.
             </p>
 
-            <h2>&#128187; Active Projects</h2>
+            <h2>&#128187; Projects</h2>
             <ol>
                 <li><a href="https://github.com/parc/CCNx_Distillery"><b>CCNx</b></a>: PARC's CCN software stack, forwarder(s), and APIs</li>
                 <li><a href="http://www.ccn-lite.net/"><b>ccn-lite</b></a>: a lightweight implementation of the CCN protocol</li>
+                <li><a href="https://chris-wood.github.io/iris"><b>iris</b></a>: a prototype CCN forwarder written in Rust.</li>
+                <li><a href="http://chris-wood.github.io/ccn-utils/"><b>ccnx-utils</b></a>: A suite of tools for CCN research and development.
+                    The project includes a packet generator written in Haskell, C library to dissect wire-format messages, C programs to
+                    stress test a forwarder, Python program to transform network topologies to forwarder configuration files, and a set of scripts
+                    to help aid forwarder experimentation.</li>
             </ol>
         </div>
 
@@ -271,11 +276,23 @@
             <ol>
                 <li>
                     CCNx Semantics
-                    <a class="plink" href="https://tools.ietf.org/html/draft-irtf-icnrg-ccnxsemantics-01"><span class="label label-primary">HTML</span></a><a class="plink" href="https://www.ietf.org/id/draft-irtf-icnrg-ccnxsemantics-01.txt"><span class="label label-success">TXT</span></a>
+                    <a class="plink" href="https://tools.ietf.org/html/draft-irtf-icnrg-ccnxsemantics-02"><span class="label label-primary">HTML</span></a><a class="plink" href="https://www.ietf.org/id/draft-irtf-icnrg-ccnxsemantics-02.txt"><span class="label label-success">TXT</span></a>
                 </li>
                 <li>
-                    CCNx Manifests
-                    <a class="plink" href="http://www.ccnx.org/pubs/draft-wood-icnrg-ccnxmanifests-00.html"><span class="label label-primary">HTML</span></a><a class="plink" href="http://www.ccnx.org/pubs/draft-wood-icnrg-ccnxmanifests-00.txt"><span class="label label-success">TXT</span></a>
+                    CCNx Messages in TLV Format
+                    <a class="plink" href="https://tools.ietf.org/html/draft-irtf-icnrg-ccnxmessages-02"><span class="label label-primary">HTML</span></a><a class="plink" href="https://www.ietf.org/id/draft-irtf-icnrg-ccnxmessages-02.txt"><span class="label label-success">TXT</span></a>
+                </li>
+                <li>
+                    The CCNx URI Scheme
+                    <a class="plink" href="https://tools.ietf.org/html/draft-mosko-icnrg-ccnxurischeme-00"><span class="label label-primary">HTML</span></a><a class="plink" href="https://www.ietf.org/id/draft-mosko-icnrg-ccnxurischeme-00.txt"><span class="label label-success">TXT</span></a>
+                </li>
+                <li>
+                    CCNx Key Exchange Protocol Version 1.0
+                    <a class="plink" href="https://github.com/PARC/ccnx-keyexchange-rfc/blob/master/draft-wood-icnrg-ccnxkeyexchange.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/PARC/ccnx-keyexchange-rfc/blob/master/draft-wood-icnrg-ccnxkeyexchange.txt"><span class="label label-success">TXT</span></a>
+                </li>
+                <li>
+                    CCNx Packet Encapsulation
+                    <a class="plink" href="https://github.com/PARC/ccnx-tlvencap-rfc/blob/master/draft-wood-icnrg-tlvencap.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/PARC/ccnx-tlvencap-rfc/blob/master/draft-wood-icnrg-tlvencap.txt"><span class="label label-success">TXT</span></a>
                 </li>
                 <li>
                     File-Like ICN Collection (FLIC)
@@ -286,27 +303,38 @@
                     <a class="plink" href="https://github.com/PARC/ccnx-fwd-discovery-rfc/blob/master/draft-wood-icnrg-ccnxdiscovery.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/PARC/ccnx-fwd-discovery-rfc/blob/master/draft-wood-icnrg-ccnxdiscovery.txt"><span class="label label-success">TXT</span></a>
                 </li>
                 <li>
+                    CCNx over UDP
+                    <a class="plink" href="https://github.com/PARC/ccnx-over-udp-rfc/blob/master/draft-wood-icnrg-ccnxoverudp.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/PARC/ccnx-over-udp-rfc/blob/master/draft-wood-icnrg-ccnxoverudp.txt"><span class="label label-success">TXT</span></a>
+                </li>
+                <li>
                     Logical Link Control for ICN Protocols
                     <a class="plink" href="https://github.com/tschudin/icn-llc-rfc/blob/master/draft-tschudin-icnrg-llc-00.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/tschudin/icn-llc-rfc/blob/master/draft-tschudin-icnrg-llc-00.txt"><span class="label label-success">TXT</span></a>
                 </li>
                 <li>
-                    CCNx Key Exchange Protocol Version 1.0
-                    <a class="plink" href="https://github.com/PARC/ccnx-keyexchange-rfc/blob/master/draft-wood-icnrg-ccnxkeyexchange.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/PARC/ccnx-keyexchange-rfc/blob/master/draft-wood-icnrg-ccnxkeyexchange.txt"><span class="label label-success">TXT</span></a>
+                    CCNx Manifests
+                    <a class="plink" href="http://www.ccnx.org/pubs/draft-wood-icnrg-ccnxmanifests-00.html"><span class="label label-primary">HTML</span></a><a class="plink" href="http://www.ccnx.org/pubs/draft-wood-icnrg-ccnxmanifests-00.txt"><span class="label label-success">TXT</span></a>
                 </li>
-                <li>
-                    CCNx Packet Encapsulation
-                    <a class="plink" href="https://github.com/PARC/ccnx-tlvencap-rfc/blob/master/draft-wood-icnrg-tlvencap.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/PARC/ccnx-tlvencap-rfc/blob/master/draft-wood-icnrg-tlvencap.txt"><span class="label label-success">TXT</span></a>
-                </li>
-                <!-- <li>
-                    CCNx over UDP
-                    <a class="plink" href="https://github.com/PARC/ccnx-tlvencap-rfc/blob/master/draft-wood-icnrg-tlvencap.html"><span class="label label-primary">HTML</span></a><a class="plink" href="https://github.com/PARC/ccnx-tlvencap-rfc/blob/master/draft-wood-icnrg-tlvencap.txt"><span class="label label-success">TXT</span></a>
-                </li> -->
             </ol>
         </div>
 
         <div id="talks" class="section">
             <h2>&#127908; Talks and Presentations</h2>
             <ol>
+                <li>
+                    "Labeled Segments and the CCNx URI Scheme," presentation, ICNRG Meeting, Buenos Aires, Argentina.
+                    April 7, 2016.
+                    <a class="plink" href="#"><span class="label label-success">slides</span></a>
+                </li>
+                <li>
+                    "CCNx-KE vs (D)TLS," presentation, ICNRG Interim Meeting, Buenos Aires, Argentina.
+                    April 4, 2016.
+                    <a class="plink" href="#"><span class="label label-success">slides</span></a>
+                </li>
+                <li>
+                    "Private Communication in ICN," presentation, ICNRG Interim Meeting, Buenos Aires, Argentina.
+                    April 4, 2016.
+                    <a class="plink" href="#"><span class="label label-success">slides</span></a>
+                </li>
                 <li>
                     "TLV Encryption and Packet Encapsulation," presentation, ICNRG Interim Meeting, Paris, France.
                     January 15, 2016.
@@ -402,17 +430,12 @@
 
             <ol>
                 <li><a href="http://www.cool-lang.org"><b>COOL (COntent Oriented Lisp)</b></a>: an experimental programming language built with native CCNx support.</li>
-                <li><a href="https://chris-wood.github.io/iris"><b>iris</b></a>: a prototype CCN forwarder written in Rust.</li>
                 <li><a href="https://github.com/chris-wood/protoccn"><b>protoccn</b></a>: A framework and DSL for developing CCN applications in Python.</li>
-                <li><a href="http://chris-wood.github.io/ccn-utils/"><b>ccnx-utils</b></a>: A suite of tools for CCN research and development.
-                    The project includes a packet generator written in Haskell, C library to dissect wire-format messages, C programs to
-                    stress test a forwarder, Python program to transform network topologies to forwarder configuration files, and a set of scripts
-                    to help aid forwarder experimentation. It's all work in progress.</li>
                 <li><a href="https://github.com/chris-wood/flux"><b>flux</b></a>: A language for programmable packet flows.</li>
                 <li><a href="https://github.com/chris-wood/ccn-fuse"><b>enfs</b></a>: An encrypted network filesystem based on CCN and FUSE.</li>
                 <li><a href="http://threatspec.org"><b>Threatspec</b></a>: code-driven threat modeling.</li>
                 <!-- <li><a href="https://github.com/chris-wood/forte"><b>libforte</b></a>: the early start of a usable cryptography and security library written in C.</li> -->
-                <li><a href="https://github.com/chris-wood/check"><b>check</b></a>: A tool to measure development productivity.</li>
+                <li><a href="https://github.com/chris-wood/check"><b>check</b></a>: A tool to track development progress and aid productivity.</li>
                 <!-- <li><a href="https://github.com/cesarghali/lit"><b>lit</b></a>: A program to dynamically and securely share files with your peers -- "Dropbox on Demand".</li> -->
                 <li><a href="https://github.com/chris-wood/papersmith"><b>papersmith</b></a>: A utility to enable better writing with Markdown. It compiles Markdown to LaTeX. Scripts for spelling and grammar checks are provided.</li>
             </ol>
@@ -425,6 +448,17 @@
         <div id="blog" class="section">
             <h2>&#128271; Blog Posts</h2>
             <table class="blog-table">
+                <tr class="blog-table-row">
+                    <td class="blog-table-date">
+                        04-01-2016
+                    </td>
+                    <td class="blog-table-separator">
+                        &hearts;
+                    </td>
+                    <td class="blog-table-title">
+                        <a href="#">TODO</a>
+                    </td>
+                </tr>
                 <tr class="blog-table-row">
                     <td class="blog-table-date">
                         03-25-2016
