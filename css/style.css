@@ -50,26 +50,28 @@ a {
 
 .portrait {
 	position: relative;
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
 	float:left;
 
 	/*-webkit-border-radius: 50%;*/
 	/*-moz-border-radius: 50%;*/
 	/*border-radius: 50%;*/
 
-	overflow: hidden;
-	border: 4px solid black;
+    margin:5px;
+	/*overflow: hidden;*/
+	border: 2px solid black;
 
 	-webkit-transition: border-color 1s;
 	transition: border-color 1s;
 	/*padding:5px;*/
+    margin-top:10px
 }
 
 .portrait img {
 	width: 100%;
 	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%); filter: grayscale(100%);
+	/*-webkit-filter: grayscale(100%); filter: grayscale(100%);*/
 }
 
 .portrait img:hover {
