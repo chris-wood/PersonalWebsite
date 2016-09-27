@@ -36,11 +36,10 @@
             <a class="menu" href="#grind">me</a>
             <a class="menu" href="#contact">contact</a>
             <a class="menu" href="#work">research</a>
-            <a class="menu" href="#writings">writings</a>
             <a class="menu" href="#talks">talks</a>
             <a class="menu" href="#software">software</a>
-            <a class="menu" href="#blog">blog posts</a>
-            <a class="menu" href="docs/caw_cv.pdf">curriculum vitae</a>
+            <a class="menu" href="#blog">blog</a>
+            <a class="menu pull-right" href="docs/caw_cv.pdf">curriculum vitae</a>
         </div>
 
         <div id="grind" class="section">
@@ -99,24 +98,18 @@
 
         <div id="work" class="section">
             <h2>&#128211; Research Interests</h2>
-            <p>
-                Content-centric networking architectures and protocols, computer and network security and privacy, cryptographic
-                algorithms and engineering, software engineering, and heterogeneous computing.
-            </p>
+            <ul>
+                <li>Security and privacy for computer networks and protocols</li>
+                <li>Applied cryptography</li>
+                <li>Software engineering</li>
+            </ul>
 
-            <h2>&#128187; Projects</h2>
-            <ol>
-                <li><a href="https://github.com/parc/CCNx_Distillery"><b>CCNx</b></a>: PARC's CCN software stack, forwarder(s), and APIs</li>
-                <li><a href="https://github.com/parc/ccnx-testrig"><b>CCNx Testrig</b></a>: A functional testing and fuzzer application to test independent CCN forwarder implementations.</li>
-                <li><a href="https://chris-wood.github.io/iris"><b>iris</b></a>: A CCN forwarder written in Rust.</li>
-                <li><a href="http://chris-wood.github.io/ccn-utils/"><b>ccnx-utils</b></a>: A suite of tools for CCN research and development.
-                    The project includes a packet generator written in Haskell, C library to dissect wire-format messages, C programs to
-                    stress test a forwarder, Python program to transform network topologies to forwarder configuration files, and a set of scripts
-                    to help aid forwarder experimentation.</li>
-            </ol>
-        </div>
+            <h2>&#9851; Professional Activities</h2>
+            <ul>
+                <li>Web chair of 4th ACM Conference on Information-Centric Networking (ICN 2017)</li>
+                <li>Active IRTF-ICNRG contributor since 2015</li>
+            </ul>
 
-        <div id="writings" class="section">
             <h2>&#128218; Publications, Technical Reports, RFCs</h2>
 
             <h3>Conference Proceedings</h3>
@@ -302,6 +295,11 @@
 
             <h3>Technical Reports</h3>
             <ol>
+                <li>
+                <b>Information-centric Networking Security (Dagstuhl Seminar 16251)</b><br/>
+                E. Ngai, B. Ohlman, G. Tsudik, E. Uzun, and C. A. Wood, Dagstuhl Reports X.XX (2016).<br/>
+                <a class="plink" href="#"><span class="label label-primary">PDF</span></a><a href="docs/ref.html#TODO"><span class="label label-danger">bibtex</span></a>
+                </li>
                 <li>
                     <b>CCNx 1.0 Protocol Architecture</b><br/>
                     M. Mosko, I. Solis, E. Uzun, and C. A. Wood, Technical Report, August, 2015.</br>
@@ -521,8 +519,19 @@
         <div id="software" class="section">
             <h2>&#128187; Software</h2>
             <p>
-                I work on various side projects in an attempt to stay fresh. A snippet of my Github activity is below.
+            I work on various side projects in an attempt to stay fresh. A summary of recent projects is below,
+            followed by a sample of my live Github activity.
             </p>
+
+            <ol>
+                <li><a href="https://github.com/parc/CCNx_Distillery"><b>CCNx</b></a>: PARC's CCN software stack, forwarder(s), and APIs</li>
+                <li><a href="https://github.com/parc/ccnx-testrig"><b>CCNx Testrig</b></a>: A functional testing and fuzzer application to test independent CCN forwarder implementations.</li>
+                <li><a href="https://chris-wood.github.io/iris"><b>iris</b></a>: A CCN forwarder written in Rust.</li>
+                <li><a href="http://chris-wood.github.io/ccn-utils/"><b>ccnx-utils</b></a>: A suite of tools for CCN research and development.
+                    The project includes a packet generator written in Haskell, C library to dissect wire-format messages, C programs to
+                    stress test a forwarder, Python program to transform network topologies to forwarder configuration files, and a set of scripts
+                    to help aid forwarder experimentation.</li>
+            </ol>
 
             <div id="github-feed"></div>
         </div>
@@ -530,6 +539,17 @@
         <div id="blog" class="section">
             <h2>&#128271; Blog Posts</h2>
             <table class="blog-table">
+                <tr class="blog-table-row">
+                    <td class="blog-table-date">
+                        09-23-2016
+                    </td>
+                    <td class="blog-table-separator">
+                        &hearts;
+                    </td>
+                    <td class="blog-table-title">
+                        <a href="http://chris-wood.github.io/2016/09/23/TCP-Sequence-Prediction.html">Unpredictable Sequence Numbers for TCP</a>
+                    </td>
+                </tr>
                 <tr class="blog-table-row">
                     <td class="blog-table-date">
                         09-16-2016
