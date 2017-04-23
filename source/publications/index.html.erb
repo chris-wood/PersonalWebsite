@@ -1,0 +1,37 @@
+---
+title: Publication
+---
+
+<%
+    title = data.publications.pubs["pitless17"].title
+    authors = "bar"
+    venue = "asdasd"
+    abstract = "Asdasdasda"
+    bibtex = data.publications.pubs["pitless17"].bibtex
+    paper_link = "asdasD"
+    slides_link = "asdasD"
+    code_link = "asdasdasdasd"
+%>
+
+<h2><%= title %></h2>
+<p><%= authors %></p>
+<p><%= venue %></p>
+<h3>Materials</h3>
+<ul>
+    <li><p><a href="<%= paper_link %>">Paper</a></p></li>
+    <li><p><a href="<%= slides_link %>">Slides</a></p></li>
+    <li><p><a href="<%= code_link %>">Code</a></p></li>
+</li>
+</ul>
+    <div class="infoblock">
+        <div class="blocktitle">Abstract</div>
+        <div class="blockcontent">
+            <%= abstract %>
+        </div>
+    </div>
+<div class="codeblock">
+    <div class="blocktitle">BibTeX</div>
+        <div class="blockcontent"><pre>
+<%= bibtex %>
+    </pre></div>
+</div>

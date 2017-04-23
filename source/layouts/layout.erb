@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><%= current_page.data.title %></title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+  </head>
+  <body>
+    <table id="tlayout">
+    <tr valign="top">
+        <td id="layout-menu">
+            <div class="menu-category">Christopher A. Wood</div>
+            <div class="menu-item"><a href="/index.html" class="current">About</a></div>
+            <div class="menu-item"><a href="/cv.html">CV</a></div>
+
+            <div class="menu-category">Research</div>
+            <div class="menu-item"><a href="/pubs.html" class="current">Publications</a></div>
+            <div class="menu-item"><a href="/talks.html">Talks</a></div>
+
+            <div class="menu-category">Input</div>
+            <div class="menu-item"><a href="/interests.html" class="current">Interests</a></div>
+
+            <div class="menu-category">Output</div>
+            <div class="menu-item"><a href="/software.html" class="current">Software</a></div>
+            <div class="menu-item"><a href="/blog.html" class="current">Writing</a></div>
+        </td>
+        <td id="layout-content">
+            <%= yield %>
+        </td>
+    </tr>
+    </table>
+  </body>
+</html>

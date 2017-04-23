@@ -1,0 +1,38 @@
+---
+title: TODO
+---
+
+<%
+    key = "pitless17"
+    title = data.publications.pubs[key].title
+    authors = data.publications.pubs[key].authors
+    venue = data.publications.pubs[key].venue
+    abstract = data.publications.pubs[key].abstract
+    bibtex = data.publications.pubs[key].bibtex
+    paper_link = data.publications.pubs[key].links["pdf"]
+    slides_link = data.publications.pubs[key].links["slides"]
+    code_link = data.publications.pubs[key].links["code"]
+%>
+
+<h2><%= title %></h2>
+<p><%= authors %></p>
+<p><%= venue %></p>
+<h3>Materials</h3>
+<ul>
+    <li><p><a href="<%= paper_link %>">Paper</a></p></li>
+    <li><p><a href="<%= slides_link %>">Slides</a></p></li>
+    <li><p><a href="<%= code_link %>">Code</a></p></li>
+</li>
+</ul>
+    <div class="infoblock">
+        <div class="blocktitle">Abstract</div>
+        <div class="blockcontent">
+            <%= abstract %>
+        </div>
+    </div>
+<div class="codeblock">
+    <div class="blocktitle">BibTeX</div>
+        <div class="blockcontent"><pre>
+<%= bibtex %>
+    </pre></div>
+</div>

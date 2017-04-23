@@ -1,0 +1,209 @@
+posts:
+    -
+        date: 02-07-2017
+        link: http://chris-wood.github.io/2017/02/07/Anonymous-Filtering.html
+        title: Anonymous Traffic Filtering
+    -
+        date: 01-13-2017
+        link: http://chris-wood.github.io/2017/01/13/Scrubbing.html
+        title: Constant-Time Scrubbing
+    -
+        date: 01-06-2017
+        link: http://chris-wood.github.io/2017/01/06/RWC2017.html
+        title: Real World Crypto 2017
+    -
+        date: 12-25-2016
+        link: http://chris-wood.github.io/2016/12/25/GCM-SIV.html
+        title: AES-GCM-SIV -- Nonce Reuse Without Abuse
+    -
+        date: 10-07-2016
+        link: http://chris-wood.github.io/2016/10/07/Apple.html
+        title: Joining Apple
+    -
+        date: 09-30-2016
+        link: http://chris-wood.github.io/2016/09/30/TCP-ISN-MD5.html
+        title: TCP Initial Sequence Numbers in Linux
+    -
+        date: 09-23-2016
+        link: http://chris-wood.github.io/2016/09/23/TCP-Sequence-Prediction.html
+        title: Unpredictable Sequence Numbers for TCP
+    -
+        date: 09-16-2016
+        link: http://chris-wood.github.io/2016/09/16/Private-Service-Discovery.html
+        title: Private Service Discovery
+    -
+        date: 09-09-2016
+        link: http://chris-wood.github.io/2016/09/09/Mini-Scheduler.html
+        title: A Mini Scheduler
+    -
+        date: 09-02-2016
+        link: http://chris-wood.github.io/2016/09/02/Blind-TCP-Attacks.html
+        title: Sequence Numbers Are Considered Harmful?
+    -
+        date: 08-26-2016
+        link: http://chris-wood.github.io/2016/08/26/Sweet32.html
+        title: The Bitter Sweet Reality of Block Cipher Collisions
+    -
+        date: 08-19-2016
+        link: http://chris-wood.github.io/2016/08/19/HEIST.html
+        title: Beware of the Side Channel
+    -
+        date: 08-12-2016
+        link: http://chris-wood.github.io/2016/08/12/ChaCha20-Haskell.html
+        title: ChaCha20 in Haskell
+    -
+        date: 08-05-2016
+        link: http://chris-wood.github.io/2016/08/05/Kolmogorov-Smirnov.html
+        title: The Kolmogorov-Smirnov Test and RNGs
+    -
+        date: 07-29-2016
+        link: http://chris-wood.github.io/2016/07/29/Leaving-SF.html
+        title: Leaving SF
+    -
+        date: 07-22-2016
+        link: http://chris-wood.github.io/2016/07/22/IETF-96.html
+        title: IETF 96 Highlights
+    -
+        date: 07-15-2016
+        link: http://chris-wood.github.io/2016/07/15/Exploring-Padding-Oracles.html
+        title: Exploring Padding Oracles
+    -
+        date: 07-08-2016
+        link: http://chris-wood.github.io/2016/07/08/AES-Key-Wrapping.html
+        title: AES Key Wrapping
+    -
+        date: 07-01-2016
+        link: http://chris-wood.github.io/2016/07/01/Know-Thy-MOOs.html
+        title: Know Thy MOOs
+    -
+        date: 06-24-2016
+        link: http://chris-wood.github.io/2016/06/24/ForwardSecrecy.html
+        title: Forward Secrecy -- Yay or Nay?
+    -
+        date: 06-17-2016
+        link: http://chris-wood.github.io/2016/06/17/Crypto-FIA.html
+        title: Clean Slate Crypto for Future Network Architectures
+    -
+        date: 06-10-2016
+        link: http://chris-wood.github.io/2016/06/10/Wrap-And-Encap.html
+        title: Key Wrapping and Encapsulation
+    -
+        date: 06-03-2016
+        link: http://chris-wood.github.io/2016/06/03/DDH-Zp.html
+        title: Decisional Diffie Hellman and Zp
+    -
+        date: 05-27-2016
+        link: http://chris-wood.github.io/2016/05/27/Name-Equivalence-Classes.html
+        title: CCN Network Name Equivalence Classes
+    -
+        date: 05-20-2016
+        link: http://chris-wood.github.io/2016/05/20/Constant-Time-Operations.html
+        title: Subtleties in Crypto Code
+    -
+        date: 05-14-2016
+        link: http://chris-wood.github.io/2016/05/13/Native-PRNG.html
+        title: A Native PRNG
+    -
+        date: 05-06-2016
+        link: http://chris-wood.github.io/2016/05/06/OpenSSL-DTLS.html
+        title: DTLS with OpenSSL
+    -
+        date: 04-29-2016
+        link: http://chris-wood.github.io/2016/04/29/DigitalOcean-LetsEncrypt.html
+        title: Digital Ocean and LetsEncrypt
+    -
+        date: 04-21-2016
+        link: http://chris-wood.github.io/2016/04/21/Shuffling-Part1.html
+        title: Shuffle Up and Deal -- Part 1
+    -
+        date: 04-15-2016
+        link: http://chris-wood.github.io/2016/04/15/Stars-Bars-Names.html
+        title: Stars, Bars, and Names
+    -
+        date: 04-08-2016
+        link: http://chris-wood.github.io/2016/04/08/IETF95.html
+        title: IETF'95 Notes
+    -
+        date: 04-01-2016
+        link: http://chris-wood.github.io/2016/04/01/ICN-PFS.html
+        title: What is ICN with Perfect Forward Secrecy?
+    -
+        date: 03-25-2016
+        link: http://chris-wood.github.io/2016/03/25/URI-Randomness.html
+        title: How Random are URIs?
+    -
+        date: 03-18-2016
+        link: http://chris-wood.github.io/2016/03/18/Protoccn.html
+        title: Protoccn -- A Python Framework for CCN Applications
+    -
+        date: 03-11-2016
+        link: http://chris-wood.github.io/2016/03/11/Speculative-Design.html
+        title: Suppress Speculative Design
+    -
+        date: 03-4-2016
+        link: http://chris-wood.github.io/2016/03/04/Naming.html
+        title: What's in a Name?
+    -
+        date: 02-26-2016
+        link: http://chris-wood.github.io/2016/02/26/RustC-Results.html
+        title: Rusty Results
+    -
+        date: 02-19-2016
+        link: http://chris-wood.github.io/2016/02/19/Different-Mix-Nets.html
+        title: More Mix than Net
+    -
+        date: 02-12-2016
+        link: http://chris-wood.github.io/2016/02/12/Polymorphism-in-C.html
+        title: Polymorphism in C
+    -
+        date: 02-05-2016
+        link: http://chris-wood.github.io/2016/02/05/Why-ICN.html
+        title: Why Bother with ICN?
+    -
+        date: 02-01-2016
+        link: http://chris-wood.github.io/2016/02/01/Key-Exchange-Protocols.html
+        title: Comments on Key Exchange
+    -
+        date: 01-29-2016
+        link: http://chris-wood.github.io/2016/01/29/Channel-and-Object-Encryption.html
+        title: Channel and Object Encryption and their Role in CCN
+    -
+        date: 01-23-2016
+        link: http://chris-wood.github.io/2016/01/23/Private-Object-Encryption.html
+        title: Private Object Encryption in Vanilla CCN is an Oxymoron
+    -
+        date: 01-16-2016
+        link: http://chris-wood.github.io/2016/01/16/Design-Locality.html
+        title: Design Locality
+    -
+        date: 12-20-2015
+        link: http://chris-wood.github.io/2015/12/20/Confidentiality-CCN-IP.html
+        title: A Discussion of Confidentiality and Privacy in CCN and TCP/IP
+    -
+        date: 12-01-2015
+        link: http://chris-wood.github.io/2015/12/01/1-CCN-vs-IP-Security.html
+        title: Is CCN more secure than IP?
+    -
+        date: 10-10-2015
+        link: http://chris-wood.github.io/2015/10/10/Professional-Pushes.html
+        title: Professional Pushes
+    -
+        date: 06-16-2015
+        link: http://chris-wood.github.io/2015/06/16/CCN-vs-CDN.html
+        title: CCN vs CDN -- What is the Difference?
+    -
+        date: 05-30-2015
+        link: http://chris-wood.github.io/2015/05/30/Staying-Fresh.html
+        title: Staying Fresh with Research
+    -
+        date: 02-20-2015
+        link: http://chris-wood.github.io/2015/02/20/OSG-Tutorial.html
+        title: A Beginner's Guide to the Open Science Grid (OSG)
+    -
+        date: 02-20-2015
+        link: http://chris-wood.github.io/2015/02/20/Clean-Research-Code.html
+        title: Clean Research Code
+    -
+        date: 02-17-2015
+        link: http://chris-wood.github.io/2015/02/17/UnitTests.html
+        title: Unit Tests. Write Them. End of Story.
