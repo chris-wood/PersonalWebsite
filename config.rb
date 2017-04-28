@@ -15,6 +15,10 @@ page '/*.txt', layout: false
 
 # page "/publications/*", :layout => "publication"
 
+data.publications.pubs.each do |key, p|
+    proxy "/publications/#{key}.html", "/publication.html", :locals => { :key => key }
+end
+
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

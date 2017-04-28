@@ -14,7 +14,7 @@ for a complete collection of my publications.</p>
     <% data.publications.pubs.each do |key, p| %>
     <% if p.type == "conference" then %>
     <li>
-        <p><b><%= link_to p.title, p.page %></b></p>
+        <p><b><%= link_to p.title, "/publications/#{key}.html" %></b></p>
         <%= p.authors %></br>
         <% if p.links["pdf"] then %><a href="<%= p.links["pdf"] %>"><span class="badge-blue">PDF</span></a><% end %>
         <% if p.links["slides"] then %><a href="<%= p.links["slides"] %>"><span class="badge-green">slides</span></a><% end %>
