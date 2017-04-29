@@ -25,6 +25,7 @@ title: Publication
 </li>
 </ul>
 
+<% if abstract != nil and abstract.length > 0 %>
 <article class="message">
 <div class="message-header">
     <p>Abstract</p>
@@ -33,7 +34,9 @@ title: Publication
 <%= abstract %>
 </div>
 </article>
+<% end %>
 
+<% if bibtex != nil and bibtex.length > 0 %>
 <article class="message">
 <div class="message-header">
     <p>BibTeX</p>
@@ -42,3 +45,4 @@ title: Publication
 <%= bibtex %>
 </pre></div>
 </article>
+<% end %>
