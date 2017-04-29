@@ -1,27 +1,32 @@
 ---
 title: Christopher A. Wood
 ---
+<div class="card">
+  <div class="card-image">
+    <!-- <figure class="image is-4by3"> -->
+      <img src="img/CAWheadshot2.jpg" alt="my ugly mug"/>
+    <!-- </figure> -->
+  </div>
+  <div class="card-content">
+    <p><a href="#">Christopher A. Wood</a> <br />
+    <a href="http://ics.uci.edu">Department of Computer Science</a> <br />
+    <a href="http://www.uci.edu">University of California Irvine</a> <br /><br />
+    Email: woodc1 at uci dot edu</a> <br />
+    CV: <a href="https://www.christopher-wood.com/docs/caw_cv.pdf">Cirriculum Vitae</a> <br />
+    &#128271; Blog: <a href="http://chris-wood.github.io">chris-wood.github.io</a> <br /><br />
+    &#128211; Research Interests: Security and privacy for computer networks, systems, and protocols <br />
+    [<a href="https://scholar.google.com/citations?user=f_QuauMAAAAJ&hl=en">Google Scholar</a>,
+    <a href="http://dblp.uni-trier.de/pers/hd/w/Wood:Christopher_A=">DBLP</a>] <br /><br />
 
-<table class="imgtable"><tr><td>
-<img src="img/CAWheadshot2.jpg" alt="my ugly mug"/>
-<td align="left"><p><a href="#">Christopher A. Wood</a> <br />
-<a href="http://ics.uci.edu">Department of Computer Science</a> <br />
-<a href="http://www.uci.edu">University of California Irvine</a> <br /><br />
-Email: woodc1 at uci dot edu</a> <br />
-CV: <a href="https://www.christopher-wood.com/docs/caw_cv.pdf">Cirriculum Vitae</a> <br />
-&#128271; Blog: <a href="http://chris-wood.github.io">chris-wood.github.io</a> <br /><br />
-&#128211; Research Interests: Security and privacy for computer networks, systems, and protocols <br />
-[<a href="https://scholar.google.com/citations?user=f_QuauMAAAAJ&hl=en">Google Scholar</a>,
-<a href="http://dblp.uni-trier.de/pers/hd/w/Wood:Christopher_A=">DBLP</a>] <br /><br />
-
-&#9851; Activities
-<ul>
-    <li>Web chair for 4th ACM Conference on Information-Centric Networking (ACM ICN 2017)</li>
-    <li>External reviewer for: IEEE S&P Magazine, AsiaCCS 2017, and ACM ICN 2016</li>
-    <li>Active IRTF ICNRG contributor since 2015</li>
-    <li>Contributor to the <a href="http://www.cs.yale.edu/homes/peralta/CircuitStuff/CMT.html">Circuit Minimization Team (CMT)</a></li>
-</ul>
-</td></tr></table>
+    &#9851; Activities
+    <ul>
+        <li>Web chair for 4th ACM Conference on Information-Centric Networking (ACM ICN 2017)</li>
+        <li>External reviewer for: IEEE S&P Magazine, AsiaCCS 2017, and ACM ICN 2016</li>
+        <li>Active IRTF ICNRG contributor since 2015</li>
+        <li>Contributor to the <a href="http://www.cs.yale.edu/homes/peralta/CircuitStuff/CMT.html">Circuit Minimization Team (CMT)</a></li>
+    </ul>
+    </div>
+</div>
 
 <h2>&#9749; My Daily Grind</h2>
 <p>
@@ -45,6 +50,19 @@ CV: <a href="https://www.christopher-wood.com/docs/caw_cv.pdf">Cirriculum Vitae<
 </p>
 
 <h2>Updates</h2>
-<p>
-    TODO
-</p>
+<% data.news.first(5).each do |n| %>
+<div class="column is-quarter">
+</div>
+<div class="column is-half">
+<article class="message is-info">
+  <div class="message-header">
+      <%= n.tag %>
+  </div>
+  <div class="message-body">
+      <%= n.body %>
+  </div>
+</article>
+</div>
+<div class="column is-quarter">
+</div>
+<% end %>

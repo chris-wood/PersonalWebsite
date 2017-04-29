@@ -24,15 +24,21 @@ title: Publication
     <li><p><a href="<%= code_link %>">Code</a></p></li>
 </li>
 </ul>
-    <div class="infoblock">
-        <div class="blocktitle">Abstract</div>
-        <div class="blockcontent">
-            <%= abstract %>
-        </div>
-    </div>
-<div class="codeblock">
-    <div class="blocktitle">BibTeX</div>
-        <div class="blockcontent"><pre>
-<%= bibtex %>
-    </pre></div>
+
+<article class="message">
+<div class="message-header">
+    <p>Abstract</p>
 </div>
+<div class="message-body">
+<%= abstract %>
+</div>
+</article>
+
+<article class="message">
+<div class="message-header">
+    <p>BibTeX</p>
+</div>
+<div class="blockcontent"><pre>
+<%= bibtex %>
+</pre></div>
+</article>
