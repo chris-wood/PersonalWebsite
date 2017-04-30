@@ -4,6 +4,9 @@ title: Publication
 
 <%
     # the `key` variable is passed in as a local variable through the page proxy (see config.rb)
+    if !key
+        key = "tmp"
+    end
     title = data.publications.pubs[key].title
     authors = data.publications.pubs[key].authors
     venue = data.publications.pubs[key].venue
