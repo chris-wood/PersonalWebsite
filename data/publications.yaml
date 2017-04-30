@@ -661,6 +661,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         bibtex:
     draft-ccnx-semantics:
         type: id
+        page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-ccnxsemantics/
         title: CCNx Semantics
         authors: M. Mosko, I. Solis, and C. A. Wood
         venue: Internet Draft, March 2017.
@@ -671,6 +672,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         bibtex:
     draft-ccnx-messages:
         type: id
+        page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-ccnxmessages/
         title: CCNx Messages in TLV Format
         authors: M. Mosko, I. Solis, and C. A. Wood
         venue: Internet Draft, March 2017.
@@ -681,6 +683,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         bibtex:
     draft-ccnx-uri:
         type: id
+        page: https://datatracker.ietf.org/doc/draft-mosko-icnrg-ccnxurischeme/
         title: The CCNx URI Scheme
         authors: M. Mosko and C. A. Wood
         venue: Internet Draft, April 2016.
@@ -691,6 +694,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         bibtex:
     draft-ccnx-ke:
         type: id
+        page: https://datatracker.ietf.org/doc/draft-wood-icnrg-ccnxkeyexchange/
         title: CCNx Key Exchange Protocol Version 1.0
         authors: M. Mosko, E. Uzun, and C. A. Wood
         venue: Internet Draft, March 2017.
@@ -701,6 +705,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         bibtex:
     draft-ccnx-esic:
         type: id
+        page: https://datatracker.ietf.org/doc/draft-wood-icnrg-esic/
         title: Encrypted Sessions In CCNx (ESIC)
         authors: M. Mosko and C. A. Wood
         venue: Internet Draft, March 2017.
@@ -711,6 +716,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         bibtex:
     draft-ccnx-flic:
         type: id
+        page: https://datatracker.ietf.org/doc/draft-tschudin-icnrg-flic/
         title: File-Like ICN Collection (FLIC)
         authors: C. Tschudin and C. A. Wood
         venue: Internet Draft, March 2017.
@@ -721,6 +727,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         bibtex:
     draft-ccnx-clean:
         type: id
+        page: https://datatracker.ietf.org/doc/draft-wood-icnrg-clean/
         title: Content-Locked Encryption and Authentication of Nameless Objects
         authors: C. A. Wood
         venue: Internet Draft, March 2017.
