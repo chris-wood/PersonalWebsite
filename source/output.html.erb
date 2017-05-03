@@ -1,0 +1,55 @@
+---
+title: Christopher A. Wood | Software
+---
+
+<h2>Research Software</h2>
+<a href="https://chris-wood.github.io/coreo-network/">COREO</a>: a CCN software suite
+that includes the following subprojects:
+<ul>
+    <li>
+        iris: the COREO socket-based forwarder, compliant with the latest CCNx standards. It includes a WIP implementation of the DCR routing protocol.
+    </li>
+    <li>
+        spud: the COREO network stack.
+    </li>
+    <li>
+        testrig: a forwarder test harness to assess CCNx protocol adherence.
+    </li>
+    <li>
+        ccnx-pktgen: a packet generation utility.
+    </li>
+    <li>
+        fiblib: a collection of CCN FIB implementations for experimental analysis.
+    </li>
+    <li>
+        pktpusher: a packet load simulation tool.
+    </li>
+    <li>
+        dissect: a CCNx packet dissector.
+    </li>
+</ul>
+It is based on the latest CCNx specifications <a href="https://chris-wood.github.io/coreo-spec/">located here</a>.
+
+<h2>Personal Projects</h2>
+I work on other various projects in my free time. See my <a href="https://github.com/chris-wood">
+Github</a> profile for a list. Below is a snippet of my recent activity.
+
+<br/><br/><br/>
+
+<div class="calendar">
+    Loading the data just for you.
+</div>
+<script>
+    new GitHubCalendar(".calendar", "chris-wood", {"global_stats": false, "summary_text": ""});
+</script>
+
+<h2>Blog Posts</h2>
+I also try to write about random topics of interest. Below is a collection of posts.
+
+<ol>
+    <% data.blog.posts.each do |post| %>
+    <li>
+        <%= post.date %> &hearts; <%= link_to post.title, post.link %>
+    </li>
+    <% end %>
+</ol>

@@ -9,67 +9,63 @@
 
     <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
+
+    <!-- <script src="javascripts/vertical-responsive-menu.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/vertical-responsive-menu.min.css"/> -->
   </head>
   <body>
+  <nav class="nav has-shadow">
+  <div class="container">
+    <div class="nav-center nav-menu">
+      <a class="nav-item is-tab is-hidden-mobile" href="/">About</a>
+      <a class="nav-item is-tab is-hidden-mobile" href="research.html">Research</a>
+      <a class="nav-item is-tab is-hidden-mobile" href="interests.html">Input</a>
+      <a class="nav-item is-tab is-hidden-mobile" href="output.html">Output</a>
+    </div>
+    <span class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </div>
+</nav>
   <div class="columns">
-      <div class="column is-2">
-      <aside class="menu">
-      <p class="menu-label">
-        <b>Christopher A. Wood</b>
-      </p>
-      <ul class="menu-list">
-        <li><a href="/index.html" class="current">About</a></li>
-        <li><%= link_to "CV", "/docs/caw_cv.pdf" %></li>
-      </ul>
-      <p class="menu-label">
-        <b>Research</b>
-      </p>
-      <ul class="menu-list">
-        <li><a href="research.html" class="current">Publications</a></li>
-        <li><a href="talks.html">Talks</a></li>
-      </ul>
-      <p class="menu-label">
-        <b>Input</b>
-      </p>
-      <ul class="menu-list">
-        <li><a href="interests.html" class="current">Interests</a></li>
-      </ul>
-      <p class="menu-label">
-        <b>Output</b>
-      </p>
-      <ul class="menu-list">
-          <li><a href="software.html" class="current">Software</a></li>
-          <li><a href="blog.html" class="current">Writing</a></li>
-      </ul>
-      </aside>
-  </div>
-  <div class="column">
-      <div class="content">
-      <%= yield %>
+      <!-- <div class="column is-2">
+          <aside class="menu is-large">
+          <p class="menu-label">
+            <b>Christopher A. Wood</b>
+          </p>
+          <ul class="menu-list">
+            <li><a href="/index.html" class="current">About</a></li>
+            <li><%= link_to "CV", "/docs/caw_cv.pdf" %></li>
+          </ul>
+          <p class="menu-label">
+            <b>Research</b>
+          </p>
+          <ul class="menu-list">
+            <li><a href="research.html" class="current">Publications</a></li>
+            <li><a href="talks.html">Talks</a></li>
+          </ul>
+          <p class="menu-label">
+            <b>Input</b>
+          </p>
+          <ul class="menu-list">
+            <li><a href="interests.html" class="current">Interests</a></li>
+          </ul>
+          <p class="menu-label">
+            <b>Output</b>
+          </p>
+          <ul class="menu-list">
+              <li><a href="software.html" class="current">Software</a></li>
+              <li><a href="blog.html" class="current">Writing</a></li>
+          </ul>
+          </aside>
+      </div> -->
+      <div class="column is-offset-one-quarter is-half">
+          <div class="content">
+          <%= yield %>
+          </div>
       </div>
-  </div>
-    <!-- <table id="tlayout">
-    <tr valign="top">
-        <td id="layout-menu">
-            <div class="menu-category">Christopher A. Wood</div>
-            <div class="menu-item"><a href="/index.html" class="current">About</a></div>
-            <div class="menu-item"><%= link_to "CV", "/docs/caw_cv.pdf" %></div>
-
-            <div class="menu-category">Research</div>
-            <div class="menu-item"><a href="/research.html" class="current">Publications</a></div>
-            <div class="menu-item"><a href="/talks.html">Talks</a></div>
-
-            <div class="menu-category">Input</div>
-            <div class="menu-item"><a href="/interests.html" class="current">Interests</a></div>
-
-            <div class="menu-category">Output</div>
-            <div class="menu-item"><a href="/software.html" class="current">Software</a></div>
-            <div class="menu-item"><a href="/blog.html" class="current">Writing</a></div>
-        </td>
-        <td id="layout-content">
-
-        </td>
-    </tr>
-    </table> -->
+    </div>
   </body>
 </html>

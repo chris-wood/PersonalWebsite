@@ -93,3 +93,15 @@ for a complete collection of my publications.</p>
     <% end %>
     <% end %>
 </ol>
+
+<h2>Talks and Presentations</h2>
+<ol>
+    <% data.talks.talks.each do |t| %>
+    <li>
+        <% if t.links["pdf"] and t.links["pdf"].length > 0 then %> <p><b>"<%= link_to t.title, t.links["pdf"] %>,"</b> <%= t.venue %>.</p>
+        <% else %>
+        <p><b>"<%= t.title %>,"</b> <%= t.venue %>.</p>
+        <% end %>
+    </li>
+    <% end %>
+</ol>
