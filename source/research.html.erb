@@ -9,16 +9,16 @@ for a complete collection of my publications.</p>
 
 <h3><b>Conference Proceedings</b></h3>
 
-<!-- https://crypto.stanford.edu/~dwu4/pcprfs.html -->
 <ol>
     <% data.publications.pubs.each do |key, p| %>
     <% if p.type == "conference" then %>
     <li>
-        <p><b><%= link_to p.title, "publications/#{key}.html" %></b></p>
+        <p><b><%= link_to p.title, "publications/#{key}.html" %></b></br>
         <%= p.authors %></br>
         <% if p.links["pdf"] then %><a class="button is-small is-info" href="<%= p.links["pdf"] %>">PDF</a><% end %>
         <% if p.links["slides"] then %><a class="button is-small is-success" href="<%= p.links["slides"] %>">slides</a><% end %>
         <% if p.links["code"] then %><a class="button is-small is-warning" href="<%= p.links["code"] %>">code</a><% end %>
+        </p>
     </li>
     <% end %>
     <% end %>
@@ -30,10 +30,11 @@ for a complete collection of my publications.</p>
     <% data.publications.pubs.each do |key, p| %>
     <% if p.type == "journal" then %>
     <li>
-        <p><b><%= link_to p.title, p.page %></b></p>
+        <p><b><%= link_to p.title, p.page %></b><br/>
         <%= p.authors %></br>
         <% if p.links["pdf"] then %><a class="button is-small is-info" href="<%= p.links["pdf"] %>">PDF</a><% end %>
         <% if p.links["slides"] then %><a class="button is-small is-success" href="<%= p.links["slides"] %>">slides</a><% end %>
+        </p>
     </li>
     <% end %>
     <% end %>
@@ -44,10 +45,11 @@ for a complete collection of my publications.</p>
     <% data.publications.pubs.each do |key, p| %>
     <% if p.type == "poster" then %>
     <li>
-        <p><b><%= link_to p.title, p.page %></b></p>
+        <p><b><%= link_to p.title, p.page %></b><br/>
         <%= p.authors %></br>
         <% if p.links["pdf"] then %><a class="button is-small is-info" href="<%= p.links["pdf"] %>">PDF</a><% end %>
         <% if p.links["slides"] then %><a class="button is-small is-success" href="<%= p.links["slides"] %>">slides</a><% end %>
+        </p>
     </li>
     <% end %>
     <% end %>
@@ -58,10 +60,11 @@ for a complete collection of my publications.</p>
     <% data.publications.pubs.each do |key, p| %>
     <% if p.type == "thesis" then %>
     <li>
-        <p><b><%= link_to p.title, p.page %></b></p>
+        <p><b><%= link_to p.title, p.page %></b><br/>
         <%= p.authors %></br>
         <% if p.links["pdf"] then %><a class="button is-small is-info" href="<%= p.links["pdf"] %>">PDF</a><% end %>
         <% if p.links["slides"] then %><a class="button is-small is-success" href="<%= p.links["slides"] %>">slides</a><% end %>
+        </p>
     </li>
     <% end %>
     <% end %>
@@ -72,9 +75,10 @@ for a complete collection of my publications.</p>
     <% data.publications.pubs.each do |key, p| %>
     <% if p.type == "report" then %>
     <li>
-        <p><b><%= link_to p.title, p.page %></b></p>
+        <p><b><%= link_to p.title, p.page %></b><br/>
         <%= p.authors %></br>
         <% if p.links["pdf"] then %><a class="button is-small is-info" href="<%= p.links["pdf"] %>">PDF</a><% end %>
+        </p>
     </li>
     <% end %>
     <% end %>
@@ -85,10 +89,11 @@ for a complete collection of my publications.</p>
     <% data.publications.pubs.each do |key, p| %>
     <% if p.type == "id" then %>
     <li>
-        <p><b><%= link_to p.title, p.page %></b></p>
+        <p><b><%= link_to p.title, p.page %></b><br/>
         <%= p.authors %></br>
         <a class="button is-small is-info" href="<%=p.links["html"]%>">HTML</a>
         <a class="button is-small is-success" href="<%=p.links["txt"]%>">TXT</a>
+        </p>
     </li>
     <% end %>
     <% end %>
