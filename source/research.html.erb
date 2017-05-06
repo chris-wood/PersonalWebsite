@@ -110,3 +110,15 @@ for a complete collection of my publications.</p>
     </li>
     <% end %>
 </ol>
+
+<h2>Patents</h2>
+<ol>
+    <% data.patents.each do |p| %>
+    <li>
+        <% if p.url and p.url.length > 0 then %> <p><b>"<%= link_to p.title, p.url %>,"</b> <%= p.authors %>, <%= p.details %>.</p>
+        <% else %>
+        <p><b>"<%= p.title %>,"</b> <%= p.authors %>, <%= p.details %>.</p>
+        <% end %>
+    </li>
+    <% end %>
+</ol>
