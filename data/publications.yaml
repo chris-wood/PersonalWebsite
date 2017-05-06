@@ -344,7 +344,7 @@ that only uses information contained in interest messages."
             slides: https://www.christopher-wood.com/docs/conference/frag15_slides.pdf
             code:
         awards: Best Paper Award
-        abstract:
+        abstract: "Content-Centric Networking (CCN) is a communication paradigm that emphasizes content distribution. Named-Data Networking (NDN) is an instantiation of CCN, a candidate Future Internet Architecture. NDN supports human-readable content naming and router-based content caching which lends itself to efficient, secure, and scalable content distribution. Because of NDN's fundamental requirement that each content object must be signed by its producer, fragmentation has been considered incompatible with NDN since it precludes authentication of individual content fragments by routers. The alternative is to perform hop-by-hop reassembly, which incurs prohibitive delays. In this paper, we show that secure and efficient content fragmentation is both possible and even advantageous in NDN and similar content-centric network architectures that involve signed content. We design a concrete technique that facilitates efficient and secure content fragmentation in NDN, discuss its security guarantees and assess performance. We also describe a prototype implementation and compare performance of cut-through with hop-by-hop fragmentation and reassembly."
         bibtex: "@inproceedings{ghali2015secure,\n
   title={Secure fragmentation for content-centric networks},\n
   author={Ghali, Cesar and Narayanan, Ashok and Oran, David and Tsudik, Gene and Wood, Christopher A},\n
@@ -658,6 +658,39 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
             slides:
             code:
         abstract:
+        bibtex:
+    ndf15:
+        type: report
+        title: Network-Agnostic Systems in a Networked World
+        authors: G. Scott and C. A. Wood
+        venue:
+        links:
+            pdf:
+            slides:
+            code:
+        abstract:
+        bibtex:
+    ac3n15:
+        type: report
+        title: AC3N - An API and Service for Anonymous Communication in Content-Centric Networking
+        authors: G. Tsudik, E. Uzun, and C. A. Wood
+        venue:
+        links:
+            pdf:
+            slides:
+            code:
+        abstract: "Privacy problems that stem from a lack of truly anonymous communication in today’s Internet are exacerbated by growing evidence of large-scale network packet interception and eavesdropping [12]. Internet users have a limited set of tools available at their disposal to enable better communication, including Tor [3] and new protocols such as tcpcrypt [8, 9] and DNS-over-TLS [32]. Content-Centric Networking (CCN) is an emerging (inter-)networking architecture with the goal of becoming an alternative to the IP-based Internet. Such an architecture must at least have parity with IP based solutions for anonymous communication. Thus, there is a clear demand for a CCN analog to Tor and related protocols. ANDaNA (Anonymous Named Data Networking Applica- tion) was the initial attempt to satisfy this demand for CCNs in the context of the legacy Named Data Networking (NDN) architecture – an instance of CCN. However, its elementary design and hasty implementation led to performance and usability issues that hinder practical use. In this paper, we introduce AC3N: Anonymous Communication for Content- Centric Networking, a substantially evolved and improved incarnationofANDa ̄NA.AC3Nsupportshigh-throughput and low-latency anonymous content retrieval in modern CCNs, for both unidirectional and bidirectional settings. We discuss the design, implementation, performance, and anonymity prop- erties of AC3N. Our experimental results indicate that AC3N incurs very low overhead while providing anonymity features analogous to Tor."
+        bibtex:
+    ccnsink14:
+        type: report
+        title: Application-Layer Gateway for IP and Content Centric Network Interoperability
+        authors: G. Scott and C. A. Wood
+        venue:
+        links:
+            pdf:
+            slides:
+            code:
+        abstract: "With the growing presence of data streaming ser- vices and applications in today’s Internet, information-centric networks (ICNs) are an attractive alternative to the traditional IP-based, point-to-point architectures. In contrast with the host- based nature of addressable interfaces, ICNs make data directly addressable and routable within the network. This difference leads to different mechanisms to publish and retrieve data and enable peer-to-peer communication. Interoperability between the IP-based, point-to-point networks and CCNs are an important step toward deploying the benefits of ICNs without disrupting existing IP networks. We present CCNSink, an application layer middleware gateway providing interoperability between CCNs and IP. CCNSink provides semantic translation between the communication mechanisms used in both networks. We discuss the implementation details at length and study the performance overhead induced by this gateway and the message round-trip- time is studied in various communication settings."
         bibtex:
     draft-ccnx-semantics:
         type: id

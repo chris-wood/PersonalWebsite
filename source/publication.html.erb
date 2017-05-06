@@ -15,11 +15,19 @@ title: Publication
     paper_link = data.publications.pubs[key].links["pdf"]
     slides_link = data.publications.pubs[key].links["slides"]
     code_link = data.publications.pubs[key].links["code"]
+
+    published = paper_link or slides_link or code_link
 %>
 
-<h2><%= title %></h2>
-<p><%= authors %></p>
-<p><%= venue %></p>
+<div class="card">
+  <div class="card-content">
+      <h3><%= title %></h3>
+      <p><%= authors %></p>
+      <p><%= venue %></p>
+  </div>
+</div>
+
+<% if published %>
 <h3>Materials</h3>
 <ul>
     <li><p><a href="<%= paper_link %>">Paper</a></p></li>
@@ -48,4 +56,5 @@ title: Publication
 <%= bibtex %>
 </pre></div>
 </article>
+<% end %>
 <% end %>
