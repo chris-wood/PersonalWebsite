@@ -610,43 +610,102 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         authors: E. Ngai, B. Ohlman, G. Tsudik, E. Uzun, and C. A. Wood
         venue: Dagstuhl Reports. Vol. 6. No. 6. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik (2016).
         links:
-            pdf:
+            pdf: http://drops.dagstuhl.de/opus/volltexte/2016/6727/pdf/dagrep_v006_i006_p049_s16251.pdf
             slides:
             code:
-        abstract:
-        bibtex:
+        abstract: "In recent years, Information-centric Networking (ICN) has received much attention from both academic and industry participants. ICN offers a data-centric means of inter-networking that is radically different from today's host-based IP networks. Security and privacy issues in ICN have become increasingly important as ICN technology gradually matures and nears real-world deployment. As is well known, in today's Internet, security and privacy features were originally not present and had to be incrementally and individually retrofitted (with varying success) over the last 35 years. In contrast, since ICN-based architectures (e.g., NDN, CCNx, etc.) are still evolving, it is both timely and important to explore ICN security and privacy issues as well as devise and assess possible mitigation techniques. This report documents the program and outcomes of the Dagstuhl Seminar 16251 "Information-centric Networking and Security." The goal was to bring together researchers to discuss and address security and privacy issues particular to ICN-based architectures. Attendees represented diverse areas of expertise, including: networking, security, privacy, software engineering, and formal methods. Through presentations and focused working groups, attendees identified and discussed issues relevant to security and privacy, and charted paths for their mitigation."
+        bibtex: "@Article{ngai_et_al:DR:2016:6727,\n
+  author =  {Edith Ngai and B{\"o}rje Ohlman and Gene Tsudik and Ersin Uzun},\n
+  title =   {{Information-centric Networking and Security (Dagstuhl Seminar 16251)}},\n
+  pages =   {49--61},\n
+  journal = {Dagstuhl Reports},\n
+  ISSN =    {2192-5283},\n
+  year =    {2016},\n
+  volume =  {6},\n
+  number =  {6},\n
+  editor =  {Edith Ngai and B{\"o}rje Ohlman and Gene Tsudik  and Ersin Uzun},\n
+  publisher =   {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},\n
+  address = {Dagstuhl, Germany},\n
+  URL =     {http://drops.dagstuhl.de/opus/volltexte/2016/6727},\n
+  URN =     {urn:nbn:de:0030-drops-67270},\n
+  doi =     {10.4230/DagRep.6.6.49},\n
+  annote =  {Keywords: Information-Centric Networking, security, privacy}\n
+}"
     pitless16:
         type: report
         title: Living in a PIT-less World - A Case Against Stateful Forwarding in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, E. Uzun, C. A. Wood
         venue: on arXiv.
         links:
-            pdf:
+            pdf: https://arxiv.org/abs/1512.07755
             slides:
             code:
-        abstract:
-        bibtex:
+        abstract: "Information-Centric Networking (ICN) is a recent paradigm that claims to mitigate some limitations of the current IP-based Internet architecture. The centerpiece of ICN is named and addressable content, rather than hosts or interfaces. Content-Centric Networking (CCN) is a prominent ICN instance that shares the fundamental architectural design with its equally popular academic sibling Named-Data Networking (NDN). CCN eschews source addresses and creates one-time virtual circuits for every content request (called an interest). As an interest is forwarded it creates state in intervening routers and the requested content back is delivered over the reverse path using that state. 
+Although a stateful forwarding plane might be beneficial in terms of efficiency, and resilience to certain types of attacks, this has not been decisively proven via realistic experiments. Since keeping per-interest state complicates router operations and makes the infrastructure susceptible to router state exhaustion attacks (e.g., there is currently no effective defense against interest flooding attacks), the value of the stateful forwarding plane in CCN should be re-examined. 
+In this paper, we explore supposed benefits and various problems of the stateful forwarding plane. We then argue that its benefits are uncertain at best and it should not be a mandatory CCN feature. To this end, we propose a new stateless architecture for CCN that provides nearly all functionality of the stateful design without its headaches. We analyze performance and resource requirements of the proposed architecture, via experiments."
+        bibtex: "@article{DBLP:journals/corr/GhaliTUW15,\n
+  author    = {Cesar Ghali and Gene Tsudik and Ersin Uzun and Christopher A. Wood},\n
+  title     = {Living in a PIT-less World: {A} Case Against Stateful Forwarding in Content-Centric Networking},\n
+  journal   = {CoRR},\n
+  volume    = {abs/1512.07755},\n
+  year      = {2015},\n
+  url       = {http://arxiv.org/abs/1512.07755},\n
+  timestamp = {Sat, 02 Jan 2016 11:38:49 +0100},\n
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/GhaliTUW15},\n
+  bibsource = {dblp computer science bibliography, http://dblp.org}\n
+}"
     accountingext16:
         type: report
         title: Practical Accounting in Content-Centric Networking (extended version)
         authors: C. Ghali, G. Tsudik, C. A. Wood, E. Yeh
         venue: on arXiv.
         links:
-            pdf:
-            slides:
+            pdf: https://arxiv.org/abs/1510.01852
+            slides: 
             code:
-        abstract:
-        bibtex:
+        abstract: "Content-Centric Networking (CCN) is a new class of network architectures designed to address some key limitations of the current IP-based Internet. One of its main features is in-network content caching, which allows requests for content to be served by routers. Despite improved bandwidth utilization and lower latency for popular content retrieval, in-network content caching offers producers no means of collecting information about content that is requested and later served from network caches. Such information is often needed for accounting purposes. In this paper, we design some secure accounting schemes that vary in the degree of consumer, router, and producer involvement. Next, we identify and analyze performance and security tradeoffs, and show that specific per-consumer accounting is impossible in the presence of router caches and without application-specific support. We then recommend accounting strategies that entail a few simple requirements for CCN architectures. Finally, our experimental results show that forms of native and secure CCN accounting are both more viable and practical than application-specific approaches with little modification to the existing architecture and protocol."
+        bibtex: "@article{DBLP:journals/corr/GhaliTWY15,\n
+  author    = {Cesar Ghali and Gene Tsudik and Christopher A. Wood and Edmund Yeh},\n
+  title     = {Practical Accounting in Content-Centric Networking (extended version)},\n
+  journal   = {CoRR},\n
+  volume    = {abs/1510.01852},\n
+  year      = {2015},\n
+  url       = {http://arxiv.org/abs/1510.01852},\n
+  timestamp = {Sun, 01 Nov 2015 17:30:45 +0100},\n
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/GhaliTWY15},\n
+  bibsource = {dblp computer science bibliography, http://dblp.org}\n
+}"
     ibacext16:
         type: report
         title: Interest-Based Access Control for Content Centric Networks (extended version)
         authors: C. Ghali, M. A. Schlosberg, G. Tsudik, C. A. Wood
         venue: on arXiv.
         links:
-            pdf:
+            pdf: https://arxiv.org/abs/1505.06258
             slides:
             code:
-        abstract:
+        abstract: "Content-Centric Networking (CCN) is an emerging network architecture designed to overcome limitations of the current IP-based Internet. One of the fundamental tenets of CCN is that data, or content, is a named and addressable entity in the network. Consumers request content by issuing interest messages with the desired content name. These interests are forwarded by routers to producers, and the resulting content object is returned and optionally cached at each router along the path. In-network caching makes it difficult to enforce access control policies on sensitive content outside of the producer since routers only use interest information for forwarding decisions. To that end, we propose an Interest-Based Access Control (IBAC) scheme that enables access control enforcement using only information contained in interest messages, i.e., by making sensitive content names unpredictable to unauthorized parties. Our IBAC scheme supports both hash- and encryption-based name obfuscation. We address the problem of interest replay attacks by formulating a mutual trust framework between producers and consumers that enables routers to perform authorization checks when satisfying interests from their cache. We assess the computational, storage, and bandwidth overhead of each IBAC variant. Our design is flexible and allows producers to arbitrarily specify and enforce any type of access control on content, without having to deal with the problems of content encryption and key distribution. This is the first comprehensive design for CCN access control using only information contained in interest messages."
+        bibtex: "@article{DBLP:journals/corr/GhaliSTW15,\n
+  author    = {Cesar Ghali and Marc A. Schlosberg and Gene Tsudik and Christopher A. Wood},\n
+  title     = {Interest-Based Access Control for Content Centric Networks (extended version)},\n
+  journal   = {CoRR},\n
+  volume    = {abs/1505.06258},\n
+  year      = {2015},\n
+  url       = {http://arxiv.org/abs/1505.06258},\n
+  timestamp = {Mon, 01 Jun 2015 14:13:54 +0200},\n
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/GhaliSTW15},\n
+  bibsource = {dblp computer science bibliography, http://dblp.org}\n
+}"
+    ndf15:
+        type: report
+        title: Network-Agnostic Systems in a Networked World
+        authors: G. Scott and C. A. Wood
+        venue:
+        links:
+            pdf: https://www.christopher-wood.com/docs/reports/icn_layers15.pdf
+            slides:
+            code:
+        abstract: "Content-Centric Networking (CCN) is an emerging networking paradigm in which named content, rather than named network interfaces or hosts, are treated as first-class entities representing the end-points of communication in a network. This abstraction decouples data from its source to enable multiple, simultaneous providers of data within the network, which fosters optimized bandwidth consumption, improved availability, reduced latency, and efficient utilization of multiple network interfaces concurrently. In CCN, this abstraction layer is provided by a lightweight API called the CCN Portal. The CCN Portal API enables communication and interaction via atomic request and content response messages, though applications may often require more robust abstractions. To this end, we introduce the CCN Assembly Framework (AF). The AF provides a Create Read, Update, and Delete (CRUD) interface for reading and manipulating data ``in the network.'' We then show how to use the AF API with the UNIX file I/O API, thereby placing file I/O and network communication under a single, standard API. The ultimate goal is to merge remote and local data to make applications \emph{network agnostic}, which is extremely compelling in society's increasingly network-oriented ecosystem."
         bibtex:
     ccnx15:
         type: report
@@ -659,24 +718,13 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
             code:
         abstract:
         bibtex:
-    ndf15:
-        type: report
-        title: Network-Agnostic Systems in a Networked World
-        authors: G. Scott and C. A. Wood
-        venue:
-        links:
-            pdf:
-            slides:
-            code:
-        abstract:
-        bibtex:
     ac3n15:
         type: report
         title: AC3N - An API and Service for Anonymous Communication in Content-Centric Networking
         authors: G. Tsudik, E. Uzun, and C. A. Wood
         venue:
         links:
-            pdf:
+            pdf: https://www.christopher-wood.com/docs/reports/ac3n14.pdf
             slides:
             code:
         abstract: "Privacy problems that stem from a lack of truly anonymous communication in today’s Internet are exacerbated by growing evidence of large-scale network packet interception and eavesdropping [12]. Internet users have a limited set of tools available at their disposal to enable better communication, including Tor [3] and new protocols such as tcpcrypt [8, 9] and DNS-over-TLS [32]. Content-Centric Networking (CCN) is an emerging (inter-)networking architecture with the goal of becoming an alternative to the IP-based Internet. Such an architecture must at least have parity with IP based solutions for anonymous communication. Thus, there is a clear demand for a CCN analog to Tor and related protocols. ANDaNA (Anonymous Named Data Networking Applica- tion) was the initial attempt to satisfy this demand for CCNs in the context of the legacy Named Data Networking (NDN) architecture – an instance of CCN. However, its elementary design and hasty implementation led to performance and usability issues that hinder practical use. In this paper, we introduce AC3N: Anonymous Communication for Content- Centric Networking, a substantially evolved and improved incarnationofANDa ̄NA.AC3Nsupportshigh-throughput and low-latency anonymous content retrieval in modern CCNs, for both unidirectional and bidirectional settings. We discuss the design, implementation, performance, and anonymity prop- erties of AC3N. Our experimental results indicate that AC3N incurs very low overhead while providing anonymity features analogous to Tor."
@@ -687,10 +735,10 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         authors: G. Scott and C. A. Wood
         venue:
         links:
-            pdf:
+            pdf: https://www.christopher-wood.com/docs/reports/ccnsink14.pdf
             slides:
             code:
-        abstract: "With the growing presence of data streaming ser- vices and applications in today’s Internet, information-centric networks (ICNs) are an attractive alternative to the traditional IP-based, point-to-point architectures. In contrast with the host- based nature of addressable interfaces, ICNs make data directly addressable and routable within the network. This difference leads to different mechanisms to publish and retrieve data and enable peer-to-peer communication. Interoperability between the IP-based, point-to-point networks and CCNs are an important step toward deploying the benefits of ICNs without disrupting existing IP networks. We present CCNSink, an application layer middleware gateway providing interoperability between CCNs and IP. CCNSink provides semantic translation between the communication mechanisms used in both networks. We discuss the implementation details at length and study the performance overhead induced by this gateway and the message round-trip- time is studied in various communication settings."
+        abstract: "With the growing presence of data streaming services and applications in today’s Internet, information-centric networks (ICNs) are an attractive alternative to the traditional IP-based, point-to-point architectures. In contrast with the host- based nature of addressable interfaces, ICNs make data directly addressable and routable within the network. This difference leads to different mechanisms to publish and retrieve data and enable peer-to-peer communication. Interoperability between the IP-based, point-to-point networks and CCNs are an important step toward deploying the benefits of ICNs without disrupting existing IP networks. We present CCNSink, an application layer middleware gateway providing interoperability between CCNs and IP. CCNSink provides semantic translation between the communication mechanisms used in both networks. We discuss the implementation details at length and study the performance overhead induced by this gateway and the message round-trip-time is studied in various communication settings."
         bibtex:
     draft-ccnx-semantics:
         type: id
