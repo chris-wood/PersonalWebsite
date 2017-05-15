@@ -341,7 +341,7 @@ that only uses information contained in interest messages."
         venue: NCA 2015, the 14th IEEE International Symposium on Network Computing and Applications, Cambridge, MA, USA. September 2015.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/frag15.pdf
-            slides: https://www.christopher-wood.com/docs/conference/frag15_slides.pdf
+            slides: https://www.christopher-wood.com/docs/conference/figoa15_slides.pdf
             code:
         awards: Best Paper Award
         abstract: "Content-Centric Networking (CCN) is a communication paradigm that emphasizes content distribution. Named-Data Networking (NDN) is an instantiation of CCN, a candidate Future Internet Architecture. NDN supports human-readable content naming and router-based content caching which lends itself to efficient, secure, and scalable content distribution. Because of NDN's fundamental requirement that each content object must be signed by its producer, fragmentation has been considered incompatible with NDN since it precludes authentication of individual content fragments by routers. The alternative is to perform hop-by-hop reassembly, which incurs prohibitive delays. In this paper, we show that secure and efficient content fragmentation is both possible and even advantageous in NDN and similar content-centric network architectures that involve signed content. We design a concrete technique that facilitates efficient and secure content fragmentation in NDN, discuss its security guarantees and assess performance. We also describe a prototype implementation and compare performance of cut-through with hop-by-hop fragmentation and reassembly."
