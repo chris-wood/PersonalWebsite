@@ -30,9 +30,9 @@ title: Publication
 <% if published %>
 <h3>Materials</h3>
 <ul>
-    <li><p><a href="<%= paper_link %>">Paper</a></p></li>
-    <li><p><a href="<%= slides_link %>">Slides</a></p></li>
-    <li><p><a href="<%= code_link %>">Code</a></p></li>
+    <% if paper_link != nil and paper_link.length > 0 %> <li><p><a href="<%= paper_link %>">Paper</a></p></li> <% end %>
+    <% if slides_link != nil and slides_link.length > 0 %> <li><p><a href="<%= slides_link %>">Slides</a></p></li> <% end %>
+    <% if code_link != nil and code_link.length > 0 %> <li><p><a href="<%= code_link %>">Code</a></p></li> <% end %>
 </li>
 </ul>
 
