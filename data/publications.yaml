@@ -6,10 +6,37 @@ pubs:
         authors: C. Ghali, G. Tsudik, E. Uzun, and C. A. Wood
         venue: to appear in 26th International Conference on Computer Communication and Networks (ICCCN 2017), July 31 - August 3, 2017, Vancouver, Canada.
         links:
-            pdf:
+            pdf: https://www.christopher-wood.com/docs/conference/pitless17.pdf
             slides:
             code:
-        abstract:
+        abstract: "Information-Centric Networking (ICN) is a recent paradigm that claims
+to mitigate some limitations of the current IP-based Internet
+architecture. The centerpiece of ICN is named and addressable content,
+rather than hosts or interfaces. Content-Centric Networking (CCN)
+is a prominent ICN instance that shares the fundamental architectural
+design with its equally popular academic sibling Named-Data
+Networking (NDN). CCN eschews source addresses and creates
+one-time virtual circuits for every content request (called an
+interest). As an interest is forwarded it creates state in
+intervening routers and the requested content is delivered back
+over the reverse path using that state.
+
+Although a stateful forwarding plane might be beneficial in terms
+of efficiency and resilience to certain types of attacks,
+this has not been decisively proven via realistic experiments.
+Since keeping per-interest state complicates router operations
+and makes the infrastructure susceptible to router state
+exhaustion attacks (e.g., there is currently no effective defense
+against Interest Flooding attacks), the value of the
+stateful forwarding plane in CCN should be re-examined.
+
+In this paper, we explore supposed benefits and various problems
+of the stateful forwarding plane. We then argue that its benefits are
+uncertain at best, and it need not be a mandatory CCN feature.
+To this end, we propose a new stateless architecture for CCN
+that provides nearly all functionality of the stateful design
+without its headaches. We analyze performance and resource
+requirements of the proposed architecture via experiments."
         bibtex:
     traps17:
         type: conference
@@ -17,10 +44,25 @@ pubs:
         authors: C. A. Wood
         venue: to appear in IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
         links:
-            pdf:
+            pdf: https://www.christopher-wood.com/docs/conference/traps17.pdf
             slides:
             code:
-        abstract:
+        abstract: "In the Content-Centric Networking (CCN) architecture, content confidentiality is treated
+    as an application-layer concern. Data is only encrypted if the producer and consumer
+    agree on a suitable access control policy and enforcement mechanism. In contrast,
+    transport encryption in TCP/IP applications is increasingly \emph{opportunistic} for
+    better privacy. This type of encryption is woefully lacking in CCN.
+    To that end, we present \tsec, a protocol to enable transparent packet security
+    and opportunistic encryption for all CCN data. \tsec\ builds on the assumption that
+    knowledge of a name gives one access to the corresponding content; otherwise, by design, the
+    content remains encrypted and secure. \tsec\ builds on recent advances in memory
+    hard functions and message-locked encryption to protect data in transit.
+    We show that the security of \tsec\ is dependent on the distribution of content
+    names and argue that it can be significantly improved if secure sessions are
+    used to transmit small pieces of information from producers to consumers. Our
+    performance assessment indicates \tsec\ is capable of providing opportunistic
+    encryption to CCN without significant throughput loss for reasonable packet
+    throughput measurements."
         bibtex:
     ccnxke17:
         type: conference
@@ -28,10 +70,28 @@ pubs:
         authors: M. Mosko, E. Uzun, and C. A. Wood
         venue: to appear in IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
         links:
-            pdf:
+            pdf: https://www.christopher-wood.com/docs/conference/ccnxke17.pdf
             slides:
             code:
-        abstract:
+        abstract: "Content-centric networking (CCN) is a network architecture for transferring named data from producers to
+consumers upon request. This shifts security from that of a connection or channel
+to the content itself.
+There remains, however, many critical uses for the traditional client-server
+communication model with secure sessions. For instance,
+in many CCN applications, producers need a way to transfer key material or secret
+information to consumers. Not only does caching this content fail to
+serve multiple consumers, encrypting it under long-term, static keys
+does not afford them any forward secrecy. Consequently, there is a real and
+present need for a CCN-friendly protocol whose security properties
+meet or exceed similar transport security protocols in IP networks. In this paper, we present the design
+and implementation of the CCNx Key Exchange Protocol -- CCNxKE -- the first
+protocol design for bootstrapping encrypted service-centric sessions in CCN.
+We compare our design to that of
+existing IP-based transport security protocols to highlight important
+differences, discuss several important use cases for CCNxKE and secure sessions
+in CCN, and present a preliminary performance assessment. Our experiments indicate that
+session encryption adds, on average, a $30$\% data transfer latency compared to unencrypted
+traffic using our prototype implementation."
         bibtex:
     scr17:
         type: conference
@@ -39,10 +99,22 @@ pubs:
         authors: M. Mosko and C. A. Wood
         venue: to appear in the IEEE ICC 2017 Next Generation Networking and Internet Symposium (NGNI 2017), May 21-25, 2017, Paris, France.
         links:
-            pdf:
+            pdf: https://www.christopher-wood.com/docs/conference/scr17.pdf
             slides:
             code:
-        abstract:
+        abstract: "We present SCR, a secure content replication protocol for the Content-Centric Networking (CCN) architecture.
+The goal of SCR is to allow a data producer to cache protected content in off-path
+semi-trusted caches or replicas. In contrast to the standard ``take what you want'' model of CCN,
+SCR ensures that no unauthorized, off-path entity can obtain data from these replicas,
+even if the content is encrypted. SCR allows a producer to encrypt data under any viable
+access control scheme, such as group-based access backed by broadcast encryption, and delegate
+the delivery of said content to distributed replicas in the network. SCR is analogous to
+``blind caching'' in IP-based networks, which aim to provide caching
+as a service in the presence of end-to-end encryption via TLS. We discuss the design details
+and security features, e.g., revocation, of SCR. We then compare \scr\ to
+the HTTP(S)-based blind caching model. We show that our scheme can outperform
+blind caching due to (1) less protocol complexity and message overhead, (2) faster session
+establishment, and (3) the ability to obtain data in parallel from multiple, independent replicas."
         bibtex:
     privacy16:
         type: conference
