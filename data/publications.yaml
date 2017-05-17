@@ -50,17 +50,17 @@ requirements of the proposed architecture via experiments."
         abstract: "In the Content-Centric Networking (CCN) architecture, content confidentiality is treated
     as an application-layer concern. Data is only encrypted if the producer and consumer
     agree on a suitable access control policy and enforcement mechanism. In contrast,
-    transport encryption in TCP/IP applications is increasingly \emph{opportunistic} for
+    transport encryption in TCP/IP applications is increasingly opportunistic for
     better privacy. This type of encryption is woefully lacking in CCN.
-    To that end, we present \tsec, a protocol to enable transparent packet security
-    and opportunistic encryption for all CCN data. \tsec\ builds on the assumption that
+    To that end, we present TRAPS, a protocol to enable transparent packet security
+    and opportunistic encryption for all CCN data. TRAPS builds on the assumption that
     knowledge of a name gives one access to the corresponding content; otherwise, by design, the
-    content remains encrypted and secure. \tsec\ builds on recent advances in memory
+    content remains encrypted and secure. TRAPS builds on recent advances in memory
     hard functions and message-locked encryption to protect data in transit.
-    We show that the security of \tsec\ is dependent on the distribution of content
+    We show that the security of TRAPS is dependent on the distribution of content
     names and argue that it can be significantly improved if secure sessions are
     used to transmit small pieces of information from producers to consumers. Our
-    performance assessment indicates \tsec\ is capable of providing opportunistic
+    performance assessment indicates TRAPS is capable of providing opportunistic
     encryption to CCN without significant throughput loss for reasonable packet
     throughput measurements."
         bibtex:
@@ -75,8 +75,7 @@ requirements of the proposed architecture via experiments."
             code:
         abstract: "Content-centric networking (CCN) is a network architecture for transferring named data from producers to
 consumers upon request. This shifts security from that of a connection or channel
-to the content itself.
-There remains, however, many critical uses for the traditional client-server
+to the content itself. There remains, however, many critical uses for the traditional client-server
 communication model with secure sessions. For instance,
 in many CCN applications, producers need a way to transfer key material or secret
 information to consumers. Not only does caching this content fail to
@@ -90,7 +89,7 @@ We compare our design to that of
 existing IP-based transport security protocols to highlight important
 differences, discuss several important use cases for CCNxKE and secure sessions
 in CCN, and present a preliminary performance assessment. Our experiments indicate that
-session encryption adds, on average, a $30$\% data transfer latency compared to unencrypted
+session encryption adds, on average, a 30% data transfer latency compared to unencrypted
 traffic using our prototype implementation."
         bibtex:
     scr17:
@@ -111,7 +110,7 @@ access control scheme, such as group-based access backed by broadcast encryption
 the delivery of said content to distributed replicas in the network. SCR is analogous to
 ``blind caching'' in IP-based networks, which aim to provide caching
 as a service in the presence of end-to-end encryption via TLS. We discuss the design details
-and security features, e.g., revocation, of SCR. We then compare \scr\ to
+and security features, e.g., revocation, of SCR. We then compare SCR to
 the HTTP(S)-based blind caching model. We show that our scheme can outperform
 blind caching due to (1) less protocol complexity and message overhead, (2) faster session
 establishment, and (3) the ability to obtain data in parallel from multiple, independent replicas."
@@ -712,8 +711,8 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
             pdf: https://arxiv.org/abs/1512.07755
             slides:
             code:
-        abstract: "Information-Centric Networking (ICN) is a recent paradigm that claims to mitigate some limitations of the current IP-based Internet architecture. The centerpiece of ICN is named and addressable content, rather than hosts or interfaces. Content-Centric Networking (CCN) is a prominent ICN instance that shares the fundamental architectural design with its equally popular academic sibling Named-Data Networking (NDN). CCN eschews source addresses and creates one-time virtual circuits for every content request (called an interest). As an interest is forwarded it creates state in intervening routers and the requested content back is delivered over the reverse path using that state. 
-Although a stateful forwarding plane might be beneficial in terms of efficiency, and resilience to certain types of attacks, this has not been decisively proven via realistic experiments. Since keeping per-interest state complicates router operations and makes the infrastructure susceptible to router state exhaustion attacks (e.g., there is currently no effective defense against interest flooding attacks), the value of the stateful forwarding plane in CCN should be re-examined. 
+        abstract: "Information-Centric Networking (ICN) is a recent paradigm that claims to mitigate some limitations of the current IP-based Internet architecture. The centerpiece of ICN is named and addressable content, rather than hosts or interfaces. Content-Centric Networking (CCN) is a prominent ICN instance that shares the fundamental architectural design with its equally popular academic sibling Named-Data Networking (NDN). CCN eschews source addresses and creates one-time virtual circuits for every content request (called an interest). As an interest is forwarded it creates state in intervening routers and the requested content back is delivered over the reverse path using that state.
+Although a stateful forwarding plane might be beneficial in terms of efficiency, and resilience to certain types of attacks, this has not been decisively proven via realistic experiments. Since keeping per-interest state complicates router operations and makes the infrastructure susceptible to router state exhaustion attacks (e.g., there is currently no effective defense against interest flooding attacks), the value of the stateful forwarding plane in CCN should be re-examined.
 In this paper, we explore supposed benefits and various problems of the stateful forwarding plane. We then argue that its benefits are uncertain at best and it should not be a mandatory CCN feature. To this end, we propose a new stateless architecture for CCN that provides nearly all functionality of the stateful design without its headaches. We analyze performance and resource requirements of the proposed architecture, via experiments."
         bibtex: "@article{DBLP:journals/corr/GhaliTUW15,\n
   author    = {Cesar Ghali and Gene Tsudik and Ersin Uzun and Christopher A. Wood},\n
@@ -733,7 +732,7 @@ In this paper, we explore supposed benefits and various problems of the stateful
         venue: on arXiv.
         links:
             pdf: https://arxiv.org/abs/1510.01852
-            slides: 
+            slides:
             code:
         abstract: "Content-Centric Networking (CCN) is a new class of network architectures designed to address some key limitations of the current IP-based Internet. One of its main features is in-network content caching, which allows requests for content to be served by routers. Despite improved bandwidth utilization and lower latency for popular content retrieval, in-network content caching offers producers no means of collecting information about content that is requested and later served from network caches. Such information is often needed for accounting purposes. In this paper, we design some secure accounting schemes that vary in the degree of consumer, router, and producer involvement. Next, we identify and analyze performance and security tradeoffs, and show that specific per-consumer accounting is impossible in the presence of router caches and without application-specific support. We then recommend accounting strategies that entail a few simple requirements for CCN architectures. Finally, our experimental results show that forms of native and secure CCN accounting are both more viable and practical than application-specific approaches with little modification to the existing architecture and protocol."
         bibtex: "@article{DBLP:journals/corr/GhaliTWY15,\n
