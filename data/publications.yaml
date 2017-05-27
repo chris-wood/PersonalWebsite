@@ -99,7 +99,7 @@ traffic using our prototype implementation."
         venue: to appear in the IEEE ICC 2017 Next Generation Networking and Internet Symposium (NGNI 2017), May 21-25, 2017, Paris, France.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/scr17.pdf
-            slides:
+            slides: https://www.christopher-wood.com/docs/conference/scr17_slides.pdf
             code:
         abstract: "We present SCR, a secure content replication protocol for the Content-Centric Networking (CCN) architecture.
 The goal of SCR is to allow a data producer to cache protected content in off-path
