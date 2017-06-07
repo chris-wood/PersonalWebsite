@@ -1,5 +1,11 @@
 talks:
     -
+        title: Your Apps and Evolving Network Security Standards
+        authors: Bailey Basile, Christopher A. Wood
+        venue: WWDC 2017
+        links:
+            aux: https://developer.apple.com/videos/play/wwdc2017/701/
+    -
         title: Security and Privacy Analysis of NSF Future Internet Architectures
         authors:
         venue: ICNRG Interim Meeting, Chicago, USA. March 26, 2017
