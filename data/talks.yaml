@@ -1,5 +1,12 @@
 talks:
     -
+        title: Adoption Challenges and Prospects of Information-Centric Fog Computing
+        authors:
+        venue: Workshop on Information-Centric Fog Computing (ICFC) at IFIP Networking 2017
+        links:
+            pdf:
+            aux: http://networking.ifip.org/2017/index.php/workshops/workshop-on-information-centric-fog-computing-icfc/icfc-technical-program
+    -
         title: Your Apps and Evolving Network Security Standards
         authors: Bailey Basile, Christopher A. Wood
         venue: WWDC 2017
