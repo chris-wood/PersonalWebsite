@@ -107,19 +107,19 @@ talks:
         authors:
         venue: ICNRG Interim Meeting, Paris, France
         links:
-            pdf: docs/talks/icnrg/encryption_paris16.pdf
+            pdf: docs/talks/encryption_paris16.pdf
     -
         title: CCNx Key Exchange - Updates
         authors:
         venue: ICNRG Interim Meeting, Paris, France
         links:
-            pdf: docs/talks/icnrg/ke_paris16.pdf
+            pdf: docs/talks/ke_paris16.pdf
     -
         title: FLIC Manifests
         authors:
         venue: ICNRG Interim Meeting, Paris, France
         links:
-            pdf: docs/talks/icnrg/flic_paris16.pdf
+            pdf: docs/talks/flic_paris16.pdf
     -
         title: CCNx Key Exchange
         authors:
