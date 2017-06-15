@@ -45,8 +45,8 @@ requirements of the proposed architecture via experiments."
         venue: to appear in IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/traps17.pdf
-            slides:
-            code:
+            slides: https://www.christopher-wood.com/docs/conference/traps17_slides.pdf
+            code: https://github.com/chris-wood/tsec-performance
         abstract: "In the Content-Centric Networking (CCN) architecture, content confidentiality is treated
     as an application-layer concern. Data is only encrypted if the producer and consumer
     agree on a suitable access control policy and enforcement mechanism. In contrast,
@@ -63,7 +63,7 @@ requirements of the proposed architecture via experiments."
     performance assessment indicates TRAPS is capable of providing opportunistic
     encryption to CCN without significant throughput loss for reasonable packet
     throughput measurements."
-        bibtex:
+        bibtex: 
     ccnxke17:
         type: conference
         title: Mobile Sessions in Content-Centric Networks
@@ -71,8 +71,8 @@ requirements of the proposed architecture via experiments."
         venue: to appear in IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ccnxke17.pdf
-            slides:
-            code:
+            slides: https://www.christopher-wood.com/docs/conference/ccnxke17_slides.pdf
+            code: https://github.com/chris-wood/spud
         abstract: "Content-centric networking (CCN) is a network architecture for transferring named data from producers to
 consumers upon request. This shifts security from that of a connection or channel
 to the content itself. There remains, however, many critical uses for the traditional client-server
