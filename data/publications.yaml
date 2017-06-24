@@ -63,7 +63,7 @@ requirements of the proposed architecture via experiments."
     performance assessment indicates TRAPS is capable of providing opportunistic
     encryption to CCN without significant throughput loss for reasonable packet
     throughput measurements."
-        bibtex: 
+        bibtex:
     ccnxke17:
         type: conference
         title: Mobile Sessions in Content-Centric Networks
@@ -670,11 +670,34 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         authors: C. A. Wood
         venue: M.S. Thesis, Computer Science, Rochester Institute of Technology, Rochester, NY. August 2013.
         links:
-            pdf:
-            slides:
+            pdf: https://www.christopher-wood.com/docs/thesis/caw_thesis_rit.pdf
+            slides: https://www.christopher-wood.com/docs/thesis/caw_thesis_defense_slides.pdf
             code:
         abstract:
         bibtex:
+    ccnx17:
+        type: report
+        title: Content-Centric Networking - Architectural Overview and Protocol Description
+        authors: M. Mosko, I. Solis, and C. A. Wood
+        venue: arXiv
+        links:
+            pdf: https://arxiv.org/abs/1706.07165
+            slides:
+            code:
+        abstract: "This document describes the core concepts of the CCNx architecture and presents a minimum network protocol based on two messages: Interests and Content Objects. It specifies the set of mandatory and optional fields within those messages and describes their behavior and interpretation. This architecture and protocol specification is independent of a specific wire encoding."
+        bibtex: "@ARTICLE{ccnx-architecture-2017,\n
+   author = {{Mosko}, M. and {Solis}, I. and {Wood}, C.~A.},\n
+    title = {{Content-Centric Networking - Architectural Overview and Protocol Description}},\n
+  journal = {ArXiv e-prints},\n
+archivePrefix = {{arXiv}},\n
+   eprint = {1706.07165},\n
+ primaryClass = {cs.NI},\n
+ keywords = {Computer Science - Networking and Internet Architecture},\n
+     year = 2017,\n
+    month = jun,\n
+   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170607165M},\n
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}\n
+}"
     dagstuhl16:
         type: report
         title: Information-centric Networking Security (Dagstuhl Seminar 16251)
