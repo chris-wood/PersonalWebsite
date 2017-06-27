@@ -891,13 +891,13 @@ In this paper, we explore supposed benefits and various problems of the stateful
         bibtex:
     draft-ccnx-flic:
         type: id
-        page: https://datatracker.ietf.org/doc/draft-tschudin-icnrg-flic/
+        page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-flic/
         title: File-Like ICN Collection (FLIC)
         authors: C. Tschudin and C. A. Wood
-        venue: Internet Draft, March 2017.
+        venue: Internet Draft, June 2017.
         links:
-            html: https://tools.ietf.org/html/draft-tschudin-icnrg-flic-03
-            txt: https://www.ietf.org/id/draft-tschudin-icnrg-flic-03.txt
+            html: https://tools.ietf.org/html/draft-irtf-icnrg-flic-00
+            txt: https://www.ietf.org/id/draft-irtf-icnrg-flic-00.txt
         abstract:
         bibtex:
     draft-ccnx-clean:
