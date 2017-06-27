@@ -103,12 +103,22 @@ for a complete collection of my publications.</p>
 <ol>
     <% data.talks.talks.each do |t| %>
     <li>
+        <p>
         <% if t.links["pdf"] and t.links["pdf"].length > 0 then %>
-        <p><b>"<%= link_to t.title, t.links["pdf"] %>,"</b> <%= t.venue %>.</p>
+        "<%= link_to t.title, t.links["pdf"] %>,"</b> <%= t.venue %>.
         <% elsif t.links["aux"] and t.links["aux"].length > 0 then %>
-        <p><b>"<%= link_to t.title, t.links["aux"] %>,"</b> <%= t.venue %>.</p>
+        <b>"<%= link_to t.title, t.links["aux"] %>,"</b> <%= t.venue %>.
         <% else %>
-        <p><b>"<%= t.title %>,"</b> <%= t.venue %>.</p>
+        <b>"<%= t.title %>,"</b> <%= t.venue %>.
+        <% end %>
+        </p>
+        <!-- Links to references -->
+        <% if t.references and t.references.length > 0 then %>
+        <ul>
+            <% t.references.each do |l| %>
+                <li>"<%= link_to l.name, l.link %>"</li>
+            <% end %>
+        </ul>
         <% end %>
     </li>
     <% end %>

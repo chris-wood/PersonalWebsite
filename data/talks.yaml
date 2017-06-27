@@ -12,6 +12,16 @@ talks:
         venue: WWDC 2017
         links:
             aux: https://developer.apple.com/videos/play/wwdc2017/701/
+        references:
+            -
+                name: MPTCP and TLS 1.3 – Big Announcements from Apple
+                link: http://www.internetsociety.org/deploy360/blog/2017/06/mptcp-and-tls-1-3-big-announcements-from-apple/
+            -
+                name: Crypto and SSL Improvements in High Sierra and iOS 11
+                link: https://www.thesslstore.com/blog/crypto-ssl-improvements-high-sierra-ios-11/
+            -
+                name: Top 7 Highlights from the Apple Worldwide Developers Conference (WWDC) 2017
+                link: https://www.broadsoft.com/technology-innovation-blog/top_7_highlights_apple_wwdc_2017
     -
         title: Security and Privacy Analysis of NSF Future Internet Architectures
         authors:
