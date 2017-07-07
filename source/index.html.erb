@@ -26,20 +26,12 @@ title: Christopher A. Wood
     </div>
 </div>
 
-<h2>Updates</h2>
-<% data.news.first(5).each do |n| %>
-<div class="column is-quarter">
-</div>
-<div class="column is-half">
-<article class="message is-info">
-  <div class="message-body">
-      [<%= n.date %>] <%= n.content %>
-  </div>
-</article>
-</div>
-<div class="column is-quarter">
-</div>
-<% end %>
+<h2>&#x26A0; Updates</h2>
+<ul>
+    <% data.news.first(5).each do |n| %>
+        <li>[<%= n.date %>] <%= n.content %></li>
+    <% end %>
+</ul>
 
 <h2>&#9749; My Daily Grind</h2>
 <p>

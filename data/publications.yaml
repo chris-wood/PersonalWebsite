@@ -801,20 +801,9 @@ In this paper, we explore supposed benefits and various problems of the stateful
             code:
         abstract: "Content-Centric Networking (CCN) is an emerging networking paradigm in which named content, rather than named network interfaces or hosts, are treated as first-class entities representing the end-points of communication in a network. This abstraction decouples data from its source to enable multiple, simultaneous providers of data within the network, which fosters optimized bandwidth consumption, improved availability, reduced latency, and efficient utilization of multiple network interfaces concurrently. In CCN, this abstraction layer is provided by a lightweight API called the CCN Portal. The CCN Portal API enables communication and interaction via atomic request and content response messages, though applications may often require more robust abstractions. To this end, we introduce the CCN Assembly Framework (AF). The AF provides a Create Read, Update, and Delete (CRUD) interface for reading and manipulating data ``in the network.'' We then show how to use the AF API with the UNIX file I/O API, thereby placing file I/O and network communication under a single, standard API. The ultimate goal is to merge remote and local data to make applications \emph{network agnostic}, which is extremely compelling in society's increasingly network-oriented ecosystem."
         bibtex:
-    ccnx15:
-        type: report
-        title: CCNx 1.0 Protocol Architecture
-        authors: M. Mosko, I. Solis, E. Uzun, and C. A. Wood
-        venue: Technical Report, August, 2015.
-        links:
-            pdf:
-            slides:
-            code:
-        abstract:
-        bibtex:
     ac3n15:
         type: report
-        title: AC3N - An API and Service for Anonymous Communication in Content-Centric Networking
+        title: AC3N - An API and Service for Anonymous Communication in Content-Centric Networking (Extended Version)
         authors: G. Tsudik, E. Uzun, and C. A. Wood
         venue:
         links:
@@ -822,6 +811,17 @@ In this paper, we explore supposed benefits and various problems of the stateful
             slides:
             code:
         abstract: "Privacy problems that stem from a lack of truly anonymous communication in today’s Internet are exacerbated by growing evidence of large-scale network packet interception and eavesdropping [12]. Internet users have a limited set of tools available at their disposal to enable better communication, including Tor [3] and new protocols such as tcpcrypt [8, 9] and DNS-over-TLS [32]. Content-Centric Networking (CCN) is an emerging (inter-)networking architecture with the goal of becoming an alternative to the IP-based Internet. Such an architecture must at least have parity with IP based solutions for anonymous communication. Thus, there is a clear demand for a CCN analog to Tor and related protocols. ANDaNA (Anonymous Named Data Networking Applica- tion) was the initial attempt to satisfy this demand for CCNs in the context of the legacy Named Data Networking (NDN) architecture – an instance of CCN. However, its elementary design and hasty implementation led to performance and usability issues that hinder practical use. In this paper, we introduce AC3N: Anonymous Communication for Content- Centric Networking, a substantially evolved and improved incarnationofANDa ̄NA.AC3Nsupportshigh-throughput and low-latency anonymous content retrieval in modern CCNs, for both unidirectional and bidirectional settings. We discuss the design, implementation, performance, and anonymity prop- erties of AC3N. Our experimental results indicate that AC3N incurs very low overhead while providing anonymity features analogous to Tor."
+        bibtex:
+    frag15extended:
+        type: report
+        title: Secure Fragmentation for Content-Centric Networks (extended version)
+        authors: C. Ghali, A. Narayanan, D. Oran, G. Tsudik, C. A. Wood
+        venue:
+        links:
+            pdf: https://arxiv.org/abs/1405.2861
+            slides:
+            code:
+        abstract: "Content-Centric Networking (CCN) is a communication paradigm that emphasizes content distribution. Named-Data Networking (NDN) is an instantiation of CCN, a candidate Future Internet Architecture. NDN supports human-readable content naming and router-based content caching which lends itself to efficient, secure, and scalable content distribution. Because of NDN's fundamental requirement that each content object must be signed by its producer, fragmentation has been considered incompatible with NDN since it precludes authentication of individual content fragments by routers. The alternative is to perform hop-by-hop reassembly, which incurs prohibitive delays. In this paper, we show that secure and efficient content fragmentation is both possible and even advantageous in NDN and similar content-centric network architectures that involve signed content. We design a concrete technique that facilitates efficient and secure content fragmentation in NDN, discuss its security guarantees and assess performance. We also describe a prototype implementation and compare performance of cut-through with hop-by-hop fragmentation and reassembly."
         bibtex:
     ccnsink14:
         type: report
