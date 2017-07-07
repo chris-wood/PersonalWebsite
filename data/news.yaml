@@ -1,3 +1,24 @@
 -
-    tag: "New site"
-    body: "I migrated my hard-to-manage single-page HTML site to Middleman."
+    content: 'Tommy Pauly, Mirja Kuehlewind, and I published two Internet Drafts
+    entitled, "A Survey of Transport Security Protocols," and "Separating Crypto
+    Negotiation and Communication".'
+    date: July 6, 2017
+-
+    content: 'The core CCNx documents in the IRTF ICNRG were moved to last call,
+    ending on July 11, 2017.'
+    date: June 27, 2017
+-
+    content: 'I presented my two CCN-related papers entitled, "Protecting the Long Tail -
+    Transparent Packet Security in Content-Centric Networks" and "Mobile Sessions in
+    Content-Centric Networks" at IFIP Networking 2017.'
+    date: June 15, 2017
+-
+    content: 'I presented my two CCN-related papers entitled, "Protecting the Long Tail -
+    Transparent Packet Security in Content-Centric Networks" and "Mobile Sessions in
+    Content-Centric Networks" at IFIP Networking 2017.'
+    date: June 15, 2017
+-
+    content: 'Alongside Eve Schooler (Intel), I participated in the ICN Industry Panel entitled, "Adoption Challenges
+    and Prospects of Information-Centric Fog Computing," at the Workshop on
+    Information-Centric Fog Computing (ICFC) at IFIP Networking 2017.'
+    date: June 12, 2017

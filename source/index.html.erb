@@ -26,6 +26,21 @@ title: Christopher A. Wood
     </div>
 </div>
 
+<h2>Updates</h2>
+<% data.news.first(5).each do |n| %>
+<div class="column is-quarter">
+</div>
+<div class="column is-half">
+<article class="message is-info">
+  <div class="message-body">
+      [<%= n.date %>] <%= n.content %>
+  </div>
+</article>
+</div>
+<div class="column is-quarter">
+</div>
+<% end %>
+
 <h2>&#9749; My Daily Grind</h2>
 <p>
     I am a fourth-year Ph.D. candidate at UCI with a research focus on applied cryptography and network
@@ -46,21 +61,3 @@ title: Christopher A. Wood
     other small software firms. I received the NSF Graduate Research Fellowship (NSF GRFP) in 2014. I am also a
     member of the IEEE, ACM, IACR, SIAM, Internet Society, and Tau Beta Pi organizations.
 </p>
-
-<!-- <h2>Updates</h2>
-<% data.news.first(5).each do |n| %>
-<div class="column is-quarter">
-</div>
-<div class="column is-half">
-<article class="message is-info">
-  <div class="message-header">
-      <%= n.tag %>
-  </div>
-  <div class="message-body">
-      <%= n.body %>
-  </div>
-</article>
-</div>
-<div class="column is-quarter">
-</div>
-<% end %> -->

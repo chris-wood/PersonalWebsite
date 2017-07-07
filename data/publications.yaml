@@ -834,6 +834,28 @@ In this paper, we explore supposed benefits and various problems of the stateful
             code:
         abstract: "With the growing presence of data streaming services and applications in today’s Internet, information-centric networks (ICNs) are an attractive alternative to the traditional IP-based, point-to-point architectures. In contrast with the host- based nature of addressable interfaces, ICNs make data directly addressable and routable within the network. This difference leads to different mechanisms to publish and retrieve data and enable peer-to-peer communication. Interoperability between the IP-based, point-to-point networks and CCNs are an important step toward deploying the benefits of ICNs without disrupting existing IP networks. We present CCNSink, an application layer middleware gateway providing interoperability between CCNs and IP. CCNSink provides semantic translation between the communication mechanisms used in both networks. We discuss the implementation details at length and study the performance overhead induced by this gateway and the message round-trip-time is studied in various communication settings."
         bibtex:
+    draft-kuehlewind-taps-crypto-sep:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-kuehlewind-taps-crypto-sep/
+        title: Separating Crypto Negotiation and Communication
+        authors: M. Kuehlewind, T. Pauly, C. A. Wood
+        venue: Internet Draft, July 2017.
+        links:
+            html: https://tools.ietf.org/html/draft-kuehlewind-taps-crypto-sep-00
+            txt: https://www.ietf.org/id/draft-kuehlewind-taps-crypto-sep-00.txt
+        abstract:
+        bibtex:
+    draft-pauly-taps-transport-security:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-pauly-taps-transport-security/
+        title: A Survey of Transport Security Protocols
+        authors: T. Pauly and C. A. Wood
+        venue: Internet Draft, July 2017.
+        links:
+            html: https://tools.ietf.org/html/draft-pauly-taps-transport-security-00
+            txt: https://www.ietf.org/id/draft-pauly-taps-transport-security-00.txt
+        abstract:
+        bibtex:
     draft-ccnx-semantics:
         type: id
         page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-ccnxsemantics/
@@ -872,10 +894,10 @@ In this paper, we explore supposed benefits and various problems of the stateful
         page: https://datatracker.ietf.org/doc/draft-wood-icnrg-ccnxkeyexchange/
         title: CCNx Key Exchange Protocol Version 1.0
         authors: M. Mosko, E. Uzun, and C. A. Wood
-        venue: Internet Draft, March 2017.
+        venue: Internet Draft, July 2017.
         links:
-            html: https://tools.ietf.org/html/draft-wood-icnrg-ccnxkeyexchange-01
-            txt: https://www.ietf.org/id/draft-wood-icnrg-ccnxkeyexchange-01.txt
+            html: https://tools.ietf.org/html/draft-wood-icnrg-ccnxkeyexchange-02
+            txt: https://www.ietf.org/id/draft-wood-icnrg-ccnxkeyexchange-02.txt
         abstract:
         bibtex:
     draft-ccnx-esic:
