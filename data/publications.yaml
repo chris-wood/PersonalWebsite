@@ -1,4 +1,28 @@
 pubs:
+    ccvpn17:
+        type: conference
+        page: /publications/
+        title: Namespace Tunnels in Content-Centric Networks
+        authors: I. Nunes, G. Tsudik, and C. A. Wood
+        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9-12, 2017, Singapore.
+        links:
+            pdf:
+            slides:
+            code:
+        abstract:
+        bibtex:
+    onpath17:
+        type: conference
+        page: /publications/
+        title: Mitigating On-Path Adversaries in Content-Centric Networks
+        authors: C. Ghali, G. Tsudik, and C. A. Wood
+        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9-12, 2017, Singapore.
+        links:
+            pdf:
+            slides:
+            code:
+        abstract:
+        bibtex:
     pitless17:
         type: conference
         page: /publications/pitless17.html
