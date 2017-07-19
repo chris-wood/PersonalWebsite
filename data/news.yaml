@@ -1,4 +1,12 @@
 -
+    content: 'Three of my recent papers on CCN were accepted -- one at ACM ICN
+    2017 and two at IEEE LCN 2017.'
+    date: July 19, 2017
+-
+    content: 'Tommy Pauly and I gave a talk in the TAPS WG covering our recent
+    drafts on transport security and common interfaces'
+    date: July 18, 2017
+-
     content: 'Tommy Pauly, Mirja Kuehlewind, and I published two Internet Drafts
     entitled, "A Survey of Transport Security Protocols," and "Separating Crypto
     Negotiation and Communication".'

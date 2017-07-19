@@ -1,10 +1,22 @@
 pubs:
+    privacy17:
+        type: conference
+        page: /publications/
+        title: When Encryption is Not Enough -- Privacy Attacks in Content-Centric Networking
+        authors: C. Ghali, G. Tsudik, and C. A. Wood
+        venue: to appear in the 4th ACM Conference on Information-Centric Networking (ICN 2017), September 26 - 28, 2017, Berlin, Germany.
+        links:
+            pdf:
+            slides:
+            code:
+        abstract:
+        bibtex:
     ccvpn17:
         type: conference
         page: /publications/
         title: Namespace Tunnels in Content-Centric Networks
-        authors: I. Nunes, G. Tsudik, and C. A. Wood
-        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9-12, 2017, Singapore.
+        authors: I. Oliviera-Nunes, G. Tsudik, and C. A. Wood
+        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
         links:
             pdf:
             slides:
@@ -16,7 +28,7 @@ pubs:
         page: /publications/
         title: Mitigating On-Path Adversaries in Content-Centric Networks
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9-12, 2017, Singapore.
+        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
         links:
             pdf:
             slides:

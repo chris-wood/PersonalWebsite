@@ -1,5 +1,12 @@
 talks:
     -
+        title: Transport Security and Crypto Separation
+        authors:
+        venue: IETF TAPS WG, Prague, Czech Republic. July 18, 2017.
+        links:
+            pdf:
+            aux: https://www.ietf.org/proceedings/99/slides/slides-99-taps-2-transport-security-protocol-survey-01.pdf
+    -
         title: Adoption Challenges and Prospects of Information-Centric Fog Computing
         authors:
         venue: Workshop on Information-Centric Fog Computing (ICFC) at IFIP Networking 2017
