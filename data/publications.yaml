@@ -40,11 +40,12 @@ pubs:
         page: /publications/pitless17.html
         title: Closing the Floodgate with Stateless Content-Centric Networking
         authors: C. Ghali, G. Tsudik, E. Uzun, and C. A. Wood
-        venue: to appear in 26th International Conference on Computer Communication and Networks (ICCCN 2017), July 31 - August 3, 2017, Vancouver, Canada.
+        venue: in Proceedings of the 26th International Conference on Computer Communication and Networks (ICCCN 2017), July 31 - August 3, 2017, Vancouver, Canada.
+        awards: Best Paper Award
         links:
             pdf: https://www.christopher-wood.com/docs/conference/pitless17.pdf
-            slides:
-            code:
+            slides: https://www.christopher-wood.com/docs/conference/pitless17_slides.pdf
+            code: https://github.com/chris-wood/ccn-pitless-simulation
         abstract: "Information-Centric Networking (ICN) is a recent paradigm that claims
 to mitigate some limitations of the current IP-based Internet
 architecture. The centerpiece of ICN is named and addressable content,
@@ -78,7 +79,7 @@ requirements of the proposed architecture via experiments."
         type: conference
         title: Protecting the Long Tail - Transparent Packet Security in Content-Centric Networks
         authors: C. A. Wood
-        venue: to appear in IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
+        venue: IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/traps17.pdf
             slides: https://www.christopher-wood.com/docs/conference/traps17_slides.pdf
@@ -104,7 +105,7 @@ requirements of the proposed architecture via experiments."
         type: conference
         title: Mobile Sessions in Content-Centric Networks
         authors: M. Mosko, E. Uzun, and C. A. Wood
-        venue: to appear in IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
+        venue: IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ccnxke17.pdf
             slides: https://www.christopher-wood.com/docs/conference/ccnxke17_slides.pdf
@@ -132,7 +133,7 @@ traffic using our prototype implementation."
         type: conference
         title: Secure Off-Path Replication in Content-Centric Networks
         authors: M. Mosko and C. A. Wood
-        venue: to appear in the IEEE ICC 2017 Next Generation Networking and Internet Symposium (NGNI 2017), May 21-25, 2017, Paris, France.
+        venue: in Proceedings of the IEEE ICC 2017 Next Generation Networking and Internet Symposium (NGNI 2017), May 21-25, 2017, Paris, France.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/scr17.pdf
             slides: https://www.christopher-wood.com/docs/conference/scr17_slides.pdf

@@ -14,7 +14,8 @@ for a complete collection of my publications.</p>
     <% if p.type == "conference" then %>
     <li>
         <p><b><%= link_to p.title, "publications/#{key}.html" %></b></br>
-        <%= p.authors %></br>
+        <%= p.authors %><br/>
+        <% if p.awards then %><span class="tag is-danger"><%= p.awards %></span></br><% end %>
         <% if p.links["pdf"] then %><a class="button is-small is-info" href="<%= p.links["pdf"] %>">PDF</a><% end %>
         <% if p.links["slides"] then %><a class="button is-small is-success" href="<%= p.links["slides"] %>">slides</a><% end %>
         <% if p.links["code"] then %><a class="button is-small is-warning" href="<%= p.links["code"] %>">code</a><% end %>
