@@ -1,16 +1,17 @@
 language: ruby
 rvm:
-  - 2.2.3
+    - 2.2.3
 before_install:
-  - rvm install 2.2.3 
+    - rvm install 2.2.3 
 install:
-  - bundle install --path vendor/bundle
+    - bundle install --path vendor/bundle
+    - gem install middleman
 script:
     - make
     - lftp sftp://cwood:${PASSWORD}@192.241.239.20 -c "cd /usr/share/nginx/html; lcd build; put -r *"
 branches:
-  only:
-  - master
+    only:
+        - master
 env:
-  global:
-    secure: YeEJDyeVRFmMFcqz+ALxNgidbjDkv8zJROq81BStvtLqoT72sHUdmVA3eV12LWy0KDbGkhgGWeq4jPtybgiDdd401+v7Ze0xvBi73BGfchtOASQyuta5/g+rDiWhVKZH9pihmNQ2StbiFhGUDzSpj+LS8ycLTBMfCIOazKxtJklVkJkRGzRuCiSGw4lUVcrphU4Of21V8dErNhiLRAG9CGsfCq9COSRgFp6829+7YIoJ5LZfL6ip2cjds5h0zvsJit8StRAse5rfCas/mrz2mvrc1RG/hhdaNqJuOoI/N7G5t0THFKbE4lzdtKbU83TtlwPgjvdRcYmou+3ur5ZAa/thKlG0jaRj930GiIPw8PycFUBsxH7cr+1DgTIx6YPPPH2LR+WQ+4s0DE35mpNJ/XxwHjRczI0RcD1MIM5pS9rUibgj6LZ2/6mDgwX0WFG2MkV66BTeHKLO5IJPAir95IXXTlRymAyHDG0jbsYKNH8Q1+l/Bl/Jxy+UXcPh8raCKjDaN4MN2XvpPng7E88vR1zshfe3jte/H+ysiSp9DL1Wvz/m23fIz0bt6m4X4ygZEZ9oqF5WQ+uUFVA8PpdCXXfkrdongQYMv6zw5LQ0RPu0iZjVdyW+t0gu3AaGXKOBG3uxZIHdl+CIHDPrGOx8NoA/WqniVoImWaUChPZviXo=
+    global:
+        secure: YeEJDyeVRFmMFcqz+ALxNgidbjDkv8zJROq81BStvtLqoT72sHUdmVA3eV12LWy0KDbGkhgGWeq4jPtybgiDdd401+v7Ze0xvBi73BGfchtOASQyuta5/g+rDiWhVKZH9pihmNQ2StbiFhGUDzSpj+LS8ycLTBMfCIOazKxtJklVkJkRGzRuCiSGw4lUVcrphU4Of21V8dErNhiLRAG9CGsfCq9COSRgFp6829+7YIoJ5LZfL6ip2cjds5h0zvsJit8StRAse5rfCas/mrz2mvrc1RG/hhdaNqJuOoI/N7G5t0THFKbE4lzdtKbU83TtlwPgjvdRcYmou+3ur5ZAa/thKlG0jaRj930GiIPw8PycFUBsxH7cr+1DgTIx6YPPPH2LR+WQ+4s0DE35mpNJ/XxwHjRczI0RcD1MIM5pS9rUibgj6LZ2/6mDgwX0WFG2MkV66BTeHKLO5IJPAir95IXXTlRymAyHDG0jbsYKNH8Q1+l/Bl/Jxy+UXcPh8raCKjDaN4MN2XvpPng7E88vR1zshfe3jte/H+ysiSp9DL1Wvz/m23fIz0bt6m4X4ygZEZ9oqF5WQ+uUFVA8PpdCXXfkrdongQYMv6zw5LQ0RPu0iZjVdyW+t0gu3AaGXKOBG3uxZIHdl+CIHDPrGOx8NoA/WqniVoImWaUChPZviXo=
