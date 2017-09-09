@@ -1,4 +1,8 @@
 language: ruby
+addons:
+    apt:
+        packages:
+            - lftp
 rvm:
     - 2.2.3
 before_install:
@@ -7,7 +11,7 @@ install:
     - bundle install --path vendor/bundle
     - gem install middleman
 script:
-    - make
+    - bundle exec make
     - lftp sftp://cwood:${PASSWORD}@192.241.239.20 -c "cd /usr/share/nginx/html; lcd build; put -r *"
 branches:
     only:
