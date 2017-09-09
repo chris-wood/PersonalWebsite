@@ -12,7 +12,7 @@ install:
     - gem install middleman
 script:
     - bundle exec make
-    - lftp sftp://cwood:${PASSWORD}@192.241.239.20 -c "cd /usr/share/nginx/html; lcd build; put -r *"
+    - lftp -e "cd /usr/share/nginx/html; lcd build; mirror -R . .; bye" sftp://cwood:${PASSWORD}@192.241.239.20
 branches:
     only:
         - master
