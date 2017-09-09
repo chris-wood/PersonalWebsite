@@ -926,6 +926,17 @@ In this paper, we explore supposed benefits and various problems of the stateful
             code:
         abstract: "With the growing presence of data streaming services and applications in today’s Internet, information-centric networks (ICNs) are an attractive alternative to the traditional IP-based, point-to-point architectures. In contrast with the host- based nature of addressable interfaces, ICNs make data directly addressable and routable within the network. This difference leads to different mechanisms to publish and retrieve data and enable peer-to-peer communication. Interoperability between the IP-based, point-to-point networks and CCNs are an important step toward deploying the benefits of ICNs without disrupting existing IP networks. We present CCNSink, an application layer middleware gateway providing interoperability between CCNs and IP. CCNSink provides semantic translation between the communication mechanisms used in both networks. We discuss the implementation details at length and study the performance overhead induced by this gateway and the message round-trip-time is studied in various communication settings."
         bibtex:
+    draft-trammell-taps-post-sockets:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-trammell-taps-post-sockets/
+        title: Post Sockets, An Abstract Programming Interface for the Transport Layer
+        authors: B. Trammell, C. Perkins, M. Kuehlewind, T. Pauly, C. A. Wood
+        venue: Internet Draft, September 2017.
+        links:
+            html: https://tools.ietf.org/html/draft-trammell-taps-post-sockets-01
+            txt: https://www.ietf.org/id/draft-trammell-taps-post-sockets-01.txt
+        abstract:
+        bibtex:
     draft-kuehlewind-taps-crypto-sep:
         type: id
         page: https://datatracker.ietf.org/doc/draft-kuehlewind-taps-crypto-sep/
