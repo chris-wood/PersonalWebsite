@@ -1,6 +1,4 @@
 html {
-    color: #222;
-    background-position: right top, left bottom;
     min-height: 100%;
 }
 
@@ -9,8 +7,6 @@ body {
     min-height: 100%;
     margin: -1px auto -1px auto;
     padding: 1px 1em 1px 1em;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 4px black;
 }
 
 h1, h2 {
@@ -21,14 +17,6 @@ h1, h2 {
 h2 {
     border-bottom: 3px double #8c8b8b;
     font-size: 120%;
-}
-
-#icon {
-    margin: 2.25em auto 0 auto;
-    border-radius: 50%;
-    display: block;
-    clear: both;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
 .center {
