@@ -2,66 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= current_page.data.title %></title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/bulma.css"/>
-    <!-- <script src="/javascripts/bulma.js"></script> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54008207-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-54008207-1');
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
 
     <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
-
-    <!-- <script src="javascripts/vertical-responsive-menu.min.js"></script>
-    <link rel="stylesheet" href="stylesheets/vertical-responsive-menu.min.css"/> -->
   </head>
   <body>
-  <nav class="nav has-shadow">
-      <div class="container">
-        <div id="nav-menu" class="nav-center nav-menu is-active">
-          <a class="nav-item" href="/">About</a>
-          <a class="nav-item" href="/docs/caw_cv.pdf">CV</a>
-          <a class="nav-item" href="/research.html">Research</a>
-          <a class="nav-item" href="/interests.html">Input</a>
-          <a class="nav-item" href="/output.html">Output</a>
-        </div>
+    <h1>Christopher A. Wood</h1>
+    <nav class="nav has-shadow">
+      <div id="nav-menu" class="links">
+        <a class="nav-item" href="/">About</a>
+        <span>|</span>
+        <a class="nav-item" href="/docs/caw_cv.pdf">CV</a>
+        <span>|</span>
+        <a class="nav-item" href="/research.html">Research</a>
+        <span>|</span>
+        <a class="nav-item" href="/interests.html">Input</a>
+        <span>|</span>
+        <a class="nav-item" href="/output.html">Output</a>
       </div>
     </nav>
 
-    <br/>
-
-  <div class="columns">
-      <div class="column is-offset-one-quarter is-half">
-          <div class="content">
-          <%= yield %>
-          </div>
-      </div>
+    <div class="content">
+      <%= yield %>
     </div>
 
-    <script type="text/javascript">
-        function toggleActive() {
-            var item = document.getElementById("nav-menu");
-            var className = item.getAttribute("class");
-
-            console.log(item);
-            console.log(className);
-
-            if (className == "nav-item is-active") {
-                item.className = "nav-item";
-            } else {
-                item.className = "nav-item is-active";
-            }
-        }
-        document.getElementById("nav-toggle").addEventListener ("click", toggleActive);
-        //   document.getElementById("nav-toggle").addEventListener ("click", toggleNav);
-        //   function toggleNav() {
-        //           var nav = document.getElementById("nav-menu");
-        //           var className = nav.getAttribute("class");
-        //           if (className == "nav-center nav-menu") {
-        //               nav.className = "nav-center nav-menu is-active";
-        //           } else {
-        //               nav.className = "nav-center nav-menu";
-        //           }
-        //   }
-      </script>
+    <footer class="center">
+      Last updated <%= Date.today.to_s %>    
+    </footer>
   </body>
 </html>

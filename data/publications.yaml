@@ -4,7 +4,7 @@ pubs:
         page: /publications/ccvpn17.html
         title: Namespace Tunnels in Content-Centric Networks
         authors: I. Oliviera-Nunes, G. Tsudik, and C. A. Wood
-        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
+        venue: 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ccvpn17.pdf
             slides: https://www.christopher-wood.com/docs/conference/ccvpn17_slides.pdf
@@ -31,7 +31,7 @@ network. We analyze the security of CCVPN and experimentally assess its performa
         page: /publications/onpath17.html
         title: Mitigating On-Path Adversaries in Content-Centric Networks
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: to appear in 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
+        venue: 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/onpath17.pdf
             slides: https://www.christopher-wood.com/docs/conference/onpath17_slides.pdf
@@ -63,7 +63,7 @@ it can be applied to IP-based networks as well."
         page: /publications/privacy17.html
         title: When Encryption is Not Enough -- Privacy Attacks in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: to appear in the 4th ACM Conference on Information-Centric Networking (ICN 2017), September 26 - 28, 2017, Berlin, Germany.
+        venue: 4th ACM Conference on Information-Centric Networking (ICN 2017), September 26 - 28, 2017, Berlin, Germany.
         links:
             pdf: https://www.christopher-wood.com/docs/conference/privacy17.pdf
             slides: https://www.christopher-wood.com/docs/conference/privacy17_slides.pdf
@@ -639,7 +639,7 @@ This paper presents an overview of chaotic dynamics and their role in symmetric 
         type: journal
         title: Privacy-Aware Caching in Information-Centric Networking
         authors: G. Acs, M. Conti, P. Gasti, C. Ghali, G. Tsudik, and C. A. Wood
-        article: to appear in IEEE Transactions on Dependable and Secure Computing.
+        article: IEEE Transactions on Dependable and Secure Computing.
         links:
             pdf: https://doi.org/10.1109/TDSC.2017.2679711
             slides:

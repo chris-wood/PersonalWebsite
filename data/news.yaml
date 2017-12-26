@@ -1,4 +1,10 @@
 -
+    content: 'I successfully defended my Ph.D. dissertation entitled, "Security and Privacy Challenges in Content-Centric Networking."'
+    date: December 8, 2017
+-
+    content: 'I presented draft-kuehlewind-taps-crypto-sep at the IETF OPSEC meeting at IETF 100 in Singapore.'
+    date: November 13, 2017
+-
     content: 'Along with Brian Trammell, Colin Perkins, Mirja Kuehlewind, and Tommy Pauly, we submitted 
     a new revision to the Post Sockets IETF draft.'
     date: September 8, 2017
