@@ -1,0 +1,61 @@
+---
+title: Thesis
+---
+
+<%
+    # the `key` variable is passed in as a local variable through the page proxy (see config.rb)
+    if !key
+        key = "tmp"
+    end
+
+    title = data.publications.theses[key].title
+    authors = data.publications.theses[key].authors
+    venue = data.publications.theses[key].venue
+    abstract = data.publications.theses[key].abstract
+    bibtex = data.publications.theses[key].bibtex
+    paper_link = data.publications.theses[key].links["pdf"]
+    slides_link = data.publications.theses[key].links["slides"]
+    code_link = data.publications.theses[key].links["code"]
+
+    published = paper_link or slides_link or code_link
+%>
+
+<div class="card">
+  <div class="card-content">
+      <h3><%= title %></h3>
+      <p><%= authors %></p>
+      <p><%= venue %></p>
+  </div>
+</div>
+
+<% if published %>
+<h3>Materials</h3>
+<ul>
+    <% if paper_link != nil and paper_link.length > 0 %> <li><p><a href="<%= paper_link %>">Paper</a></p></li> <% end %>
+    <% if slides_link != nil and slides_link.length > 0 %> <li><p><a href="<%= slides_link %>">Slides</a></p></li> <% end %>
+    <% if code_link != nil and code_link.length > 0 %> <li><p><a href="<%= code_link %>">Code</a></p></li> <% end %>
+</li>
+</ul>
+
+<% if abstract != nil and abstract.length > 0 %>
+<article class="message">
+<div class="message-header">
+    <h3>Abstract</h3>
+</div>
+<div class="message-body">
+<%= abstract %>
+</div>
+</article>
+<% end %>
+
+<% if bibtex != nil and bibtex.length > 0 %>
+<article class="message">
+<div class="message-header">
+    <h3>BibTeX</h3>
+</div>
+<div class="blockcontent"><pre>
+<%= bibtex %>
+</pre></div>
+</article>
+<% end %>
+<% end %>

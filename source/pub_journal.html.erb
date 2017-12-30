@@ -1,5 +1,5 @@
 ---
-title: Publication
+title: Journal Publication
 ---
 
 <%
@@ -7,14 +7,15 @@ title: Publication
     if !key
         key = "tmp"
     end
-    title = data.publications.pubs[key].title
-    authors = data.publications.pubs[key].authors
-    venue = data.publications.pubs[key].venue
-    abstract = data.publications.pubs[key].abstract
-    bibtex = data.publications.pubs[key].bibtex
-    paper_link = data.publications.pubs[key].links["pdf"]
-    slides_link = data.publications.pubs[key].links["slides"]
-    code_link = data.publications.pubs[key].links["code"]
+
+    title = data.publications.journals[key].title
+    authors = data.publications.journals[key].authors
+    venue = data.publications.journals[key].venue
+    abstract = data.publications.journals[key].abstract
+    bibtex = data.publications.journals[key].bibtex
+    paper_link = data.publications.journals[key].links["pdf"]
+    slides_link = data.publications.journals[key].links["slides"]
+    code_link = data.publications.journals[key].links["code"]
 
     published = paper_link or slides_link or code_link
 %>
@@ -39,7 +40,7 @@ title: Publication
 <% if abstract != nil and abstract.length > 0 %>
 <article class="message">
 <div class="message-header">
-    <p>Abstract</p>
+    <h3>Abstract</h3>
 </div>
 <div class="message-body">
 <%= abstract %>
@@ -50,7 +51,7 @@ title: Publication
 <% if bibtex != nil and bibtex.length > 0 %>
 <article class="message">
 <div class="message-header">
-    <p>BibTeX</p>
+    <h3>BibTeX</h3>
 </div>
 <div class="blockcontent"><pre>
 <%= bibtex %>

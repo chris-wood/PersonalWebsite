@@ -1,10 +1,10 @@
-pubs:
+conferences:
     ccvpn17:
         type: conference
         page: /publications/ccvpn17.html
         title: Namespace Tunnels in Content-Centric Networks
         authors: I. Oliviera-Nunes, G. Tsudik, and C. A. Wood
-        venue: 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
+        venue: 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ccvpn17.pdf
             slides: https://www.christopher-wood.com/docs/conference/ccvpn17_slides.pdf
@@ -31,7 +31,7 @@ network. We analyze the security of CCVPN and experimentally assess its performa
         page: /publications/onpath17.html
         title: Mitigating On-Path Adversaries in Content-Centric Networks
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore.
+        venue: 42nd Annual IEEE Conference on Local Computer Networks (LCN 2017), October 9 - 12, 2017, Singapore
         links:
             pdf: https://www.christopher-wood.com/docs/conference/onpath17.pdf
             slides: https://www.christopher-wood.com/docs/conference/onpath17_slides.pdf
@@ -63,7 +63,7 @@ it can be applied to IP-based networks as well."
         page: /publications/privacy17.html
         title: When Encryption is Not Enough -- Privacy Attacks in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: 4th ACM Conference on Information-Centric Networking (ICN 2017), September 26 - 28, 2017, Berlin, Germany.
+        venue: 4th ACM Conference on Information-Centric Networking (ICN 2017), September 26 - 28, 2017, Berlin, Germany
         links:
             pdf: https://www.christopher-wood.com/docs/conference/privacy17.pdf
             slides: https://www.christopher-wood.com/docs/conference/privacy17_slides.pdf
@@ -95,7 +95,7 @@ are needed to mitigate the attack."
         page: /publications/pitless17.html
         title: Closing the Floodgate with Stateless Content-Centric Networking
         authors: C. Ghali, G. Tsudik, E. Uzun, and C. A. Wood
-        venue: in Proceedings of the 26th International Conference on Computer Communication and Networks (ICCCN 2017), July 31 - August 3, 2017, Vancouver, Canada.
+        venue: 26th International Conference on Computer Communication and Networks (ICCCN 2017), July 31 - August 3, 2017, Vancouver, Canada
         awards: Best Paper Award
         links:
             pdf: https://www.christopher-wood.com/docs/conference/pitless17.pdf
@@ -134,7 +134,7 @@ requirements of the proposed architecture via experiments."
         type: conference
         title: Protecting the Long Tail - Transparent Packet Security in Content-Centric Networks
         authors: C. A. Wood
-        venue: IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
+        venue: IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden
         links:
             pdf: https://www.christopher-wood.com/docs/conference/traps17.pdf
             slides: https://www.christopher-wood.com/docs/conference/traps17_slides.pdf
@@ -160,7 +160,7 @@ requirements of the proposed architecture via experiments."
         type: conference
         title: Mobile Sessions in Content-Centric Networks
         authors: M. Mosko, E. Uzun, and C. A. Wood
-        venue: IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden.
+        venue: IFIP Networking 2017, June 12-16, 2017, Stockholm, Sweden
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ccnxke17.pdf
             slides: https://www.christopher-wood.com/docs/conference/ccnxke17_slides.pdf
@@ -188,7 +188,7 @@ traffic using our prototype implementation."
         type: conference
         title: Secure Off-Path Replication in Content-Centric Networks
         authors: M. Mosko and C. A. Wood
-        venue: in Proceedings of the IEEE ICC 2017 Next Generation Networking and Internet Symposium (NGNI 2017), May 21-25, 2017, Paris, France.
+        venue: IEEE ICC 2017 Next Generation Networking and Internet Symposium (NGNI 2017), May 21-25, 2017, Paris, France
         links:
             pdf: https://www.christopher-wood.com/docs/conference/scr17.pdf
             slides: https://www.christopher-wood.com/docs/conference/scr17_slides.pdf
@@ -211,7 +211,7 @@ establishment, and (3) the ability to obtain data in parallel from multiple, ind
         type: conference
         title: (The Futility of) Data Privacy in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: in Proceedings of the ACM CCS Workshop on Privacy in the Electronic Society (WPES 2016), October 24, 2016, Vienna, Austria.
+        venue: ACM CCS Workshop on Privacy in the Electronic Society (WPES 2016), October 24, 2016, Vienna, Austria
         links:
             pdf: https://www.christopher-wood.com/docs/conference/privacy16.pdf
             slides: https://www.christopher-wood.com/docs/conference/privacy16_slides.pdf
@@ -246,7 +246,7 @@ privacy mechanisms in practice."
         type: conference
         title: Network Names in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: in Proceedings of the 3rd ACM Conference on Information-Centric Networking (ICN 2016), September 26 - 28, 2016, Kyoto, Japan.
+        venue: 3rd ACM Conference on Information-Centric Networking (ICN 2016), September 26 - 28, 2016, Kyoto, Japan
         links:
             pdf: https://www.christopher-wood.com/docs/conference/names16.pdf
             slides: https://www.christopher-wood.com/docs/conference/names16_slides.pdf
@@ -292,7 +292,7 @@ the network."
         type: conference
         title: Trust in Information-Centric Networking - From Theory to Practice
         authors: C. Tschudin, E. Uzun, and C. A. Wood
-        venue: in Proceedings of the 25th International Conference on Computer Communication and Networks (ICCCN 2016), August 1 - 4, 2016, Waikoloa, Hawaii, USA.
+        venue: 25th International Conference on Computer Communication and Networks (ICCCN 2016), August 1 - 4, 2016, Waikoloa, Hawaii, USA
         links:
             pdf: https://www.christopher-wood.com/docs/conference/trust16.pdf
             slides: https://www.christopher-wood.com/docs/conference/trust_ICCCN_slides.pdf
@@ -323,7 +323,7 @@ models are natively supported by the trust engine to illustrate its flexibility.
         type: conference
         title: BEAD - Best Effort Autonomous Deletion in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, and C. A. Wood
-        venue: IFIP Networking 2016, May 17 - 19, 2016, Vienna, Austria.
+        venue: IFIP Networking 2016, May 17 - 19, 2016, Vienna, Austria
         links:
             pdf: https://www.christopher-wood.com/docs/conference/beads.pdf
             slides: https://www.christopher-wood.com/docs/conference/beads_slides.pdf
@@ -355,7 +355,7 @@ BEAD's performance via simulations and provide a detailed analysis of its proper
         type: conference
         title: Practical Accounting in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, C. A. Wood, and E. Yeh
-        venue: NOMS 2016, IEEE/IFIP Network Operations and Management Symposium, April 25 - 29, 2016, Istanbul, Turkey.
+        venue: IEEE/IFIP Network Operations and Management Symposium (NOMS 2016), April 25 - 29, 2016, Istanbul, Turkey
         links:
             pdf: https://www.christopher-wood.com/docs/conference/accounting16.pdf
             slides: https://www.christopher-wood.com/docs/conference/accounting16_slides.pdf
@@ -388,7 +388,7 @@ approaches."
         type: conference
         title: AC3N - Anonymous communication in Content-Centric Networking
         authors: G. Tsudik, E. Uzun, and C. A. Wood
-        venue: in Proceedings of CCNC 2016, Las Vegas, NV, USA. January 2016.
+        venue: CCNC 2016, Las Vegas, NV, USA. January 2016
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ac3n16.pdf
             slides: https://www.christopher-wood.com/docs/conference/ac3n16_slides.pdf
@@ -426,7 +426,7 @@ providing anonymity features analogous to Tor."
         type: conference
         title: Constructing Large S-boxes with Area Minimized Implementations
         authors: C. A. Wood, S. P. Radziszowski, and M. Lukowiak
-        venue: in Proceedings of MILCOM'2015, Tampa, FL, USA. October 2015.
+        venue: MILCOM'2015, Tampa, FL, USA. October 2015
         links:
             pdf: https://www.christopher-wood.com/docs/conference/sboxes15.pdf
             slides: https://www.christopher-wood.com/docs/conference/sboxes15_slides.pdf
@@ -444,7 +444,7 @@ providing anonymity features analogous to Tor."
         type: conference
         title: Secure Fragmentation for Content-Centric Networking
         authors: M. Mosko and C. A. Wood
-        venue: in IEEE MASS 2015 Workshop on Content-Centric Networking (CCN 2015), Dallas, TX, USA. October 2015.
+        venue: IEEE MASS 2015 Workshop on Content-Centric Networking (CCN 2015), Dallas, TX, USA. October 2015
         links:
             pdf: https://www.christopher-wood.com/docs/conference/nnf15.pdf
             slides:
@@ -462,7 +462,7 @@ providing anonymity features analogous to Tor."
         type: conference
         title: Interest-Based Access Control for Information Centric Networks
         authors: C. Ghali, M. A. Schlosberg, G. Tsudik, and C. A. Wood
-        venue: in Proceedings of ICN 2015, the 2nd ACM Conference on Information Centric Networking, San Francisco, CA, USA. September 2015.
+        venue: 2nd ACM Conference on Information Centric Networking (ICN 2015), San Francisco, CA, USA. September 2015
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ibac15.pdf
             slides: https://www.christopher-wood.com/docs/conference/ibac15_slides.pdf
@@ -501,7 +501,7 @@ that only uses information contained in interest messages."
         type: conference
         title: Secure Fragmentation for Content-Centric Networks
         authors: C. Ghali, A. Narayanan, D. Oran, G. Tsudik, and C. A. Wood
-        venue: NCA 2015, the 14th IEEE International Symposium on Network Computing and Applications, Cambridge, MA, USA. September 2015.
+        venue: 14th IEEE International Symposium on Network Computing and Applications (NCA 2015), Cambridge, MA, USA. September 2015
         links:
             pdf: https://www.christopher-wood.com/docs/conference/frag15.pdf
             slides: https://www.christopher-wood.com/docs/conference/figoa15_slides.pdf
@@ -520,7 +520,7 @@ that only uses information contained in interest messages."
         type: conference
         title: An Encryption-Based Access Control Framework for Content-Centric Networking
         authors: J. Kurihara, C. A. Wood, and E. Uzun
-        venue: IFIP Networking 2015, Toulouse, France. May 2015.
+        venue: IFIP Networking 2015, Toulouse, France. May 2015
         links:
             pdf: https://www.christopher-wood.com/docs/conference/ccnac15.pdf
             slides: https://www.christopher-wood.com/docs/conference/ccnac15_slides.pdf
@@ -538,7 +538,7 @@ that only uses information contained in interest messages."
         type: conference
         title: Mission Control - A Performance Metric and Analysis of Control Logic for Pipelined Architectures on FPGAs
         authors: S. Skalicky, S. Lopez, M. Lukowiak, and C. A. Wood
-        venue: in Proceedings of the 2014 International Conference on Reconfigurable Computing and FPGAs - ReConFig 2014, Cancun, Mexico. December 2014.
+        venue: 2014 International Conference on Reconfigurable Computing and FPGAs - ReConFig 2014, Cancun, Mexico. December 2014
         links:
             pdf: https://www.christopher-wood.com/docs/conference/mission14.pdf
             slides: https://www.christopher-wood.com/docs/conference/mission14_slides.pdf
@@ -556,7 +556,7 @@ that only uses information contained in interest messages."
         type: conference
         title: Flexible End-to-End Content Security in CCN
         authors: C. A. Wood and E. Uzun
-        venue: IEEE Consumer Communications and Networking Conference (CCNC 2014) Special Session - Information Centric Networking, Las Vegas, Nevada, USA. January 2014.
+        venue: IEEE Consumer Communications and Networking Conference (CCNC 2014) Special Session - Information Centric Networking, Las Vegas, Nevada, USA. January 2014
         links:
             pdf: https://www.christopher-wood.com/docs/conference/etesec14.pdf
             slides: https://www.christopher-wood.com/docs/conference/etesec14_slides.pdf
@@ -574,7 +574,7 @@ that only uses information contained in interest messages."
         type: conference
         title: High Level Synthesis - Where Are We? A Case Study on Matrix Multiplication
         authors: S. Skalicky, C. A. Wood, M. Lukowiak, and M. Ryan
-        venue: in Proceedings of the 2013 International Conference on Reconfigurable Computing and FPGAs - ReConFig 2013, Cancun, Mexico. December 2013.
+        venue: 2013 International Conference on Reconfigurable Computing and FPGAs - ReConFig 2013, Cancun, Mexico. December 2013
         links:
             pdf: https://www.christopher-wood.com/docs/conference/hls13.pdf
             slides: https://www.christopher-wood.com/docs/conference/hls13_slides.pdf
@@ -603,7 +603,7 @@ that only uses information contained in interest messages."
         type: conference
         title: Chaos-Based Symmetric Key Cryptosystems
         authors: C. A. Wood
-        venue: in Proceedings of the 2011 International Conference on Security & Management, Las Vegas, Nevada, USA. July 2011.
+        venue: 2011 International Conference on Security & Management, Las Vegas, Nevada, USA. July 2011
         links:
             pdf:
             slides: https://www.christopher-wood.com/docs/conference/chaos11_slides.pdf
@@ -621,7 +621,7 @@ This paper presents an overview of chaotic dynamics and their role in symmetric 
         type: conference
         title: Keyloggers in Cybersecurity Education
         authors: C. A. Wood and R. K. Raj
-        venue: in Proceedings of the 2010 International Conference on Security & Management, Las Vegas, Nevada, USA. July 2010.
+        venue: 2010 International Conference on Security & Management, Las Vegas, Nevada, USA. July 2010
         links:
             # TODO: save this PDF!
             pdf: https://pdfs.semanticscholar.org/d1d4/628a22e8d27c6cd202839d7bf0e3a7c7ea91.pdf
@@ -635,11 +635,12 @@ This paper presents an overview of chaotic dynamics and their role in symmetric 
   pages={293--299},\n
   year={2010}\n
 }"
+journals:
     caching17:
         type: journal
         title: Privacy-Aware Caching in Information-Centric Networking
         authors: G. Acs, M. Conti, P. Gasti, C. Ghali, G. Tsudik, and C. A. Wood
-        article: IEEE Transactions on Dependable and Secure Computing.
+        article: IEEE Transactions on Dependable and Secure Computing
         links:
             pdf: https://doi.org/10.1109/TDSC.2017.2679711
             slides:
@@ -656,9 +657,8 @@ This paper presents an overview of chaotic dynamics and their role in symmetric 
         type: journal
         title: Can We Make a Cake and Eat It Too? A Discussion of ICN Security and Privacy
         authors: E. Ngai, B. Ohlman, G. Tsudik, E. Uzun, M. Wahlisch, and C. A. Wood
-        article: ACM SIGCOMM Computer Communication Review, Volume 47 Issue 1, January 2017, Pages 49-54.
+        article: ACM SIGCOMM Computer Communication Review, Volume 47 Issue 1, January 2017, Pages 49-54
         links:
-            # TODO: save a soft copy
             pdf: https://ccronline.sigcomm.org/wp-content/uploads/2017/01/p49-ngai.pdf
             slides:
             code:
@@ -678,7 +678,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         type: journal
         title: Stochastic Analysis and Modeling of a Tree-Based Group Key Distribution Method in Tactical Wireless Networks
         authors: P. Bajorski, A. Kaminsky, M. Kurdziel, M. Lukowiak, S. Radziszowski, and C. Wood
-        article: Journal of Telecommunications System & Management 3.2 (2014) - 1.
+        article: Journal of Telecommunications System & Management 3.2 (2014) - 1
         links:
             pdf:
             slides:
@@ -718,7 +718,7 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         type: journal
         title: Cybersecurity Education - Bridging the Gap between Hardware and Software Domains
         authors: M. Lukowiak, S. Radziszowski, J. Vallino, and C. Wood
-        article: ACM Transactions on Computing Education, 14(1) (2014).
+        article: ACM Transactions on Computing Education, 14(1) (2014)
         links:
             pdf:
             slides:
@@ -734,11 +734,12 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
   year={2014},\n
   publisher={ACM}\n
 }"
+posters:
     apis15:
         type: poster
         title: A Network-Agnostic Data Framework and API for CCN
         authors: G. Scott and C. A. Wood
-        venue: ICN 2015, the 2nd ACM Conference on Information Centric Networking, September 30 - October 2, 2015, San Francisco, CA, USA.
+        venue: 2nd ACM Conference on Information Centric Networking (ICN 2015), September 30 - October 2, 2015, San Francisco, CA, USA
         links:
             pdf:
             slides:
@@ -749,10 +750,22 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         type: poster
         title: Secure Prefix Registration in CCN
         authors: M. Mosko, G. Scott, I. Solis, and C. A. Wood
-        venue: ICN 2015, the 2nd ACM Conference on Information Centric Networking, September 30 - October 2, 2015, San Francisco, CA, USA.
+        venue: 2nd ACM Conference on Information Centric Networking (ICN 2015), September 30 - October 2, 2015, San Francisco, CA, USA
         links:
             pdf:
             slides:
+            code:
+        abstract:
+        bibtex:
+theses:
+    uci17:
+        type: thesis
+        title: Security and Privacy Challenges in Content-Centric Networks
+        authors: C. A. Wood
+        venue: Ph.D. Dissertation, Computer Science, University of California Irvine, Irvine, CA. December 2017
+        links:
+            pdf: https://chris-wood.github.io/thesis-wood-uci/dissertation.pdf
+            slides: https://chris-wood.github.io/thesis-wood-uci/defense.pdf
             code:
         abstract:
         bibtex:
@@ -760,13 +773,14 @@ This report documents the highlights and outcomes of the Dagstuhl Seminar 16251 
         type: thesis
         title: Large Substitution Boxes with Efficient Combinational Implementations
         authors: C. A. Wood
-        venue: M.S. Thesis, Computer Science, Rochester Institute of Technology, Rochester, NY. August 2013.
+        venue: M.S. Thesis, Computer Science, Rochester Institute of Technology, Rochester, NY. August 2013
         links:
             pdf: https://www.christopher-wood.com/docs/thesis/caw_thesis_rit.pdf
             slides: https://www.christopher-wood.com/docs/thesis/caw_thesis_defense_slides.pdf
             code:
         abstract:
         bibtex:
+reports:
     ccnx17:
         type: report
         title: Content-Centric Networking - Architectural Overview and Protocol Description
@@ -794,7 +808,7 @@ archivePrefix = {{arXiv}},\n
         type: report
         title: Information-centric Networking Security (Dagstuhl Seminar 16251)
         authors: E. Ngai, B. Ohlman, G. Tsudik, E. Uzun, and C. A. Wood
-        venue: Dagstuhl Reports. Vol. 6. No. 6. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik (2016).
+        venue: Dagstuhl Reports. Vol. 6. No. 6. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik (2016)
         links:
             pdf: http://drops.dagstuhl.de/opus/volltexte/2016/6727/pdf/dagrep_v006_i006_p049_s16251.pdf
             slides:
@@ -821,7 +835,7 @@ archivePrefix = {{arXiv}},\n
         type: report
         title: Living in a PIT-less World - A Case Against Stateful Forwarding in Content-Centric Networking
         authors: C. Ghali, G. Tsudik, E. Uzun, C. A. Wood
-        venue: on arXiv.
+        venue: arXiv
         links:
             pdf: https://arxiv.org/abs/1512.07755
             slides:
@@ -844,7 +858,7 @@ In this paper, we explore supposed benefits and various problems of the stateful
         type: report
         title: Practical Accounting in Content-Centric Networking (extended version)
         authors: C. Ghali, G. Tsudik, C. A. Wood, E. Yeh
-        venue: on arXiv.
+        venue: arXiv
         links:
             pdf: https://arxiv.org/abs/1510.01852
             slides:
@@ -865,7 +879,7 @@ In this paper, we explore supposed benefits and various problems of the stateful
         type: report
         title: Interest-Based Access Control for Content Centric Networks (extended version)
         authors: C. Ghali, M. A. Schlosberg, G. Tsudik, C. A. Wood
-        venue: on arXiv.
+        venue: arXiv
         links:
             pdf: https://arxiv.org/abs/1505.06258
             slides:
@@ -941,15 +955,16 @@ In this paper, we explore supposed benefits and various problems of the stateful
             code:
         abstract: "With the growing presence of data streaming services and applications in today’s Internet, information-centric networks (ICNs) are an attractive alternative to the traditional IP-based, point-to-point architectures. In contrast with the host- based nature of addressable interfaces, ICNs make data directly addressable and routable within the network. This difference leads to different mechanisms to publish and retrieve data and enable peer-to-peer communication. Interoperability between the IP-based, point-to-point networks and CCNs are an important step toward deploying the benefits of ICNs without disrupting existing IP networks. We present CCNSink, an application layer middleware gateway providing interoperability between CCNs and IP. CCNSink provides semantic translation between the communication mechanisms used in both networks. We discuss the implementation details at length and study the performance overhead induced by this gateway and the message round-trip-time is studied in various communication settings."
         bibtex:
+rfcs:
     draft-trammell-taps-post-sockets:
         type: id
         page: https://datatracker.ietf.org/doc/draft-trammell-taps-post-sockets/
         title: Post Sockets, An Abstract Programming Interface for the Transport Layer
         authors: B. Trammell, C. Perkins, M. Kuehlewind, T. Pauly, C. A. Wood
-        venue: Internet Draft, September 2017.
+        venue: Internet Draft
         links:
-            html: https://tools.ietf.org/html/draft-trammell-taps-post-sockets-01
-            txt: https://www.ietf.org/id/draft-trammell-taps-post-sockets-01.txt
+            html: https://tools.ietf.org/html/draft-trammell-taps-post-sockets-03
+            txt: https://www.ietf.org/id/draft-trammell-taps-post-sockets-03.txt
         abstract:
         bibtex:
     draft-kuehlewind-taps-crypto-sep:
@@ -957,10 +972,10 @@ In this paper, we explore supposed benefits and various problems of the stateful
         page: https://datatracker.ietf.org/doc/draft-kuehlewind-taps-crypto-sep/
         title: Separating Crypto Negotiation and Communication
         authors: M. Kuehlewind, T. Pauly, C. A. Wood
-        venue: Internet Draft, July 2017.
+        venue: Internet Draft
         links:
-            html: https://tools.ietf.org/html/draft-kuehlewind-taps-crypto-sep-00
-            txt: https://www.ietf.org/id/draft-kuehlewind-taps-crypto-sep-00.txt
+            html: https://tools.ietf.org/html/draft-kuehlewind-taps-crypto-sep-01
+            txt: https://www.ietf.org/id/draft-kuehlewind-taps-crypto-sep-01.txt
         abstract:
         bibtex:
     draft-pauly-taps-transport-security:
@@ -968,32 +983,54 @@ In this paper, we explore supposed benefits and various problems of the stateful
         page: https://datatracker.ietf.org/doc/draft-pauly-taps-transport-security/
         title: A Survey of Transport Security Protocols
         authors: T. Pauly and C. A. Wood
-        venue: Internet Draft, July 2017.
+        venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-pauly-taps-transport-security-00
             txt: https://www.ietf.org/id/draft-pauly-taps-transport-security-00.txt
         abstract:
         bibtex:
-    draft-ccnx-semantics:
+    draft-irtf-icnrg-ccnxsemantics:
         type: id
         page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-ccnxsemantics/
         title: CCNx Semantics
         authors: M. Mosko, I. Solis, and C. A. Wood
-        venue: Internet Draft, March 2017.
+        venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-irtf-icnrg-ccnxsemantics-04
             txt: https://www.ietf.org/id/draft-irtf-icnrg-ccnxsemantics-04.txt
         abstract:
         bibtex:
-    draft-ccnx-messages:
+    draft-irtf-icnrg-ccnxmessages:
         type: id
         page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-ccnxmessages/
         title: CCNx Messages in TLV Format
         authors: M. Mosko, I. Solis, and C. A. Wood
-        venue: Internet Draft, March 2017.
+        venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-irtf-icnrg-ccnxmessages-04
             txt: https://www.ietf.org/id/draft-irtf-icnrg-ccnxmessages-04.txt
+        abstract:
+        bibtex:
+    draft-irtf-icnrg-terminology:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-terminology/
+        title: File-Like ICN Collection (FLIC)
+        authors: B. Wissingh, C. A. Wood, A. Afanasyev, L. Zhang, D. Oran, and C. Tschudin
+        venue: Internet Draft
+        links:
+            html: https://tools.ietf.org/html/draft-irtf-icnrg-terminology-00
+            txt: https://www.ietf.org/id/draft-irtf-icnrg-terminology-00.txt
+        abstract:
+        bibtex:
+    draft-irtf-icnrg-flic:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-flic/
+        title: File-Like ICN Collection (FLIC)
+        authors: C. Tschudin and C. A. Wood
+        venue: Internet Draft
+        links:
+            html: https://tools.ietf.org/html/draft-irtf-icnrg-flic-01
+            txt: https://www.ietf.org/id/draft-irtf-icnrg-flic-01.txt
         abstract:
         bibtex:
     draft-ccnx-uri:
@@ -1001,7 +1038,7 @@ In this paper, we explore supposed benefits and various problems of the stateful
         page: https://datatracker.ietf.org/doc/draft-mosko-icnrg-ccnxurischeme/
         title: The CCNx URI Scheme
         authors: M. Mosko and C. A. Wood
-        venue: Internet Draft, April 2016.
+        venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-mosko-icnrg-ccnxurischeme-01
             txt: https://www.ietf.org/id/draft-mosko-icnrg-ccnxurischeme-01.txt
@@ -1012,7 +1049,7 @@ In this paper, we explore supposed benefits and various problems of the stateful
         page: https://datatracker.ietf.org/doc/draft-wood-icnrg-ccnxkeyexchange/
         title: CCNx Key Exchange Protocol Version 1.0
         authors: M. Mosko, E. Uzun, and C. A. Wood
-        venue: Internet Draft, July 2017.
+        venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-wood-icnrg-ccnxkeyexchange-02
             txt: https://www.ietf.org/id/draft-wood-icnrg-ccnxkeyexchange-02.txt
@@ -1023,21 +1060,10 @@ In this paper, we explore supposed benefits and various problems of the stateful
         page: https://datatracker.ietf.org/doc/draft-wood-icnrg-esic/
         title: Encrypted Sessions In CCNx (ESIC)
         authors: M. Mosko and C. A. Wood
-        venue: Internet Draft, March 2017.
+        venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-wood-icnrg-esic-00
             txt: https://www.ietf.org/id/draft-wood-icnrg-esic-00.txt
-        abstract:
-        bibtex:
-    draft-ccnx-flic:
-        type: id
-        page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-flic/
-        title: File-Like ICN Collection (FLIC)
-        authors: C. Tschudin and C. A. Wood
-        venue: Internet Draft, June 2017.
-        links:
-            html: https://tools.ietf.org/html/draft-irtf-icnrg-flic-00
-            txt: https://www.ietf.org/id/draft-irtf-icnrg-flic-00.txt
         abstract:
         bibtex:
     draft-ccnx-clean:
@@ -1045,7 +1071,7 @@ In this paper, we explore supposed benefits and various problems of the stateful
         page: https://datatracker.ietf.org/doc/draft-wood-icnrg-clean/
         title: Content-Locked Encryption and Authentication of Nameless Objects
         authors: C. A. Wood
-        venue: Internet Draft, March 2017.
+        venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-wood-icnrg-clean-00
             txt: https://tools.ietf.org/html/draft-wood-icnrg-clean-00.txt

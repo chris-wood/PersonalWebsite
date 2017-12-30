@@ -1,2 +1,2 @@
 all:
-	middleman build
+	middleman build --verbose
