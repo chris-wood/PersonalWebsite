@@ -956,11 +956,66 @@ In this paper, we explore supposed benefits and various problems of the stateful
         abstract: "With the growing presence of data streaming services and applications in today’s Internet, information-centric networks (ICNs) are an attractive alternative to the traditional IP-based, point-to-point architectures. In contrast with the host- based nature of addressable interfaces, ICNs make data directly addressable and routable within the network. This difference leads to different mechanisms to publish and retrieve data and enable peer-to-peer communication. Interoperability between the IP-based, point-to-point networks and CCNs are an important step toward deploying the benefits of ICNs without disrupting existing IP networks. We present CCNSink, an application layer middleware gateway providing interoperability between CCNs and IP. CCNSink provides semantic translation between the communication mechanisms used in both networks. We discuss the implementation details at length and study the performance overhead induced by this gateway and the message round-trip-time is studied in various communication settings."
         bibtex:
 rfcs:
+    draft-sullivan-cfrg-voprf:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-sullivan-cfrg-voprf/
+        title: Verifiable Oblivious Pseudorandom Functions (VOPRFs)
+        authors: N. Sullivan, C. Wood
+        venue: Internet Draft
+        links:
+            html: https://tools.ietf.org/html/draft-sullivan-cfrg-voprf-00
+            txt: https://www.ietf.org/id/draft-sullivan-cfrg-voprf-00.txt
+        abstract:
+        bibtex:
+    draft-sullivan-cfrg-hash-to-curve:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-sullivan-cfrg-hash-to-curve/
+        title: Hashing to Elliptic Curves
+        authors: N. Sullivan, C. Wood
+        venue: Internet Draft
+        links:
+            html: https://tools.ietf.org/html/draft-sullivan-cfrg-hash-to-curve-00
+            txt: https://www.ietf.org/id/draft-sullivan-cfrg-hash-to-curve-00.txt
+        abstract:
+        bibtex:
+    draft-cremers-cfrg-randomness-improvements:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-cremers-cfrg-randomness-improvements/
+        title: Randomness Improvements for Security Protocols
+        authors: C. Cremers, L. Garratt, S. Smyshlyaev, N. Sullivan, C. Wood
+        venue: Internet Draft
+        links:
+            html: https://tools.ietf.org/html/draft-cremers-cfrg-randomness-improvements-00
+            txt: https://www.ietf.org/id/draft-cremers-cfrg-randomness-improvements-00.txt
+        abstract:
+        bibtex:
+    draft-trammell-taps-interface:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-trammell-taps-interface/
+        title: An Abstract Application Layer Interface to Transport Services
+        authors: B. Trammell (editor), M. Welzl (editor), T. Enghardt, G. Fairhurst, M. Kuehlewind, C. Perkins, P. Tiesel, C. Wood
+        venue: Internet Draft
+        links:
+            html: https://tools.ietf.org/html/draft-trammell-taps-interface-00
+            txt: https://www.ietf.org/id/draft-trammell-taps-interface-00.txt
+        abstract:
+        bibtex:
+    draft-pauly-taps-arch:
+        type: id
+        page: https://datatracker.ietf.org/doc/draft-pauly-taps-arch/
+        title: An Architecture for Transport Services
+        authors: T. Pauly (editor), B. Trammell (editor), A. Brunstrom, G. Fairhurst, C. Perkins, P. Tiesel, C. Wood
+        venue: Internet Draft
+        links:
+            html: https://tools.ietf.org/html/draft-pauly-taps-arch-00
+            txt: https://www.ietf.org/id/draft-pauly-taps-arch-00.txt
+        abstract:
+        bibtex:
     draft-trammell-taps-post-sockets:
         type: id
         page: https://datatracker.ietf.org/doc/draft-trammell-taps-post-sockets/
         title: Post Sockets, An Abstract Programming Interface for the Transport Layer
-        authors: B. Trammell, C. Perkins, M. Kuehlewind, T. Pauly, C. A. Wood
+        authors: B. Trammell, C. Perkins, M. Kuehlewind, T. Pauly, C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-trammell-taps-post-sockets-03
@@ -971,29 +1026,29 @@ rfcs:
         type: id
         page: https://datatracker.ietf.org/doc/draft-kuehlewind-taps-crypto-sep/
         title: Separating Crypto Negotiation and Communication
-        authors: M. Kuehlewind, T. Pauly, C. A. Wood
+        authors: M. Kuehlewind, T. Pauly, C. Wood
         venue: Internet Draft
         links:
-            html: https://tools.ietf.org/html/draft-kuehlewind-taps-crypto-sep-01
-            txt: https://www.ietf.org/id/draft-kuehlewind-taps-crypto-sep-01.txt
+            html: https://tools.ietf.org/html/draft-kuehlewind-taps-crypto-sep-02
+            txt: https://www.ietf.org/id/draft-kuehlewind-taps-crypto-sep-02.txt
         abstract:
         bibtex:
     draft-pauly-taps-transport-security:
         type: id
         page: https://datatracker.ietf.org/doc/draft-pauly-taps-transport-security/
         title: A Survey of Transport Security Protocols
-        authors: T. Pauly and C. A. Wood
+        authors: T. Pauly and C. Wood
         venue: Internet Draft
         links:
-            html: https://tools.ietf.org/html/draft-pauly-taps-transport-security-00
-            txt: https://www.ietf.org/id/draft-pauly-taps-transport-security-00.txt
+            html: https://tools.ietf.org/html/draft-pauly-taps-transport-security-02
+            txt: https://www.ietf.org/id/draft-pauly-taps-transport-security-02.txt
         abstract:
         bibtex:
     draft-irtf-icnrg-ccnxsemantics:
         type: id
         page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-ccnxsemantics/
         title: CCNx Semantics
-        authors: M. Mosko, I. Solis, and C. A. Wood
+        authors: M. Mosko, I. Solis, and C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-irtf-icnrg-ccnxsemantics-04
@@ -1004,7 +1059,7 @@ rfcs:
         type: id
         page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-ccnxmessages/
         title: CCNx Messages in TLV Format
-        authors: M. Mosko, I. Solis, and C. A. Wood
+        authors: M. Mosko, I. Solis, and C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-irtf-icnrg-ccnxmessages-04
@@ -1014,8 +1069,8 @@ rfcs:
     draft-irtf-icnrg-terminology:
         type: id
         page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-terminology/
-        title: File-Like ICN Collection (FLIC)
-        authors: B. Wissingh, C. A. Wood, A. Afanasyev, L. Zhang, D. Oran, and C. Tschudin
+        title: Information-Centric Networking (ICN) -- CCN and NDN Terminology
+        authors: B. Wissingh, C. Wood, A. Afanasyev, L. Zhang, D. Oran, and C. Tschudin
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-irtf-icnrg-terminology-00
@@ -1026,7 +1081,7 @@ rfcs:
         type: id
         page: https://datatracker.ietf.org/doc/draft-irtf-icnrg-flic/
         title: File-Like ICN Collection (FLIC)
-        authors: C. Tschudin and C. A. Wood
+        authors: C. Tschudin and C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-irtf-icnrg-flic-01
@@ -1037,7 +1092,7 @@ rfcs:
         type: id
         page: https://datatracker.ietf.org/doc/draft-mosko-icnrg-ccnxurischeme/
         title: The CCNx URI Scheme
-        authors: M. Mosko and C. A. Wood
+        authors: M. Mosko and C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-mosko-icnrg-ccnxurischeme-01
@@ -1048,7 +1103,7 @@ rfcs:
         type: id
         page: https://datatracker.ietf.org/doc/draft-wood-icnrg-ccnxkeyexchange/
         title: CCNx Key Exchange Protocol Version 1.0
-        authors: M. Mosko, E. Uzun, and C. A. Wood
+        authors: M. Mosko, E. Uzun, and C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-wood-icnrg-ccnxkeyexchange-02
@@ -1059,7 +1114,7 @@ rfcs:
         type: id
         page: https://datatracker.ietf.org/doc/draft-wood-icnrg-esic/
         title: Encrypted Sessions In CCNx (ESIC)
-        authors: M. Mosko and C. A. Wood
+        authors: M. Mosko and C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-wood-icnrg-esic-00
@@ -1070,7 +1125,7 @@ rfcs:
         type: id
         page: https://datatracker.ietf.org/doc/draft-wood-icnrg-clean/
         title: Content-Locked Encryption and Authentication of Nameless Objects
-        authors: C. A. Wood
+        authors: C. Wood
         venue: Internet Draft
         links:
             html: https://tools.ietf.org/html/draft-wood-icnrg-clean-00
