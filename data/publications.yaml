@@ -967,26 +967,26 @@ rfcs:
             txt: https://www.ietf.org/id/draft-sullivan-cfrg-voprf-00.txt
         abstract:
         bibtex:
-    draft-sullivan-cfrg-hash-to-curve:
+    draft-irtf-cfrg-hash-to-curve:
         type: id
-        page: https://datatracker.ietf.org/doc/draft-sullivan-cfrg-hash-to-curve/
+        page: https://datatracker.ietf.org/doc/draft-irtf-cfrg-hash-to-curve/
         title: Hashing to Elliptic Curves
         authors: N. Sullivan, C. Wood
         venue: Internet Draft
         links:
-            html: https://tools.ietf.org/html/draft-sullivan-cfrg-hash-to-curve-00
-            txt: https://www.ietf.org/id/draft-sullivan-cfrg-hash-to-curve-00.txt
+            html: https://tools.ietf.org/html/draft-irtf-cfrg-hash-to-curve-00
+            txt: https://www.ietf.org/id/draft-irtf-cfrg-hash-to-curve-00.txt
         abstract:
         bibtex:
-    draft-cremers-cfrg-randomness-improvements:
+    draft-irtf-cfrg-randomness-improvements:
         type: id
-        page: https://datatracker.ietf.org/doc/draft-cremers-cfrg-randomness-improvements/
+        page: https://datatracker.ietf.org/doc/draft-irtf-cfrg-randomness-improvements/
         title: Randomness Improvements for Security Protocols
         authors: C. Cremers, L. Garratt, S. Smyshlyaev, N. Sullivan, C. Wood
         venue: Internet Draft
         links:
-            html: https://tools.ietf.org/html/draft-cremers-cfrg-randomness-improvements-00
-            txt: https://www.ietf.org/id/draft-cremers-cfrg-randomness-improvements-00.txt
+            html: https://tools.ietf.org/html/draft-irtf-cfrg-randomness-improvements-00
+            txt: https://www.ietf.org/id/draft-irtf-cfrg-randomness-improvements-00.txt
         abstract:
         bibtex:
     draft-trammell-taps-interface:
