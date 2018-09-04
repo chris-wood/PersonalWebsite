@@ -1,5 +1,9 @@
 posts:
     -
+        date: 03-08-2018
+        link: http://chris-wood.github.io/2018/03/08/NDSS18-DNS.html
+        title: DNS Privacy Workshop at NDSS 2018
+    -
         date: 02-07-2017
         link: http://chris-wood.github.io/2017/02/07/Anonymous-Filtering.html
         title: Anonymous Traffic Filtering
