@@ -1,7 +1,7 @@
 -
     title: Transport Security and Crypto Separation
     authors:
-    venue: IETF TAPS WG, Prague, Czech Republic. July 18, 2017.
+    venue: IETF TAPS WG, Prague, Czech Republic. July 18, 2017
     links:
         pdf:
         aux: https://www.ietf.org/proceedings/99/slides/slides-99-taps-2-transport-security-protocol-survey-01.pdf
@@ -43,13 +43,13 @@
 -
     title: A Study of Privacy and Anonymity in the DNS
     authors:
-    venue: DNS OARC 25, Dallas, TX, USA. October 15, 2016.
+    venue: DNS OARC 25, Dallas, TX, USA. October 15, 2016
     links:
         pdf: docs/talks/dns16.pdf
 -
     title: Access Control in Information-Centric Networks
     authors:
-    venue: Invited Talk at SRI, Menlo Park, CA, USA. August 17, 2016.
+    venue: Invited Talk at SRI, Menlo Park, CA, USA. August 17, 2016
     links:
         pdf: docs/talks/ccn-ac.pdf
 -
@@ -187,7 +187,7 @@
 -
     title: Secure Content Dissemination in Content Centric Networking
     authors:
-    venue: CCNxCon 2013, Palo Alto Research Center, Palo Alto, CA. September 5, 2013.
+    venue: CCNxCon 2013, Palo Alto Research Center, Palo Alto, CA. September 5, 2013
     links:
         pdf:
 -
@@ -199,18 +199,18 @@
 -
     title: Characterization Results for the L(2,1)-Labeling Problem on Trees
     authors:
-    venue: AMS Sectional Meeting, RIT, Rochester, NY. September 22, 2012.
+    venue: AMS Sectional Meeting, RIT, Rochester, NY. September 22, 2012
     links:
         pdf: docs/talks/L21Characterization_AMS.pdf
 -
     title: Chaos-Based Symmetric Key Cryptosystems
     authors:
-    venue: RIT Graduate Research Symposium, RIT, Rochester, NY. July 22, 2011.
+    venue: RIT Graduate Research Symposium, RIT, Rochester, NY. July 22, 2011
     links:
         pdf: docs/talks/L21Characterization_AMS.pdf
 -
     title: Layered Driver Rootkit Detection on Microsoft Windows PCs
     authors:
-    venue: RIT Undergraduate Research Symposium, RIT, Rochester, NY. August 24, 2009.
+    venue: RIT Undergraduate Research Symposium, RIT, Rochester, NY. August 24, 2009
     links:
         pdf: docs/talks/rootkits09.pdf

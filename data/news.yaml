@@ -1,4 +1,8 @@
 -
+    content: 'Along with Kazhuo Oku, Eric Rescorla, and Nick Sullivan, our proposal for encrypted SNI 
+    in TLS 1.3 ("draft-rescorla-tls-esni") was accepted as a TLS WG document.'
+    date: March 5, 2018
+-
     content: 'Three new CFRG drafts were submitted today, including: "draft-cremers-cfrg-randomness-improvements-00," 
     "draft-sullivan-cfrg-hash-to-curve-00," and "draft-sullivan-cfrg-voprf-00."'
     date: March 5, 2018
