@@ -1,6 +1,15 @@
 -
+    content: 'Along with David Benjamin, our proposal for supporting external pre-shared keys in
+    TLS 1.3  ("draft-wood-tls-external-psk-importer") was adopted as a TLS WG document.'
+    date: May 2, 2019
+-
+    content: 'Along with Tommy Pauly and David Schinazi, our proposal for a TLS client extension
+    specifying a desired number of tickets ("draft-ietf-tls-ticketrequests") was adopted as a TLS
+    WG document.'
+    date: January 1, 2019
+-
     content: 'Along with Kazuho Oku, Eric Rescorla, and Nick Sullivan, our proposal for encrypted SNI
-    in TLS 1.3 ("draft-rescorla-tls-esni") was accepted as a TLS WG document.'
+    in TLS 1.3 ("draft-rescorla-tls-esni") was adopted as a TLS WG document.'
     date: July 19, 2018
 -
     content: 'Three new CFRG drafts were submitted today, including: "draft-cremers-cfrg-randomness-improvements-00,"
